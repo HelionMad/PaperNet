@@ -1,0 +1,27 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.59.1396",
+            "keyword": "Noisy speech recognition, Non-stationary noise, Expectation maximization algorithm, Kullback proximal algorithm",
+            "author": "Kaisheng Yao,  Kuldip K. Paliwal,  Satoshi Nakamura",
+            "abstract": "In this paper, a noise adaptive speech recognition approach is proposed for recognizing speech which is corrupted by additive non-stationary background noise. The approach sequentially estimates noise parameters, through which a nonlinear parametric function adapts mean vectors of acoustic models. In the estimation process, posterior probability of state sequence given observation sequence and the previously estimated noise parameter sequence is approximated by the normalized joint likelihood of active partial paths and observation sequence given the previously estimated noise parameter sequence. The Viterbi process provides the normalized joint-likelihood. The acoustic models are not required to be trained from clean speech and they can be trained from noisy speech. The approach can be applied to perform continuous speech recognition in presence of non-stationary noise. Experiments conducted on speech contaminated by simulated and real non-stationary noise show that when acoustic models are trained from clean speech, the noise adaptive speech recognition system provides improvements in word accuracy as compared to the normal noise compensation system (which assumes the noise to be stationary) in slowly time-varying noise. When the acoustic models are trained from noisy speech, the noise adaptive speech recognition system is found to be helpful to get improved performance in slowly time-varying noise over a system employing multi-conditional training.",
+            "title": "Noise Adaptive Speech Recognition Based on Sequential Noise Parameter Estimation"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.185.2200",
+            "keyword": "",
+            "author": "Kuldip K. Paliwal, Kaisheng Yao",
+            "abstract": "",
+            "title": "6.2 Speech Recognition Overview................................................................................... 138"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.0
+        }
+    ]
+}

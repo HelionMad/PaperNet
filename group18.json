@@ -1,0 +1,1349 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.109.4049",
+            "keyword": "World Wide Web, Search Engines, Information Retrieval, PageRank, Google",
+            "author": "Sergey Brin, Lawrence Page",
+            "abstract": "In this paper, we present Google, a prototype of a large-scale search engine which makes heavy use of the structure present in hypertext. Google is designed to crawl and index the Web efficiently and produce much more satisfying search results than existing systems. The prototype with a full text and hyperlink database of at least 24 million pages is available at http://google.stanford.edu/\r\n\r\nTo engineer a search engine is a challenging task. Search engines index tens to hundreds of millions of web pages involving a comparable number of distinct terms. They answer tens of millions of queries every day. Despite the importance of large-scale search engines on the web, very little academic research has been done on them. Furthermore, due to rapid advance in technology and web proliferation, creating a web search engine today is very different from three years ago. This paper provides an in-depth description of our large-scale web search engine -- the first such detailed public description we know of to date.\r\n\r\nApart from the problems of scaling traditional search techniques to data of this magnitude, there are new technical challenges involved with using the additional information present in hypertext to produce better search results. This paper addresses this question of how to build a practical large-scale system which can exploit the additional information present in hypertext. Also we look at the problem of how to effectively deal with uncontrolled hypertext collections where anyone can publish anything they want.",
+            "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.107.4676",
+            "keyword": "Status, Final",
+            "author": "Wp Autonomic, Service Life-cycle, Heiko Pfeffer, David Linner, Ilja Radusch, Stephan Steglich (tub, Lidia Yamamoto, Janne Lahti, Jyrki Huusko, Daniele Mior, Fran\u00e7oise Baude, Viet Dung, Ludovic Henrio, Paul Naoumenko, David Villegas, Juanjo Aparicio, Heiko Pfeffer, David Linner, Ilja Radusch (tub",
+            "abstract": "The objective of this deliverable is to introduce a biologically inspired service lifecycle enabling services to cope with challenges arising due to the assumptions made for the future bio-inspired computing environments such as high mobility and heterogeneity with regard to devices and services themselves. The BIONETS service life therefore builds upon providing a high level of autonomy in terms of service evolution and adaptation as well as service selfcontrol and self-management. Since services should become the main entity within a BIONETS computing environment, service interaction models are outlined able to meet the requirements implied by an autonomous service design. Based on these objectives, a service architecture as well as a service interaction framework are modelled implementing the introduced services and service interaction schemes, respectively. However, this deliverable does not lay claim to cover all introduced aspects entirely; it rather is intended to provide a solid and coherent starting point for more detailed investigations within different aspects of the service life cycle. For instance, deliverable D3.2.2 focuses on service evolution and deprecation concepts while deliverable D3.3.2 is supposed to contribute",
+            "title": "Reference: BIONETS/TUB/WP3.2/v1.0"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.107.5023",
+            "keyword": "",
+            "author": "Saar Miron, Jeremy Bradley",
+            "abstract": "This paper presents a fully distributed implementation of a non-iterative algorithm for computing Pagerank in large scale hypertext environments. The implementation introduced here does not imitate the centralized Pageank algorithm implemented effectively in Google [Goo], or convert it into a distributed system. Instead, it offers a different kind of implementation, one that is suitable for both the scale and the dynamic behavior of the Web. In view of this, it is possible that the distributed ranking implementation presented here may be a candidate for the replacement of the traditional centralized Pagerank computation. This paper criticizes the use of pages \u2019 link-structures as the sole criterion for determining the \u201dimportance \u201d of pages in a ranking algorithm. Instead, it argues that the weight of links in a ranking equation should be partly determined by the content relevance of the connected pages. Content analysis can be effectively incorporated into a distributed Pagerank algorithm using the fact that nodes (Web-servers) have immediate access to their pages \u2019 contents. This",
+            "title": "Algorithms"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.107.5476",
+            "keyword": "",
+            "author": "",
+            "abstract": "tutorial survey With over 800 million pages covering most areas of human endeavor, the World-wide Web is a fertile ground for data mining research to make a di erence to the e ectiveness of information search. Today, Web surfers access the Web through two dominant interfaces: clicking on hyperlinks and searching via keyword queries. This process is often tentative and unsatisfactory. Better support is needed for expressing one's information need and dealing with a search result in more structured ways than available now. Data mining and machine learning have signi cant roles to play towards this end. In this paper we willsurvey recent advances in learning and mining problems related to hypertext in general and the Web in particular. We will review the continuum of supervised to semi-supervised to unsupervised learning problems, highlight the speci c challenges which distinguish data mining in the hypertext domain from data mining in the context of data warehouses, and summarize the key areas of recent and ongoing research. 1",
+            "title": "ABSTRACT Data mining for hypertext: A"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.107.5533",
+            "keyword": "",
+            "author": "Soumen Chakrabarti",
+            "abstract": "Abstract. The next wave in search technology will be driven by the identification, extraction, and exploitation of real-world entities represented in unstructured textual sources. Search systems will either let users express information needs naturally and analyze them more intelligently, or allow simple enhancements that add more user control on the search process. The data model will exploit graph structure where available, but not impose structure by fiat. First generation Web search, which uses graph information at the macroscopic level of inter-page hyperlinks, will be enhanced to use fine-grained graph models involving page regions, tables, sentences, phrases, and real-world-entities. New algorithms will combine probabilistic evidence from diverse features to produce responses that are not URLs or pages, but entities and their relationships, or explanations of how multiple entities are related. 1 Toward more expressive search Search systems for unstructured textual data have improved enormously since",
+            "title": "Breaking through the syntax barrier: Searching with entities and relations"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.107.5859",
+            "keyword": "General General Terms, Measurement Additional Key Words and Phrases, Information Theoretic, PageRank, Quality Metrics, Web Graph, Web Metrics, Web Page Access, Web Page Similarity",
+            "author": "Devanshu Dhyani, Sourav S Bhowmick",
+            "abstract": "The unabated growth and increasing significance of the World Wide Web has resulted in a flurry of research activity to improve its capacity for serving information more effectively. But at the heart of these efforts lie implicit assumptions about \u201cquality \u201d and \u201cusefulness \u201d of Web resources and services. This observation points towards measurements and models that quantify various attributes of web sites. The science of measuring all aspects of information, especially its storage and retrieval or informetrics has interested information scientists for decades before the existence of the Web. Is Web informetrics any different, or is it just an application of classical informetrics to a new medium? In this paper, we examine this issue by classifying and discussing a wide ranging set of Web metrics. We present the origins, measurement functions, formulations and comparisons of well known Web metrics for quantifying Web graph properties, web page significance, web page similarity, search and retrieval, usage characterization and information theoretic properties. We also discuss how these metrics can be applied for improving Web information access and use.",
+            "title": "and NG WEE KEONG"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.107.7384",
+            "keyword": "biomedical text mining, information retrieval, evaluation, recall, precision",
+            "author": "William Hersh",
+            "abstract": "known for his work in information retrieval, particularly in health and biomedical contexts. He currently serves as Chair of the TREC Genomics Track. He has",
+            "title": "Interactivity at the text retrieval conference"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.107.7614",
+            "keyword": "",
+            "author": "Sergey Brin, Rajeev Motwani, Terry Winograd",
+            "abstract": "The amount of information available online has grown enormously over the past decade. Fortunately, computing power, disk capacity, and network bandwidth have also increased dramatically. It is currently possible for a university research project to store and process the entire World Wide Web. Since there is a limit on how much text humans can generate, it is plausible that within a few decades one will be able to store and process all the human-generated text on the Web in a shirt pocket. The Web is a very rich and interesting data source. In this paper, we describe the Stanford WebBase, a local repository of a significant portion of the Web. Furthermore, we describe a number of recent experiments that leverage the size and the diversity of the WebBase. First, we have largely automated the process of extracting a sizable relation of books (title, author pairs) from hundreds of data sources spread across the World Wide Web using a technique we call Dual Iterative Pattern Relation Extraction. Second, we have developed a global ranking of Web pages called PageRank based on the link structure of the Web that has properties that are useful for search and navigation. Third, we have used PageRank to develop a novel search engine called Google, which also makes heavy use of anchor text. All of these experiments rely significantly on the size and diversity of the WebBase. 1",
+            "title": "What can you do with a web in your pocket"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.107.7918",
+            "keyword": "world wide web, link analysis and management, semantic web",
+            "author": "Iraklis Varlamis, Michalis Vazirgiannis, Maria Halkidi, Benjamin Nguyen, Inria Futurs",
+            "abstract": "\u201cThe greatest help we can give others is not to share our riches with them, but to discover theirs.\u201d Louis Lavelle, L\u2019Erreur de Narcisse, 1939 With the unstoppable growth of the WWW, the great success of Web Search Engines, such as Google and Alta-vista, users now turn to the Web whenever looking for information. However, many users are neophytes when it comes to computer science, yet they are often specialists of a certain domain. These users would like to add more semantics to guide their search through WWW material, whereas currently most search features are based on raw lexical content. We show in this article how the use of the incoming links of a page can be used efficiently to classify a page in a concise manner. This enhances the browsing and querying of web pages. In this article, we focus on the tools needed in order to manage the links, and their semantics. We further process these links using a hierarchy of concepts, akin to an ontology, and a thesaurus. This work is demonstrated by an prototype system, called THESUS, that organizes thematic web documents into semantic clusters. Our contributions in this article are the following: 1- a model and language to exploit link semantics information, 2- the THESUS prototype system, 3- its innovative aspects and algorithms, more specifically the novel similarity measure, between web documents applied to different clustering schemes (DB-Scan and COBWEB), 4- a thorough experimental evaluation proving the value of our approach.",
+            "title": "THESUS, a Closer View on Web Content Management Enhanced with Link Semantics"
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.107.8162",
+            "keyword": "clustering, Web-community",
+            "author": "Anna Puig-centelles, Oscar Ripolles, Miguel Chover",
+            "abstract": "Many networks of interest now include a variety of social and technological networks, which are naturally divided into communities or modules. How to identify these community structures has considerably attracted the attention of researchers, and it is the aim of this paper. A review of the main algorithms used for finding communities is presented, starting with graph theory and including the latest algorithms for detecting Web communities. The existence of communities that can overlap is also taken into account, and the main commonly used software tools for depicting communities are pointed out.",
+            "title": "IDENTIFYING COMMUNITIES IN SOCIAL NETWORKS: A SURVEY ABSTRACT"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.107.8646",
+            "keyword": "",
+            "author": "Pedro Derose, Warren Shen, Fei Chen, Anhai Doan, Raghu Ramakrishnan",
+            "abstract": "Structured community portals extract and integrate information from raw Web pages to present a unified view of entities and relationships in the community. In this paper we argue that to build such portals, a top-down, compositional, and incremental approach is a good way to proceed. Compared to current approaches that employ complex monolithic techniques, this approach is easier to develop, understand, debug, and optimize. In this approach, we first select a small set of important community sources. Next, we compose plans that extract and integrate data from these sources, using a set of extraction/integration operators. Executing these plans yields an initial structured portal. We then incrementally expand this portal by monitoring the evolution of current data sources, to detect and add new data sources. We describe our initial solutions to the above steps, and a case study of employing these solutions to build DBLife, a portal for the database community. We found that DBLife could be built quickly and achieve high accuracy using simple extraction/integration operators, and that it can be maintained and expanded with little human effort. The initial solutions together with the case study demonstrate the feasibility and potential of our approach. 1.",
+            "title": "Building structured web community portals: A top-down, compositional, and incremental approach"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.107.8870",
+            "keyword": "",
+            "author": "Projet Merlin, Inria Rocquencourt",
+            "abstract": "Les disques dur de nos ordinateurs contiennent de plus en plus de donn\u00e9es. A titre d\u2019exemple, le r\u00e9pertoire de l\u2019un des auteurs de ce document contient \u00e0 ce jour plus de 240000 fichiers, dont environ 4500 documents texte, 28700 images (illustrations ou photos), 2300 vid\u00e9os, 5300 morceaux de musique, 560 pr\u00e9sentations et plus de 16500 courriers \u00e9lectroniques 1. A l'\u00e9chelle des capacit\u00e9s",
+            "title": "Microm\u00e9gas: rapport \u00e0 mi-parcours Equipe Pointage dans les mondes d'information, LMP Projet In Situ, LRI & INRIA Futurs"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.107.9704",
+            "keyword": "DEDICATION.......................................... ii",
+            "author": "Jahna Clare Otterbacher",
+            "abstract": "Dedicated to my family and especially to my husband, Loucas. ii ACKNOWLEDGEMENTS My first acknowledgment must go to my advisor, Drago Radev, for supporting me during the course of my doctoral studies. I think that the thing I most enjoy and appreciate about working with Drago is his enthusiasm for research and teaching. I also want to thank Drago for believing in my work and my abilities, and for his encouragement. Secondly, I would like to thank the members of my dissertation committee, Steve Abney, Liz Liddy, Soo Young Rieh, and Rich Thomason, for being willing to spend their time on me and for sharing with me their thoughts on my research. Their input definitely helped me to strengthen and improve many aspects of this work, as well as my academic writing in general. Many, many friends and colleagues at the School of Information helped me during my studies as well as made it a fun experience! In particular, I would like to thank the doctoral program manager, Sue Schuon, for being so helpful, organized and kind.",
+            "title": "Short-term Event Tracking in Dynamic Online News"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.107.9933",
+            "keyword": "",
+            "author": "Haim Kaplan, Tova Milo, Ronen Shabo",
+            "abstract": "comparison of labeling schemes for ancestor queries",
+            "title": "Abstract A"
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.108.556",
+            "keyword": "",
+            "author": "",
+            "abstract": "In many internet applications, such as web searches, contexts are important because each search is done with a specific context in mind, and results outside that context are seen by the user as irrelevant. By measuring joint keyword occurrences in web pages, around our notion of \u201cSemantic Contexts \u201d we propose an infrastructure for semantically characterizing contextual information in the internet. Semantic Contexts could have many practical uses, such as focusing internet searches in such a way that results would be much more relevant to users than with current search engines. Semantic Contexts could also be linked to Semantic Web definitions, such as ontologies, giving a way to leverage the currently marginal Semantic Web. 1",
+            "title": ""
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.108.649",
+            "keyword": "",
+            "author": "Oren Eli Zamir",
+            "abstract": " ",
+            "title": "Clustering Web Documents: A Phrase-Based Method for Grouping Search Engine Results"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.108.930",
+            "keyword": "Agent Based Systems, Web Mining, Knowledge Mining",
+            "author": "Ockmer Louren Oosthuizen",
+            "abstract": "the fulfilment",
+            "title": "A MULTI-AGENT COLLABORATIVE PERSONALIZED WEB MINING SYSTEM MODEL by"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.108.1342",
+            "keyword": "",
+            "author": "David Presotto, Guillaume Pierre, Google Inc",
+            "abstract": "Maarten van Steen \u2020 We present the implementation of a large-scale latency estimation system based on GNP and incorporated into the Google content delivery network. Our implementation does not rely on active participation of Web clients, and carefully controls the overhead incurred by latency measurements using a scalable centralized scheduler. It also requires only a small number of CDN modifications, which makes it attractive for any CDN interested in large-scale latency estimation. We investigate the issue of coordinate stability over time and show that coordinates drift away from their initial values with time, so that 25 % of node coordinates become inaccurate by more than 33 milliseconds after one week. However, daily recomputations make 75 % of the coordinates stay within 6 milliseconds of their initial values. Furthermore, we demonstrate that using coordinates to decide on client-to-replica redirection leads to selecting replicas closest in term of measured latency in 86 % of all cases. In another 10 % of all cases, clients are redirected to replicas offering latencies that are at most two times longer than optimal. Finally, collecting a huge volume of latency data and using clustering techniques enable us to estimate latencies between globally distributed Internet hosts that have not participated in our measurements at all. The results are sufficiently promising that Google may offer a public interface to the latency estimates in the future. 1",
+            "title": "Michal Szymaniak \u2020 Practical Large-Scale Latency Estimation"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.108.2394",
+            "keyword": "Relational Databases, Hidden Web, Search, Navigation, Memex, Trails, Db- Surfer, Join Discovery, XML",
+            "author": "Richard Wheeldon, Mark Levene, Kevin Keenoy",
+            "abstract": "We present a new application for keyword search within relational databases, which uses a novel algorithm to solve the join discovery problem by finding Memex-like trails through the graph of foreign key dependencies. It differs from previous efforts in the algorithms used, in the presentation mechanism and in the use of primary-key only database queries at query-time to maintain a fast response for users. We present examples using the DBLP data set.",
+            "title": "Search and navigation in relational databases"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.108.2624",
+            "keyword": "General Terms Algorithms, Measurement, Experimentation Keywords Web graphs, link analysis, Web IR",
+            "author": "Einat Amitay, David Carmel, Adam Darlow, Ronny Lempel, Aya Soffer",
+            "abstract": "Web sites today serve many different functions, such as corporate sites, search engines, e-stores, and so forth. As sites are created for different purposes, their structure and connectivity characteristics vary. However, this research argues that sites of similar role exhibit similar structural patterns, as the functionality of a site naturally induces a typical hyperlinked structure and typical connectivity patterns to and from the rest of the Web. Thus, the functionality of Web sites is reflected in a set of structural and connectivity-based features that form a typical signature. In this paper, we automatically categorize sites into eight distinct functional classes, and highlight several search-engine related applications that could make immediate use of such technology. We purposely limit our categorization algorithms by tapping connectivity and structural data alone, making no use of any content analysis whatsoever. When applying two classification algorithms to a set of 202 sites of the eight defined functional categories, the algorithms correctly classified between 54.5 % and 59 % of the sites. On some categories, the precision of the classification exceeded 85%. An additional result of this work indicates that the structural signature can be used to detect spam rings and mirror sites, by clustering sites with almost identical signatures.",
+            "title": "The connectivity sonar: detecting site functionality by structural patterns"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.108.2752",
+            "keyword": "Web graph, evolution, link analysis, link spamming",
+            "author": "Masashi Toyoda, Masaru Kitsuregawa",
+            "abstract": "We propose WebRelievo, a system for visualizing and analyzing the evolution of the web structure based on a large Web archive with a series of snapshots. It visualizes the evolution with a time series of graphs, in which nodes are web pages, and edges are relationships between pages. Graphs can be clustered to show the overview of changes in graphs. WebRelievo aligns these graphs according to their time, and automatically determines their layout keeping positions of nodes synchronized over time, so that the user can keep track pages and clusters. This visualization enables us to understand when pages appeared, how their relationships have evolved, and how clusters are merged and split over time. Current implementation of WebRelievo is based on six Japanese web archives crawled from 1999 to 2003. The user can interactively browse those graphs by changing the focused page and by changing layouts of graphs. Using WebRelievo we can answer historical questions, and to investigate changes in trends on the Web. We show the feasibility of WebRelievo by applying it to tracking trends in P2P systems and search engines for mobile phones, and to investigating link spamming.",
+            "title": "A system for visualizing and analyzing the evolution of the Web with a time series of graphs"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.108.2783",
+            "keyword": "Background domain knowledge, Ontology, Vector Space Models, Indexing, Semantic relationships",
+            "author": "Meenakshi Nagarajan, Amit Sheth",
+            "abstract": "Abstract. Vector space models (VSMs) are often employed as mathematical representations of documents for tasks like indexing, information retrieval (IR), filtering and others, where documents are represented as vectors of their index terms or keywords. In a vector space representation, interrelations between individual terms in the vector are not captured. IR tasks like classification or search rely on the similarity between such vectors and are limited by not being able to account for term dependencies. Past techniques have demonstrated the use of external information like dictionaries to enrich terms with semantic information. They do so by normalizing weights of terms in vectors by considering inter-term relationships like synonyms or class hierarchical relationships. Here, we present a generic term vector altering system that goes one step further to exploit the semantic relatedness between terms available in Ontologies. We demonstrate the value addition for the task of supervised document classification in the National Security domain. Results indicate promises in using such inter-term relationships, showing definite improvements in precision and recall of classifications and illustrate cases when the use of Ontologies is most beneficial.",
+            "title": "Ontologies as Expectations of Term Co-occurrences"
+        },
+        {
+            "group": 22,
+            "name": "10.1.1.108.2813",
+            "keyword": "OAI-PMH, interoperability, federation",
+            "author": "Henry N. Jerez, Xiaoming Liu, Patrick Hochstenbach",
+            "abstract": "This paper focuses on the multifaceted use of the OAI-PMH in a repository architecture designed to store digital assets at the Research Library of the Los Alamos National Laboratory (LANL), and to make the stored assets available in a uniform way to various downstream applications. In the architecture, the MPEG-21 Digital Item Declaration Language is used as the XML-based format to represent complex digital objects. Upon ingestion, these objects are stored in a multitude of autonomous OAI-PMH repositories. An OAI-PMH compliant Repository Index keeps track of the creation and location of all those repositories, whereas an Identifier Resolver keeps track of the location of individual objects. An OAI-PMH Federator is introduced as a single-point-of-access to downstream harvesters. It hides the complexity of the environment to those harvesters, and allows them to obtain transformations of stored objects. While the proposed architecture is described in the context of the LANL library, the paper will also touch on its more general applicability.",
+            "title": "The multi-faceted use of the OAI-PMH in the LANL repository"
+        },
+        {
+            "group": 23,
+            "name": "10.1.1.108.3885",
+            "keyword": "",
+            "author": "Peter Demian, Renate Fruchter",
+            "abstract": "Improving and supporting the process of design knowledge reuse in engineering design can increase productivity, improve the quality of designs, and lead to greater corporate competitive advantage. Whereas internal knowledge reuse from one\u2019s personal experiences is very effective, external knowledge reuse from an external digital or paper archive often fails. Based on a formalization of the internal reuse process from ethnographic studies, a prototype system, CoMem (Corporate Memory) is presented, which supports the reuse process, particularly the steps of finding and understanding. This paper presents a usability testing framework and methodology for the evaluation of reuse systems such as CoMem. The two pertinent variables are (1) the type of finding task, and (2) the size of the repository. Preliminary results from the evaluation of CoMem are resented as an example of the application of this framework for studying and assessing corporate memory design reuse systems.",
+            "title": "A Methodology for Usability Evaluation of Corporate Memory Design Reuse Systems"
+        },
+        {
+            "group": 24,
+            "name": "10.1.1.108.4320",
+            "keyword": "",
+            "author": "Christo Dichev",
+            "abstract": null,
+            "title": "Deriving Context Specific Information on the Web"
+        },
+        {
+            "group": 25,
+            "name": "10.1.1.108.4561",
+            "keyword": "collaborative filtering",
+            "author": "Matthew Brand",
+            "abstract": "Fast online SVD revisions for lightweight recommender systems The singular value decomposition (SVD) is fundamental to many data modeling/mining algorithms, but SVD algorithms typically have quadratic complexity and require random access to complete data sets. This is problematic in most data mining settings. We detail a family of sequential update rules for adding data to a \u201cthin \u201d SVD data model, revising or removing data already incorporated into the model, and adjusting the model when the data-generating process exhibits nonstationarity. We also leverage the SVD to estimate the most probable completion of incomplete data. We use these methods to model data streams describing tables of consumer\u00d7product ratings, where fragments of rows and columns arrive in random order and individual table entries are arbitrarily added, revised, or retracted at any time. These purely online rules have very low time complexity and require a data stream cache no larger than a single user\u2019s ratings. We demonstrate this scheme in an interactive graphical movie recommender that predicts and displays ratings/rankings of thousands of movie titles in real-time as a user adjusts ratings of a small arbitrary set of probe movies. The system \u201clearns \u201d as it is used by revising the SVD in response to user ratings. Users can asynchronously join, add ratings, add movies, revise ratings, get recommendations, and delete themselves from the model.",
+            "title": "Abstract"
+        },
+        {
+            "group": 26,
+            "name": "10.1.1.108.4564",
+            "keyword": "",
+            "author": "",
+            "abstract": "Index (search engine)- Wikipedia, the free encyclopedia",
+            "title": "Contents"
+        },
+        {
+            "group": 27,
+            "name": "10.1.1.108.4901",
+            "keyword": "",
+            "author": "Paolo Boldi, Massimo Santini, Sebastiano Vigna",
+            "abstract": "Deciding which kind of visiting strategy accumulates high-quality pages more quickly is one of the most often debated issues in the design of web crawlers. This paper proposes a related, and previously overlooked, measure of effectivity for crawl strategies: whether the graph obtained after a partial visit is in some sense representative of the underlying web graph as far as the computation of PageRank is concerned. More precisely, we are interested in determining how rapidly the computation of PageRank over the visited subgraph yields rankings that agree with the ones computed in the complete graph; ranks are compared using Kendall\u2019s \u03c4. We describe a number of large-scale experiments that show the following paradoxical effect: visits that gather PageRank more quickly (e.g., highest-quality first) are also those that tend to miscalculate PageRank. Finally, we perform the same kind of experimental analysis on some synthetic random graphs, generated using well-known web-graph models: the results are almost opposite to those obtained on real web graphs. 1",
+            "title": "Paradoxical effects in PageRank incremental computations"
+        },
+        {
+            "group": 28,
+            "name": "10.1.1.108.6070",
+            "keyword": "",
+            "author": "Fabio Casati, Fausto Giunchiglia, Maurizio Marchese, Fabio Casati, Fausto Giunchiglia, Maurizio Marchese",
+            "abstract": "The world of scientific publications has been largely oblivious to the advent of the Web and to advances in ICT. Scientific knowledge dissemination is still based on the traditional notion of \u201cpaper \u201d publication and on peer review as quality assessment method. The current approach encourages authors to write many (possibly incremental) papers to get more \u201ctokens of credit\u201d, generating often unnecessary dissemination overhead for themselves and for the community of reviewers. Furthermore, it does not encourage or support reuse and evolution of publications: whenever a (possibly small) progress is made on a certain subject, a new paper is written, reviewed, and published, often after several months. We propose a paradigm shift in the way scientific knowledge is created, disseminated, evaluated and maintained. This shift is enabled by the notion of Liquid publications, which are evolutionary, collaborative, and composable scientific contributions. Many Liquid Publication concepts in this document are based on a parallel between scientific knowledge artifacts and software artifacts, and hence on lessons learned in (agile, collaborative, open source) software development. Liquid Publications concepts are reified by a model based on i) Scientific",
+            "title": "Liquid Publications: Scientific Publications meet the Web Changing the way scientific knowledge is produced, disseminated, evaluated and consumed 1"
+        },
+        {
+            "group": 29,
+            "name": "10.1.1.108.6684",
+            "keyword": "",
+            "author": "Robert Jenssen",
+            "abstract": "In this thesis, theory and applications of machine learning systems based on information theoretic criteria as performance measures are studied. A new clustering algorithm based on maximizing the Cauchy-Schwarz (CS) divergence measure between probability density functions (pdfs) is proposed. The CS divergence is estimated non-parametrically using the Parzen window technique for density estimation. The problem domain is transformed from discrete 0/1 cluster membership values to continuous membership values. A constrained gradient descent maximization algorithm is implemented. The gradients are stochastically approximated to reduce computational complexity, making the algorithm more practical. Parzen window annealing is incorporated into the algorithm to help avoid convergence to a local maximum. The clustering results obtained on synthetic and real data are encouraging. The Parzen window-based estimator for the CS divergence is shown to have a dual expression as a measure of the cosine of the angle between cluster mean vectors in a feature space determined by the eigenspectrum of a Mercer kernel matrix. A spectral clustering",
+            "title": "An Information Theoretic Approach to Machine Learning"
+        },
+        {
+            "group": 30,
+            "name": "10.1.1.108.6955",
+            "keyword": "",
+            "author": "D. Beneventano, S. Bergamaschi, A. Fergnani, F. Guerra, M. Vincini, D. Montanari",
+            "abstract": "Abstract. Several architectures, protocols, languages, and candidate standards, have been proposed to let the \u201csemantic web \u201d idea take off. In particular, searching for information requires cooperation of the in-formation providers and seekers. Past experience and history show that a successful architecture must support ease of adoption and deployment by a wide and heterogeneous population, a flexible policy to establish an acceptable cost-benefit ratio for using the system, and the growth of a cooperative distributed infrastructure with no central control. In this paper an agent-based peer-to-peer system architecture to support search for information through a flexible integration of semantic informa-tion is defined. Two levels of integration are foreseen: strong integration of sources related to the same domain into a single information node by means of a mediator-based system; weak integration of information nodes on the basis of semantic relationships existing among concepts of different nodes. The system architecture is an evolution of the EU IST SEWASIE project. SEWASIE",
+            "title": "A Peer-To-Peer Agent-Based Semantic Search Engine"
+        },
+        {
+            "group": 31,
+            "name": "10.1.1.108.7202",
+            "keyword": "the success of locating related publications based on",
+            "author": "Sulieman Bani-ahmad, Ali Cakmak, Gultekin Ozsoyoglu, Abdullah Al-hamdani",
+            "abstract": "Publication searching based on keywords provided by users is traditional in digital libraries. While useful in many circumstances, the success of locating related publications via keyword-based searching paradigm is influenced by how users choose their keywords. Example-based searching, where user provides an example publication to locate similar publications, is also becoming commonplace in digital libraries. Existing publication similarity measures, needed for example-based searching, fall into two classes, namely, text-based similarity measures from Information Retrieval, and citation-based similarity measures based on bibliographic coupling and/or co-citation. In this paper, we list a number of publication similarity measures, and extend and evaluate them in terms of their accuracy, separability, and independence. For evaluation, we use the ACM SIGMOD Anthology, a digital library of about 15,000 publications. 1",
+            "title": "Evaluating Publication Similarity Measures"
+        },
+        {
+            "group": 32,
+            "name": "10.1.1.108.7220",
+            "keyword": "",
+            "author": "Hung-yu Kao, Shian-hua Lin, Jan-ming Ho, Ming-syan Chen",
+            "abstract": " In this paper, we study the problem of mining the informative structure of a news Web site that consists of thousands of hyperlinked documents. We define the informative structure of a news Web site as a set of index pages (or referred to as TOC, i.e.,",
+            "title": "Mining web informative structures and contents based on entropy analysis"
+        },
+        {
+            "group": 33,
+            "name": "10.1.1.108.7458",
+            "keyword": "",
+            "author": "Lan Huang",
+            "abstract": "2 APPLICATION SCENARIOS....................................................................................................................3",
+            "title": "2.3 MULTI-WAY CLUSTERING FOR METADATA EXTRACTION.......................................................................................4"
+        },
+        {
+            "group": 34,
+            "name": "10.1.1.108.7622",
+            "keyword": "",
+            "author": "",
+            "abstract": "Sound files on the World Wide Web are accessed from web pages. To date, this relationship has not been explored extensively in the MIR literature. This paper details a series of experiments designed to measure the similarity between the public text visible on a web page and the linked sound files, the name of which is normally unseen by the user. A collection of web pages was retrieved from the web using a specially-constructed crawler. Sound file information and associated text were parsed from the pages and analyzed for similarity using common IR techniques such as TFIDF cosine measures. The results are intended to be used in the improvement of a web crawler for audio and music, as well as for MIR purposes in general. 1.",
+            "title": "SOUND, MUSIC AND TEXTUAL ASSOCIATIONS ON THE WORLD WIDE WEB"
+        },
+        {
+            "group": 35,
+            "name": "10.1.1.108.8043",
+            "keyword": "",
+            "author": "Paolo Boldi, Massimo Santini, Sebastiano Vigna",
+            "abstract": "Abstract. Deciding which kind of visiting strategy accumulates high-quality pages more quickly is one of the most often debated issues in the design of web crawlers. This paper proposes a related, and previously overlooked, measure of effectiveness for crawl strategies: whether the graph obtained after a partial visit is in some sense representative of the underlying web graph as far as the computation of PageRank is concerned. More precisely, we are interested in determining how rapidly the computation of PageRank over the visited subgraph yields node orders that agree with the ones computed in the complete graph; orders are compared using Kendall\u2019s \u03c4. We describe a number of large-scale experiments that show the following paradoxical effect: visits that gather PageRank more quickly (e.g., highest-quality first) are also those that tend to miscalculate PageRank. Finally, we perform the same kind of experimental analysis on some synthetic random graphs, generated using well-known web-graph models: the results are almost opposite to those obtained on real web graphs. 1.",
+            "title": "Paradoxical effects in PageRank incremental computations"
+        },
+        {
+            "group": 36,
+            "name": "10.1.1.108.8198",
+            "keyword": "",
+            "author": "",
+            "abstract": "As the key technique to build domain-specific search engines, focused crawling has drawn a lot of attention from researchers in the past decade. However, as Web structure analysis techniques advance, several problems in traditional focused crawler design were revealed and they could result in domain-specific collections with low quality. In this work, we studied the problems of focused crawling that are caused by using local search algorithms. We also proposed to use a global search algorithm, the Genetic Algorithm, in focused crawling to address the problems. We conducted evaluation experiments to examine the effectiveness of our approach. The results showed that our approach could build domain-specific collections with higher quality than traditional focused crawling techniques. Furthermore, we used the concept of Web communities to evaluate how comprehensively the focused crawlers could traverse the Web search space, which could be a good complement to the traditional focused crawler evaluation methods.",
+            "title": "Using Genetic Algorithm in Building Domain-Specific Collections: An Experiment in the Nanotechnology Domain"
+        },
+        {
+            "group": 37,
+            "name": "10.1.1.108.8563",
+            "keyword": "3. Mail, News and More........................................................ 31",
+            "author": "Gary Stringer, Gary Stringer",
+            "abstract": "The Internet is a remarkable phenomenon. Essentially, it is just a large number of computers connected together in such a way that communication between them is both reliable and fast. Phrased in this way, it is wholly unremarkable. But the Internet is also the people who use it, to communicate and to share information, even to build relationships and communities. It's a culture that has grown within a virtual space, and that has permeated many aspects of our everyday lives. This module will provide an overview of the Internet, from the mundane networking of computers to the new societies created within it.",
+            "title": "Legal Notice"
+        },
+        {
+            "group": 38,
+            "name": "10.1.1.108.9351",
+            "keyword": "",
+            "author": "",
+            "abstract": "The World Wide Web is a vast source of information organized in the form of a large distributed hypertext system. Since it is growing at an extremely fast rate, parallel crawlers are being designed and developed to retrieve the pages in a reasonable amount of time. In this paper, the bottleneck at the document level has been identified. We propose some modifications without disturbing the structure of hypertext documents so that they become suitable for parallel retrieval of information by the crawlers. 1.",
+            "title": "AUGMENTED HYPERTEXT DOCUMENTS SUITABLE FOR PARALLEL RETRIEVAL OF INFORMATION"
+        },
+        {
+            "group": 39,
+            "name": "10.1.1.108.9812",
+            "keyword": "Web 2.0, Semantic Web, tagging, trackback, blogging",
+            "author": "Mc Schraefel, Daniel Alex, Er Smith, Alistair Russell, Max Wilson",
+            "abstract": "Abstract. Web 2.0, not the Semantic Web, has become the face of \u201cthe next generation Web \u201d among the tech-literate set, and even among many in the various research communities involved in the Web. Perceptions in these communities of what the Semantic Web is (and who is involved in it) are often misinformed if not misguided. In this paper we identify opportunities for Semantic Web activities to connect with the Web 2.0 community; we explore why this connection is of significant benefit to both groups, and identify how these connections open valuable research opportunities \u201cin the real \u201d for the Semantic Web effort.",
+            "title": "Semantic Web meets Web 2.0 (and vice versa): The Value of the Mundane for the Semantic Web"
+        },
+        {
+            "group": 40,
+            "name": "10.1.1.109.412",
+            "keyword": "bias, popularity, traffic, PageRank, in-degree",
+            "author": "Santo Fortunato",
+            "abstract": "The egalitarian effect of search engines",
+            "title": ""
+        },
+        {
+            "group": 41,
+            "name": "10.1.1.109.664",
+            "keyword": "",
+            "author": "Ganesh Narayan, Gopinath K Sridhar V, Bangalore Bangalore",
+            "abstract": "Abstract \u2014 Call graphs depict the static, caller-callee relation between \u201cfunctions \u201d in a program. With most source/target languages supporting functions as the primitive unit of composition, call graphs naturally form the fundamental control flow representation available to understand/develop software. They are also the substrate on which various interprocedural analyses are performed and are integral part of program comprehension and testing. Given their universality and usefulness, it is imperative to ask if call graphs exhibit any intrinsic graph theoretic features \u2013 across versions, program domains and source languages. This work is an attempt to answer these questions: we present and investigate a set of meaningful graph measures that help us understand call graphs better; we establish how these measures correlate, if any, across different languages and program domains; we also evaluate overall, language independent software quality by suitably interpreting these measures; where possible, we discuss how these measures could be used to improve software. I.",
+            "title": "Structure and Interpretation of Computer Programs"
+        },
+        {
+            "group": 42,
+            "name": "10.1.1.109.669",
+            "keyword": "",
+            "author": "S. Abiteboul, M. Preda, G. Cobena",
+            "abstract": "Computing web page importance without storing the graph of the web (extended abstract)",
+            "title": ""
+        },
+        {
+            "group": 43,
+            "name": "10.1.1.109.735",
+            "keyword": "Joachims, who provided me with the experi",
+            "author": "Technische Universit\u00e4t, Fachbereich Informatik, Stefan Pohl, Prof Dr, Thomas Hofmann, Assoc Prof, Dr. Thorsten Joachims, Fachgebiet Intelligente Systeme, Fachbereich Informatik, Technische Universit\u00e4t Darmstadt",
+            "abstract": "Auffinden von verwandten, wissenschaftlichen Ver\u00f6ffentlichungen sind. Dies wird",
+            "title": "Using Access Data for Paper Recommendations on ArXiv.org von"
+        },
+        {
+            "group": 44,
+            "name": "10.1.1.109.2436",
+            "keyword": "Web",
+            "author": "Einat Amitay",
+            "abstract": "The challenge of automatically summarising Web pages and sites is a great one. However, currently there is no solution which offers an easy way to produce unbiased, coherent, and contentfull summaries of Web sites. In this work we suggest a new approach, which relies on the structure of hypertext and the way people describe information in it. As a proof-of-concept, we applied our approach to the problem of tailoring coherent snippets for search results. In this paper we describe the approach as it is implemented in our system, InCommonSense, and present results from a large scale evaluation of the snippets produced. We conclude by suggesting other applications that could make use of this technique.",
+            "title": "Automatically summarising Web sites: is there a way around it"
+        },
+        {
+            "group": 45,
+            "name": "10.1.1.109.2758",
+            "keyword": "Categories and Subject Descriptors, H.2.4 [Database Management, Systems \u2013 Textual databases, H.2.8 [Database Management, Database Applications \u2013 Data mining, H.3.3 [Information Storage and Retrieval, Information Search and Retrieval General Terms, Algorithms, Experimentation, Performance Additional Key Words and Phrases, Web mining, anchor text mining, cross-language information retrieval, parallel corpora, comparable corpora, machine translation",
+            "author": "Wen-hsiang Lu, Hsi-jian Lee",
+            "abstract": "This article presents an approach to automatically extracting translations of Web query terms through mining of Web anchor texts and link structures. One of the existing difficulties in cross-language information retrieval (CLIR) and Web search is the lack of appropriate translations of new terminology and proper names. The proposed approach successfully exploits the anchor-text resources and reduces the existing difficulties of query term translation. Many query terms that cannot be obtained in general-purpose translation dictionaries are, therefore, extracted.",
+            "title": "Academia Sinica AND"
+        },
+        {
+            "group": 46,
+            "name": "10.1.1.109.2823",
+            "keyword": "Blogs, Social network analysis, Hate groups, Web mining",
+            "author": "Michael Chau A, Jennifer Xu B",
+            "abstract": "Blogs, often treated as the equivalence of online personal diaries, have become one of the fastest growing types of Web-based media. Everyone is free to express their opinions and emotions very easily through blogs. In the blogosphere, many communities have emerged, which include hate groups and racists that are trying to share their ideology, express their views, or recruit new group members. It is important to analyze these virtual communities, defined based on membership and subscription linkages, in order to monitor for activities that are potentially harmful to society. While many Web mining and network analysis techniques have been used to analyze the content and structure of the Web sites of hate groups on the Internet, these techniques have not been applied to the study of hate groups in blogs. To address this issue, we have proposed a semi-automated approach in this research. The proposed approach consists of four modules, namely blog spider, information extraction, network analysis, and visualization. We applied this approach to identify and analyze a selected set of 28 anti-Blacks hate groups (820 bloggers) on Xanga, one of the most popular blog hosting sites. Our analysis results revealed some interesting demographical and topological characteristics in these groups, and identified at least two large communities on top of the smaller ones. The study also demonstrated the feasibility in applying the proposed approach in the study of hate groups and other related communities in blogs.",
+            "title": "Mining communities and their relationships in blogs: A study of online hate groups"
+        },
+        {
+            "group": 47,
+            "name": "10.1.1.109.3252",
+            "keyword": "retrieval, structural",
+            "author": "Oren Kurland, Lillian Lee",
+            "abstract": "PageRank without hyperlinks: Structural re-ranking using",
+            "title": "links induced by language"
+        },
+        {
+            "group": 48,
+            "name": "10.1.1.109.3337",
+            "keyword": "Digital Libraries, usage data, architecture, standards, aggregation, analysis, OAI-PMH, OpenURL",
+            "author": "Johan Bollen",
+            "abstract": "An architecture for the aggregation and analysis of",
+            "title": "scholarly usage data."
+        },
+        {
+            "group": 49,
+            "name": "10.1.1.109.3718",
+            "keyword": "Power laws, Ranking algorithms, Stochastic equations, Web graph, Wikipedia",
+            "author": "Yana Volkovich, Nelly Litvak, Debora Donato",
+            "abstract": "Abstract. We study the relation between PageRank and other parameters of information networks such as in-degree, out-degree, and the fraction of dangling nodes. We model this relation through a stochastic equation inspired by the original definition of PageRank. Further, we use the theory of regular variation to prove that PageRank and in-degree follow power laws with the same exponent. The difference between these two power laws is in a multiplicative constant, which depends mainly on the fraction of dangling nodes, average in-degree, the power law exponent, and the damping factor. The out-degree distribution has a minor effect, which we explicitly quantify. Finally, we propose a ranking scheme which does not depend on out-degrees.",
+            "title": "Determining factors behind the PageRank log-log plot. Memorandum 1823, Enschede, February 2007. (Y. Volkovich) Faculty of Electrical Engineering"
+        },
+        {
+            "group": 50,
+            "name": "10.1.1.109.4824",
+            "keyword": "",
+            "author": "Huaijun Qiu",
+            "abstract": "Graph spectral methods are concerned with using the eigenvalues and eigen-vectors of the adjacency or Laplacian matrices to characterise graph structure. Applications in computer vision include object recognition, image segmentation and data analysis. Although widely used, most graph spectral algorithms are rel-atively simple. Most of the current applications are limited to use only one or just a few eigenvalues and eigenvectors of the affinity matrix. Although elegant and concise many valuable properties are also neglected. In this thesis, we focus on exploring more complex uses of the Laplacian spectrum. Our starting point is the Fiedler vector, i.e. the second smallest eigenvector of the Laplacian matrix. Although it has been intensively applied in graph bipar-tition and image segmentation, its usage is still quite simple and restricted. We aim to further extend its utility to decompose graphs into non-overlapping parti-tions. By doing so, we will be able to cast inexact graph matching problem into the matching of these subunits and the whole matching process can be realized in",
+            "title": "Spectral Methods for Computer Vision Problems"
+        },
+        {
+            "group": 51,
+            "name": "10.1.1.109.5388",
+            "keyword": "",
+            "author": "Ning Liu, Jun Yan, Fengshan Bai, Benyu Zhang, Wensi Xi, Weiguo Fan, Zheng Chen, Lei Ji, Chenyong Hu, Wei-ying Ma",
+            "abstract": "Abstract. Many machine learning and data mining algorithms crucially rely on the similarity metrics. However, most early research works such as Vector Space Model or Latent Semantic Index only used single relationship to measure the similarity of data objects. In this paper, we first use an Intra- and Inter-Type Relationship Matrix (IITRM) to represent a set of heterogeneous data objects and their inter-relationships. Then, we propose a novel similaritycalculating algorithm over the Inter- and Intra- Type Relationship Matrix. It tries to integrate information from heterogeneous sources to serve their purposes by iteratively computing. This algorithm can help detect latent relationships among heterogeneous data objects. Our new algorithm is based on the intuition that the intra-relationship should affect the inter-relationship, and vice versa. Experimental results on the MSN logs dataset show that our algorithm outperforms the traditional Cosine similarity. 1",
+            "title": "A Similarity Reinforcement Algorithm for Heterogeneous Web Pages"
+        },
+        {
+            "group": 52,
+            "name": "10.1.1.109.7167",
+            "keyword": "",
+            "author": "T. Mchedlidze, A. Symvonis, M. Tzagarakis",
+            "abstract": "Abstract. In this paper, we report on our efforts to identify important Greek web sites on the web by analyzing the link structure of Greek web sites. Towards this end, five independent graph-theoretic methods have been deployed: hub and authority, page rank, Bow-Tie structure, core analysis and degree distribution. Our findings indicate that government, non-profit and educational sites are amongst the most important in the Greek web space. 1",
+            "title": "Analysis of the Greek Web-Space"
+        },
+        {
+            "group": 53,
+            "name": "10.1.1.109.7196",
+            "keyword": "signature files, superimposing code, inverted file, hybrid data architecture, hierarchical",
+            "author": "Fidel Cacheda, Victor Carneiro, Carmen Guerrero, Angel Vi\u00f1a",
+            "abstract": "Search systems based on hierarchical taxonomies provide a specific type of search functionality that is not provided by conventional search engines. For instance, using a taxonomy, the user can look for documents related to just one of the categories of the taxonomy. This paper describes a hybrid data architecture that improves the performance of restricted searches for a few categories of a taxonomy. The proposed architecture is based on a hybrid data structure composed of an inverted file with multiple integrated signature files. A detailed analysis of superimposing codes on directed acyclic graphs proves that they adapt perfectly well to a search system based on a hierarchical ontology. Two variants are presented: the hybrid architecture with complete information and the hybrid architecture with partial information. The validity of this hybrid architecture was analyzed by developing and comparing it with a basic architecture. The performance of restricted queries is clearly improved, especially with the hybrid architecture with partial information. This variant outperformed by 50 % the basic architecture for all workload environments, with a slight reduction in performance for the lower levels of the graph.",
+            "title": "Hybrid Architecture for Web Search Systems Based on Hierarchical Taxonomies *"
+        },
+        {
+            "group": 54,
+            "name": "10.1.1.109.7793",
+            "keyword": "Additional Key Words and Phrases, Information retrieval, Markov chains, PageRank, search engines",
+            "author": "Monica Bianchini, Marco Gori, Franco Scarselli",
+            "abstract": "Although the interest of a Web page is strictly related to its content and to the subjective readers\u2019 cultural background, a measure of the page authority can be provided that only depends on the topological structure of the Web. PageRank is a noticeable way to attach a score to Web pages on the basis of the Web connectivity. In this article, we look inside PageRank to disclose its fundamental properties concerning stability, complexity of computational scheme, and critical role of parameters involved in the computation. Moreover, we introduce a circuit analysis that allows us to understand the distribution of the page score, the way different Web communities interact each other, the role of dangling pages (pages with no outlinks), and the secrets for promotion of Web pages.",
+            "title": "General Terms: Algorithms"
+        },
+        {
+            "group": 55,
+            "name": "10.1.1.110.159",
+            "keyword": "",
+            "author": "S. F. Allen, M. Bickford, R. L. Constable, R. Eaton, C. Kreitz, L. Lorigo, E. Moran",
+            "abstract": "For twenty years the Nuprl (\u201cnew pearl\u201d) system has been used to develop software systems and formal theories of computational mathematics. It has also been used to explore and implement computational type theory (CTT)  \u2013 a formal theory of computation closely related to Martin-L\u00f6f\u2019s intuitionistic type theory (ITT) and to the calculus of inductive constructions (CIC) implemented in the Coq prover. This article focuses on the theory and practice underpinning our use of Nuprl for much of the last decade. We discuss innovative elements of type theory, including new type constructors such as unions and dependent intersections, our theory of classes, and our theory of event structures. We also discuss the innovative architecture of Nuprl as a distributed system and as a transactional database of formal mathematics using the notion of abstract object identifiers. The database has led to an independent project called the Formal Digital Library, FDL, now used as a repository for Nuprl results as well as selected results from HOL, MetaPRL, and PVS. We discuss Howe\u2019s set theoretic semantics that is used to relate such disparate theories and systems as those represented by these provers. 1",
+            "title": "Abstract Innovations in Computational Type Theory using"
+        },
+        {
+            "group": 56,
+            "name": "10.1.1.110.1183",
+            "keyword": "",
+            "author": "Taher H. Haveliwala",
+            "abstract": "Abstract\u2014The original PageRank algorithm for improving the ranking of search-query results computes a single vector, using the link structure of the Web, to capture the relative \u201cimportance \u201d of Web pages, independent of any particular search query. To yield more accurate search results, we propose computing a set of PageRank vectors, biased using a set of representative topics, to capture more accurately the notion of importance with respect to a particular topic. For ordinary keyword search queries, we compute the topicsensitive PageRank scores for pages satisfying the query using the topic of the query keywords. For searches done in context (e.g., when the search query is performed by highlighting words in a Web page), we compute the topic-sensitive PageRank scores using the topic of the context in which the query appeared. By using linear combinations of these (precomputed) biased PageRank vectors to generate context-specific importance scores for pages at query time, we show that we can generate more accurate rankings than with a single, generic PageRank vector. We describe techniques for efficiently implementing a large-scale search system based on the topic-sensitive PageRank scheme. Index Terms\u2014Web search, web graph, link analysis, PageRank, search in context, personalized search, ranking algorithm.",
+            "title": "Topic-sensitive pagerank: A context-sensitive ranking algorithm for web search"
+        },
+        {
+            "group": 57,
+            "name": "10.1.1.110.1243",
+            "keyword": "",
+            "author": "Clinton Wills Smullen, Iv Shahrukh, Rohinton Tarapore, Sudhanva Gurumurthi",
+            "abstract": "A large fraction of the data that will stored and accessed in future systems is expected to be unstructured, in the form of images, audio files, etc. Therefore, it is very important to design future I/O subsystems to provide efficient storage, and access to these vast and continuously growing repositories of unstructured data. To facilitate system design and evaluation, we first need benchmarks that capture the processing and I/O access characteristics of applications that operate on unstructured data. In this paper, we present an unstructured data processing benchmark suite that we have developed. We provide detailed descriptions of the workloads in the benchmark suite and discuss the larger space of application characteristics that each of them capture. Keywords: Benchmarks, unstructured data, I/O. 1",
+            "title": "A Benchmark Suite for Unstructured Data Processing"
+        },
+        {
+            "group": 58,
+            "name": "10.1.1.110.2242",
+            "keyword": "",
+            "author": "Library Environment, In R. D. Lankes, S. Nicholson, A. Goodrum (eds, Jeffrey Pomerantz",
+            "abstract": "The difference between a digital library and a library with which a digital reference service is affiliated is discussed, and digital reference in these contexts is defined. There are several issues involved in integrating digital reference service into a digital library environment, but two that are unique to the intersection between digital libraries and digital reference: collection development of previously-answered questions, and presentation of specialized subsets of the materials in the digital library\u2019s collection. These two issues are explored. 1",
+            "title": "Integrating Digital Reference Service into the Digital Library Environment"
+        },
+        {
+            "group": 59,
+            "name": "10.1.1.110.2795",
+            "keyword": "repositories. In the former category",
+            "author": "Aidan Hogan",
+            "abstract": "We provide a benchmark dataset for expert finding within the computer science domain. We show how large isolated data graphs from disparate structured data sources can be combined to form one, large, well-linked RDF graph and implement these methods to achieve our dataset. Such a graph lends itself to links analysis and thus opens up possibilities for analysis by expert finding techniques. 1.",
+            "title": "The ExpertFinder Corpus 2007 for the Benchmarking and Development of Expert-Finding Systems"
+        },
+        {
+            "group": 60,
+            "name": "10.1.1.110.3202",
+            "keyword": "Algorithms, Measurement, Documentation, Performance, Experimentation. Keywords Patents, Link Analysis, Clustering, Classification, Ranking",
+            "author": "Akshay N Patil",
+            "abstract": "A patent is a set of exclusive rights granted by a state to a patentee for a fixed period of time in exchange for a disclosure of an invention. Generally, the term of a new patent is 20 years from the date on which the application for the patent was filed in the United States. Patents contain important research results, so automated tools for assisting patent engineers and decision makers are in great demand. Many organizations spend huge amounts to do the infringement analysis. Also, holding a patent in a crucial area adds value to the company. Analyzing these patents on various criteria can provide us with valuable set of information which can be put to good use in different ways such as analyzing patent claims, clustering patents based on similarity, determining the patent portfolio for an organization and so on. We intend to use entity recognition/text analysis system Lydia",
+            "title": ""
+        },
+        {
+            "group": 61,
+            "name": "10.1.1.110.3614",
+            "keyword": "by",
+            "author": "C Weiyi Meng, Clement Yu",
+            "abstract": "In the last decade, the World Wide Web has become the largest information source and the most popular place for people to obtain information. A study in 2000 indicated that by there were already about 500 billion Web pages and database records that are accessible on the Web by 2000. By the end of 2003, there were more than 700 million Internet users worldwide. As more and more Web pages are added to the Web, how to find useful information quickly has become a challenge for millions of Web users. Currently, there are primarily two approaches to find desired information on the Web. Browsing A user can start the browse from a starting page and follow certain hyperlinks to navigate to other pages. The activity of following hyperlinks can be repeated until the user has either found the desired information or become bored. A key to successful browsing is to find a good starting page. To facilitate browsing, Web pages can be organized into a category hierarchy such as the ones provided",
+            "title": "Sports Football Tennis Swimming"
+        },
+        {
+            "group": 62,
+            "name": "10.1.1.110.3888",
+            "keyword": "",
+            "author": "Diego Puppin, Fabrizio Silvestri, Salvatore Orlando,et al.",
+            "abstract": " ",
+            "title": "Toward GRIDLE: A Way to Build Grid Applications Searching Through an Ecosystem of Components"
+        },
+        {
+            "group": 63,
+            "name": "10.1.1.110.4254",
+            "keyword": "",
+            "author": "Andrew Y. Ng",
+            "abstract": "The Kleinberg HITS and the Google PageRank algorithms are eigenvector methods for identifying \u201cauthoritative \u201d or \u201cinfluential \u201d articles, given hyperlink or citation information. That such algorithms should give reliable or consistent answers is surely a desideratum, and in [10], we analyzed when they can be expected to give stable rankings under small perturbations to the linkage patterns. In this paper, we extend the analysis and show how it gives insight into ways of designing stable link analysis methods. This in turn motivates two new algorithms, whose performance we study empirically using citation data and web hyperlink data. 1.",
+            "title": "ABSTRACT Stable Algorithms for Link Analysis"
+        },
+        {
+            "group": 64,
+            "name": "10.1.1.110.4339",
+            "keyword": "",
+            "author": "Ian Rose, Rohan Murty, Peter Pietzuch, Jonathan Ledlie, Mema Roussopoulos, Matt Welsh",
+            "abstract": "Blogs and RSS feeds are becoming increasingly popular. The blogging site LiveJournal has over 11 million user accounts, and according to one report, over 1.6 million postings are made to blogs every day. The \u201cBlogosphere \u201d is a new hotbed of Internetbased media that represents a shift from mostly static content to dynamic, continuously-updated discussions. The problem is that finding and tracking blogs with interesting content is an extremely cumbersome process. In this paper, we present Cobra (Content-Based RSS Aggregator), a system that crawls, filters, and aggregates vast numbers of RSS feeds, delivering to each user a personalized feed based on their interests. Cobra consists of a three-tiered network of crawlers that scan web feeds, filters that match crawled articles to user subscriptions, and reflectors that provide recentlymatching articles on each subscription as an RSS feed, which can be browsed using a standard RSS reader. We present the design, implementation, and evaluation of Cobra in three settings: a dedicated cluster, the Emulab testbed, and on PlanetLab. We present a detailed performance study of the Cobra system, demonstrating that the system is able to scale well to support a large number of source feeds and users; that the mean update detection latency is low (bounded by the crawler rate); and that an offline service provisioning step combined with several performance optimizations are effective at reducing memory usage and network load. 1",
+            "title": "Abstract Cobra: Content-based Filtering and Aggregation of Blogs and RSS Feeds"
+        },
+        {
+            "group": 65,
+            "name": "10.1.1.110.5002",
+            "keyword": "",
+            "author": "Fabio Casati, Fausto Giunchiglia, Maurizio Marchese, Fabio Casati, Fausto Giunchiglia, Maurizio Marchese",
+            "abstract": "Publish and perish: why the current publication and",
+            "title": "review model is killing research"
+        },
+        {
+            "group": 66,
+            "name": "10.1.1.110.5670",
+            "keyword": "Cheeger inequalities, Laplacian, random walks, heat kernel, Dirichlet eigenvalues, PageRank, graph partition",
+            "author": "Fan Chung",
+            "abstract": "graph partition algorithms",
+            "title": "Four proofs for the Cheeger inequality and"
+        },
+        {
+            "group": 67,
+            "name": "10.1.1.110.5832",
+            "keyword": "Ontology, Web graph, Web data Keywords, Web search, Query Language, Ontology, Conceptual Structures, Graphs",
+            "author": "Nicolas Guelfi, C\u00e9dric Pruski",
+            "abstract": "ABSTRACT: The use and definition of ontology for the representation and the exploration of knowledge are critical issues for approaches dealing with information retrieval. In this paper, we propose a new ontology-based approach for improving the quality, in terms of relevance, of the results obtained when searching documents on the Internet. This is done by a coherent integration of ontologies, Web data and query languages. We propose new data structures built upon ontologies: the WPGraph and the W 3 Graph which allow Web data to be modelled. We also discuss the use of ontologies for an efficient exploration of the knowledge contained in our conceptual structures using ASK, a specific query language introduced in this paper. An experimental validation of our approach is proposed through a prototype supporting our innovative framework.",
+            "title": "On the use of ontologies for an optimal representation and exploration of the web"
+        },
+        {
+            "group": 68,
+            "name": "10.1.1.110.6448",
+            "keyword": "",
+            "author": "",
+            "abstract": "Lucrative incentives in grid computing do not only attract honest participants, but also cheaters. To prevent selfish behavior, verification mechanisms are required. Today\u2019s solutions mostly base on redundancy and inherently exhibit a considerable overhead. Often, however, the verification of a result takes much less time than its computation. In this paper we propose a distributed checking scheme that exploits this asymmetry. Our mechanism detects wrong results and excludes cheaters in a distributed manner and hence disburdens the central of the grid server. We show how the verification scheme is used in an application which aims at breaking the discrete logarithm problem by a parallel implementation of the Pollard-\u03c1 algorithm. Our implementation extends the BOINC server software and is robust to various rational attacks even in the presence of colluders. 1",
+            "title": "Distributed Asymmetric Verification in Computational Grids"
+        },
+        {
+            "group": 69,
+            "name": "10.1.1.110.9023",
+            "keyword": "case, users submit a query, typically a list of keywords",
+            "author": "Arvind Arasu, Junghoo Cho, Hector Garcia-molina, Sriram Raghavan",
+            "abstract": "We offer an overview of current Web search engine design. After introducing a generic search engine architecture, we examine each engine component in turn. We cover crawling, local Web page storage, indexing, and the use of link analysis for boosting search performance. The most common design and implementation techniques for each of these components are presented. For this presentation we draw from the literature and from our own experimental search engine testbed. Emphasis is on introducing the fundamental concepts and the results of several performance analyses we conducted to compare different designs.",
+            "title": "Searching the web"
+        },
+        {
+            "group": 70,
+            "name": "10.1.1.111.13",
+            "keyword": "",
+            "author": "Gianni Amati, Iadh Ounis, Vassilis Plachouras",
+            "abstract": "In this paper we propose a new theoretical method for combining both content and link structure analysis for Web information retrieval. This approach is based on performing a random walk on a modified Markov chain, induced from the Web graph. This new model is applicable either in a static way, where a global pres-tige score is computed for every document, or in a dynamic way, where the link structure of the results from a first pass retrieval is taken into account. The results of experiments on the TREC WT10g and.GOV collections show that it is a robust method, particularly suitable for dynamic link analysis. Moreover, we show that it outperforms PageRank under the same experimental settings. 1",
+            "title": "The dynamic absorbing model for the web"
+        },
+        {
+            "group": 71,
+            "name": "10.1.1.111.22",
+            "keyword": "as complex networks, which are structured as a",
+            "author": "Woochang Hwang, Young-rae Cho, Aidong Zhang, Murali Ramanathan",
+            "abstract": "Several centrality measures were introduced to identify essential components and compute components \u2019 importance in networks. Majority of these centrality measures are dominated by components \u2019 degree due to their nature of looking at networks \u2019 topology. We propose a novel essential component identification model, bridging centrality, based on information flow and topological locality in scale-free networks. Bridging centrality provides an entirely new way of scrutinizing network structures and measuring components\u2019 importance. We apply bridging centrality on real world networks, including one simulated network, two biological networks, two social networks, and one web network, and show that the nodes distinguished by bridging centrality are well located on the connecting positions between highly connected regions through analyzing the clustering coefficient and average path length of those networks. Bridging centrality can discriminate bridging nodes, the nodes with more information flowed through them and locations between highly connected regions, while other centrality measures can not.",
+            "title": "Bridging Centrality: Identifying Bridging Nodes in Scale-free Networks"
+        },
+        {
+            "group": 72,
+            "name": "10.1.1.111.344",
+            "keyword": "",
+            "author": "Andrew Webster",
+            "abstract": "In presenting this thesis in partial fulfilment of the requirements for a Postgrad-uate degree from the University of Saskatchewan, I agree that the Libraries of this University may make it freely available for inspection. I further agree that permission for copying of this thesis in any manner, in whole or in part, for scholarly purposes may be granted by the professor or professors who supervised my thesis work or, in their absence, by the Head of the Department or the Dean of the College in which my thesis work was done. It is understood that any copying or publication or use of this thesis or parts thereof for financial gain shall not be allowed without my written permission. It is also understood that due recognition shall be given to me and to the University of Saskatchewan in any scholarly use which may be made of any material in my thesis.",
+            "title": "Saskatoon By"
+        },
+        {
+            "group": 73,
+            "name": "10.1.1.111.1464",
+            "keyword": "",
+            "author": "Jorge Silva",
+            "abstract": "The paper presents the Position Specific Posterior Lattice (PSPL), a novel lossy representation of automatic speech recognition lattices that naturally lends itself to efficient indexing and subsequent relevance ranking of spoken documents. Two pruning techniques for generating word lattices are explored in this framework, where experiments performed on a collection of lecture recordings \u2014 MIT iCampus database \u2014 show that the spoken document ranking accuracy was improved by 20 %  \u2014 in the mean average precision sense \u2014 relative over the commonly used baseline of indexing the 1-best output from an automatic speech recognizer (ASR). 1.",
+            "title": "PRUNING ANALYSIS FOR THE POSITION SPECIFIC POSTERIOR LATTICES FOR SPOKEN DOCUMENT SEARCH"
+        },
+        {
+            "group": 74,
+            "name": "10.1.1.111.1769",
+            "keyword": "",
+            "author": "Junghoo Cho, et al.",
+            "abstract": "Crawling algorithms have been the subject of extensive research and optimizations, but some important questions remain open. In particular, given the unbounded number of pages available on the Web, search-engine operators constantly struggle with the following vexing questions: When can I stop downloading the Web? How many pages should I download to cover \u201cmost \u201d of the Web? How can I know I am not missing an important part when I stop? In this paper we provide an answer to these questions by developing, in the context of a system that is given a set of trusted pages, a family of crawling algorithms that (1) provide a theoretical guarantee on how much of the \u201cimportant \u201d part of the Web it will download after crawling a certain number of pages and (2) give a high priority to important pages during a crawl, so that the search engine can index the most important part of the Web first. We prove the correctness of our algorithms by theoretical analysis and evaluate their performance experimentally based on 141 million URLs obtained from the Web. Our experiments demonstrate that even our simple algorithm is effective in downloading important pages early on and provides high \u201ccoverage  of the Web with a relatively small number of pages. ",
+            "title": "RankMass Crawler: A Crawler with High Personalized PageRank Coverage Guarantee  "
+        },
+        {
+            "group": 75,
+            "name": "10.1.1.111.1863",
+            "keyword": "Perron-Frobenius theorem, scoring, rankings, tournaments, web",
+            "author": "Giora Slutzki, Oscar Volij",
+            "abstract": "Consider a set of elements which we want to rate using information about their bilateral relationships. For instance sports teams and the outcomes of their games, journals and their mutual citations, web sites and their link structure, or social alternatives and the tournament derived from the voters \u2019 preferences. A wide variety of scoring methods have been proposed to deal with this problem. In this paper we axiomatically characterize two of these scoring methods, variants of which are used to rank web pages by their relevance to a query, and academic journals according to their impact. These methods are based on the Perron-Frobenius theorem for non-negative matrices.",
+            "title": "Scoring of web pages and tournaments\u2014 axiomatizations"
+        },
+        {
+            "group": 76,
+            "name": "10.1.1.111.3545",
+            "keyword": "",
+            "author": "John Wiley, Tim Brody, Stevan Harnad, Leslie Carr, Tim Brody, Stevan Harnad, Leslie Carr",
+            "abstract": "bibliographic citations < bibliographic records < document surrogates < (documents by information content, purpose) < (document types), citation indexes < indexes (information retrieval) < (documents by information content, purpose) < (document types)",
+            "title": "Earlier Web Usage Statistics as Predictors of Later Citation Impact"
+        },
+        {
+            "group": 77,
+            "name": "10.1.1.111.4161",
+            "keyword": "Bipartite cores, Markov random fields, Belief propagation",
+            "author": "Shashank P, Duen Horng Chau, Samuel Wang, Christos Faloutsos",
+            "abstract": "Given a large online network of online auction users and their histories of transactions, how can we spot anomalies and auction fraud? This paper describes the design and implementation of NetProbe, a system that we propose for solving this problem. NetProbe models auction users and transactions as a Markov Random Field tuned to detect the suspicious patterns that fraudsters create, and employs a Belief Propagation mechanism to detect likely fraudsters. Our experiments show that NetProbe is both efficient and effective for fraud detection. We report experiments on synthetic graphs with as many as 7,000 nodes and 30,000 edges, where NetProbe was able to spot fraudulent nodes with over 90 % precision and recall, within a matter of seconds. We also report experiments on a real dataset crawled from eBay, with nearly 700,000 transactions between more than 66,000 users, where NetProbe was highly effective at unearthing hidden networks of fraudsters, within a realistic response time of about 6 minutes. For scenarios where the underlying data is dynamic in nature, we propose Incremental NetProbe, which is an approximate, but fast, variant of Net-Probe. Our experiments prove that Incremental NetProbe executes nearly doubly fast as compared to NetProbe, while retaining over 99 % of its accuracy.",
+            "title": "WWW 2007 / Track: Data Mining Session: Mining in Social Networks NetProbe: A Fast and Scalable System for Fraud Detection in Online Auction Networks ABSTRACT"
+        },
+        {
+            "group": 78,
+            "name": "10.1.1.111.4446",
+            "keyword": "",
+            "author": "Ryunosuke Ohshima, Shinsuke Miwa, Yoichi Shinoda",
+            "abstract": "Users of Web search engines wish to search for not pages but &quot;hearts, &quot; groups of pages that concern the same topic. Traditional robot search engines lack the ability to manage hearts. Traditional directory search engines lack the ability to manage the changeable Web. To solve these problems and realize users ' wishes, in this paper we present a new method of indexing Web pages. We combine our techniques with traditional text search techniques to produce better search results: not pages but hearts. By adding a link structure index to the full-text search that uses keywords, we remove redundant pages, leaving users with more suitable pages from which to choose. Our Namazu-Hige prototype system groups out of order pages or redundant pages. It ranks not pages but hearts so some noisy result ranks become low. It also reduces users ' time to examine results because it offers them &quot;the heart of the heart &quot; (the most representative pages of the heart). We explain Namazu-Hige and compare it with traditional search",
+            "title": "Indexing Links of Pages to Search for &quot;Hearts &quot; Through the World Wide Web Indexing Links of Pages to Search for &quot;Hearts&quot; Through the World Wide Web"
+        },
+        {
+            "group": 79,
+            "name": "10.1.1.111.6763",
+            "keyword": "",
+            "author": "Vagelis Hristidis Fern",
+            "abstract": "As the use of Electronic Medical Records (EMRs) becomes more widespread, so does the need to search and provide effective information discovery on them. Information discovery methods will allow practitioners and other healthcare stakeholders to locate relevant pieces of information in the growing corpus of available EMRs. The success of Web search engines has shown that keyword queries are a useful tool for locating relevant information in an intuitive and effective manner. However, questions arise of the form: What are the semantics of keyword queries on EMRs? What is a meaningful result? What is the role of medical and clinical ontologies and dictionaries like SNOMED (Systematized Nomenclature of Human and Veterinary Medicine) in answering such queries? In this position paper we introduce the problem of keyword-based information discovery on EMRs and enumerate the salient challenges that must be addressed to facilitate quality information discovery. The objective is to create interest in new medical information management research initiatives, and potentially create new paradigms for using medical data. The primary focus of the paper is the newest XML-based EMR standard created by the Health Level Seven (HL7) group, the Clinical Document Architecture (CDA) Release 2.0, although the same issues arise for any other standard hierarchical format.",
+            "title": "+ Miami Children\u2019s Hospital"
+        },
+        {
+            "group": 80,
+            "name": "10.1.1.111.7540",
+            "keyword": "models, and/or text keywords",
+            "author": "Thomas Funkhouser, Patrick Min, Misha Kazhdan, Joyce Chen, Alex Halderman, David Dobkin, David Jacobs",
+            "abstract": "As the number of 3D models available on the Web grows, there is an increasing need for a search engine to help people find them. Unfortunately, traditional text-based search techniques are not always effective for 3D data. In this paper, we investigate new shape-based search methods. The key challenges are to develop query methods simple enough for novice users and matching algorithms robust enough to work for arbitrary polygonal models. We present a web-based search engine system that supports queries based on 3D sketches, 2D sketches, 3D",
+            "title": "A search engine for 3d models"
+        },
+        {
+            "group": 81,
+            "name": "10.1.1.111.7793",
+            "keyword": "Algorithms, Experimentation, Measurement Keywords Pagerank, conductance, network flow, maximum entropy",
+            "author": "Alekh Agarwal",
+            "abstract": "Several algorithms have been proposed to learn to rank entities modeled as feature vectors, based on relevance feedback. However, these algorithms do not model network connections or relations between entities. Meanwhile, Pagerank and variants find the stationary distribution of a reasonable but arbitrary Markov walk over a network, but do not learn from relevance feedback. We present a framework for ranking networked entities based on Markov walks with parameterized conductance values associated with the network edges. We propose two flavors of conductance learning problems in our framework. In the first setting, relevance feedback comparing node-pairs hints that the user has one or more hidden preferred communities with large edge conductance, and the algorithm must discover these communities. We present a constrained maximum entropy network flow formulation whose dual can be solved efficiently using a cutting-plane approach and a quasi-Newton optimizer. In the second setting, edges have types, and relevance feedback hints that each edge type has a potentially different conductance, but this is fixed across the whole network. Our algorithm learns the conductances using an approximate Newton method.",
+            "title": "Learning to rank networked entities"
+        },
+        {
+            "group": 82,
+            "name": "10.1.1.112.543",
+            "keyword": "regularization, cluster hypothesis, cluster-based retrieval, pseudo-relevance feedback, query expansion",
+            "author": "Fernando Diaz",
+            "abstract": "Abstract. We adapt the cluster hypothesis for score-based information retrieval by claiming that closely related documents should have similar scores. Given a retrieval from an arbitrary system, we describe an algorithm which directly optimizes this objective by adjusting retrieval scores so that topically related documents receive similar scores. We refer to this process as score regularization. Because score regularization operates on retrieval scores, regardless of their origin, we can apply the technique to arbitrary initial retrieval rankings. Document rankings derived from regularized scores, when compared to rankings derived from un-regularized scores, consistently and significantly result in improved performance given a variety of baseline retrieval algorithms. We also present several proofs demonstrating that regularization generalizes methods such as pseudo-relevance feedback, document expansion, and cluster-based retrieval. Because of these strong empirical and theoretical results, we argue for the adoption of score regularization as general design principle or post-processing step for information retrieval systems.",
+            "title": "Regularizing query-based retrieval scores"
+        },
+        {
+            "group": 83,
+            "name": "10.1.1.112.644",
+            "keyword": "H.3.4 [Information Storage and Retrieval, Systems and Software \u2013 distributed systems, performance evaluation. General Terms Performance, Design, Theory. Keywords Operational",
+            "author": "",
+            "abstract": "Prior research into search system scalability has primarily addressed query processing efficiency [1, 2, 3] or indexing efficiency [3], or has presented some arbitrary system architecture [4]. Little work has introduced any formal theoretical framework for evaluating architectures with regard to specific operational requirements, or for comparing architectures beyond simple timings [5] or basic simulations [6, 7]. In this paper, we present a framework based upon queuing network theory for analyzing search systems in terms of operational requirements. We use response time, throughput, and utilization as the key operational characteristics for evaluating performance. Within this framework, we present a scalability strategy that combines index partitioning and index replication to satisfy a given set of requirements",
+            "title": "Operational Requirements for Scalable Search Systems"
+        },
+        {
+            "group": 84,
+            "name": "10.1.1.112.1150",
+            "keyword": "",
+            "author": "Pedro Derose, Warren Shen, Fei Chen, Anhai Doan, Raghu Ramakrishnan",
+            "abstract": "Structured community portals extract and integrate information from raw Web pages to present a unified view of entities and relationships in the community. In this paper we argue that to build such portals, a top-down, compositional, and incremental approach is a good way to proceed. Compared to current approaches that employ complex monolithic techniques, this approach is easier to develop, understand, debug, and optimize. In this approach, we first select a small set of important community sources. Next, we compose plans that extract and integrate data from these sources, using a set of extraction/integration operators. Executing these plans yields an initial structured portal. We then incrementally expand this portal by monitoring the evolution of current data sources, to detect and add new data sources. We describe our initial solutions to the above steps, and a case study of employing these solutions to build DBLife, a portal for the database community. We found that DBLife could be built quickly and achieve high accuracy using simple extraction/integration operators, and that it can be maintained and expanded with little human effort. The initial solutions together with the case study demonstrate the feasibility and potential of our approach. 1.",
+            "title": "Building structured web community portals: A top-down, compositional, and incremental approach"
+        },
+        {
+            "group": 85,
+            "name": "10.1.1.112.2090",
+            "keyword": "Web Crawler Architecture, Information Retrieval",
+            "author": "Milad Shokouhi, Pirooz Chubak, Dr. Farhad Oroumchian, Hassan Bashiri",
+            "abstract": "By the rapid growth of the World Wide Web, the significance and popularity of search engines are increasing day by day. However, today web crawlers are unable to update their search engine indexes concurrent to the growth in the information available on the web. This sometimes causes users to be unable to search on recent or updated information. Regional Crawler that we are proposing in this paper, improves the problem of updating and finding new pages to some extent by gathering users \u2019 common needs and interests in a certain domain, which can be as small as a LAN in a department of a university or as huge as a country. In this paper, we introduce the design of the Regional Crawler architecture and discuss its application in search engines.",
+            "title": "DESIGNING AND IMPLEMENTATION OF &quot;REGIONAL CRAWLER &quot; AS A NEW STRATEGY FOR CRAWLING THE WEB"
+        },
+        {
+            "group": 86,
+            "name": "10.1.1.112.5510",
+            "keyword": "",
+            "author": "Peter Eckersley",
+            "abstract": "The Internet and Copyright Law are particularly ill-suited to each other. One is designed to give as much information as possible to everyone who wants it; the other allows authors, artists and publishers to earn money by restricting the distribution of information. The beneficiaries of copyright law are lobbying for the re-design of computers and the Internet to enforce \u201ccontent control \u201d and \u201cdigital rights management \u201d (DRM). These technologies are intended to make copyright workable again by re-imposing limits on access to information goods, but they carry high direct and indirect social costs. One alternative, which has generally received much less attention and legislative support than DRM, is to allow free distributions of works, while restructuring digital copyright law so as to remunerate authors in ways which avoid those exclusive rights models which are incompatible with the Internet. This paper introduces the notion of a \u201cvirtual market \u201d  \u2013 a decentralised, publicly-funded mechanism which rewards digital authorship and artistry, without restricting flows of information. Some of the legal and economic implications of virtual markets are considered, along with some of the practical and technological aspects of their implementation. The article concludes that virtual markets avoid the very high artificial scarcity (\u201cdeadweight loss\u201d) and infrastructure costs associated with DRM, and should be seriously considered as a public policy alternative to strengthening copyright laws. 1",
+            "title": "Virtual Markets for Virtual Goods: An Alternative"
+        },
+        {
+            "group": 87,
+            "name": "10.1.1.112.7138",
+            "keyword": "",
+            "author": "Francisco Matias Cuenca-acuna, Thu D. Nguyen",
+            "abstract": "We consider the problem of content search and retrieval in peer-to-peer (P2P) communities. P2P computing is a potentially powerful model for information sharing between ad hoc groups of users because of its low cost of entry and natural model for resource scaling with community size. As P2P communities grow in size, however, locating information distributed across the large number of peers becomes problematic. We present a distributed text-based content search and retrieval algorithm to address this problem. Our algorithm is based on a state-of-the-art text-based document ranking algorithm: the vector-space model, instantiated with the TFxIDF ranking rule. A naive application of TFxIDF would require each peer in a community to collect an inverted index of the entire community. This is costly both in terms of bandwidth and storage. Instead, we show how TFxIDF can be approximated given compact summaries of peers \u2019 local inverted indexes. We make three contributions: (a) we show how the TFxIDF rule can be adapted to use the index summaries, (b) we provide a heuristic for adaptively determining the set of peers that should be contacted for a query, and (c) we show that our algorithm tracks TFxIDF\u2019s performance very closely, regardless of how documents are distributed throughout the community. Furthermore, our algorithm preserves the main flavor of TFxIDF by retrieving close to the same set of documents for any given query.",
+            "title": "Text-Based Content Search and Retrieval in ad hoc P2P Communities"
+        },
+        {
+            "group": 88,
+            "name": "10.1.1.112.9001",
+            "keyword": "",
+            "author": "Klessius Berlt, Edleno Silva De Moura, Andr\u00e9 Carvalho, Marco Cristo, Nivio Ziviani, Thierson Couto",
+            "abstract": "Abstract. In this work we propose a representation of the web as a directed hypergraph, instead of a graph, where links can connect not only pairs of pages, but also pairs of disjoint sets of pages. In our model, the web hypergraph is derived from the web graph by dividing the set of pages into non-overlapping blocks and using the links between pages of distinct blocks to create hyperarcs. Each hyperarc connects a block of pages to a single page and is created with the goal of providing more reliable information for link analysis methods. We used the hypergraph structure to compute the reputation of web pages by experimenting hypergraph versions of two previously proposed link analysis methods, Pagerank and Indegree. We present experiments which indicate the hypergraph versions of Pagerank and Indegree produce better results when compared to their original graph versions. 1.",
+            "title": "XXII Simp\u00f3sio Brasileiro de Banco de Dados A Hypergraph Model for Computing Page Reputation on Web Collections"
+        },
+        {
+            "group": 89,
+            "name": "10.1.1.113.620",
+            "keyword": "",
+            "author": "Yongzheng Zhang, Nur Zincir-heywood, Evangelos Milios",
+            "abstract": "Summaries of Web sites help Web users get an idea of the site contents without having to spend time browsing the sites. Currently, manually constructed summaries of Web sites by volunteer experts are available, such as the DMOZ Open Directory Project. This research is directed towards automating the Web site summarization task. To achieve this objective, an approach which applies machine learning and natural language processing techniques is developed to summarize a Web site automatically. The information content of the automatically generated summaries is compared, via a formal evaluation process involving human subjects, to DMOZ summaries, home page browsing and time-limited site browsing, for a number of academic and commercial Web sites. Statistical evaluation of the scores of the answers to a list of questions about the sites demonstrates that the automatically generated summaries convey the same information to the reader as DMOZ summaries do, and more information than the two browsing options. 1",
+            "title": "World Wide Web Site Summarization"
+        },
+        {
+            "group": 90,
+            "name": "10.1.1.113.660",
+            "keyword": "XPath, domain-specific modeling, metamodeling, model search ACM Classification",
+            "author": "Rajesh Sudarsan, Jeff Gray",
+            "abstract": "A common task that is often needed in many software development tools is the capability to search the artifact that is being created in a flexible and efficient manner. However, this capability is typically absent in meta-programmable modeling tools, which can be a serious disadvantage as the size of a model increases. As a remedy, we introduce a method to search domain models using XPath \u2013 a World Wide Web Consortium (W3C) standard that uses logical predicates to search an XML document. In this paper, an XPath search engine is described that traverses the internal representation of a modeling tool (rather than an XML document) and returns those model entities that match the XPath predicate expression. A set of search queries are demonstrated on a case study.",
+            "title": "Meta-Model Search: Using XPath to Search Domain-Specific Models"
+        },
+        {
+            "group": 91,
+            "name": "10.1.1.113.2369",
+            "keyword": "",
+            "author": "David Liben-nowell, Erik D. Demaine",
+            "abstract": "",
+            "title": "An Algorithmic Approach to Social Networks"
+        },
+        {
+            "group": 92,
+            "name": "10.1.1.113.2507",
+            "keyword": "",
+            "author": "Cynthia Dwork, Ravi Kumar, Moni Naor, D. Sivakumar",
+            "abstract": "The rank aggregation problem is to combine many different rank orderings on the same set of candidates, or alternatives, in order to obtain a \u201cbetter \u201d ordering. Rank aggregation has been studied extensively in the context of social choice theory, where several \u201cvoting paradoxes \u201d have been discovered. The problem also arises in many other settings: Sports and Competition: How to determine the winner of a season, how to rank players or how to compare players from different eras? Machine Learning: Collaborative filtering and meta-search;",
+            "title": "Statistics: Notions of Correlation;"
+        },
+        {
+            "group": 93,
+            "name": "10.1.1.113.3010",
+            "keyword": "",
+            "author": "Gianni Amati, Iadh Ounis, Vassilis Plachouras",
+            "abstract": "Abstract In this paper we propose a new theoretical method for combining both content and link structure analysis for Web information retrieval. This approach is based on performing a random walk on a modified Markov chain, induced from the Web graph. This new model is applicable either in a static way, where a global prestige score is computed for every document, or in a dynamic way, where the link structure of the results from a first pass retrieval is taken into account. The results of experiments on the TREC WT10g and.GOV collections show that it is a robust method, particularly suitable for dynamic link analysis. Moreover, we show that it outperforms PageRank under the same experimental settings. 1 Introduction Combining efficiently and in a principled way the evidence from both content and link structure analysis is a crucial issue in Web information retrieval. Most of the methodologies proposed so far are either based on ad-hoc heuristics, or need computationally intensive training for optimising their parameters.",
+            "title": "The dynamic absorbing model for the web"
+        },
+        {
+            "group": 94,
+            "name": "10.1.1.113.3096",
+            "keyword": "",
+            "author": "Boanerges Aleman Meza",
+            "abstract": "In today\u2019s web search technologies, the link structure of the web plays a critical role. In this work, the goal is to use semantic relationships for ranking documents without relying on the existence of any specific structure in a document or links between documents. Instead, named/real-world entities are identified and the relevance of documents is determined using relationships that are known to exist between the entities in a populated ontology, that is, by \u201cconnecting-the-dots. \u201d We introduce a measure of relevance that is based on traversal and the semantics of relationships that link entities in an ontology. The implementation of the methods described here builds upon an existing architecture for processing unstructured information that solves some of the scalability aspects for text processing, indexing and basic keyword/entity document retrieval. The contributions of this thesis are in demonstrating the role and benefits of using relationships for ranking documents when a user types a traditional keyword query. The research components that make this possible are as follows. First, a flexible semantic discovery and ranking component takes user-defined criteria for identification of the most interesting semantic associations between entities in an ontology. Second, semantic analytics techniques",
+            "title": "RANKING DOCUMENTS BASED ON RELEVANCE OF SEMANTIC RELATIONSHIPS "
+        },
+        {
+            "group": 95,
+            "name": "10.1.1.113.5728",
+            "keyword": "",
+            "author": "",
+            "abstract": "Semantic representations provide an abstraction which allows generalisations to be made across very different surface forms and different syntactic formalisms. But deriving conventional semantic representations requires more information than can be extracted from morphology and syntax, even by deep grammars. The standard way of dealing with this is to use underspecified semantic representations, which can, in principle, be monotonically enriched to provide deeper semantics with which inference engines can work. However, an alternative is to operate directly on the underspecified representations. In this paper, I will discuss \u2018matching\u2019, \u2018merging\u2019 and \u2018munging \u2019 operations in the context of the (Robust) Minimal Recursion Semantics approach and give an overview of some of the uses to which they have been put. 1",
+            "title": ""
+        },
+        {
+            "group": 96,
+            "name": "10.1.1.113.6013",
+            "keyword": "Contents",
+            "author": "David Mckelvie",
+            "abstract": "This report examines the combination of multiple sources of evidence such as content text, anchor text, Pagerank, and URL length data in order to increase the quality, or precision, of documents retrieved when using Web Information Retrieval. This report investigates what text fields (Body, Title, Anchor) taken from the structure of HTML documents and also from the hyperlink structure of the web perform best for the Adhoc, Homepage, and Topic Distillation tasks. It also outlines what Term Frequency normalisation technique gives the highest precision values for each text field and task combination. Complementary to this an investigation of merging techniques for text field retrieval sets is also conducted by comparing a linear combination of term frequencies to a linear combination of retrieval scores. Lastly, this report also covers in investigation into the use of prior data such as Pagerank and URL length within a DFR model.",
+            "title": "An Analysis of Document Text Fields and Prior Data in Web Information Retrieval By"
+        },
+        {
+            "group": 97,
+            "name": "10.1.1.113.6199",
+            "keyword": "data mining, information retrieval, information extraction",
+            "author": "Raymond Kosala",
+            "abstract": "With the huge amount of information available online, the World Wide Web is a fertile area for data mining research. The Web mining research is at the cross road of research from several research communities, such as database, information retrieval, and within AI, especially the sub-areas of machine learning and natural language processing. However, there is a lot of confusions when comparing research efforts from different point of views. In this paper, we survey the research in the area of Web mining, point out some confusions regarded the usage of the term Web mining and suggest three Web mining categories. Then we situate some of the research with respect to these three categories. We also explore the connection between the Web mining categories and the related agent paradigm. For the survey, we focus on representation issues, on the process, on the learning algorithm, and on the application of the recent works as the criteria. We conclude the paper with some research issues.",
+            "title": "Web mining research: A survey"
+        },
+        {
+            "group": 98,
+            "name": "10.1.1.113.7454",
+            "keyword": "",
+            "author": "Ziheng Lin, Min-yen Kan",
+            "abstract": "Current graph-based approaches to automatic text summarization, such as LexRank and TextRank, assume a static graph which does not model how the input texts emerge. A suitable evolutionary text graph model may impart a better understanding of the texts and improve the summarization process. We propose a timestamped graph (TSG) model that is motivated by human writing and reading processes, and show how text units in this model emerge over time. In our model, the graphs used by LexRank and TextRank are specific instances of our timestamped graph with particular parameter settings. We apply timestamped graphs on the standard DUC multi-document text summarization task and achieve comparable results to the state of the art. 1",
+            "title": "Timestamped Graphs: Evolutionary models of text for multidocument summarization"
+        },
+        {
+            "group": 99,
+            "name": "10.1.1.113.9033",
+            "keyword": "",
+            "author": "Miles Efron, M. Efron (b",
+            "abstract": "Using cocitation information to estimate political orientation in web documents",
+            "title": "REGULAR PAPER"
+        },
+        {
+            "group": 100,
+            "name": "10.1.1.113.9109",
+            "keyword": "",
+            "author": "Jesse D. Bloom, Jesse D. Bloom",
+            "abstract": "iii",
+            "title": "Hidden Dimensions in Protein Evolution: Stability, Mutational Robustness, and Evolvability"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.135135
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 0.190058
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 0.35786
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 0.25
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 0.385382
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 0.0230769
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 0.47352
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 0.330601
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 0.121212
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 0.297619
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "value": 0.108753
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "value": 0.00813008
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "value": 0.289855
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "value": 0.271003
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "value": 0.293388
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "value": 0.25779
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "value": 0.30303
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "value": 0.241176
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "value": 0.146132
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "value": 0.225397
+        },
+        {
+            "source": 0,
+            "target": 25,
+            "value": 0.181122
+        },
+        {
+            "source": 0,
+            "target": 26,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 27,
+            "value": 0.246914
+        },
+        {
+            "source": 0,
+            "target": 28,
+            "value": 0.180556
+        },
+        {
+            "source": 0,
+            "target": 29,
+            "value": 0.175439
+        },
+        {
+            "source": 0,
+            "target": 30,
+            "value": 0.278846
+        },
+        {
+            "source": 0,
+            "target": 31,
+            "value": 0.19281
+        },
+        {
+            "source": 0,
+            "target": 32,
+            "value": 0.21097
+        },
+        {
+            "source": 0,
+            "target": 33,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 34,
+            "value": 0.349265
+        },
+        {
+            "source": 0,
+            "target": 35,
+            "value": 0.245399
+        },
+        {
+            "source": 0,
+            "target": 36,
+            "value": 0.363636
+        },
+        {
+            "source": 0,
+            "target": 37,
+            "value": 0.182759
+        },
+        {
+            "source": 0,
+            "target": 38,
+            "value": 0.250965
+        },
+        {
+            "source": 0,
+            "target": 39,
+            "value": 0.127869
+        },
+        {
+            "source": 0,
+            "target": 40,
+            "value": 0.0977778
+        },
+        {
+            "source": 0,
+            "target": 41,
+            "value": 0.189189
+        },
+        {
+            "source": 0,
+            "target": 42,
+            "value": 0.0452675
+        },
+        {
+            "source": 0,
+            "target": 43,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 44,
+            "value": 0.504237
+        },
+        {
+            "source": 0,
+            "target": 45,
+            "value": 0.131206
+        },
+        {
+            "source": 0,
+            "target": 46,
+            "value": 0.201511
+        },
+        {
+            "source": 0,
+            "target": 47,
+            "value": 0.00816326
+        },
+        {
+            "source": 0,
+            "target": 48,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 49,
+            "value": 0.191919
+        },
+        {
+            "source": 0,
+            "target": 50,
+            "value": 0.149718
+        },
+        {
+            "source": 0,
+            "target": 51,
+            "value": 0.262458
+        },
+        {
+            "source": 0,
+            "target": 52,
+            "value": 0.143911
+        },
+        {
+            "source": 0,
+            "target": 53,
+            "value": 0.299694
+        },
+        {
+            "source": 0,
+            "target": 54,
+            "value": 0.206557
+        },
+        {
+            "source": 0,
+            "target": 55,
+            "value": 0.187845
+        },
+        {
+            "source": 0,
+            "target": 56,
+            "value": 0.402556
+        },
+        {
+            "source": 0,
+            "target": 57,
+            "value": 0.148265
+        },
+        {
+            "source": 0,
+            "target": 58,
+            "value": 0.0918367
+        },
+        {
+            "source": 0,
+            "target": 59,
+            "value": 0.125926
+        },
+        {
+            "source": 0,
+            "target": 60,
+            "value": 0.199387
+        },
+        {
+            "source": 0,
+            "target": 61,
+            "value": 0.270769
+        },
+        {
+            "source": 0,
+            "target": 62,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 63,
+            "value": 0.263941
+        },
+        {
+            "source": 0,
+            "target": 64,
+            "value": 0.319328
+        },
+        {
+            "source": 0,
+            "target": 65,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 66,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 67,
+            "value": 0.287197
+        },
+        {
+            "source": 0,
+            "target": 68,
+            "value": 0.228477
+        },
+        {
+            "source": 0,
+            "target": 69,
+            "value": 0.348178
+        },
+        {
+            "source": 0,
+            "target": 70,
+            "value": 0.311355
+        },
+        {
+            "source": 0,
+            "target": 71,
+            "value": 0.173134
+        },
+        {
+            "source": 0,
+            "target": 72,
+            "value": 0.123563
+        },
+        {
+            "source": 0,
+            "target": 73,
+            "value": 0.15411
+        },
+        {
+            "source": 0,
+            "target": 74,
+            "value": 0.4081
+        },
+        {
+            "source": 0,
+            "target": 75,
+            "value": 0.274725
+        },
+        {
+            "source": 0,
+            "target": 76,
+            "value": 0.0186567
+        },
+        {
+            "source": 0,
+            "target": 77,
+            "value": 0.236769
+        },
+        {
+            "source": 0,
+            "target": 78,
+            "value": 0.462633
+        },
+        {
+            "source": 0,
+            "target": 79,
+            "value": 0.312684
+        },
+        {
+            "source": 0,
+            "target": 80,
+            "value": 0.438596
+        },
+        {
+            "source": 0,
+            "target": 81,
+            "value": 0.218023
+        },
+        {
+            "source": 0,
+            "target": 82,
+            "value": 0.217391
+        },
+        {
+            "source": 0,
+            "target": 83,
+            "value": 0.280576
+        },
+        {
+            "source": 0,
+            "target": 84,
+            "value": 0.297619
+        },
+        {
+            "source": 0,
+            "target": 85,
+            "value": 0.449219
+        },
+        {
+            "source": 0,
+            "target": 86,
+            "value": 0.1625
+        },
+        {
+            "source": 0,
+            "target": 87,
+            "value": 0.311798
+        },
+        {
+            "source": 0,
+            "target": 88,
+            "value": 0.336806
+        },
+        {
+            "source": 0,
+            "target": 89,
+            "value": 0.219136
+        },
+        {
+            "source": 0,
+            "target": 90,
+            "value": 0.333333
+        },
+        {
+            "source": 0,
+            "target": 91,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 92,
+            "value": 0.164286
+        },
+        {
+            "source": 0,
+            "target": 93,
+            "value": 0.301282
+        },
+        {
+            "source": 0,
+            "target": 94,
+            "value": 0.272727
+        },
+        {
+            "source": 0,
+            "target": 95,
+            "value": 0.208054
+        },
+        {
+            "source": 0,
+            "target": 96,
+            "value": 0.213166
+        },
+        {
+            "source": 0,
+            "target": 97,
+            "value": 0.29582
+        },
+        {
+            "source": 0,
+            "target": 98,
+            "value": 0.182724
+        },
+        {
+            "source": 0,
+            "target": 99,
+            "value": 0.0502092
+        },
+        {
+            "source": 0,
+            "target": 100,
+            "value": 0.0
+        },
+        {
+            "source": 7,
+            "target": 54,
+            "value": 0.380769
+        },
+        {
+            "source": 7,
+            "target": 56,
+            "value": 0.433333
+        },
+        {
+            "source": 10,
+            "target": 84,
+            "value": 0.997321
+        },
+        {
+            "source": 44,
+            "target": 89,
+            "value": 0.353535
+        },
+        {
+            "source": 56,
+            "target": 74,
+            "value": 0.327922
+        },
+        {
+            "source": 56,
+            "target": 91,
+            "value": 0.0
+        },
+        {
+            "source": 56,
+            "target": 98,
+            "value": 0.138182
+        },
+        {
+            "source": 69,
+            "target": 83,
+            "value": 0.224852
+        }
+    ]
+}

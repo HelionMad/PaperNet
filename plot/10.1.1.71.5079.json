@@ -1,0 +1,187 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.71.5079",
+            "keyword": "",
+            "author": "S. Basu, C. Neti, N. Rajput, A. Senior, L. Subramaniam, A. Verma",
+            "abstract": "Abstract- We consider the problem of combining visual cues with audio signals for the purpose of improved automatic machine recognition of speech. Although signi cant progress has been made in machine transcription of large vocabulary continuous speech (LVCSR) over the last few years, the technology to date is most e ective only under controlled conditions such aslow noise, speaker dependent recognition and read speech (as opposed to conversational speech) etc. On the otherhand, while augmenting the recognition of speech utterances with visual cues has attracted the attention of researchers over the last couple of years, most e orts in this domain can be considered to be only preliminary in the sense that unlike LVCSR e orts, tasks have been limited to small vocabulary (e.g., command, digits) and often to speaker dependent training or isolated word speech where word boundaries are arti cially well de ned.",
+            "title": "Audio-visual large vocabulary continuous speech recognition in the broadcast domain"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.7.9251",
+            "keyword": "nition",
+            "author": "Gerasimos Potamianos, Chalapathy Neti, Giridharan Iyengar, Andrew W. Senior, Ashish Verma",
+            "abstract": "We propose a three-stage pixel based visual front end for automatic speechreading #lipreading# that results in signi#cantly improved recognition performance of spoken words or phonemes. The proposed algorithm is a cascade of three transforms applied on a three-dimensional video region-of-interest that contains the speaker's mouth area. The #rst stage is a typical image compression transform that achieves a high-energy, reduced-dimensionality representation of the video data. The second stage is a linear discriminant analysis based data projection, which is applied on a concatenation of a small number of consecutive image transformed video data. The third stage is a data rotation by means of a maximum likelihood linear transform that optimizes the likelihood of the observed data under the assumption of their class-conditional multi-variate normal distribution with diagonal covariance. We apply the algorithm to visual-only 52-class phonetic and 27-class visemic classi#cation on a 162-subject, 8-hour long, large-vocabulary, continuous speech audio-visual database. We demonstrate signi#cant classi#cation accuracy gains byeach added stage of the proposed algorithm, which, when combined, can reach up to 27# improvement. Overall, weachieve a 60# #49## visual-only frame-level visemic classi#cation accuracy with #without# use of test set viseme boundaries. In addition, we report improved audio-visual phonetic classi#cation over the use of a single-stage image transform visual front end. Finally, we discuss preliminary speech recognition results.",
+            "title": "A Cascade Visual Front End for Speaker Independent Automatic Speechreading"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.9.7176",
+            "keyword": "",
+            "author": "Sabri Gurbuz Zekeriya, Sabri Gurbuz, Zekeriya Tufekci, Eric Patterson, John N. Gowdy",
+            "abstract": "This work focuses on a novel affine-invariant lipreading method, and its optimal combination with an audio subsystem to implement an audio-visual automatic speech recognition (AV-ASR) system. The lipreading method is based on outer lip contour description which is transformed to the Fourier domain and normalized there to eliminate dependencies on the affine transformation (translation, rotation, scaling, and shear) and on the starting point.",
+            "title": "Application Of Affine-Invariant Fourier Descriptors To Lipreading For Audio-Visual Speech Recognition"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.25.5505",
+            "keyword": "",
+            "author": "C. Neti, G. Iyengar, G. Potamianos, A. Senior,  B. Maison",
+            "abstract": "We are exploiting the human perceptual principle of sensory integration (the joint use of audio and visual information) to improve the recognition of human activity (speech recognition, speech event detection and speaker change), intent (intent to speak) and human identity (speaker recognition), particularly in the presence of acoustic degradation due to noise and channel. In this paper, we present experimental results in a variety of contexts that demonstrate the benefit of joint audio-visual processing.",
+            "title": "Perceptual Interfaces For Information Interaction: Joint Processing Of Audio And Visual Information For Human-Computer Interaction"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.25.9702",
+            "keyword": "",
+            "author": "G. Potamianos, A. Verma, C. Neti, G. Iyengar, S. Basu",
+            "abstract": "We propose a three-stage pixel based visual front end for automatic speechreading (lipreading) that results in improved recognition performance of spoken words or phonemes. The proposed algorithm is a cascade of three transforms applied to a three-dimensional video region of interest that contains the speaker's mouth area. The first stage is a typical image compression transform that achieves a high \"energy\", reduced-dimensionality representation of the video data. The second stage is a linear discriminant analysis based data projection, which is applied to a concatenation of a small number of consecutive image transformed video data. The third stage is a data rotation by means of a maximum likelihood linear transform. Such transform optimizes the likelihood of the observed data under the assumption of their class conditional Gaussian distribution with diagonal covariance. We apply the algorithm to visual-only 52-class phonetic and 27-class visemic classification on a 162-subject, 7-hou...",
+            "title": "A Cascade Image Transform For Speaker Independent Automatic Speechreading"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.62.2739",
+            "keyword": "",
+            "author": "G. Potamianos, A. Verma, C. Neti, G. Iyengar, S. Basu",
+            "abstract": "We propose a three-stage pixel based visual front end for automatic speechreading (lipreading) that results in improved recognition performance of spoken words or phonemes. The proposed algorithm is a cascade of three transforms applied to a three-dimensional video region of interest that contains the speaker\u2019s mouth area. The first stage is a typical image compression transform that achieves a high \u201cenergy\u201d, reduced-dimensionality representation of the video data. The second stage is a linear discriminant analysis based data projection, which is applied to a concatenation of a small number of consecutive image transformed video data. The third stage is a data rotation by means of a maximum likelihood linear transform. Such transform optimizes the likelihood of the observed data under the assumption of their class conditional Gaussian distribution with diagonal covariance. We apply the algorithm to visual-only 52-class phonetic and 27-class visemic classification on a 162-subject, 7hour long, large vocabulary, continuous speech audio-visual dataset. We demonstrate significant classification accuracy gains by each added stage of the proposed algorithm, which, when combined, can reach up to 27 % improvement. Overall, we achieve a 49 % (38%) visual-only frame level phonetic classification accuracy with (without) use of test set phone boundaries. In addition, we report improved audio-visual phonetic classification over the use of a singlestage image transform visual front end. 1.",
+            "title": "A cascade image transform for speaker independent automatic speechreading"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.65.9121",
+            "keyword": "",
+            "author": "Yorktown Heights",
+            "abstract": "We have made signi cant progress in automatic speech recognition (ASR) for well-de ned applications like dictation and medium vocabulary transaction processing tasks in relatively controlled environments. However, for ASR to approach human levels of performance and for speech to become a truly pervasive user interface, we need novel, nontraditional approaches that have the potential of yielding dramatic ASR improvements. Visual speech is one such source for making large improvements in high noise environments with the potential of chan-nel and task independence. It is not e ected by the acoustic environment and noise, and it possibly contains the greatest amount of complementary information to the acoustic signal. In this workshop, our goal was to advance the state-of-the-art in ASR by demonstrating the use of visual information in addition to the traditional audio for large vocabulary continuous speech recognition (LVCSR). Starting with an appropriate audio-visual database, collected and provided by IBM, we demonstrated for the rst time that LVCSR performance can be improved by the use of visual information in the clean audio case. Speci cally, by conduct-ing audio lattice rescoring experiments, we showed a 7 % relative word error rate (WER)",
+            "title": "AUDIO-VISUAL SPEECH RECOGNITION"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.83.4822",
+            "keyword": "",
+            "author": "Ashish Verma, L. Venkata Subramaniam, Nitendra Rajput, Chalapathy Neti, Tanveer A. Faruquie",
+            "abstract": "Abstract\u2014This paper describes a morphing-based audio driven facial animation system. Based on an incoming audio stream, a face image is animated with full lip synchronization and synthesized expressions. A novel scheme to implement a language independent system for audio-driven facial animation given a speech recognition system for just one language, in our case, English, is presented. The method presented here can also be used for text to audio-visual speech synthesis. Visemes in new expressions are synthesized to be able to generate animations with different facial expressions. An animation sequence using optical flow between visemes is constructed, given an incoming audio stream and still pictures of a face representing different visemes. The presented techniques give improved lip synchronization and naturalness to the animated video. Index Terms\u2014Audio to video mapping, facial animation, facial expression synthesis, lip synchronization, translingual visual speech synthesis. I.",
+            "title": "Animating Expressive Faces Across Languages"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.86.296",
+            "keyword": "",
+            "author": "",
+            "abstract": "continuous speech recognition system for Hindi In this paper we present two new techniques that have been used to build a large-vocabulary continuous Hindi speech recognition system. We present a technique for fast bootstrapping of initial phone models of a new language. The training data for the new language is aligned using an existing speech recognition engine for another language. This aligned data is used to obtain the initial acoustic models for the phones of the new language. Following this approach requires less training data. We also present a technique for generating baseforms (phonetic spellings) for phonetic languages such as Hindi. As is inherent in phonetic languages, rules generally capture the mapping of spelling to phonemes very well. However, deep linguistic knowledge is required to write all possible rules, and there are some ambiguities in the language that are difficult to capture with rules. On the other hand, pure statistical techniques for baseform generation require large amounts of training data that are not readily available. We propose a hybrid approach that combines rule-based and statistical approaches in a two-step fashion. We evaluate the performance of the proposed approaches through various phonetic classification and recognition experiments. 1.",
+            "title": ""
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.121.5432",
+            "keyword": "",
+            "author": "Zhengyou Zhang, Zicheng Liu, Mike Sinclair, Alex Acero, Li Deng, Xuedong Huang, Yanli Zheng",
+            "abstract": "In this paper, we present new hardware prototypes that integrate several heterogeneous sensors into a single headset and describe the underlying DSP techniques for robust speech detection, enhancement and recognition in highly non-stationary noisy environments. We also speculate other business uses with this type of devices. 1.",
+            "title": "Multi-sensory microphones for robust speech detection, enhancement and recognition"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.125.4958",
+            "keyword": "",
+            "author": "Arpita Ghosh, Ashish Verma, A Sarkar",
+            "abstract": "Abstract- This paper describes recent work on decision fusion in audiovisual speech recognition. In this work, a novel approach is proposed to combine audio and video channel information in audiovisual speech recognition scenario. We have considered framelevel phonetic classification problem using two single-stream Gaussian Mixture Models. Audio and video streams are adaptively weighted using a cumulative mean of the sample confidence values over past frames in addition to the present sample confidence value. The confidence values for audio and video decisions are computed using an L-statistics (linear combination of order-statistics) of log-likelihoods against phone models. It is shown through various experiments, on a database of about 15000 sentences from large vocabulary continuous speech, that the proposed approach results in better classification accuracy as compared to other approaches.",
+            "title": "USING LIKELIHOOD L-STATISTICS TO MEASURE CONFIDENCE IN AUDIO-VISUAL SPEECH RECOGNITION"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.153.1980",
+            "keyword": "",
+            "author": "Arpita Ghosh, Ashish Verma, A Sarkar",
+            "abstract": "This paper describes recent work on decision fusion in audio-visual speech recognition. In this work, a novel approach is proposed to combine audio and video channels information in audio-visual speech recognition scenario. For simplicity, we have only considered frame-level phonetic classification problem using two singlestream Gaussian Mixture Model (GMM). Audio and video streams are adaptively weighted using a cumulative mean of the sample confidence values over past frames in addition to the present sample confidence value. The confidence values for audio and video decisions are computed using an L-statistic (linear combination of order-statistic) of the log-likelihoods against phone models. It is shown through various experiments, on a database of about 15000 sentences from large vocabulary continuous speech, that the proposed approach results in better classification accuracy as compared to other approaches. 1.",
+            "title": "USING LIKELIHOOD L-STATISTIC AS CONFIDENCE MEASURE IN AUDIO-VISUAL SPEECH RECOGNITION"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.172638
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 0.106383
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 0.15873
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 0.110687
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 0.159744
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 0.354839
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 0.126482
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 0.213523
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 0.136095
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 0.20354
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 0.199134
+        },
+        {
+            "source": 4,
+            "target": 6,
+            "value": 0.234432
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "value": 0.338235
+        },
+        {
+            "source": 4,
+            "target": 11,
+            "value": 0.305164
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 0.363333
+        },
+        {
+            "source": 5,
+            "target": 10,
+            "value": 0.431535
+        },
+        {
+            "source": 5,
+            "target": 11,
+            "value": 0.452282
+        }
+    ]
+}

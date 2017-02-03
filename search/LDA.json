@@ -1,0 +1,79 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.110.4050",
+            "keyword": "",
+            "author": "David M. Blei, Andrew Y. Ng, Michael I. Jordan, John Lafferty",
+            "abstract": "We describe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics. Each topic is, in turn, modeled as an infinite mixture over an underlying set of topic probabilities. In the context of text modeling, the topic probabilities provide an explicit representation of a document. We present efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation. We report results in document modeling, text classification, and collaborative filtering, comparing to a mixture of unigrams model and the probabilistic LSI model. 1.",
+            "title": "Latent dirichlet allocation"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.108.8490",
+            "keyword": "",
+            "author": "Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, Richard Harshman",
+            "abstract": "A new method for automatic indexing and retrieval is described. The approach is to take advantage of implicit higher-order structure in the association of terms with documents (\u201csemantic structure\u201d) in order to improve the detection of relevant documents on the basis of terms found in queries. The particular technique used is singular-value decomposition, in which a large term by document matrix is decomposed into a set of ca. 100 or-thogonal factors from which the original matrix can be approximated by linear combination. Documents are represented by ca. 100 item vectors of factor weights. Queries are represented as pseudo-document vectors formed from weighted combinations of terms, and documents with supra-threshold cosine values are re-turned. initial tests find this completely automatic method for retrieval to be promising.",
+            "title": "Indexing by latent semantic analysis"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.220.175",
+            "keyword": "",
+            "author": "Thomas P. Minka",
+            "abstract": "The Dirichlet distribution and its compound variant, the Dirichlet-multinomial, are two of the most basic models for proportional data, such as the mix of vocabulary words in a text document. Yet the maximum-likelihood estimate of these distributions is not available in closed-form. This paper describes simple and efficient iterative schemes for obtaining parameter estimates in these models. In each case, a fixed-point iteration and a Newton-Raphson (or generalized Newton-Raphson) iteration is provided. 1 The Dirichlet distribution The Dirichlet distribution is a model of how proportions vary. Let p denote a random vector whose elements sum to 1, so that pk represents the proportion of item k. Under the Dirichlet model with parameter vector \u03b1, the probability density at p is p(p)  \u223c D(\u03b11,...,\u03b1K)  = \u0393(\u2211k \u03b1k) k \u0393(\u03b1k)",
+            "title": "Estimating a Dirichlet distribution"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.177.4733",
+            "keyword": "",
+            "author": "Rin Popescul, Lyle H. Ungar",
+            "abstract": "Recommender systems leverage product and community information to target products to consumers. Researchers have developed collaborative recommenders, content-based recommenders, and a few hybrid systems. We propose a unified probabilistic framework for merging collaborative and content-based recommendations. We extend Hofmann\u2019s (1999) aspect model to incorporate three-way co-occurrence data among users, items, and item content. The relative influence of collaboration data versus content data is not imposed as an exogenous parameter, but rather emerges naturally from the given data sources. However, global probabilistic models coupled with standard EM learning algorithms tend to drastically overfit in the sparsedata situations typical of recommendation applications. We show that secondary content information can often be used to overcome sparsity. Experiments on data from the ResearchIndex library of Computer Science publications show that appropriate mixture models incorporating secondary data produce significantly better quality recommenders than-nearest neighbors (-NN). Global probabilistic models also allow more general inferences than local methods like-NN. 1",
+            "title": "Probabilistic models for unified collaborative and content-based recommendation in sparsedata environments"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.115.8343",
+            "keyword": "",
+            "author": "Karen Sp\u00e4rck Jones",
+            "abstract": "Abstract: The exhaustivity of document descriptions and the specificity of index terms are usually regarded as independent. It is suggested that specificity should be interpreted statistically, as a function of term use rather than of term meaning. The effects on retrieval of variations in term specificity are examined, experiments with three test collections showing, in particular, that frequently-occurring terms are required for good overall performance. It is argued that terms should be weighted according to collection frequency, so that matches on less frequent, more specific, terms are of greater value than matches on frequent terms. Results for the test collections show that considerable improvements in performance are obtained with this very simple procedure. Exhaustivity and specificity We are familiar with the notions of exhaustivity and specificity: exhaustivity is a property of index descriptions, and specificity one of index terms. They are most clearly illustrated by a simple keyword or descriptor system. In this case the exhaustivity of a document description is the coverage of its various topics given by the terms assigned to it; and the specificity of an individual term is the level of detail at which a given concept is represented.",
+            "title": "A statistical interpretation of term specificity and its application in retrieval"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.103.8364",
+            "keyword": "",
+            "author": "G. W. Furnas, T. K. Landauer, L. M. Gomez, S. T. Dumais",
+            "abstract": "In almost all computer applications, users must enter correct words for the desired objects or actions. For success without extensive training, or in first-tries for new targets, the system must recognize terms that will be chosen spontaneously. We studied spontaneous word choice for objects in five application-related domains, and found the variability to be surprisingly large. In every case two people favored the same term with probability <0.20. Simulations show how this fundamental property of language limits the success of various design methodologies for vocabulary-driven interaction. For example, the popular approach in which access is via one designer's favorite single word will result in 80-90 percent failure rates in many common situations. An optimal strategy, unlimited aliasing, is derived and shown to be capable of several-fold improvements.",
+            "title": "The Vocabulary Problem in Human-System Communication"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": "0.0638872394558"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": "0.0638872394558"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": "0.0638872394558"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": "0.647370994478"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": "0.352629005522"
+        }
+    ]
+}

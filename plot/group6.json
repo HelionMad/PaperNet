@@ -1,0 +1,1349 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.123.7607",
+            "keyword": "",
+            "author": "S. Kirkpatrick, C. D. Gelatt, M. P. Vecchi",
+            "abstract": "prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you may use content in the JSTOR archive only for your personal, non-commercial use. Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at",
+            "title": "Optimization by simulated annealing"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.29.4631",
+            "keyword": "",
+            "author": "Chris H. E. Stacey,  Tony Eyers,  Gary J. Anido",
+            "abstract": "We examine the Concave Topology Capacity and Flow Assignment (TCFA) problem. Only two algorithms in the literature are appropriate for solving TCFA problems with concave link cost functions: Kleinrock and Gerla's Concave Branch Elimination (CBE) procedure, [26][20], and a greedy link elimination procedure developed by Gersht [21]. However, neither works well in practice. The CBE procedure does not perform well in the context of strongly concave link cost functions. While Gersht's algorithm performs well, its processing requirements are such that it is applicable for small network design problems only. We present a Concave Link Elimination (CLE) procedure, based on Gersht's greedy link elimination procedure. Our algorithm is shown to perform at least as well as Gersht's procedure and to be significantly faster than both the CBE and Gersht procedures. In addition, we formulate a lower bounding problem which we solve using a continuous branch-and-bound procedure to assess the quality of t...",
+            "title": "A Concave Link Elimination (CLE) Procedure and Lower Bound for Concave Topology, Capacity and Flow Assignment Network Design Problems"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.29.5502",
+            "keyword": "",
+            "author": "Raffaele Perego",
+            "abstract": "this paper a new greedy heuristic for",
+            "title": "A Mapping Heuristic for Minimizing Network Contention"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.29.6218",
+            "keyword": "",
+            "author": "S. Talukdar,  L. Baerentzen,  A. Gove,  P. de Souza, Pedro De Souza, Contact Person, Sarosh Talukdar, Sarosh Talukdar",
+            "abstract": "Experiments over a variety of optimization problems indicate that scale-effective convergence is an emergent behavior of certain computer-based agents, provided these agents are organized into an asynchronous team (A-Team). An A-Team is a problem-solving architecture in which the agents are autonomous and cooperate by modifying one another's trial-solutions. These solutions circulate continually. Convergence is said to occur if and when a persistent solution appears. Convergence is said to be scale-effective if the quality of the persistent solution increases with the number of agents, and the speed of its appearance increases with the number of computers. This paper uses a traveling salesman problem to illustrate scale-effective behavior and develops Markov models that explain its occurrence in A-Teams, particularly, how autonomous agents, without strategic planning or centralized coordination, can converge to solutions of arbitrarily high quality. The models also predict two properti...",
+            "title": "Asynchronous Teams: Cooperation Schemes For Autonomous Agents"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.29.9546",
+            "keyword": "Learning, Evolution, Genetic Algorithms",
+            "author": "Xin Yao",
+            "abstract": "Research on potential interactions between connectionist learning systems, i.e., artificial neural networks (ANNs), and evolutionary search procedures, like genetic algorithms (GAs), has attracted a lot of attention recently. Evolutionary ANNs (EANNs) can be considered as the combination of ANNs and evolutionary search procedures. This paper first distinguishes among three kinds of evolution in EANNs, i.e., the evolution of connection weights, of architectures and of learning rules. Then it reviews each kind of evolution in detail and analyses critical issues related to different evolutions. The review shows that although a lot of work has been done on the evolution of connection weights and of architectures, few attempts have been made to understand the evolution of learning rules. Interactions among different evolutions are seldom mentioned in current research. However, the evolution of learning rules and its interactions with other kinds of evolution play a vital role in EANNs. As t...",
+            "title": "A Review of Evolutionary Artificial Neural Networks"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.30.580",
+            "keyword": "",
+            "author": "Kenong Wu, Martin D. Levine",
+            "abstract": "We propose parametric geons as a volumetric description of object components for qualitative object recognition.  Parametric geons are seven qualitative shape types defined by parameterized equations which control the size and  degree of tapering and bending. The models provide global shape constraints which make model recovery procedures  robust against noise and minor variations in object shape. The surface characteristics of parametric geons are  discussed. The properties of parametric geons and conventional geon models are compared. Experiments fitting parametric  geons to multiview data using stochastic optimization were performed. Results show that unique descriptions  of single-part objects with minor shape variations can be obtained with the parametric geon models.  1. INTRODUCTION  A major problem of interest in computer vision is the derivation of geometrical models as shape descriptions of 3D objects from input images. For object recognition, we usually require a manageable ...",
+            "title": "Parametric Geons: A Discrete Set of Shapes with Parameterized Attributes"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.30.731",
+            "keyword": "",
+            "author": "Thu Nguyen Raj, Thu D. Nguyen, Raj Vaswani, Raj Vaswani, John Zahorjan, John Zahorjan",
+            "abstract": "We address the problem of maximizing the speedup of an individual parallel job through the selection  of an appropriate number of processors on which to run it. If a parallel job exhibits speedup that increases  monotonically in the number of processors, the solution is clearly to make use of all available processors.  However, many applications do not have this characteristic: they reach a point beyond which the use of  additional processors degrades performance. For these applications, it is important to choose a processor  allocation carefully.  Our approach to this problem is to provide a runtime system that adjusts the number of processors  used by the application based on dynamic measurements of performance gathered during its execution.  Our runtime system has a number of advantages over user specified fixed allocations, the currently most  common approach to this problem: (1) we are resilient to changes in an application's speedup behavior due  to the input data; and (2) we are...",
+            "title": "Maximizing Speedup Through Self-Tuning of Processor Allocation"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.30.791",
+            "keyword": "",
+            "author": "Thomas St\u00fctzle,  Andreas Gr\u00fcn,  Sebastian Linke,  Marco R\u00fcttger",
+            "abstract": ". The Traveling Salesman Problem is a standard test-bed for algorithmic  ideas. Currently, there exists a large number of nature-inspired algorithms for the  TSP and for some of these approaches very good performance is reported. In particular,  the best performing approaches combine solution modification or construction  with the subsequent application of a fast and effective local search algorithm. Yet,  comparisons between these algorithms with respect to performance are often difficult  due to different implementation choices of which the one of the local search  algorithm is particularly critical. In this article we experimentally compare some  of the best performing recently proposed nature-inspired algorithms which improve  solutions by using a same local search algorithm and investigate their performance  on a large set of benchmark instances.  1 Introduction  The task in the Traveling Salesman Problem (TSP) is to find a shorted closed tour through a given set of n cities with ...",
+            "title": "A Comparison of Nature Inspired Heuristics on the Traveling Salesman Problem"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.30.1203",
+            "keyword": "",
+            "author": "Nikos Chrisochoides,  Elias Houstis, John Rice",
+            "abstract": "We are considering computations associated with data parallel iterative solvers used for the numerical  solution of Partial Differential Equations (PDEs). The mapping of such computations into  load balanced tasks requiring minimum synchronization and communication is a difficult combinatorial  optimization problem. Its optimal solution is essential for the parallel processing of PDE  computations. Determining data mappings that optimize a number of criteria, like workload balance,  synchronization and local communication, often involves the solution of an NP-Complete problem.  Although data mapping algorithms have been known for a few years there is lack of qualitative  and quantitative comparisons based on the actual performance of the parallel computation. In this  paper we present two new data mapping algorithms and evaluate them together with a large number  of existing ones using the actual performance of data parallel iterative PDE solvers on the nCUBE  II. PDE data mappings can...",
+            "title": "Mapping Algorithms and Software Environment for Data Parallel PDE Iterative Solvers"
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.30.1271",
+            "keyword": "by",
+            "author": "Michael Christopher Monks, Julie Dorsey, Carl Rosenberg, Michael Christopher Monks",
+            "abstract": "Acoustic design is a difficult problem, because the human perception of sound depends on such things as decibel level, direction of propagation, and attenuation over time, none of which are tangible or visible. The advent of computer simulation and visualization techniques for acoustic design and analysis has yielded a variety of approaches for modeling acoustic performance. However, current computer-aided design and simulation tools suffer from two major drawbacks. First, obtaining the desired acoustic effects may require a long, tedious sequence of modeling and/or simulation steps. Second, current techniques for modeling the propagation of sound in an environment are prohibitively slow and do not support interactive design.  This thesis presents a new approach to computer-aided acoustic design. It is based on the inverse problem of determining material and geometric settings for an environment from a description of the desired performance. The user interactively indicates a range of ...",
+            "title": "Audioptimization: Goal-Based Acoustic Design"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.30.1299",
+            "keyword": "",
+            "author": "Wheeler Ruml",
+            "abstract": "This report summarizes research on algorithms for finding particularly good solutions to instances of the NP-complete number-partitioning problem.  1  Our approach is based on stochastic search algorithms, which iteratively improve randomly chosen initial solutions. Instead of searching the space of all 2  n\\Gamma1  possible partitionings, however, we use these algorithms to manipulate indirect encodings of candidate solutions. An encoded solution is evaluated by a decoder, which interprets the encoding as instructions for constructing a partitioning of a given problem instance. We present several different solution encodings, including bit strings, permutations, and rule sets, and describe decoding algorithms for them. Our empirical results show that many of these encodings restrict and reshape the solution space in ways that allow relatively generic search methods, such as hill climbing, simulated annealing, and the genetic algorithm, to find solutions that are often as good as those...",
+            "title": "Stochastic Approximation Algorithms for Number Partitioning"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.30.1681",
+            "keyword": "",
+            "author": "Henry Kautz, David Mcallester, Bart Selman",
+            "abstract": "Stochastic search has recently been shown to be successful for solving large boolean satisfiability problems. However, systematic methods tend to be more effective in problem domains with a large number of dependent variables: that is, variables whose truth values are directly determined by a smaller set of independent variables. In systematic search, truth values can be efficiently propagated from the independent to the dependent variables by unit propagation. Such propagation is more expensive in traditional stochastic procedures. In this paper we propose a mechanism for effectively dealing with dependent variables in stochastic search. We also provide empirical data showing the procedure outperforms the best previous stochastic and systematic search procedures on large formulas with a high ratio of dependent to independent variables. 1 Introduction  Recent years have seen significant progress in our ability to solve large propositional satisfiability problems. Randomly generated pro...",
+            "title": "Exploiting Variable Dependency in Local Search"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.30.2103",
+            "keyword": "",
+            "author": "R. W. Picard,  A. P. Pentland",
+            "abstract": ": The Gibbs random field (GRF) has become a popular image model with applications in restoration, segmentation, reconstruction, edge detection, compression, and motion estimation. Its synthesis of natural-looking texture using only a small number of parameters is a key motivation for its widespread use. However, its wide use belies a number of difficulties inherent in the application of the model. In particular, it has proven difficult to control scale and patterning within the GRF framework, and to estimate parameters for a given pattern. The image processing literature has largely ignored the role of the temperature in the GRF, a parameter that appears in the original statistical mechanics formulation of the GRF. In applications such as simulated annealing, temperature is known to control scale, and in nature, temperature plays a critical role in multiresolution pattern formation, e.g., crystallization. Consequently, examination of GRF temperature parameters provides important insigh...",
+            "title": "Temperature and Gibbs Image Modeling"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.30.2444",
+            "keyword": "",
+            "author": "Y. Chen, M. Winslett,  Y. Cho, S. Kuo, Contact Y. Chen",
+            "abstract": "Parallel I/O systems typically consist of individual processors, communication networks, and a large number of disks. Managing and utilizing these resources to meet performance, portability and usability goals of applications has become a significant challenge. We believe that a parallel I/O system that automatically selects efficient I/O plans for user applications is a solution to this problem. In this paper, we present such an automatic performance optimization approach for scientific applications performing collective I/O requests on multidimensional arrays. Under our approach, an optimization engine in a parallel I/O system selects optimal I/O plans automatically without human intervention based on a description of the application I/O requests and the system configuration. To validate our hypothesis, we have built an optimizer that uses a rule-based and randomized search-based algorithms to select optimal parameter settings in Panda, a parallel I/O library for multidimensional arr...",
+            "title": "Automatic Parallel I/O Performance Optimization in Panda"
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.30.3765",
+            "keyword": "",
+            "author": "Radek Vingr\u00e1lek",
+            "abstract": "In this paper, a connection between Multilayer Feedforward Networks, propositional first order well formed formulas and pseudolinear functions is established. Due to this link, it is possible to formulate optimization problems in first order propositional metalanguage, obtaining the objective function and MFN structure with relative ease. This general technique is applied to solving two 6  P  2 -complete problems, finding a stable model of logic program and a stable answer set of CN-program. A connectionist model for minimization of the objective functions based on gradient descent in the space of inputs of a multilayer feedforward network is proposed. The model's massive parallelism gives raise to a hope that even real world size instances of the two problems might be solved. It is also pointed out that due to mutual relationship between stable semantics of logic programs and extensions of default theories another important problem in nonmonotonic reasoning can be solved with a relati...",
+            "title": "Connectionist Approach to Finding Stable Models and Other Structures in Nonmonotonic Reasoning"
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.30.4420",
+            "keyword": "",
+            "author": "Manas Saksena, Yun Wang",
+            "abstract": "The maturity of schedulabilty analysis techniques for fixed-priority preemptive scheduling has enabled the consideration of timing issues at design time using a specification of the tasking architecture and estimates of execution times for tasks. While successful, this approach has limitations since the preemptive multi-tasking model does not scale well for a large number of tasks, and the fixed priority scheduling theory does not work well with many object-oriented design methods. In this paper we present an approach that uses a scalable implementation architecture where design level tasks are grouped into a smaller number of run-time threads during implementation. The schedulability analysis for this implementation architecture is based on the preemption threshold scheduling model. We show that our approach provides significant advantages over one using fixed-priority preemptive scheduling architecture. The benefits include higher schedulability for small number of tasks, and lower r...",
+            "title": "Scalable Real-Time System Design using Preemption Thresholds"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.30.4470",
+            "keyword": "Simulated Annealing, Heuristics, Optimization, Temperature Schedule, Cost Function Distortion, Parallelization, Cubic Graph, Hamiltonian Path. R'esum'e",
+            "author": "Dominique Delamarre, Bernard Virot",
+            "abstract": "We present an overview of the main problem--independent sequential and parallel  amelioration techniques of the Simulated Annealing algorithm.  We begin by briefly exposing the theoretical framework encompassing the standard  markovian model, the notion of cycle and the optimal temperature schedules.  Theory of cycles yields explicit relationships between the geometry of the energy  landscape and the expected behavior of the algorithm. It leads to the design of efficient  temperature schedules, as well as to improvements of the algorithm behavior  by distorting the cost function.  Next, we present a survey of parallelization techniques, focusing on problem--  independent synchronous strategies. They provide flexible and general tools, allowing  operational research practitioners to take advantage of the computational  power of parallel architectures.  We conclude with an application. It concerns the search for Hamiltonian paths  in cubic graphs. It brings to the fore the efficiency of ...",
+            "title": "Simulated Annealing Algorithm: Amelioration Techniques"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.30.5272",
+            "keyword": "Key words. graph partitioning, heuristics, self-averaging, ranking",
+            "author": "G. R. Schreiber O. C. Martin, O. C. Martin",
+            "abstract": ". We investigate the statistical properties of cut sizes generated by heuristic algorithms which solve the graph bisection problem approximately. On an ensemble of sparse random graphs, we find empirically that the distribution of the cut sizes found by \"local\" algorithms becomes peaked as the number of vertices in the graphs becomes large. Evidence is given that this distribution tends toward a Gaussian whose mean and variance scales linearly with the number of vertices of the graphs. Given the distribution of cut sizes associated with each heuristic, we provide a ranking procedure that takes into account both the quality of the solutions and the speed of the algorithms. This procedure is demonstrated for a selection of local graph bisection heuristics.  Key words. graph partitioning, heuristics, self-averaging, ranking  AMS subject classifications. 90C27, 82B44, 82B30  PII. S1052623497321523  1. Introduction. Algorithms for tackling combinatorial optimization problems [27] may be div...",
+            "title": "Cut Size Statistics Of Graph Bisection Heuristics"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.30.5295",
+            "keyword": "",
+            "author": "Tom M. Heskes,  Bert Kappen",
+            "abstract": "We study on-line learning processes in artificial neural networks from a general point of view. On-line learning means that a learning step takes place at each presentation of a randomly drawn training pattern. It can be viewed as a stochastic process governed by a continuous-time master equation. On-line learning is necessary if not all training patterns are available all the time. This occurs in many applications when the training patterns are drawn from a time-dependent environmental distribution. Studying learning in a changing environment, we encounter a conflict between the adaptability and the confidence of the network's representation. Minimization of a criterion incorporating both effects yields an algorithm for on-line adaptation of the learning parameter. The inherent noise of on-line learning makes it possible to escape from undesired local minima of the error potential on which the learning rule performs (stochastic) gradient descent. We try to quantify these often made cl...",
+            "title": "On-Line Learning Processes in Artificial Neural Networks"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.30.5557",
+            "keyword": "",
+            "author": "Teemu Saarelainen, Jari Yli-hietanen",
+            "abstract": "The use of small sensor arrays in modern signal processing systems has recently become more common due to the increase in computational processing power and interest in intelligent sensing and surveillance. However, not much information is available on the design of small sensor arrays having arbitrary geometry, that eectively can accomplish these tasks. In this paper we address the problem of designing such small sensor array systems for angle of arrival (AOA) estimation algorithms. Two dierent cost functions are derived and their applicability is demonstrated in simulation. The accuracy of the AOA estimates is also studied for two dierent array congurations.  1 INTRODUCTION  Angle of arrival estimation has been the interest of research for quite a long time. It is an important eld of study for both military and civilian applications such as acoustic detection, surveillance and tracking. Timedelay based AOA estimation has been addressed in several papers. Also some robust methods...",
+            "title": "A Design Method For Small Sensor Arrays In Angle Of Arrival Estimation"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.30.5934",
+            "keyword": "",
+            "author": "Terry R. Payne",
+            "abstract": " ",
+            "title": "Dimensionality Reduction for Agent-Based Learning"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.30.6032",
+            "keyword": "distribution",
+            "author": "Kenong Wu  , Martin D. Levine",
+            "abstract": "A new approach for computing qualitative part-based descriptions of 3D objects  is presented. The object descriptions are obtained in two steps: Object segmentation  into parts and part model identification. Beginning with single- or multi-view  range data of a 3D object, we simulate the charge density distribution over an  object's surface which has been tessellated by a triangular mesh. We detect the  deep surface concavities by tracing local charge density minima and then decompose  the object into parts at these points. The individual parts are then modelled  by parametric geons. The latter are seven qualitative shapes, each of which is  formulated by a restricted globally deformed superellipsoid. Model recovery is  performed by fitting all parametric geons to a part and selecting the best model  for the part, based on the minimum fitting residual. A newly defined objective  function and a fast global optimisation technique are employed to obtain robust  model fitting results. Expe...",
+            "title": "Signal-To-Symbol Mapping For Laser Rangefinders"
+        },
+        {
+            "group": 22,
+            "name": "10.1.1.30.6271",
+            "keyword": "Boundaries, Parameter space, Correspondence computation, Topology constraint, Simulated annealing",
+            "author": "T. Rachidi, L. Spacek, Colchester C Sq",
+            "abstract": "This paper presents a novel approach to matching boundaries in  images. Carefully chosen attributes of boundaries are used to build  a parameter space. Potential matches are searched for in the parameter  space, rather than in the topological space. The `goodness' of  each potential match is measured by means of an affinity function.  Final matches are obtained using Simulated Annealing, in which the  topology constraint is integrated to drive a global optimisation.  Our method delivers pairings which are topologically correct and does  not require any of the commonly used constraints, such as the maximum   velocity, constant disparity gradient or the epipolarity constraint.  This characteristic makes the method applicable for motion and tracking,  as well as for stereopsis. The current implementation is fully  presented together with the results obtained, which are most satisfactory.  Keywords: Boundaries, Parameter space, Correspondence computation,  Topology constraint, Simulated an...",
+            "title": "Boundary-based Correspondence Computation Using the Topology Constraint"
+        },
+        {
+            "group": 23,
+            "name": "10.1.1.30.6436",
+            "keyword": "",
+            "author": "N. Audsley, A. Burns, M. Richardson,  K. Tindell, A. J. Wellings",
+            "abstract": "The paper presents exact schedulability analyses for real-time systems scheduled at run-time with a static priority pre-emptive dispatcher. The tasks to be scheduled are allowed to experience internal blocking (from other tasks with which they share resources) and (with certain restrictions) release jitter --- such as waiting for a message to arrive. The analysis presented is more general than that previously published, and subsumes, for example, techniques based on the Rate Monotonic approach. In addition to presenting the theory, an existing avionics case study is described and analysed. The predictions that follow from this analysis are seen to be in close agreement with the behaviour exhibited during simulation studies. 1. INTRODUCTION One proposed method of building a hard real time system is from a number of periodic and sporadic tasks, and a common way of scheduling such tasks is by using a static priority preemptive scheduler --- at run-time the highest priority runnable task...",
+            "title": "Applying New Scheduling Theory to Static Priority Pre-emptive Scheduling"
+        },
+        {
+            "group": 24,
+            "name": "10.1.1.30.6506",
+            "keyword": "",
+            "author": "Vaughn Betz, Jonathan Rose",
+            "abstract": "In most commercial Field-Programmable Gate Arrays (FPGAs) the number of wiring tracks in each channel is the same across the entire chip. A long-standing open question for both FPGAs and channelled gate arrays is whether or not some uneven distribution of routing tracks across the chip would lead to an area benefit. For example, many circuit designers intuitively believe that most congestion occurs near the center of a chip, and hence expect that having wider routing channels near the chip center would be beneficial. In this paper we determine the relative area-efficiency of several different routing track distributions. We first investigate FPGAs in which horizontal and vertical channels contain different numbers of tracks in order to determine if such a directional bias provides a density advantage. Secondly, we examine routing track distributions in which the track capacities vary from channel to channel. We compare the area-efficiency of these non-uniform routing architectures to t...",
+            "title": "Effect of the Prefabricated Routing Track Distribution on FPGA Area-Efficiency"
+        },
+        {
+            "group": 25,
+            "name": "10.1.1.30.6562",
+            "keyword": "",
+            "author": "Arthur Ieumwananonthachai",
+            "abstract": "In this thesis we present new methods for the automated design of new heuristics in knowledge-lean applications and for finding heuristics that can be generalized to unlearned test cases. These applications lack domain knowledge for credit assignment; hence, operators for composing new heuristics are generally model free, domain independent, and syntactic in nature. The operators we have used are genetics based; examples of which include mutation and crossover. Learning is based on a generate-and-test paradigm that maintains a pool of competing heuristics, tests them to a limited extent, creates new ones from those that perform well in the past, and prunes poor ones from the pool. We have studied four important issues in learning better heuristics: (a) partitioning of a problem domain into smaller subsets, called subdomains, so that performance values within each subdomain can be evaluated statistically, (b) anomalies in performance evaluation within a subdomain, (c) rational scheduling of limited computational resources in testing candidate heuristics in single-objective as well as multi-objective learning, and (d) finding heuristics that can be generalized to unlearned subdomains. We show experimental results in learning better heuristics for (a) process placement for distributed-memory multicomputers, (b) node decomposition in a branch-and-bound search, (c) generation of test patterns in VLSI circuit testing, (d) VLSI cell placement and routing, and (e) blind equalization. ",
+            "title": "Automated Design of Knowledge-Lean Heuristics: Learning, Resource Scheduling, and Generalization"
+        },
+        {
+            "group": 26,
+            "name": "10.1.1.30.7526",
+            "keyword": "",
+            "author": "Salazar Toral Departament, R. Salazar, R. Toral, Palma De Mallorca",
+            "abstract": "We use the Hybrid Simulated Annealing[1] (HSA), a variant of the Simulated Annealing method for optimization of multivariate functions, for the search of the equilibrium structures for quantum systems, for instance  Na small clusters, using ab-initio calculations based in the Car-Parrinello method. The HSA method uses global actualization via the Hybrid Monte Carlo algorithm for the proposal of new configurations but without the systematic erros of the usual Molecular Dynamics methods, so allowing a more effective searching scheme. 1  Hybrid Simulated Annealing This is a stochastic method and is designed to finding the value of the  N--dimensional vector x = (x 1 ; x 2 ; :::; xN  ), absolute minimum of the real function E(x). Is based on an analogy with Statistical Physics[2]: a system with N degrees of freedom (x 1 ; : : : ; xN  ) at temperature T has a probability of being on the state with energy E(x) given by the Gibbs factor:  P (x)  exp(\\GammaE(x)=T ) From this relation we can s...",
+            "title": "Ab-Initio Calculation of Equilibrium Structures for Na Clusters using the Hybrid Simulated Annealing"
+        },
+        {
+            "group": 27,
+            "name": "10.1.1.30.8099",
+            "keyword": "",
+            "author": "R. Kolisch, S. Hartmann, Edited J. Weglarz, Dr. Rainer Kolisch, Sonke Hartmann, Lehrstuhl Fur Produktion Und Logistik",
+            "abstract": "Introduction  The resource constrained project scheduling problem (RCPSP) can be given as follows. A single project consists of a set J = f0; 1; : : : ; n; n+1g of activities which have to be processed. Fictitious activities 0 and n + 1 correspond to the \"project start\" and to the \"project end\", respectively. The activities are interrelated by two kinds of constraints. First, precedence constraints force activity j not to be started before all its immediate predecessor activities comprised in the set P j have been finished. Second, performing the activities requires resources with limited capacities. We have K resource types, given by the set K = f1; : : : ; Kg. While being processed, activity j requires r j;k units of resource type<F",
+            "title": "Heuristic Algorithms for Solving the Resource-Constrained Project Scheduling Problem: Classification and Computational Analysis"
+        },
+        {
+            "group": 28,
+            "name": "10.1.1.30.9027",
+            "keyword": "",
+            "author": "Ismail Haritaoglu, Cevdet Aykanat",
+            "abstract": "A new Mean Field Annealing (MFA) formulation is proposed for the mapping problem for mesh-connected architectures. The proposed MFA heuristic exploits the conventional routing scheme used in mesh interconnection topologies to introduce an efficient encoding scheme. An efficient implementation scheme which decreases the complexity of the proposed algorithm by asymptotical factors is also developed. Experimental results also show that the proposed MFA heuristic approaches the speed performance of the fast Kernighan-Lin heuristic while approaching the solution quality of the powerful simulated annealing heuristic. ",
+            "title": "An Efficient Mapping Heuristic for Mesh-Connected Parallel Architectures Based on Mean Field Annealing"
+        },
+        {
+            "group": 29,
+            "name": "10.1.1.30.9539",
+            "keyword": "",
+            "author": "Benjamin W. Wah, Minglun Qian",
+            "abstract": "In this paper, we formulate neural-network training as a constrained optimization problem instead of the traditional formulation based on unconstrained optimization. We show that constraints violated during a search provide additional force to help escape from local minima using our newly developed constrained simulated annealing (CSA) algorithm. We demonstrate the merits of our approach by training neural networks to solve the two-spiral problem. To enhance the search, we have developed a strategy to adjust the gain factor of the activation function. We show converged training results for networks with 4, 5, and 6 hidden units, respectively. Our work is the first successful attempt to solve the two-spiral problem with 19 weights. ",
+            "title": "Constrained Formulations for Neural Network Training and Their Applications to Solve the Two-Spiral Problem"
+        },
+        {
+            "group": 30,
+            "name": "10.1.1.31.102",
+            "keyword": "computer vision, 3D object representation, object description, multiview range data",
+            "author": "Kenong Wu, Martin D. Levine",
+            "abstract": "This paper presents a new approach to 3D shape representation -- approximating  the shapes of object parts by a set of prescribed volumetric models using  single- and multi-view range data. We define a new set of volumetric part models,  called parametric geons. These are seven qualitative shapes, each of which  is formulated by a restricted globally-deformed superellipsoid. Model recovery is  performed by fitting all parametric geons to a part and selecting the best model  for the part based on the minimum fitting residual. A newly-defined objective  function and a fast global optimisation technique are employed to obtain robust  model fitting results. Parametric geons provide a global shape constraint that  allows model recovery to explicitly verify the resultant part descriptions. Through  systematic experiments, we examine the efficiency of the objective function, the  discriminative ability of parametric geons, the effects of object shape imperfection  to model recovery, and the i...",
+            "title": "3-D Shape Approximation Using Parametric Geons"
+        },
+        {
+            "group": 31,
+            "name": "10.1.1.31.270",
+            "keyword": "Potts Spins, annealing, label relaxation, regularization",
+            "author": "Marcelo Blatt, Tal Grossman, Eytan Domany",
+            "abstract": "This work addresses the data--fusion paradigm of multiple targets detected by multiple sensors in the presence of uncertainty. The integrating--information method is developed in a Bayesian framework which allows to embed the data fusion requirements naturally. The merging task is formulated as the minimization of the energy function of a Potts--spin glass where the interactions are given by the degree of consistency of two measurements performed by different sensors. The estimates of the probabilities on which the interactions rely are provided by of a feed--forward neural network. The information is then combined by a self--organizing system which produces a world image by resolving inconsistencies and integrates prior knowledge, such as geometrical constraints and world assumptions. The method is developed for a generic application, but a potential use, based on a specific problem posed by the aircraft industry is presented. This example allows to identify the main features of the m...",
+            "title": "Maximal a-Posteriori Multi-Sensor Multi-Target Neural Data Fusion"
+        },
+        {
+            "group": 32,
+            "name": "10.1.1.31.1060",
+            "keyword": "",
+            "author": "Maurizio Pilu, Robert B. Fisher",
+            "abstract": "This paper presents a novel approach to the detection and  recognition of qualitative parts like geons from real 2D intensity images.  Previous works relied on semi-local properties of either line drawings or  good region segmentation. Here, in the framework of Model-Based Optimisation,  whole geons or substantial sub-parts are recognised by fitting  parametric deformable contour models to the edge image by means of  a Maximum A Posteriori estimation performed by Adaptive Simulated  Annealing, accounting for image clutter and limited occlusions. A number  of experiments, carried out both on synthetic and real edge images,  are presented. ",
+            "title": "Recognition of Geons by Parametric Deformable Contour Models"
+        },
+        {
+            "group": 33,
+            "name": "10.1.1.31.1081",
+            "keyword": "",
+            "author": "Zdenek Johan, Zdenek Johan, Thomas J. R. Hughes, Thomas J. R. Hughes,  Kapil K. Mathur, Kapil K. Mathur,  S. Lennart Johnsson, S. Lennart Johnsson",
+            "abstract": "A finite element method for computational fluid dynamics has been implemented on the Connection Machine systems CM-2 and CM-200. An implicit iterative solution strategy, based on the preconditioned matrix-free GMRES algorithm, is employed. Parallel data structures built on both nodal and elemental sets are used to achieve maximum parallelization. Communication primitives provided through the Connection Machine Scientific Software Library substantially improved the overall performance of the program. Computations of three-dimensional compressible flows using unstructured meshes having close to one million elements, such as a complete airplane, demonstrate that the Connection Machine systems are suitable for these applications. Performance comparisons are also carried out with the vector computers Cray Y-MP and Convex C-1.  ii  Contents  Abstract . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ii 1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 2. T...",
+            "title": "A Data Parallel Finite Element Method for Computational Fluid Dynamics on the Connection Machine System"
+        },
+        {
+            "group": 34,
+            "name": "10.1.1.31.1138",
+            "keyword": "Key Words, Alignment, Gibbs sampler, Hidden Markov models, Markov chain, Protein sequences",
+            "author": "Jun S. Liu,  Charles E. Lawrence",
+            "abstract": "The biotechnology revolution stems from rapid advances in the biological sciences. One important product of these advances is a large and rapidly growing data base of biopolymer (DNA, RNA, and protein) sequences, which has attracted much attention from researchers in different fields. The great majority of the techniques generated for studying these data have been designed to analyze a single sequence or for the comparison of a pair of sequences. Multiple sequence analysis has remained a difficult challenge. In recent years, formal statistical models have shown potential in one such problem, multiple sequence alignment. In this article we describe a general statistical paradigm, the unified Gibbs method, for the conversion of nearly any existing method for the analysis of a single sequence or for the comparison of a pair of sequences into a multiple sequence analysis method. Our previous successful experiences with the unified Gibbs include the development of the site sampler, the moti...",
+            "title": "Unified Gibbs Method For Biological Sequence Analysis"
+        },
+        {
+            "group": 35,
+            "name": "10.1.1.31.1349",
+            "keyword": "",
+            "author": "R. Perego, G. De Petris",
+            "abstract": "This paper presents a new framework aimed at compile--time determination of satisfactory suboptimal solutions to the mapping problem onto modern massively parallel computing systems. The approach incorporates realistic assumptions on the models both for parallel programs and target architectures. It is refined for the k-ary n-cube family of processor networks that use a deterministic routing algorithm and the wormhole flow control strategy. The proposed mapping heuristic is guided by an evaluation function that approximates the total completion time of a given assignment by taking into account communication delays caused by network contention which are the major contributors to message latencies when network traffic is heavy or unevenly distributed. Results achieved on several program-derived graphs with up to 784 tasks prove the effectiveness of this approach.  ",
+            "title": "Minimizing Network Contention for Mapping Tasks onto Massively Parallel Computers"
+        },
+        {
+            "group": 36,
+            "name": "10.1.1.31.1530",
+            "keyword": "",
+            "author": "Stan Z. Li",
+            "abstract": "We propose a unified approach to solve low, intermediate and high level computer vision problems for 3D object recognition from range images. All three levels of computation are cast in an optimization framework and can be implemented on neural network style architecture. In the low level computation, the tasks are to estimate curvature images from the input range data. Subsequent processing at the intermediate level is concerned with segmenting these curvature images into coherent curvature sign maps. In the high level, image features are matched against model features based on an object description called  attributed relational graph (ARG). We show that the above computational tasks at each of the three different levels can all be formulated as optimizing a two-term energy function. The first term encodes unary constraints while the second term binary ones. These energy functions are minimized using parallel and distributed relaxation-based algorithms which are well suited for neural...",
+            "title": "Toward 3D Vision from Range Images: An Optimization Framework and Parallel Networks"
+        },
+        {
+            "group": 37,
+            "name": "10.1.1.31.1851",
+            "keyword": "",
+            "author": "Kenong Wu, Martin D. Levine",
+            "abstract": "This paper focuses on approximating object part shapes by distinctive types of volumetric primitives. Shape approximation is accomplished by fitting volumetric models called parametric geons to multiview range data of single-part objects and classifying the fitting residuals. Parametric geons are seven qualitative shape types defined by parameterized equations which control the size and degree of tapering and bending. Model fitting is performed by minimizing an objective function which measures the similarity in both size and shape between models and objects. Multiple view data, global shape constraints and global optimization are employed to obtain unique models and to compensate for noise and minor variations in object shape. This approach has been studied in experiments with both synthetic 3D data and actual rangefinder data of perfect and imperfect geon-like objects.  1 Introduction  The interest in the derivation of part-based descriptions of 3D objects arises in part because such...",
+            "title": "Recovering Parametric Geons from Multiview Range Data"
+        },
+        {
+            "group": 38,
+            "name": "10.1.1.31.1961",
+            "keyword": "",
+            "author": "Thomas Dean,  Subbarao Kambhampati",
+            "abstract": "",
+            "title": "Planning and Scheduling"
+        },
+        {
+            "group": 39,
+            "name": "10.1.1.31.2190",
+            "keyword": "",
+            "author": "Joshua R. Smith",
+            "abstract": "We use the Genetic Algorithm (GA), a heuristic search and optimization technique inspired by biological evolution, to search for or \"evolve\" models of partially known nonlinear dynamical systems. We use certain assumptions about the class of \"goal\" systems (those being modeled), to build constraints into our \"model\" systems, which consist of functions represented by tables of numbers. Further knowledge is incorporated into our error metric, which is defined (only) for autonomous dynamical systems. Because we assume that both model and goal systems are autonomous (invariant with respect to translation in time), it is possible to compare them on the basis of the geometry of their respective phase portraits. Thus we formulate a measure, based on phase portrait geometry, of the error or \"distance\" between dynamical systems. By minimizing the distance separating the model from the goal system, the Genetic Algorithm is usually able to find an approximation of the goal system.  We have used G...",
+            "title": "Evolving Dynamical Systems with the Genetic Algorithm"
+        },
+        {
+            "group": 40,
+            "name": "10.1.1.31.3281",
+            "keyword": "",
+            "author": "P. Avella, S. Benati, L. Canovas Martinez, I. Giannikos, N. Guttmann, T. H. Hultberg, J. Fliege, S. Policastro, F. A. Saldanha de Gama, P. Zidda, et al. ",
+            "abstract": "In this paper a group of participants of the 12th European Summer  Institute which took place in Tenerife, Spain in June 1995 present  their views on the state of the art and the future trends in Locational  Analysis. The issues discussed include modelling aspects in  discrete Location Theory, the influence of the distance function, the  relation between discrete, network and continuous location, heuristic  techniques, the state of technology and undesirable facility location.  Some general questions are stated regarding the applicability of location  models, promising research directions and the way technology  affects the development of solution techniques.   ",
+            "title": "Some Personal Views on the Current State and the Future of Locational Analysis"
+        },
+        {
+            "group": 41,
+            "name": "10.1.1.31.3361",
+            "keyword": "",
+            "author": "Rafael Salazar Tio",
+            "abstract": " ",
+            "title": "The Hybrid Monte Carlo method and Global Optimization problems"
+        },
+        {
+            "group": 42,
+            "name": "10.1.1.31.3416",
+            "keyword": "2",
+            "author": "C. Walshaw, M. Cross,  R. Diekmann, F. Schlimbach",
+            "abstract": "Multilevel algorithms are a successful class of optimisation techniques which address the mesh partitioning problem for mapping meshes onto parallel computers. They usually combine a graph contraction algorithm together with a local optimisation method which refines the partition at each graph level. To date these algorithms have been used almost exclusively to minimise the cut-edge weight in the graph with the aim of minimising the parallel communication overhead. However it has been shown that for certain classes of problem, the convergence of the underlying solution algorithm is strongly influenced by the shape or aspect ratio of the subdomains. In this paper therefore, we modify the multilevel algorithms in order to optimise a cost function based on aspect ratio. Several variants of the algorithms are tested and shown to provide excellent results.  1 Introduction  The need for mesh partitioning arises naturally in many finite element (FE) and finite volume (FV) applications. Meshes...",
+            "title": "Multilevel Mesh Partitioning for Optimising Domain Shape"
+        },
+        {
+            "group": 43,
+            "name": "10.1.1.31.4227",
+            "keyword": "combinatorial optimization, local search, traveling salesman problem, duty, quality-time tradeoff",
+            "author": "Rok Sosic, Gregory D Wilby",
+            "abstract": "The paper introduces duty measure for optimization methods. Duty expresses the  relationship between the quality of the result and the time required to obtain the result. The usefulness of the duty measure is demonstrated on a case study involving a local optimization of a large traveling salesman problem. Using duty, a deterministic method  and a probabilistic method are combined into a hybrid method. The hybrid method  exhibits the best quality-time tradeoff of the three methods. The performance of the hybrid method is analyzed and some future research questions are addressed.",
+            "title": "Using the Quality-Time Tradeoff in Local Optimization"
+        },
+        {
+            "group": 44,
+            "name": "10.1.1.31.4351",
+            "keyword": "Key Words, Personal Communication Networks, Location Update, Terminal Paging, Mobile Terminal. 1",
+            "author": "Ian Akyildiz,  Joseph S.M. Ho,  Yi-Bing Lin",
+            "abstract": "This paper introduces a mobility tracking mechanism that combines a movement-based location update policy with a selective paging scheme. Movement-based location update is selected for its simplicity. It does not require each mobile terminal to store information about the arrangement and the distance relationship of all cells. In fact, each mobile terminal only keeps a counter of the number of cells visited. A location update is performed when this counter exceeds a predefined threshold value. This scheme allows the dynamic selection of the movement threshold on a per-user basis. This is desirable as different users may have very different mobility patterns. Selective paging reduces the cost for locating a mobile terminal in the expense of an increase in the paging delay. In this paper, we propose a selective paging scheme which significantly decreases the location tracking cost under a small increase in the allowable paging delay. We will introduce an analytical model for the proposed...",
+            "title": "Movement-Based Location Update and Selective Paging for PCS Networks"
+        },
+        {
+            "group": 45,
+            "name": "10.1.1.31.4364",
+            "keyword": "Chris, Andrzej, Nicola, Alessandro... Special thanks goes to my special friends",
+            "author": "Blaz Zupan, Blaz Zupan, Blaz Zupan, Dr. Bernard Montgomery, Blaz Zupan",
+            "abstract": "of a Thesis  Presented to  the Faculty of the Department of Computer Science  University of Houston  In Partial Fulfillment  of the Requirements for the Degree  Masters of Science  By  Blaz Zupan  December, 1993  iv  Abstract  Embedded rule-based expert systems must satisfy stringent timing constraints when applied to real-time environments. This thesis describes a novel approach to reduce the response time of rule-based expert systems. Our optimization method is twofold: the first phase constructs the reduced cycle-free finite state transition system corresponding to the input rule-based system, and the second phase further refines the constructed transition system using the simulated annealing approach. The method makes use of rule-base system decomposition, concurrency and stateequivalency. The new and optimized system is synthesized from the derived transition system. Compared with the original system, the synthesized system has (1) fewer number of rule firings to reach the fixed p...",
+            "title": "Optimization Of Real-Time Rule-Based Expert Systems"
+        },
+        {
+            "group": 46,
+            "name": "10.1.1.31.4593",
+            "keyword": "",
+            "author": "Lluis A. Belanche",
+            "abstract": "Optimization is concerned with the finding of global optima (hence the name) of problems that can be cast in the form of a function of several variables and constraints thereof. Among the searching methods, Evolutionary Algorithms have been shown to be adaptable and general tools that have often outperformed traditional ad hoc methods. The Breeder Genetic Algorithm (BGA) combines a direct representation with a nice conceptual simplicity. This work contains a general description of the algorithm and a detailed study on a collection of function optimization tasks. The results show that the BGA is a powerful and reliable searching algorithm. The main discussion concerns the choice of genetic operators and their parameters, among which the family of Extended Intermediate Recombination (EIR) is shown to stand out. In addition, a simple method to dynamically adjust the operator is outlined and found to greatly improve on the already excellent overall performance of the algorithm.  ",
+            "title": "A Study in Function Optimization with the Breeder Genetic Algorithm"
+        },
+        {
+            "group": 47,
+            "name": "10.1.1.31.4987",
+            "keyword": "Model complexity, data-driven methods, mean square error. 2",
+            "author": "Ty Bi As, Jeffrey S. Racine",
+            "abstract": "Determining the most appropriate network architecture for a data generating process (DGP) is a fundamental aspect of modeling relationships via artificial neural networks. Cross-validatory techniques rank among the most popular approaches toward architecture-selection. Cross-validation is used to estimate the expected squared prediction error of a model. Architecture-selection via cross-validation proceeds from the fact that the true but unknown DGP will minimize expected squared prediction error, and selects that model which minimizes the cross-validatory estimate of expected squared prediction error. Conventional wisdom holds that cross-validation is an unbiased but highly variable method for determining the expected squared prediction error of a network architecture. This paper begins by demonstrating that the conventional wisdom may not hold in applied nonlinear settings, and then proceeds to an analysis of the bias and variance of network complexity which can often occur when netw...",
+            "title": "On Architecture Selection, Cross-Validation, and Complexity Bias"
+        },
+        {
+            "group": 48,
+            "name": "10.1.1.31.5178",
+            "keyword": "",
+            "author": "Yannis E. Ioannidis",
+            "abstract": "Imagine yourself standing in front of an exquisite buffet filled with numerous delicacies. Your goal is to try them all out, but you need to decide in what order. What exchange of tastes will maximize the overall pleasure of your palate? Although much less pleasurable and subjective, that is the type of problem that query optimizers are called to solve. Given a query, there are many plans that a database management system (DBMS) can follow to process it and produce its answer. All plans are equivalent in terms of their final output but vary in their cost, i.e., the amount of time that they need to run. What is the plan that needs the least amount of time?",
+            "title": "Query Optimization"
+        },
+        {
+            "group": 49,
+            "name": "10.1.1.31.5335",
+            "keyword": "",
+            "author": "K. W. Tindell, A. Burns, A. J. Wellings",
+            "abstract": "In a distributed hard real time system communication between tasks on different  processor must occur in bounded time. The inevitable communication delay  (termed the end-to-end delay) is composed from the delay in transmitting a  message on the communications media, and also from the delay in delivering the  data to the destination task. This paper gives schedulability analysis bounding the  media access delay and the delivery delay, and hence allows the end-to-end delay  for a message to be bounded. Two access protocols are considered, TDMA and a  802.5-style token ring. Two approaches are also considered for delivery: an ondemand  protocol in which each packet is delivered to the host when it arrives, and  a periodic server approach in which the host polls for incoming messages. The  schedulability analysis covers all combinations of these access and delivery  methods. In addition the effect of incoming messages on the destination processor  and its workload is addressed.   ",
+            "title": "Guaranteeing Hard Real Time End-to-End Communications Deadlines"
+        },
+        {
+            "group": 50,
+            "name": "10.1.1.31.5708",
+            "keyword": "",
+            "author": "Thomas Harvey Rowan, Thomas Harvey Rowan, Thomas Harvey Rowan, Ph. D",
+            "abstract": "Contents  Table of Contents v List of Tables x List of Figures xi 1. Introduction 1 1.1 Detecting Instability In Numerical Algorithms : : : : : : : : : : 1 1.2 Overview of Functional Stability Analysis : : : : : : : : : : : : : 2 1.3 Results : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 4 1.4 Organization : : : : : : : : : : : : : : : : : : : : : : : : : : : : 5 2. Theoretical Background 7 2.1 Problems and Conditioning : : : : : : : : : : : : : : : : : : : : 8 2.1.1 Definitions : : : : : : : : : : : : : : : : : : : : : : : : : : 8 2.1.2 Problems and Conditioning : : : : : : : : : : : : : : : : 9 2.1.3 Alternative Treatments and Descriptions : : : : : : : : : 12 2.2 Approximations and Stability : : : : : : : : : : : : : : : : : : : 12 2.2.1 Definitions : : : : : : : : : : : : : : : : : : : : : : : : :",
+            "title": "Functional Stability Analysis Of Numerical Algorithms"
+        },
+        {
+            "group": 51,
+            "name": "10.1.1.31.5826",
+            "keyword": "",
+            "author": "Erol Sahin, Ismail Tosun, Prof Dr, Nese Yalabik",
+            "abstract": "A NEW HIGHER-ORDER BINARY-INPUT NEURAL UNIT:  LEARNING AND GENERALIZING EFFECTIVELY  VIA USING MINIMAL NUMBER OF MONOMIALS  Erol Sahin  M.S. in Computer Engineering  Supervisor: Asst. Prof. Dr. Marifi Guler  Cosupervisor: Prof. Dr. Nese Yalabik  February 1994, 69 pages  Higher-Order Neuron (HON) models can be expressed as a finite sum of monomials, if the inputs are binary. Although they represent an interesting and powerful class of computational models, combinatorial explosion in the number of monomials, has been a major bottleneck. Claiming that for a particular problem, only a small number of monomials are relevant, while the remaining ones with relatively smaller weights can be ignored (and must be ignored!), a new model, which is expressed as a finite sum of, so-called product terms, is proposed to determine the most relevant monomials, with their weights also, is proposed. A learning algorithm based on gradient-descent is derived. Also a novel \"Generalization Hypothesis\" is prop...",
+            "title": "A New Higher-order Binary-input Neural Unit: Learning and Generalizing Effectively via Using Minimal Number of Monomials"
+        },
+        {
+            "group": 52,
+            "name": "10.1.1.31.6673",
+            "keyword": "",
+            "author": "Arun Jagota",
+            "abstract": "The Hopfield-style network, a variant of the popular Hopfield neural network, has earlier been shown to have fixed points (stable states) that correspond 1-1 with the maximal cliques of the underlying graph. The network sequentially transforms an initial state (set of vertices) to a final state (maximal clique) via certain greedy operations. It has also been noted that this network can be used to store simple, undirected graphs. In the following paper, we exploit these properties to view the Hopfield-style Network as a Maximal Clique Graph Machine. We show that certain problems can be reduced to finding Maximal Cliques on graphs in such a way that the network computations lead to the desired solutions. The theory of NP-Completeness shows us one such problem, SAT, that can be reduced to the Clique problem. In this paper, we show how this reduction allows us to answer certain questions about a CNF formula, via network computations on the corresponding maximal cliques. We also pr...",
+            "title": "The Hopfield-style Network as a Maximal-Clique Graph Machine"
+        },
+        {
+            "group": 53,
+            "name": "10.1.1.31.7187",
+            "keyword": "",
+            "author": "A. P. Young",
+            "abstract": ". This talk describes how techniques developed by Computer  Scientists have helped our understanding of certain problems in statistical  physics which involve randomness and \"frustration\". Examples will  be given from two problems that have been widely studied: the \"spin  glass\" and the \"random field model\".  1 Introduction  An important part of the area of physics known as \"statistical physics\" is the study of phase transitions, at which the system converts from one state to another. Most interest has centered on \"second order\" or \"continuous\" transitions, in which the property which distinguishes the two phases vanishes continuously as the transition is approached. The disappearance of the magnetization of a ferromagnet, such as iron, as the temperature is increased is generally continuous. At the other type of transition, known as \"first order\" or \"discontinuous\", there is a jump in the properties of the system as the transition is crossed, and also a latent heat. An everyday exampl...",
+            "title": "Computer Science in Physics"
+        },
+        {
+            "group": 54,
+            "name": "10.1.1.31.7536",
+            "keyword": "",
+            "author": "Erik Sandelin, Key Words, Erik Sandelin",
+            "abstract": "Key words  Classification system and/or index terms (if any)  Supplementary bibliographical information Language  ISSN and key title ISBN  Recipient's notes Number of pages Price  Security classification  Distribution by (name and address)  I, the undersigned, being the copyright owner of the abstract of the above-mentioned dissertation, hereby grant to all reference  sources the permission to publish and disseminate the abstract of the above-mentioned dissertation.  Signature Date  LUND UNIVERSITY  Department of Theoretical Physics  Slvegatan 14A  223 62 LUND  September 2000  Erik Sandelin  Thermodynamics of Protein Folding and Design  The protein folding and protein design problems are addressed,  using coarse-grained models with only two types of amino acids,  hydrophobic and hydrophilic. In addition to hydrophobicity forces,  the models contain sequence-independent local interactions which  are found to strongly influence the thermodynamics of these models.  The models are studied ...",
+            "title": "Thermodynamics of Protein Folding and Design"
+        },
+        {
+            "group": 55,
+            "name": "10.1.1.31.7824",
+            "keyword": "",
+            "author": "Jason Cong, Tianming Kong, Dongmin Xu, Faming Liang, Jun S. Liu, Wing Hung Wong",
+            "abstract": "In the past two decades, the simulated annealing technique has been considered as a powerful approach to handle many NP-hard optimization problems in VLSI designs. Recently, a new Monte Carlo and optimization technique, named simulated tempering, was invented and has been successfully applied to many scientific problems, from random field Ising modeling to the traveling salesman problem. It is designed to overcome the drawback in simulated annealing  when the problem has a rough energy landscape with many local minima separated by high energy barriers. In this paper, we have successfully applied a version of relaxed  simulated tempering to slicing floorplan design with consideration of both area and wirelength optimization. Good experimental results were obtained. 1 Introduction  Since its introduction in early 1980s, simulated annealing  has been one of the most popular optimization algorithms used in the VLSI CAD field in the past two decades. It has been applied to almost every step...",
+            "title": "Relaxed Simulated Tempering for VLSI Floorplan Designs"
+        },
+        {
+            "group": 56,
+            "name": "10.1.1.31.8100",
+            "keyword": "",
+            "author": "J\u00e9r\u00e9my Barbay, Claire Kenyon",
+            "abstract": "We propose a discrete variant of the Bak-Sneppen model for self-organized criticality. In this process, a configuration is an n-bit word, and at each step one chooses a random bit of minimum value (usually a zero) and replaces it and its two neighbors by independent Bernoulli variables with parameter p. We prove bounds on the average number of ones in the stationary distribution and present experimental results.  1 Introduction 1.1 Background How does one model rare catastrophic events such as avalanches, volcanic eruptions, and extinctions of species? Self-organizing criticality is a name common to such models. It refers to the tendency of slowlydriven dissipative systems with many degrees of freedom to evolve intermittently in terms of bursts spanning all scales up to system size. These systems traverse \"rugged landscapes\" in the space of configurations in search of their optimal configuration, with extremely slow relaxation dynamics. One of the paradigms of self-organizing criticali...",
+            "title": "On the discrete Bak-Sneppen model of self-organized criticality"
+        },
+        {
+            "group": 57,
+            "name": "10.1.1.31.8178",
+            "keyword": "",
+            "author": "Rheinische Friedrich--wilhelms--universitat, Jan Puzicha,  Joachim M. Buhmann",
+            "abstract": "We derive real-time global optimization methods for several clustering optimization problems used in unsupervised texture segmentation. Speed is achieved by exploiting the topological relation of features to design a multiscale optimization technique, while accuracy and global optimization properties are gained using a deterministic annealing method. Coarse grained cost functions are derived for both central and sparse pairwise clustering, where the problem of coarsening sparse random graphs is solved by the concept of structured randomization. Annealing schedules and coarse-to-fine optimization are tightly coupled by a statistical convergence criterion derived from computational learning theory. The algorithms are benchmarked on Brodatz-like micro-texture mixtures. Results are presented for an autonomous robotics application.",
+            "title": "Multiscale Annealing for Real-Time Unsupervised Texture Segmentation"
+        },
+        {
+            "group": 58,
+            "name": "10.1.1.31.8554",
+            "keyword": "",
+            "author": "Scott D. Connell",
+            "abstract": "The field of personal computing has begun to make a transition from the desktop to handheld devices, thereby requiring input paradigms that are more suited for single hand entry than a keyboard and recent developments in online handwriting recognition allow for such input modalities. Data entry using a pen forms a natural, convenient interface. The large number of writing styles and the variability between them makes the problem of writer-independent unconstrained handwriting recognition a very challenging pattern recognition problem. The state-of-the-art in online handwriting recognition is such that it has found practical success in very constrained problems. In this thesis, a method of identifying different writing styles, referred to as lexemes, is described. Approaches for constructing both non-parametric and parametric classifiers are described that take advantage of the identified lexemes to f...",
+            "title": "Online Handwriting Recognition Using Multiple Pattern Class Models"
+        },
+        {
+            "group": 59,
+            "name": "10.1.1.31.8556",
+            "keyword": "",
+            "author": "Henry Winston, Deniz Yuret, Deniz Yuret",
+            "abstract": "The work described in this thesis began as an inquiry into the nature and use of optimization programs based on \"genetic algorithms.\" That inquiry led, eventually, to three powerful heuristics that are broadly applicable in gradient-ascent programs: First, remember the locations of local maxima and restart the optimization program at a place distant from previously located local maxima. Second, adjust the size of probing steps to suit the local nature of the terrain, shrinking when probes do poorly and growing when probes do well. And third, keep track of the directions of recent successes, so as to probe preferentially in the direction of most rapid ascent. These algorithms lie at the core of a novel optimization program that illustrates the power to be had from deploying them together. The efficacy of this program is demonstrated on several test problems selected from a variety of fields, including De Jong's famous testproblem suite, the traveling salesman problem, the problem of coo...",
+            "title": "From Genetic Algorithms To Efficient Optimization"
+        },
+        {
+            "group": 60,
+            "name": "10.1.1.31.9106",
+            "keyword": "threshold",
+            "author": "Kai-Tai Fang,  Fred J. Hickernell, Peter Winker",
+            "abstract": ". There are many problems in statistics that need some powerful  global optimization methods. This paper reviews two efficient methods:  SNTO (sequential number-theoretic methods for optimization) and  TA (the threshold accepting algorithm). A discussion is given of the  applications of these methods to various statistics problems: maximum  likelihood estimation, regression analysis, model selection, experimental  design, projection pursuit, etc.  Key Words and Phrases: Experimental design, global optimization, numbertheoretic methods, nonlinear regression model, projection pursuit, simulated annealing, threshold accepting.  Mathematical Subject Classifications 1991: 65K10.  1 Introduction  There are many problems in statistics that need powerful algorithms for optimization, for example, maximum likelihood estimation, nonlinear regression, projection pursuit and design of experiments. Let f be a function over a domain G, a subset of R  s  . We are required to find the global maximum (m...",
+            "title": "Some Global Optimization Algorithms in Statistics"
+        },
+        {
+            "group": 61,
+            "name": "10.1.1.31.9812",
+            "keyword": "",
+            "author": "L.G. Aleksandrov,  H.N. Djidjev",
+            "abstract": "We propose an algorithm for maintaining a partition of dynamic planar graphs motivated  by applications in load balancing for solving partial dierential equations on a  shared memory multiprocessor. We consider planar graphs of bounded face sizes that  can be modied by local insertions or deletions of vertices or edges so that planarity is  preserved. In our paper we describe a data structure that can be updated in O(log n)  time after any such modication of the graph, where n is the current size of the graph,  and allows an almost optimal partition of a required size to be maintained. More precisely,  the size of the separator is within an O(n  ) factor of the optimal for the class  of planar graphs, where  is any positive constant, and can be listed in time proportional  to its size. The dynamic data structure occupies O(n) space and can initially be  constructed in time linear to the size of the original graph.  1 Introduction  Separator theorems are ecient and widely used tool f...",
+            "title": "A Dynamic Algorithm for Maintaining Graph Partitions"
+        },
+        {
+            "group": 62,
+            "name": "10.1.1.31.9847",
+            "keyword": "",
+            "author": "Henrik Jonsson,  Bo S\u00f6derberg",
+            "abstract": "A novel artificial neural network heuristic (INN) for general constraint satisfaction problems is presented, extending a recently suggested method for binary problems. It employs a particular non-polynomial cost function, based on the information balance between multi-state Potts variables and constraints. Implemented as an annealing algorithm, the method is numerically explored on a testbed of Graph Coloring problems. The performance is comparable to that of dedicated heuristics, and clearly superior to that of a conventional mean-field ANN approach. An appealing feature of the method is its versatility, inherited from ANN; it is applicable to a wide range of discrete constraint satisfaction problems.  1  henrik@thep.lu.se  2  bs@thep.lu.se  1 Introduction  Artificial Neural Networks (ANN) have provided a versatile heuristic approach to combinatorial optimization and constraint satisfaction [7, 14, 4].  In a recent paper [9], an improved ANN approach (INN) to binary constraint satisfa...",
+            "title": "An Information-Based Neural Approach to Generic Constraint Satisfaction"
+        },
+        {
+            "group": 63,
+            "name": "10.1.1.31.9942",
+            "keyword": "",
+            "author": "Matthew L. Ginsberg,  David A McAllester",
+            "abstract": "There has been substantial recent interest in two new families of search techniques. One family consists of nonsystematic methods such as gsat; the other contains systematic approaches that use a polynomial amount of justification information to prune the search space. This paper introduces a new technique that combines these two approaches. The algorithm allows substantial freedom of movement in the search space but enough information is retained to ensure the systematicity of the resulting analysis. Bounds are given for the size of the justification database and conditions are presented that guarantee that this database will be polynomial in the size of the problem in question. 1 INTRODUCTION  The past few years have seen rapid progress in the development of algorithms for solving constraintsatisfaction problems, or csps. Csps arise naturally in subfields of AI from planning to vision, and examples include propositional theorem proving, map coloring and scheduling problems. The probl...",
+            "title": "GSAT and Dynamic Backtracking"
+        },
+        {
+            "group": 64,
+            "name": "10.1.1.32.242",
+            "keyword": "",
+            "author": "Tycho Strijk,  Bram Verweij, Karen Aardal",
+            "abstract": "We consider the following map labelling problem: given distinct points p  1  , p  2  , . . . , p  n  in the plane, and given #, find a maximum cardinality set of pairwise disjoint axis-parallel # # squares Q 1 , Q 2 , . . . , Q r . This problem reduces to that of finding a maximum cardinality independent set in an associated graph called the conflict graph. We describe several heuristics for the maximum cardinality independent set problem, some of which use an LP solution as input. Also, we describe a branch-and-cut algorithm to solve it to optimality. The standard independent set formulation has an inequality for each edge in the conflict graph which ensures that only one of its endpoints can belong to an independent set. To obtain good starting points for our LP-based heuristics and good upper bounds on the optimal value for our branch-and-cut algorithm we replace this set of inequalities by the set of inequalities describing all maximal cliques in the conflict graph. For this streng...",
+            "title": "Algorithms for Maximum Independent Set Applied to Map Labelling"
+        },
+        {
+            "group": 65,
+            "name": "10.1.1.32.416",
+            "keyword": "",
+            "author": "David C. Plaut,  Tim Shallice",
+            "abstract": "Deep dyslexia is an acquired reading disorder marked by the occurrence of semantic errors  (e.g. reading RIVER as \"ocean\"). In addition, patients exhibit a number of other symptoms,  including visual and morphological effects in their errors, a part-of-speech effect, and an  advantage for concrete over abstract words. Deep dyslexia poses a distinct challenge for  cognitive neuropsychology because there is little understanding of why such a variety of  symptomsshould co-occur in virtually all known patients. Hinton & Shallice (1991) replicated  the co-occurrence of visual and semantic errors by lesioning a recurrent connectionist network  trained to map from orthography to semantics. While the success of their simulations is quite  encouraging, there is little understanding of what underlying principles are responsible for  them. In this paper we evaluate and, where possible, improve on the most important design  decisions made by Hinton & Shallice, relating to the task, the network arc...",
+            "title": "Deep Dyslexia: A Case Study of Connectionist Neuropsychology"
+        },
+        {
+            "group": 66,
+            "name": "10.1.1.32.500",
+            "keyword": "Mean field annealing, circuit partitioning, net-cut model",
+            "author": "Tevfik Bultan, Cevdet Aykanat",
+            "abstract": "Mean field annealing (MFA) algorithm, proposed for solving combinatorial optimization  problems, combines the characteristics of neural networks and simulated  annealing. Previous works on MFA resulted with successful mapping of the algorithm  to some classic optimization problems such as traveling salesperson problem,  scheduling problem, knapsack problem and graph partitioning problem. In this  paper, MFA is formulated for the circuit partitioning problem using the so called  net-cut model. Hence, the deficiencies of using the graph representation for electrical  circuits are avoided. An efficient implementation scheme, which decreases  the complexity of the proposed algorithm by asymptotical factors is also developed.  Comparative performance analysis of the proposed algorithm with two well-known  heuristics, simulated annealing and Kernighan-Lin, indicates that MFA is a successful  alternative heuristic for the circuit partitioning problem.  ",
+            "title": "Circuit Partitioning Using Mean Field Annealing"
+        },
+        {
+            "group": 67,
+            "name": "10.1.1.32.550",
+            "keyword": "",
+            "author": "Tamal Mukherjee, Gary K. Fedder",
+            "abstract": "In order to efficiently design complex microelectromechanical systems (MEMS) having large numbers of multi-domain components, a hierarchically structured design approach that is compatible with standard IC design is needed. A graphical-based schematic, or structural, view is presented as a geometrically intuitive way to represent MEMS as a set of interconnected lumped-parameter elements. An initial library focuses on suspended-MEMS technology from which inertial sensors and other mechanical mechanisms can be designed. The schematic representation has a simulation interface enabling the designer to simulate the design at the component level. Synthesis of MEMS cells for common topologies provides the system designer with rapid, optimized component layout and associated macro-models. A synthesis module is developed for the popular folded-flexure micromechanical resonator topology. The algorithm minimizes a combination of total layout area and voltage applied to the electromechanical actuato...",
+            "title": "Structured Design Of Microelectromechanical Systems"
+        },
+        {
+            "group": 68,
+            "name": "10.1.1.32.555",
+            "keyword": "",
+            "author": "Inki Hong  , Darko Kirovski, Miodrag Potkonjak",
+            "abstract": "Successive, well organized application of transformations has been widely recognized as an exceptionally effective, but complex and difficult CAD task. We introduce a new potential-driven statistical approach for ordering transformations. Two new synthesis ideas are the backbone of the approach. The first idea is to quantify the characteristics of all transformations and the relationship between them based on their potential to reorganize a computation such that the complexity of the corresponding implementation is reduced. The second one is based on the observation that transformations may disable each other not only because they prevent the application of the other transformation, but also because both transformations target the same potential of the computation. These two observations drastically reduce the search space to find efficient and effective scripts for ordering transformations. A key algorithmic novelty is that both conceptual and optimization insights as well as all opti...",
+            "title": "Potential-Driven Statistical Ordering of Transformations"
+        },
+        {
+            "group": 69,
+            "name": "10.1.1.32.702",
+            "keyword": "2",
+            "author": "Cevdet Aykanat,  Tevfik Bultan,  Ismail Haritaoglu",
+            "abstract": "Cell placement is an important phase of current VLSI circuit design styles as standard cell, gate array, and Field Programmable Gate Array (FPGA). Although nondeterministic algorithms such as Simulated Annealing (SA) have been successful in solving this problem, they are known to be slow. In this paper, we propose a neural network algorithm that produces solutions as good as SA in substantially less time. Our algorithm is based on Mean Field Annealing (MFA) technique, which has been successfully applied to various combinatorial optimization problems. We derive a MFA formulation for the cell placement problem that can easily be applied to all VLSI design styles. To demonstrate that the proposed algorithm is applicable to real world problems, we derive a detailed formulation for the FPGA design style, and generate the layouts of several benchmark circuits. The performance of the proposed cell placement algorithm is evaluated in comparison with commercial automated circuit design software...",
+            "title": "A Fast Neural-Network Algorithm for Cell Placement"
+        },
+        {
+            "group": 70,
+            "name": "10.1.1.32.735",
+            "keyword": "",
+            "author": "Jason Cong,  M'Lissa Smith",
+            "abstract": "In this paper, we present a bottom-up clustering algorithm based on recursive collapsing of small cliques in a graph. The sizes of the small cliques are derived using random graph theory. This clustering algorithm leads to a natural parallel implementation in which multiple processors are used to identify clusters simultaneously. We also present a cluster-based partitioning method in which our clustering algorithm is used as a preprocessing step to both the bisection algorithm by Fiduccia and Mattheyses and a ratio-cut algorithm by Wei and Cheng. Our results show that cluster-based partitioning obtains cut sizes up to 49.6% smaller than the bisection algorithm, and obtains ratio cut sizes up to 66.8% smaller than the ratio-cut algorithm. Moreover, we show that cluster-based partitioning produces much stabler results than direct partitioning.",
+            "title": "A Parallel Bottom-up Clustering Algorithm with Applications to Circuit Partitioning in VLSI Design"
+        },
+        {
+            "group": 71,
+            "name": "10.1.1.32.894",
+            "keyword": "IIR filter, global optimisation, adaptive simulated annealing, genetic algorithms",
+            "author": "Sheng Chen",
+            "abstract": "System identification using infinite-impulse-response (IIR) model is considered. Because the error surface of IIR filters is generally multi-modal, global optimisation techniques are preferred in order to avoid local minima. An efficient global optimisation method, called the adaptive simulated annealing (ASA), is adopted, and a new batch-recursive ASA algorithm is developed for on-line identification. Simulation study shows that the proposed approach is accurate and has a fast convergence rate, and the results obtained demonstrate that the ASA offers a viable tool to IIR model identification. Keywords -- System identification, IIR filter, global optimisation, adaptive simulated annealing, genetic algorithms.  1. INTRODUCTION  Adaptive IIR filtering has been an active area of research for many years [1, 2]. A major concern in IIR filtering applications is that the cost function is generally multi-modal with respect to the filter coefficients, and the gradient-based algorithm can easily...",
+            "title": "IIR Model Identification Using Batch-Recursive Adaptive Simulated Annealing Algorithm"
+        },
+        {
+            "group": 72,
+            "name": "10.1.1.32.1233",
+            "keyword": "",
+            "author": "Jason Cong, Wilburt Labio,  Narayanan Shivakumar",
+            "abstract": "In this paper, we study the area-balanced multi-way partitioning problem of VLSI circuits based on a new dual netlist representation named the hybrid dual netlist (HDN), and propose a general paradigm for multi-way circuit partitioning based on dual net transformation. Given a netlist we first compute a K-way partitioning of nets based on the HDN representation, and then transform the K-way net partition into a K-way module partitioning solution. The main contribution of our work is in the formulation and solution of the K-way module contention (K-MC) problem, which determines the best assignment of the modules in contention to partitions while maintaining user-specified area requirements, when we transform the net partition into a module partition. Under a natural definition of binding function between nets and modules, and preference function between partitions and modules, we show that the K-MC problem can be reduced to a min-cost max-flow problem. We present an efficient solution t...",
+            "title": "Multi-Way VLSI Circuit Partitioning Based on Dual Net Representation"
+        },
+        {
+            "group": 73,
+            "name": "10.1.1.32.1299",
+            "keyword": "",
+            "author": "Nathan Daniel Mead",
+            "abstract": "A computer-aided-design (CAD) environment was designed and implemented for the initial design and analysis of large dynamic structures. The design of these types of structures represents a difficult and time consuming task with little support provided by existing CAD packages. The results of this work include:  ffl Algorithmic synthesis of complex, dynamic three-dimensional (3-D) structural space frame geometry from initial design specifications.  ffl Methodology for dynamic analysis of open kinematic chains which is independent of specific joint trajectories.  ffl Dynamic analysis of the complete structure throughout the workspace, including computation of \"worst case\" loading conditions.  ffl Complete algorithmic construction of a Finite Element Analysis (FEA) model for each component of the structure, including conversion of the dynamic loads into a useful form.  ffl Discrete optimization of each link of the structure, including catalog lookup of existing beam sizes and heuristics t...",
+            "title": "An Integrated Environment For Conceptual Design, Synthesis And Analysis Of Dynamic Frame Structures"
+        },
+        {
+            "group": 74,
+            "name": "10.1.1.32.1474",
+            "keyword": "key words, Large deviations, Metropolis dynamics, cycle decomposition",
+            "author": "C\u00e9cile Cot, Olivier Catoni",
+            "abstract": "We investigate how to tune a generalized simulated annealing algorithm with piecewise constant cooling schedule to get an optimal convergence exponent. The optimal convergence exponent of generalized simulated annealing algorithms has been computed in [6] and [25]. It is reached only with triangular sequences of temperatures, meaning that different finite sequences are used depending on the time resource available for computations (expressed by an overall number of iterations). We show first that it is possible to get close to the optimal convergence exponent uniformly over suitably bounded families of energy landscapes using a fixed number of temperature steps. Then we show that letting the number of steps increase with the time resource, we can build a cooling schedule which is universally robust with respect to the convergence exponent: a fixed triangular sequence of temperatures gives an optimal convergence exponent for any energy landscape. Piecewise constant temperature sequences...",
+            "title": "Piecewise Constant Triangular Cooling Schedules for Generalized Simulated Annealing Algorithms"
+        },
+        {
+            "group": 75,
+            "name": "10.1.1.32.1589",
+            "keyword": "",
+            "author": "Steven van Dijk, Dirk Thierens,  Mark de Berg",
+            "abstract": "Genetic Algorithms (GA's) are powerful combinatorial optimizers that are able to find close to optimal solutions for difficult problems by applying the paradigm of evolution with natural selection. We describe a framework for GA's capable of solving certain optimization problems encountered in Geographical Information Systems (GIS's). The framework is especially suited for geographical problems since it is able to exploit their geometrical structure with a novel operator called the Geometrically Local Optimizer. Three such problems are presented as case studies: map labeling, generalization while preserving structure and line simplification. Experiments show that the GA's give good results and are flexible as well.",
+            "title": "Using Genetic Algorithms for Solving Hard Problems in GIS"
+        },
+        {
+            "group": 76,
+            "name": "10.1.1.32.2067",
+            "keyword": "stochastic optimization, quality control, design of experiment",
+            "author": "Fran\u00e7ois Bergeret,  Philippe Besse",
+            "abstract": "this paper, we aim at:",
+            "title": "Simulated Annealing, Weighted Simulated Annealing and Genetic Algorithm At Work"
+        },
+        {
+            "group": 77,
+            "name": "10.1.1.32.2239",
+            "keyword": "",
+            "author": "Olivier Catoni",
+            "abstract": " ",
+            "title": "Simulated Annealing Algorithms and Markov chains with Rare Transitions"
+        },
+        {
+            "group": 78,
+            "name": "10.1.1.32.2253",
+            "keyword": "",
+            "author": "Peter B. Danzig, Dante DeLucia, Katia Obraczka",
+            "abstract": "Current and future Internet services will provide a large, rapidly evolving, highly accessed, yet autonomously managed information space. Internet news, perhaps, is the closest existing precursor to such services. It permits autonomous updates, is replicated at thousands of autonomously managed sites, and manages a large database. It gets its performance through massive replication. This paper proposes a scalable mechanism for replicating wide-area, autonomously managed services. We target replication degrees of tens of thousands of weakly consistent replicas. For efficiency, our mechanism probes the network and computes a good logical topology over which to send updates. For scalability, we organize replicas into hierarchical replication groups, analogous to the Internet's autonomous routing domains. We argue that efficient, massive replication does not have to rely on internet multicast. ",
+            "title": "Massively Replicating Services in Wide-Area Internetworks"
+        },
+        {
+            "group": 79,
+            "name": "10.1.1.32.3081",
+            "keyword": "",
+            "author": "W.F. McColl",
+            "abstract": "A vast amount of work has been done in recent years on the design, analysis, implementation and verification of special purpose parallel computing systems. This paper presents a survey of various aspects of this work. A long, but by no means complete, bibliography is given.  1. Introduction  Turing [365] demonstrated that, in principle, a single general purpose sequential machine could be designed which would be capable of efficiently performing any computation which could be performed by a special purpose sequential machine. The importance of this universality result for subsequent practical developments in computing cannot be overstated. It showed that, for a given computational problem, the additional efficiency advantages which could be gained by designing a special purpose sequential machine for that problem would not be great. Around 1944, von Neumann produced a proposal [66, 389] for a general purpose storedprogram sequential computer which captured the fundamental principles of...",
+            "title": "Special Purpose Parallel Computing"
+        },
+        {
+            "group": 80,
+            "name": "10.1.1.32.3145",
+            "keyword": "",
+            "author": "Jason Cong, Wilburt Labio, Narayanan Shivakumar",
+            "abstract": "In this paper, we study the area-balanced multi-way partitioning problem of VLSI circuits based on a new dual netlist representation named the hybrid dual netlist (HDN). Given a netlist, we first compute a K-way partition of the nets based on the HDN representation, and then transform a K-way net partition into a K-way module partitioning solution. The main contribution of our work is the formulation and solution of the K-way module contention (K-MC) problem, which determines the best assignment of the modules in contention to partitions, while maintaining user-specified area requirements, when we transform the net partition into a module partition. Under a natural definition of binding factor between nets and modules, and preference function between partitions and modules, we show that the K-MC problem can be reduced to a min-cost max-flow problem. We present efficient solutions to the K-MC problem based on network flow computation. Extensive experimental results show that our algorit...",
+            "title": "Multi-Way VLSI Circuit Partitioning Based on Dual Net Representation"
+        },
+        {
+            "group": 81,
+            "name": "10.1.1.32.3544",
+            "keyword": "",
+            "author": "Alessandra Di Pierro, Herbert Wiklicky",
+            "abstract": "We propose a declarative implementation of randomised algorithms, which exploits the Constraint Logic Programming (CLP) paradigm. For the high-level formalisation of probabilistic programs expressing such algorithms we actually refer to a generalisation of CLP, namely the Probabilistic Concurrent Constraint Programming (PCCP) language, previously introduced in [3, 5]. This language provides a construct for probabilistic choice which allows us to express randomness in a program. The design of PCCP does not require any additional structure on the underlying constraint system (e.g. fuzzy or belief systems) and therefore also allows a straight forward implementation. We demonstrate the use of this language for implementing randomised algorithms. In particular, we give an extensive treatment of two popular (generic) randomised algorithms, namely Simulated Annealing and Randomised Rounding, and we discuss some instantiations of these algorithms for solving two well-known opti...",
+            "title": "Randomised Algorithms and Probabilistic Constraint Programming"
+        },
+        {
+            "group": 82,
+            "name": "10.1.1.32.3908",
+            "keyword": "",
+            "author": "Stefan Boettcher,  Allon G. Percus,  Michelangelo Grigni",
+            "abstract": ". We explore a new general-purpose heuristic for finding highquality  solutions to hard optimization problems. The method, called extremal   optimization, is inspired by \"self-organized criticality,\" a concept  introduced to describe emergent complexity in many physical systems.  In contrast to Genetic Algorithms which operate on an entire \"genepool  \" of possible solutions, extremal optimization successively replaces  extremely undesirable elements of a sub-optimal solution with new, random  ones. Large fluctuations, called \"avalanches,\" ensue that efficiently  explore many local optima. Drawing upon models used to simulate farfrom  -equilibrium dynamics, extremal optimization complements approximation  methods inspired by equilibrium statistical physics, such as simulated  annealing. With only one adjustable parameter, its performance has  proved competitive with more elaborate methods, especially near phase  transitions. Those phase transitions are found in the parameter space of  m...",
+            "title": "Optimizing through Co-Evolutionary Avalanches"
+        },
+        {
+            "group": 83,
+            "name": "10.1.1.32.4263",
+            "keyword": "",
+            "author": "Jason Cong, Zheng Li,  Rajive Bagrodia",
+            "abstract": "Acyclic partitioning on combinational boolean networks has wide range of applications, from multiple FPGA chip partitioning to parallel circuit simulation. In this paper, we present two efficient algorithms for the acyclic multi-way partitioning. One is a generalized FMbased algorithm. The other is based on the theory of maximum fanout-free cone (MFFC) decomposition. The acyclic FM-algorithm usually results in larger cut-size, as expected, compared to the undirected FM-algorithm due to the acyclic constraint. To our surprise, however, the MFFC-based acyclic partitioning algorithm consistently produces smaller (50% on average) cut-sized solutions than the conventional FM-algorithm. This result suggests that considering signal directions during the process can lead to very natural circuit decomposition and clustering, which in turn results in better partitioning solutions. We have also implemented parallel gate level simulators in Maisie and applied our partitioning algorithms to evaluat...",
+            "title": "Acyclic Multi-Way Partitioning of Boolean Networks"
+        },
+        {
+            "group": 84,
+            "name": "10.1.1.32.4937",
+            "keyword": "rule, Occupancy probability",
+            "author": "Dirk Stroobandt, Jan Van Campenhout",
+            "abstract": "Important layout properties of electronic circuits include space requirements and interconnection lengths. In the process of designing these circuits, a reliable pre-layout interconnection length estimation is essential for improving placement and routing techniques. Donath found an upper bound for the average interconnection length that follows the trends of experimentally observed average lengths. Yet, this upper bound deviates from the experimental value by a factor ffi  2, which is not sufficiently accurate for some applications. We show that we obtain a significantly more accurate estimate by taking into account the inherent features of the optimal placement process.  Keywords: Interconnection length estimates, Donath's hierarchical placement, Rent's rule, Occupancy probability. 1 INTRODUCTION  The production of VLSI and ULSI computer chips requires the layout (placement and routing) of the (logical) chip design onto a physical carrier. With the advent of high level description la...",
+            "title": "Accurate Interconnection Length Estimations for Predictions Early in the Design Cycle"
+        },
+        {
+            "group": 85,
+            "name": "10.1.1.32.5131",
+            "keyword": "ACKNOWLEDGEMENTS I wish to thank Dr. Andrew G. Barto for the many contributions he made to",
+            "author": "Steven J. Bradtke",
+            "abstract": " Reinforcement learning algorithms based on the principles of Dynamic Programming (DP) have enjoyed a great deal of recent attention both empirically and theoretically. These algorithms have been referred to generically as Incremental Dynamic Programming (IDP) algorithms. IDP algorithms are intended for use in situations where the information or computational resources needed by traditional dynamic programming algorithms are not available. IDP algorithms attempt to find a global solution to a DP problem by incrementally improving local constraint satisfaction properties as experience is gained through interaction with the environment. This class of algorithms is not new, going back at least as far as Samuel's adaptive checkers-playing programs,...",
+            "title": "Incremental Dynamic Programming for On-Line Adaptive Optimal Control"
+        },
+        {
+            "group": 86,
+            "name": "10.1.1.32.5434",
+            "keyword": "",
+            "author": "Arun Jagota",
+            "abstract": "In a graph, a clique is a set of vertices such that every pair is connected by an edge. MAX-CLIQUE is the optimization problem of finding the largest clique in a given graph, and is NP-hard, even to approximate well. Several real-world and theory problems can be modeled as MAX-CLIQUE. In this paper, we efficiently approximate MAX-CLIQUE in a special case of the Hopfield Network whose stable states are maximal cliques. We present several energy-descent optimizing dynamics; both discrete (deterministic and stochastic) and continuous. One of these emulates, as special cases, two well known greedy algorithms for approximating MAX-CLIQUE. We report on detailed empirical comparisons on random graphs. Mean-Field Annealing---an efficient approximation to Simulated Annealing---and a stochastic dynamics are the narrow but clear winners. All dynamics approximate much better than one which emulates a \"naive\" greedy heuristic. 1 Cliques and Maximum Clique In a graph with undirected edges, a cliq...",
+            "title": "Approximating Maximum Clique with a Hopfield Network"
+        },
+        {
+            "group": 87,
+            "name": "10.1.1.32.6418",
+            "keyword": "IFS coding, Simulated Annealing, Quantization, Iterative optimization algorithm, Massively Parallel Processing",
+            "author": "Paolo Palazzari,  Moreno Coli, Guglielmo Lulli",
+            "abstract": "In recent years Image Fractal Compression techniques  (IFS) have gained more interest because of their capability  to achieve high compression ratios while maintaining very  good quality of the reconstructed image. The main  drawback of such techniques is the very high computing  time needed to determine the compressed code.  In this work, after a brief description of IFS theory, we  introduce the coefficient quantization problem, presenting  two algorithms for its solution: the first one is based on  Simulated Annealing while the second refers to a fast  iterative algorithm. We discuss IFS parallel implementation at different level of granularity and we show that Massively Parallel Processing on SIMD machines is the best way to  use all the large granularity parallelism offered by the  problem. The results we present are achieved implementing the proposed algorithms for IFS compression and  coefficient quantization on the MPP APE100/Quadrics  machine.  Keywords: IFS coding, Simulated ...",
+            "title": "Massively Parallel Processing Approach To Fractal Image Compression With Near-Optimal Coefficient Quantization"
+        },
+        {
+            "group": 88,
+            "name": "10.1.1.32.6486",
+            "keyword": "Hopfield network, heuristics, testing",
+            "author": "Arun K. Jagota,  Kenneth W. Regan",
+            "abstract": "We study the average performance of several neural-net heuristics applied to the problem of finding the size of the largest clique in an undirected graph. This function is NP-hard even to approximate within a constant factor in the worst case [ALM  +  92], but the heuristics we study are known to do quite well on average for instances drawn from the uniform distribution on graphs of size n. We extend a theorem of M. Li and P. Vitanyi [LV92] to show that for instances drawn from the universal distribution m(x), the average-case performance of any approximation algorithm has the same order as its worst-case performance. The universal distribution is not computable or samplable. However, we give a realistic analogue q(x)  which lends itself to efficient empirical testing. Our results so far are: out of nine heuristics we tested, three did markedly worse under q(x) than under uniform distribution, but six others revealed little change. Keywords Neural network, Hopfield network, heuristics,...",
+            "title": "Performance of MAX-CLIQUE Approximation Heuristics Under Description-Length Weighted Distributions"
+        },
+        {
+            "group": 89,
+            "name": "10.1.1.32.6571",
+            "keyword": "",
+            "author": "Chris Voudouris, Edward Tsang",
+            "abstract": "Constraint satisfaction is the core of a large number of problems, notably scheduling. Because of their potential for containing the combinatorial explosion problem in constraint satisfaction, local search methods have received a lot of attention in the last few years. The problem with these methods is that they can be trapped in local minima. GENET is a connectionist approach to constraint satisfaction. It escapes local minima by means of a weight adjustment scheme, which has been demonstrated to be highly effective. The tunneling algorithm described in this paper is an extension of GENET for optimization. The main idea is to introduce modifications to the function which is to be optimized by the network (this function mirrors the objective function which is specified in the problem). We demonstrate the outstanding performance of this algorithm on constraint satisfaction problems, constraint satisfaction optimization problems, partial constraint satisfaction problems, radio frequency ...",
+            "title": "The Tunneling Algorithm for Partial CSPs and Combinatorial Optimization Problems"
+        },
+        {
+            "group": 90,
+            "name": "10.1.1.32.6806",
+            "keyword": "allocation table, real time, pipeline system, simulated annealing",
+            "author": "M. Coli,  P. Palazzari",
+            "abstract": ". This paper concerns with automatic pipeline implementation of a program subject to some real time (RT) constraints; the program is described through a Control Data Flow Graph (CDFG). We have developed a mapping methodology which assigns to each instruction of CDFG a time step and a HW resource for its execution. We have defined the space W of all the possible feasible mappings, as well an adjacency criterion on it and a cost function evaluating the quality of the mappings. We have minimized the cost function through a Simulated Annealing algorithm. The minimization process returns a mapping which satisfies all RT constraints, has minimal schedule length and minimal HW resource requirement. In order to show the capabilities of the proposed mapping methodology, we apply it to a graph with 50 nodes and several RT constraints: the obtained mapping gives a pipelined execution modality of the graph which satisfies all the given RT constraints.  Keywords: allocation table, real time, pipeli...",
+            "title": "Real Time Pipelined System Design Through Simulated Annealing"
+        },
+        {
+            "group": 91,
+            "name": "10.1.1.32.6830",
+            "keyword": "",
+            "author": "Tao Ye,  Shivkumar Kalyanaraman, David Harrison, Biplab Sikdar, Bin Mo,  Hema Tahilramani Kaur, Ken Vastola, Boleslaw Szymanski",
+            "abstract": "The complex and dynamic feature of the Internet requires a scalable and effective network control. In this paper, a collaborative on-line simulation scheme is proposed to provide the automated and pro-active control functions for the networks. This scheme introduces autonomous on-line simulators into local networks, which continuously monitor the surrounding network conditions, collect the relevant information, communicate with other simulators and execute collaborative on-line simulation. Based on the simulation results, the on-line simulators keep tuning up the network parameters to the better operation point to fit the current network situation. In this paper, we describe the basic concept of this scheme, investigate the solutions to the challenges, faced in the realization of this scheme, in areas such as network modeling, on-line simulation and parameter search. We also discuss the applicability of this scheme, and present the simulation results under ns and the test results of a pr...",
+            "title": "Network Management and Control Using Collaborative On-line Simulation"
+        },
+        {
+            "group": 92,
+            "name": "10.1.1.32.7069",
+            "keyword": "",
+            "author": "Mattias Ohlsson, Carsten Peterson,  Bo S\u00f6derberg",
+            "abstract": ": A strategy for finding approximate solutions to discrete optimization problems with inequality constraints using mean field neural networks is presented. The constraints x 0 are encoded by x\\Theta(x) terms in the energy function. A careful treatment of the mean field approximation for the self-coupling parts of the energy is crucial, and results in an essentially parameter-free algorithm. This methodology is extensively tested on the knapsack problem of size up to 10 3 items. The algorithm scales like NM for problems with N items and M constraints. Comparisons are made with an exact branch and bound algorithm when this is computationally possible (N 30). The quality of the neural network solutions consistently lies above 95% of the optimal ones at a significantly lower CPU expense. For the larger problem sizes the algorithm is compared with simulated annealing and a modified linear programming approach. For \"non-homogeneous\" problems these produce good solutions, whereas for the...",
+            "title": "Neural Networks for Optimization Problems with Inequality Constraints - the Knapsack Problem"
+        },
+        {
+            "group": 93,
+            "name": "10.1.1.32.8354",
+            "keyword": "2",
+            "author": "C. Walshaw, M. Cross,  R. Diekmann, F. Schlimbach",
+            "abstract": "Multilevel algorithms are a successful class of optimisation techniques which address the mesh partitioning problem for mapping meshes onto parallel computers. They usually combine a graph contraction algorithm together with a local optimisation method which refines the partition at each graph level. To date these algorithms have been used almost exclusively to minimise the cut-edge weight in the graph with the aim of minimising the parallel communication overhead. However it has been shown that for certain classes of problem, the convergence of the underlying solution algorithm is strongly influenced by the shape or aspect ratio of the subdomains. In this paper therefore, we modify the multilevel algorithms in order to optimise a cost function based on aspect ratio. Several variants of the algorithms are tested and shown to provide excellent results.  1 Introduction  The need for mesh partitioning arises naturally in many finite element (FE) and finite volume (FV) applications. Meshes...",
+            "title": "Multilevel Mesh Partitioning for Optimising Subdomain Aspect Ratio"
+        },
+        {
+            "group": 94,
+            "name": "10.1.1.32.9130",
+            "keyword": "geometrical reconstruction, optimization. 1",
+            "author": "P. Company,  J.M. Gomis,  M. Contero",
+            "abstract": "Optimization is one of the most promising geometrical reconstruction approaches. In  this approach, the 2D vertices of the given figure maintain their plane coordinates  (X,Y), while a set of Z coordinates (orthogonal to the plane) is computed to obtain a  3D configuration that matches the \"implicit spatial information\" contained in the  departure drawing. In other words, Z coordinates are the variables, and image  regularities are used to define both the Objective Function and the Constraints. Some  authors have introduced and tested the approach. Nevertheless, further improvements  are needed. Mainly because in this problem only global optimum is acceptable in order  to ensure the \"psychologically plausible\" model is always the one to be obtained. In  this paper, some key aspects of the strategy proposed by the authors to convey the  optimization process towards the psychologically plausible solution are discussed.  Keywords: geometrical reconstruction, optimization.  1  This work wa...",
+            "title": "Geometrical Reconstruction From Single Line Drawings Using Optimization-Based Approaches"
+        },
+        {
+            "group": 95,
+            "name": "10.1.1.32.9553",
+            "keyword": "",
+            "author": "Mark Jerrum, Alistair Sinclair, Monte Carlo Algorithms",
+            "abstract": "this technical complication for the time being; details of this kind will be attended to when we address a more realistic example in Section 12.4. With the simplifying assumption of zero bias, the expectation of an individual trial is # i , and its variance, since it is a 0,1-variable, is",
+            "title": "The Markov Chain Monte Carlo Method: An Approach To Approximate Counting And Integration"
+        },
+        {
+            "group": 96,
+            "name": "10.1.1.32.9581",
+            "keyword": "",
+            "author": "Carsten Peterson",
+            "abstract": "A brief review is given for using feedback artificial neural networks (ANN) to obtain good approximate solutions to combinatorial optimization problems. The key element is the mean field approximation (MFT) The methodology, which is illustrated for the graph bisection and knapsack problems, is easily generalized to Potts systems. The latter is related to the deformable templates method, which is illustrated with the track finding problem. MFT is based on a variational principle, which also can be generalized to non-integer problems. Introduction  Many combinatorial optimization problems are NP-complete, which require state space explorations leading to O(a  N  ) computations for a system with N  degrees of freedom. Different kinds of heuristic methods are therefore often used to find reasonably good solutions. The ANN approach falls within this category. Whereas the use of ANN for pattern recognition and prediction problems is a non-linear extension of conventional linear interpolation...",
+            "title": "Combinatorial Optimization with Feedback Artificial Neural Networks"
+        },
+        {
+            "group": 97,
+            "name": "10.1.1.32.9672",
+            "keyword": "",
+            "author": "Edward Weinberger Max",
+            "abstract": "\"Standard\" information theory says nothing about the semantic content of information. Nevertheless, applications such as evolutionary theory demand consideration of precisely this aspect of information, a need that has motivated a largely unsuccessful search for a suitable measure of an \"amount of meaning\". This paper represents an attempt to move beyond this impasse, based on the observation that the meaning of a message can only be understood relative to its receiver. Positing that the semantic value of information is its usefulness in making an informed decision, we define pragmatic information as the information gain in the probability distributions of the receiver's actions, both before and after receipt of a message in some pre-defined ensemble. We then prove rigorously that our definition is the only one that satisfies obvious desiderata, such as the additivity of information from logically independent messages. This definition, when applied to the information \"learned\" by the time evolution of a process, defies the intuitions of the few previous researchers thinking along these lines by being monotonic in the uncertainty that remains after receipt of the message, but non-monotonic in the Shannon entropy of the input ensemble. It then follows that the pragmatic information of the genetic \"messages\" in an evolving population is a global Lyapunov function for Eigen's quasi-species model of biological evolution. A concluding section argues that a theory such as ours must explicitly acknowledge purposeful action, or \"agency\", in such diverse fields as evolutionary theory and finance.",
+            "title": "A Theory of Pragmatic Information and Its Application to the Quasispecies Model of Biological Evolution"
+        },
+        {
+            "group": 98,
+            "name": "10.1.1.32.9858",
+            "keyword": "",
+            "author": "Stefan Boettcher,  Allon G. Percus,  Michelangelo Grigni",
+            "abstract": ". We explore a new general-purpose heuristic for nding highquality  solutions to hard optimization problems. The method, called extremal   optimization, is inspired by \\self-organized criticality,\" a concept  introduced to describe emergent complexity in many physical systems.  In contrast to Genetic Algorithms which operate on an entire \\genepool  \" of possible solutions, extremal optimization successively replaces  extremely undesirable elements of a sub-optimal solution with new, random  ones. Large uctuations, called \\avalanches,\" ensue that eciently  explore many local optima. Drawing upon models used to simulate farfrom  -equilibrium dynamics, extremal optimization complements approximation  methods inspired by equilibrium statistical physics, such as simulated  annealing. With only one adjustable parameter, its performance has  proved competitive with more elaborate methods, especially near phase  transitions. Those phase transitions are found in the parameter space of  most o...",
+            "title": "Optimizing through Co-Evolutionary Avalanches"
+        },
+        {
+            "group": 99,
+            "name": "10.1.1.33.132",
+            "keyword": "Tabu Search [2, Simulated Annealing [11, Genetic Algorithms [3, Evolution Strategies [14, 15, Ant Colony Optimisation [1, or I",
+            "author": "Holger Hoos,  Thomas St\u00fctzle",
+            "abstract": "We advocate a new methodology for empirically analysing the behaviour of Las  Vegas Algorithms, a large class of probabilistic algorithms comprising prominent  methods such as local search algorithms for SAT and CSPs, like WalkSAT and the  Min-Conflicts Heuristic, as well as more general metaheuristics like Genetic Algorithms,  Simulated Annealing, Iterated Local Search, and Ant Colony Optimization.  Our method is based on measuring and analysing run-time distributions (RTDs) for  individual problem instances. We discuss this empirical methodology and its application  to Las Vegas Algorithms for various problem domains. Our experience so far  strongly suggests that using this approach for studying the behaviour of Las Vegas  Algorithms can provide a basis for improving the understanding of these algorithms  and thus facilitate further successes in their development and application.  ",
+            "title": "On the Empirical Evaluation of Las Vegas Algorithms  "
+        },
+        {
+            "group": 100,
+            "name": "10.1.1.33.248",
+            "keyword": "",
+            "author": "Mattias Ohlsson, Carsten Peterson, Alan L. Yuille",
+            "abstract": ": A novel algorithm for particle tracking is presented and evaluated. It is based on deformable templates that converge using a deterministic annealing algorithm. These deformable templates are initialized by Hough transforms. The algorithm, which effectively represents a merger between neuronic decision making and parameter fitting, naturally lends itself to parallel execution. Very good performance is obtained for both non-magnetic and magnetic tracks. For the latter simulated TPC tracks from the CERN DELPHI detector are used. 1 mattias@thep.lu.se 2 carsten@thep.lu.se 3 yuille%gramian@das.harvard.edu 1 Motivation and Results Particle physics contains many challenging feature recognition problems ranging from off-line data analysis to low-level experimental triggers. In particular for the next generation of accelerators (LHC, SSC) the availability of efficient pattern recognition algorithms that can be executed in real-time will be crucial. The event rate at these machines is ...",
+            "title": "Track Finding with Deformable Templates - The Elastic Arms Approach"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.0634921
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 0.117647
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 0.0555556
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 0.0206186
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 0.0380435
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 0.112903
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 0.0874317
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 0.0722222
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 0.145349
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 0.0666667
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 0.0549451
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "value": 0.107345
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "value": 0.116959
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "value": 0.0628272
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "value": 0.130178
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "value": 0.0380435
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "value": 0.0944444
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "value": 0.0989011
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "value": 0.103825
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "value": 0.0918919
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "value": 0.104046
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "value": 0.0967742
+        },
+        {
+            "source": 0,
+            "target": 24,
+            "value": 0.0855615
+        },
+        {
+            "source": 0,
+            "target": 25,
+            "value": 0.064
+        },
+        {
+            "source": 0,
+            "target": 26,
+            "value": 0.111675
+        },
+        {
+            "source": 0,
+            "target": 27,
+            "value": 0.0231214
+        },
+        {
+            "source": 0,
+            "target": 28,
+            "value": 0.0390625
+        },
+        {
+            "source": 0,
+            "target": 29,
+            "value": 0.0522876
+        },
+        {
+            "source": 0,
+            "target": 30,
+            "value": 0.0531915
+        },
+        {
+            "source": 0,
+            "target": 31,
+            "value": 0.0989011
+        },
+        {
+            "source": 0,
+            "target": 32,
+            "value": 0.0588235
+        },
+        {
+            "source": 0,
+            "target": 33,
+            "value": 0.0222222
+        },
+        {
+            "source": 0,
+            "target": 34,
+            "value": 0.139665
+        },
+        {
+            "source": 0,
+            "target": 35,
+            "value": 0.121795
+        },
+        {
+            "source": 0,
+            "target": 36,
+            "value": 0.0634921
+        },
+        {
+            "source": 0,
+            "target": 37,
+            "value": 0.0208333
+        },
+        {
+            "source": 0,
+            "target": 38,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 39,
+            "value": 0.0846561
+        },
+        {
+            "source": 0,
+            "target": 40,
+            "value": 0.0428571
+        },
+        {
+            "source": 0,
+            "target": 41,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 42,
+            "value": 0.0806452
+        },
+        {
+            "source": 0,
+            "target": 43,
+            "value": 0.0687023
+        },
+        {
+            "source": 0,
+            "target": 44,
+            "value": 0.184971
+        },
+        {
+            "source": 0,
+            "target": 45,
+            "value": 0.0601093
+        },
+        {
+            "source": 0,
+            "target": 46,
+            "value": 0.0466321
+        },
+        {
+            "source": 0,
+            "target": 47,
+            "value": 0.112426
+        },
+        {
+            "source": 0,
+            "target": 48,
+            "value": 0.0700637
+        },
+        {
+            "source": 0,
+            "target": 49,
+            "value": 0.0631579
+        },
+        {
+            "source": 0,
+            "target": 50,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 51,
+            "value": 0.0752688
+        },
+        {
+            "source": 0,
+            "target": 52,
+            "value": 0.0603015
+        },
+        {
+            "source": 0,
+            "target": 53,
+            "value": 0.0459184
+        },
+        {
+            "source": 0,
+            "target": 54,
+            "value": 0.0220994
+        },
+        {
+            "source": 0,
+            "target": 55,
+            "value": 0.0358974
+        },
+        {
+            "source": 0,
+            "target": 56,
+            "value": 0.0744681
+        },
+        {
+            "source": 0,
+            "target": 57,
+            "value": 0.0675676
+        },
+        {
+            "source": 0,
+            "target": 58,
+            "value": 0.0769231
+        },
+        {
+            "source": 0,
+            "target": 59,
+            "value": 0.0829016
+        },
+        {
+            "source": 0,
+            "target": 60,
+            "value": 0.0457143
+        },
+        {
+            "source": 0,
+            "target": 61,
+            "value": 0.095
+        },
+        {
+            "source": 0,
+            "target": 62,
+            "value": 0.091954
+        },
+        {
+            "source": 0,
+            "target": 63,
+            "value": 0.0928962
+        },
+        {
+            "source": 0,
+            "target": 64,
+            "value": 0.1133
+        },
+        {
+            "source": 0,
+            "target": 65,
+            "value": 0.0824176
+        },
+        {
+            "source": 0,
+            "target": 66,
+            "value": 0.0542169
+        },
+        {
+            "source": 0,
+            "target": 67,
+            "value": 0.0755814
+        },
+        {
+            "source": 0,
+            "target": 68,
+            "value": 0.102273
+        },
+        {
+            "source": 0,
+            "target": 69,
+            "value": 0.0631579
+        },
+        {
+            "source": 0,
+            "target": 70,
+            "value": 0.0658683
+        },
+        {
+            "source": 0,
+            "target": 71,
+            "value": 0.0611111
+        },
+        {
+            "source": 0,
+            "target": 72,
+            "value": 0.0797872
+        },
+        {
+            "source": 0,
+            "target": 73,
+            "value": 0.0552486
+        },
+        {
+            "source": 0,
+            "target": 74,
+            "value": 0.0883978
+        },
+        {
+            "source": 0,
+            "target": 75,
+            "value": 0.0482759
+        },
+        {
+            "source": 0,
+            "target": 76,
+            "value": 0.0377358
+        },
+        {
+            "source": 0,
+            "target": 77,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 78,
+            "value": 0.0802469
+        },
+        {
+            "source": 0,
+            "target": 79,
+            "value": 0.125
+        },
+        {
+            "source": 0,
+            "target": 80,
+            "value": 0.0572917
+        },
+        {
+            "source": 0,
+            "target": 81,
+            "value": 0.149068
+        },
+        {
+            "source": 0,
+            "target": 82,
+            "value": 0.0718563
+        },
+        {
+            "source": 0,
+            "target": 83,
+            "value": 0.0446927
+        },
+        {
+            "source": 0,
+            "target": 84,
+            "value": 0.0857143
+        },
+        {
+            "source": 0,
+            "target": 85,
+            "value": 0.139706
+        },
+        {
+            "source": 0,
+            "target": 86,
+            "value": 0.0869565
+        },
+        {
+            "source": 0,
+            "target": 87,
+            "value": 0.076087
+        },
+        {
+            "source": 0,
+            "target": 88,
+            "value": 0.0769231
+        },
+        {
+            "source": 0,
+            "target": 89,
+            "value": 0.0702703
+        },
+        {
+            "source": 0,
+            "target": 90,
+            "value": 0.0880829
+        },
+        {
+            "source": 0,
+            "target": 91,
+            "value": 0.0648649
+        },
+        {
+            "source": 0,
+            "target": 92,
+            "value": 0.0797872
+        },
+        {
+            "source": 0,
+            "target": 93,
+            "value": 0.0806452
+        },
+        {
+            "source": 0,
+            "target": 94,
+            "value": 0.0594595
+        },
+        {
+            "source": 0,
+            "target": 95,
+            "value": 0.10989
+        },
+        {
+            "source": 0,
+            "target": 96,
+            "value": 0.0828729
+        },
+        {
+            "source": 0,
+            "target": 97,
+            "value": 0.136187
+        },
+        {
+            "source": 0,
+            "target": 98,
+            "value": 0.0714286
+        },
+        {
+            "source": 0,
+            "target": 99,
+            "value": 0.1
+        },
+        {
+            "source": 0,
+            "target": 100,
+            "value": 0.0625
+        },
+        {
+            "source": 5,
+            "target": 37,
+            "value": 0.997321
+        },
+        {
+            "source": 42,
+            "target": 93,
+            "value": 0.997321
+        },
+        {
+            "source": 66,
+            "target": 69,
+            "value": 0.497297
+        },
+        {
+            "source": 70,
+            "target": 72,
+            "value": 0.350962
+        },
+        {
+            "source": 70,
+            "target": 80,
+            "value": 0.384236
+        },
+        {
+            "source": 70,
+            "target": 83,
+            "value": 0.625767
+        },
+        {
+            "source": 72,
+            "target": 80,
+            "value": 0.997321
+        }
+    ]
+}

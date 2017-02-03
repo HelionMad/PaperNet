@@ -1,0 +1,144 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.15.9292",
+            "keyword": "",
+            "author": "Simon Tong, Daphne Koller ",
+            "abstract": "The task of causal structure discovery from empirical data is  a fundamental problem in many areas. Experimental data is  crucial for accomplishing this task. However, experiments  are typically expensive, and must be selected with great care. This paper",
+            "title": "Active Learning for Structure in Bayesian Networks"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.48.9593",
+            "keyword": "",
+            "author": "David Heckerman, Christopher Meek, Gregory Cooper",
+            "abstract": "We examine the Bayesian approach to the discovery of directed acyclic causal models and compare it to the constraint-based approach. Both approaches rely on the Causal Markov assumption, but the two differ significantly in theory and practice. An important difference between the approaches is that the constraint-based approach uses categorical information about conditional-independence constraints in the domain, whereas the Bayesian approach weighs the degree to which such constraints hold. As a result, the Bayesian approach has three distinct advantages over its constraint-based counterpart. One, conclusions derived from the Bayesian approach are not susceptible to incorrect categorical decisions about independence facts that can occur with data sets of finite size. Two, using the Bayesian approach, finer distinctions among model structures---both quantitative and qualitative---can be made. Three, information from several models can be combined to make better inferences and to better ...",
+            "title": "A Bayesian Approach to Causal Discovery"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.156.9918",
+            "keyword": "",
+            "author": "David Heckerman, David M. Chickering",
+            "abstract": "We describe scoring metrics for learning Bayesian networks from a combination of user knowledge and statistical data. We identify two important properties of metrics, which we call event equivalence and parameter modularity. These properties have been mostly ignored, but when combined, greatly simplify the encoding of a user\u2019s prior knowledge. In particular, a user can express his knowledge\u2014for the most part\u2014as a single prior Bayesian network for the domain. 1",
+            "title": "Learning Bayesian networks: The combination of knowledge and statistical data"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.33.8922",
+            "keyword": "",
+            "author": "Simon Tong, Daphne Koller",
+            "abstract": "Bayesian networks are graphical representations of probability distributions. In virtually  all of the work on learning these networks, the assumption is that we are presented with  a data set consisting of randomly generated instances from the underlying distribution. In  many situations, however, we also have the option of active learning, where we have the  possibility of guiding the sampling process by querying for certain types of samples. This  paper addresses the problem of estimating the parameters of Bayesian networks in an active  learning setting. We provide a theoretical framework for this problem, and an algorithm  that chooses which active learning queries to generate based on the model learned so far.  We present experimental results showing that our active learning algorithm can significantly  reduce the need for training data in many situations.  1 Introduction  In many machine learning applications, the most time-consuming and costly task is the collection of a suffic...",
+            "title": "Active Learning for Parameter Estimation in Bayesian Networks"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.88.4436",
+            "keyword": "probabilistic networks, Bayesian belief networks, machine learning, induction",
+            "author": "Gregory F. Cooper, Tom Dietterich",
+            "abstract": "Abstract. This paper presents a Bayesian method for constructing probabilistic networks from databases. In particular, we focus on constructing Bayesian belief networks. Potential applications include computer-assisted hypothesis testing, automated scientific discovery, and automated construction of probabilistic expert systems. We extend the basic method to handle missing data and hidden (latent) variables. We show how to perform probabilistic inference by averaging over the inferences of multiple belief networks. Results are presented of a preliminary evaluation of an algorithm for constructing a belief network from a database of cases. Finally, we relate the methods in this paper to previous work, and we discuss open problems.",
+            "title": "A Bayesian method for the induction of probabilistic networks from data"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.157.1604",
+            "keyword": "",
+            "author": "David Maxwell Chickering, David Heckerman",
+            "abstract": "We discuss Bayesian methods for learning Bayesian networks when data sets are incomplete. In particular, we examine asymptotic approximations for the marginal likelihood of incomplete data given a Bayesian network. We consider the Laplace approximation and the less accurate but more efficient BIC/MDL approximation. We also consider approximations proposed by Draper (1993) and Cheeseman and Stutz (1995). These approximations are as efficient as BIC/MDL, but their accuracy has not been studied in any depth. We compare the accuracy of these approximations under the assumption that the Laplace approximation is the most accurate. In experiments using synthetic data generated from discrete naive-Bayes models having a hidden root node, we find that (1) the BIC/MDL measure is the least accurate, having a bias in favor of simple models, and (2) the Draper and CS measures are the most accurate. 1",
+            "title": "Efficient approximations for the marginal likelihood of Bayesian networks with hidden variables"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.42.6732",
+            "keyword": "",
+            "author": "Adrian E. Raftery",
+            "abstract": "Introduction  To motivate the methods described in this chapter, consider the following inference problem in astronomy (Soubiran, 1993). Until fairly recently, it has been believed that the Galaxy consists of two stellar populations, the disk and the halo. More recently, it has been hypothesized that there are in fact three stellar populations, the old (or thin) disk, the thick disk, and the halo, distinguished by their spatial distributions, their velocities, and their metallicities. These hypotheses have different implications for theories of the formation of the Galaxy. Some of the evidence for deciding whether there are two or three populations is shown in Figure 1, which shows radial and rotational velocities for n = 2; 370 stars. A natural model for this situation is a mixture model with J components, namely y i =  J  X  j=1  ae j ",
+            "title": "Hypothesis Testing and Model Selection Via Posterior Simulation"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.164.6116",
+            "keyword": "",
+            "author": "Clark Glymour, Peter Spirtes",
+            "abstract": "When is a statistical dependency between two variables best explained by the supposition that one of these variables causes the other, as opposed to the supposition that there is a (possibly unmeasured) common cause acting on both variables? In this paper, we describe an approach towards model specification developed more fully in our book Discovering Cuud Structure, and illustrate its application to the aforementioned question. Briefly, the approach is to determine constraints satisfied by the variance-covariance matrix of a sample, and then to conduct a quasi-automated search for the causal specifications that will best explain those constraints, 1.",
+            "title": "Latent variables, causal models and overidentifying constraints"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.28.1876",
+            "keyword": "",
+            "author": "Eric J. Horvitz, John S. Breese, Max Henrion",
+            "abstract": "Despite their different perspectives, artificial intelligence (AI) and the disciplines of decision science have common roots and strive for similar goals. This paper surveys the potential for addressing problems in representation, inference, knowledge engineering, and explanation within the decision-theoretic framework. Recent analyses of the restrictions of several traditional AI reasoning techniques, coupled with the development of more tractable and expressive decisiontheoretic representation and inference strategies, have stimulated renewed interest in decision theory and decision analysis. We describe early experience with simple probabilistic schemes for automated reasoning, review the dominant expert-system paradigm, and survey some recent research at the crossroads of AI and decision science. In particular, we present the belief network and influence diagram representations. Finally, we discuss issues that have not been studied in detail within the expert-systems sett...",
+            "title": "Decision Theory in Expert Systems and Artificial Intelligence"
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.157.4554",
+            "keyword": "",
+            "author": "Dan Geiger, David Heckerman",
+            "abstract": "This paper discuses multiple Bayesian networks representation paradigms for encoding asymmetric independence assertions. We offer three contributions: (1) an inference mechanism that makes explicit use of asymmetric independence to speed up computations, (2) a simplified definition of similarity networks and extensions of their theory, and (3) a generalized representation scheme that encodes more types of asymmetric independence assertions than do similarity networks. 1",
+            "title": "Advances in probabilistic reasoning"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.100.1923",
+            "keyword": "",
+            "author": "",
+            "abstract": "Adaptable component model (ACM) is proposed based on the product line analysis. The ACM helps revealing variable parts in the system and tailoring them in real time based on pre-defined rules as such enhancing and maintaining an enterprise level application system are effectively managed. With the rule components, we can make necessary changes easily to adapt to new business context. A pilot study was conducted at an enterprise-level application. The productivity improvement performance was resulted in 6 times effective in average in terms of LOC and 2 times decreased workload in terms of M-day for one new product addition. The quality improvement was resulted in 5 times less in average in terms of the number of defects and 3 times decreased workload. Accordingly, this paper (1) proposes a component architecture based on ACM (2) defines the rule components to define variable parts of business, and (3) introduces a case study which applies product line based ACM.",
+            "title": "Abstract Adaptable Component Model for Product"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": "0.183884529032"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": "0.163370835944"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": "0.163370835944"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": "0.0776738838677"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": "0.0620829633788"
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "value": "0.0620829633788"
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": "0.163045589106"
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "value": "0.139632918887"
+        },
+        {
+            "source": 4,
+            "target": 9,
+            "value": "0.116220248668"
+        },
+        {
+            "source": 7,
+            "target": 10,
+            "value": "1.0"
+        }
+    ]
+}

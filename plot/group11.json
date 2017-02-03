@@ -1,0 +1,1364 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.12.7580",
+            "keyword": "",
+            "author": "Matthew Turk",
+            "abstract": "Introduction  A primary goal of virtual environments is to support natural, efficient, powerful, and flexible interaction. If the interaction technology is overly obtrusive, awkward, or constraining, the user's experience with the synthetic environment is severely degraded. If the interaction itself draws attention to the technology, rather than the task at hand, or imposes a high cognitive load on the user, it becomes a burden and an obstacle to a successful virtual environment experience. The traditional two-dimensional, keyboard- and mouse-oriented graphical user interface (GUI) is not well-suited for virtual environments. Instead, synthetic environments provide the opportunity to utilize several different sensing modalities and technologies and integrate them into the user experience. Devices which sense body position and orientation, direction of gaze, speech and sound, facial expression, galvanic skin response, and other aspects of human behavior or state can be used to mediate c",
+            "title": "Gesture Recognition"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.61.6350",
+            "keyword": "",
+            "author": "",
+            "abstract": "A novel Gabor-Kernel face recognition method is proposed in this paper. This involves convolving a face image with a series of Gabor wavelets at different scales, locations, and orientations. Kernel methods such as Kernel Principal Component Analysis (KPCA) and Kernel Discriminant Analysis (KDA) are then applied to the feature vectors for dimension reduction as well as  class separability enhancement. A database of 600 frontal-view face images from the FERET face database is used to test the method. Experimental results demonstrate the advantage of Kernel methods over classical Principal Component Analysis (PCA) and Linear Discriminant  Analysis (LDA). Significant improvements are also  observed when the Gabor filtered images are used for feature extraction instead of the original images. The Gabor + KDA method achieves 92% recognition accuracy using only 35 features of a face image .",
+            "title": "Gabor Feature Based Face Recognition Using Kernel Methods"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.61.6709",
+            "keyword": "",
+            "author": "Stephane Marchand-Maillet, Bernard Merialdo",
+            "abstract": "This paper introduces the use of Hidden Markov Models (HMM) as an alternative to techniques classically used for face detection. Our aim is to locate faces in colour images of a videosequence in view to indexing. The use of HMM in pattern recognition is first briefly reviewed and the mapping of these models onto our problem is presented. Pseudo two-dimensional HMM arepresented and shown to be efficient and wellsuitedtools for performing facedetection in a context wherenoconstraints on face orientation are given. Issues about efficient facemodelling are discussed and illustrated with practical examples.",
+            "title": "Pseudo two-dimensional Hidden Markov Models for Face Detection in Colour Images"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.61.6883",
+            "keyword": "Key words, Face Recognition, Manifolds, Illumination, Pose, Robustness, Invariance 1",
+            "author": "Ognjen Arandjelovic, Ognjen Ar, Jelovi\u0107 A,  Roberto Cipolla",
+            "abstract": "The objective of this work is to recognize faces using video sequences both for training and novel input, in a realistic, unconstrained setup in which lighting, pose and user motion pattern have a wide variability and face images are of low resolution. There are three major areas of novelty: (i) illumination generalization is achieved by combining coarse histogram correction with fine illumination manifold-based normalization; (ii) pose robustness is achieved by decomposing each appearance manifold into semantic Gaussian pose clusters, comparing the corresponding clusters and fusing the results using an RBF network; (iii) we describe a fully automatic recognition system based on the proposed method and an extensive empirical evaluation on 600 head motion video sequences with extreme illumination, pose and motion pattern variation. On this challenging data set our system consistently demonstrated a very high recognition rate (95% on average).",
+            "title": "A Face Recognition System for Access Control Using Video"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.61.7114",
+            "keyword": "",
+            "author": "Stephen Jones Claus",
+            "abstract": "This paper describes the use of appearance based vision for defining visual processes for navigation. A visual processes which transform images to commands and events. A family of visual processes are defined by associating the appearance of a scene from a given viewpoint with the simple trajectories. Appearance is captured as a set of low-resolution images. Energy normalised cross correlation is used to maintain heading, to estimated confidence and to servo control a robot vehicle while following a path. Experimental results are  presented which compare results with a single camera, a pair of parallel cameras and a pair of divergent cameras. The most accurate (and robust) navigation is found with a pair of cameras which are slightly divergent.",
+            "title": "Appearance Based Processes for Visual Navigation"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.61.7120",
+            "keyword": "",
+            "author": "James Crowley Frank, Frank Wallner, Bernt Schiele",
+            "abstract": "sensors is to construct a structural description from sensor data and to match this description to a previously acquired model [Crowley 85]. An alternative is to project individual range measurements onto a previously acquired model [Leonard and Durrant-Whyte 91]. It is also possible to fuse range measurements directly using occupancy grids [Elfes 86], [Schiele 94]. Recently it has been shown that raw range data from nearby scans can be registered using a technique known as scan correlation [Weiss et al 95]. The correction vector from this technique provides a  correction to position estimation. A thorough review in the state of the art in position estimation is provided in [Borenstein et al 96].",
+            "title": "Position Estimation Using Principal Components of Range Data"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.61.7650",
+            "keyword": "wavelet responses at the intersection points of a rectangular grid overlaid on the face",
+            "author": "School Of Computer, Li Bai, Linlin Shen",
+            "abstract": "This paper describes face recognition algorithms that improve upon the  original DCT based HMM face recogniser by using wavelet multiresolution  analysis to extract observation sequences . In this approach a  face image is divided into a number of overlapping subimages and  wavelet decomposition is performed on each of the subimages . The ORL  and our own face databases are used to test the algorithms and it is  observed that our algorithms give better performance than the original.",
+            "title": "Combining Wavelets with HMM for Face Recognition Li Bai and Linlin Shen"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.61.7678",
+            "keyword": "",
+            "author": "Best Paper Prize, Jerome Martin, James L Crowley",
+            "abstract": "This paper presents a theoretical and experimental comparison of different forms  of SSD and normalised cross-correlation of image neighborhoods. Signal detection theory is  used as a framework for analysis of correlation techniques. A sum of squared difference (SSD) of  two image neighborhoods is shown to provide an optimal matching measure for tracking and  registration in the case fo additive Gaussian noise. Correlation of the image, its gradient  magnitude or its Laplacian are discussed. The relations between SSD and Cross Correlation are  demonstrated, and different normalisation techniques are described. An experimental  comparison is made of SSD, Normalized Cross Correlation, and Zero-Mean normalised cross  correlation, in the presence of changes in light level, additive Gaussian noise, and salt-andpepper  noise.",
+            "title": "Appeared in Conference on Intelligent Autonomous Systems, IAS '95, Karlsruhe, March 95."
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.61.7681",
+            "keyword": "",
+            "author": "Kin Choong Yow,  Roberto Cipolla",
+            "abstract": "Present approaches to human face detection have made several assumptions that restrict their ability to be extended to general imaging conditions. We identify that the key factor in a generic and robust system is that of exploitinga large amount of evidence, related and reinforced by model knowledge through a probabilistic framework. In this paper, we propose a face detection framework that groups image features into meaningful entities using perceptual organization, assigns probabilities to each of them, and reinforce these probabilities using Bayesian reasoning techniques. True hypotheses of faces will be reinforced to a high probability. The detection of faces under scale, orientation and viewpoint variations will be examined in a subsequent paper.",
+            "title": "A Probabilistic Framework for Perceptual Grouping of Features for Human Face Detection "
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.61.7860",
+            "keyword": "",
+            "author": "Nicolas Gourier  , Daniela Hall, James L. Crowley",
+            "abstract": "This paper addresses the problem of automatic detection of salient facial features. Face images are described using local normalized gaussian receptive fields. Face features are learned using a clustering of the Gaussian derivative responses. We have found that a single cluster provides a robust detector for salient facial features robust to pose, illumination and identity. In this paper we describe how this cluster is learned and which facial features have found to be salient.",
+            "title": "Facial Features Detection Robust to Pose, Illumination and Identity"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.61.7868",
+            "keyword": "",
+            "author": "Ognjen Arandjelovic,  Roberto Cipolla",
+            "abstract": "Our goal is to automatically determine the cast of a feature-length film. This is challenging because the cast size is not known, with appearance changes of faces caused by extrinsic imaging factors (illumination, pose, expression) often greater than due to differing identities. The main contribution of this paper is an algorithm for clustering over face appearance manifolds. Specifically: (i) we develop a novel algorithm for exploiting coherence of dissimilarities between manifolds, (ii) we show how to estimate the optimal  dataset-specific discriminant manifold starting from a generic one, and (iii) we describe a fully automatic, practical system based on the proposed algorithm. The performance of the system is evaluated on well-known featurelength films and situation comedies on which it is shown to produce good results.",
+            "title": "Automatic Cast Listing in Feature-Length Films with Anisotropic Manifold Space"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.62.2294",
+            "keyword": "of lines",
+            "author": "Klaus Kollreider, Hartwig Fronthaler, Maycel Isaac Faraj, Josef Bigun",
+            "abstract": "Abstract\u2014A robust face detection technique along with mouth localization, processing every frame in real time (video rate), is presented. Moreover, it is exploited for motion analysis onsite to verify \u201cliveness \u201d as well as to achieve lip reading of digits. A methodological novelty is the suggested quantized angle features (\u201cquangles\u201d) being designed for illumination invariance without the need for preprocessing (e.g., histogram equalization). This is achieved by using both the gradient direction and the double angle direction (the structure tensor angle), and by ignoring the magnitude of the gradient. Boosting techniques are applied in a quantized feature space. A major benefit is reduced processing time (i.e., that the training of effective cascaded classifiers is feasible in very short time, less than 1 h for data sets of order IH R). Scale invariance is implemented through the use of an image scale pyramid. We propose \u201cliveness \u201d verification barriers as applications for which a significant amount of computation is avoided when estimating motion. Novel strategies to avert advanced spoofing attempts (e.g., replayed videos which include person utterances) are demonstrated. We present favorable results on face detection for the YALE face test set and competitive results for the CMU\u2013MIT frontal face test set as well as on \u201cliveness \u201d verification barriers. Index Terms\u2014AdaBoost, antispoofing, face detection, landmark detection, lip reading, liveness, object detection, optical flow",
+            "title": "Real-Time Face Detection and Motion Analysis With Application in \u201cLiveness \u201d Assessment"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.62.2296",
+            "keyword": "",
+            "author": "Arun Ross, Anil Jain, Jian-zhong Qian",
+            "abstract": "Abstract. User verification systems that use a single biometric indicator often have to contend with noisy sensor data, restricted degrees of freedom and unacceptable error rates. Attempting to improve the performance of individual matchers in such situations may not prove to be effective because of these inherent problems. Multimodal biometric systems seek to alleviate some of these drawbacks by providing multiple evidences of the same identity. These systems also help achieve an increase in performance that may not be possible by using a single biometric indicator. This paper addresses the problem of information fusion in verification systems. Experimental results on combining three biometric modalities (face, fingerprint and hand geometry) are also presented. 1",
+            "title": "Information fusion in biometrics"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.62.2527",
+            "keyword": "",
+            "author": "Young-ouk Kim, Joonki Paik, Jingu Heo, Andreas Koschan, Besma Abidi, Mongi Abidi",
+            "abstract": "In this paper, we present a combined real-time face region tracking and highly accurate face recognition technique for an intelligent surveillance system. Highresolution face images are very important to achieve an accurate identification of a human face. Conventional surveillance or security systems, however, usually provide poor image quality because they use only fixed cameras to passively record scenes. We implemented a real-time surveillance system that tracks a moving face using four pan-tilt-zoom (PTZ) cameras. While tracking, the regionof-interest (ROI) can be obtained by using a low-pass filter and background subtraction with the PTZ. Color information in the ROI is updated to extract features for optimal tracking and zooming. FaceIt\u00ae, which is one of the most popular face recognition software packages, is evaluated and then used to recognize the faces from the video signal. Experimentation with real human faces showed highly acceptable results in the sense of both accuracy and computational efficiency. 1.",
+            "title": "Automatic face region tracking for highly accurate face recognition in unconstrained environments"
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.62.3912",
+            "keyword": "",
+            "author": "Saad Ali",
+            "abstract": "In recent years Kernel Principal Component Analysis (Kernel PCA) has gained much attention because of its ability to capture nonlinear image features, which are particularly important for encoding image structure. Boosting has been established as a powerful learning algorithm that can be used for feature selection. In this paper we present a novel framework for object class detection that combines the feature reduction and feature selection abilities of Kernel PCA and AdaBoost respectively. The classifier obtained in this way is able to handle change in object appearance, illumination conditions, and surrounding clutter. A nonlinear subspace is learned for positive and negative object classes using Kernel PCA. Features are derived by projecting example images onto the learned subspaces. Base learners are modeled using Bayes classifier. AdaBoost is then employed to discover the features that are most relevant for the object detection task at hand. The proposed method has been successfully tested on wide range of object classes (cars, airplanes, pedestrians, motorcycles, etc) using standard data sets and has shown remarkable performance. Using a small training set, a classifier learned in this way was able to generalize the intra-class variation while still maintaining high detection rate. In most object categories we achieved detection rates of above 95 % with minimal false alarm rates. We demonstrate the effectiveness of our approach in terms of absolute performance parameters and comparative performance against current state of the art approaches. 1.",
+            "title": "A supervised learning framework for generic object detection in images"
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.62.4016",
+            "keyword": "2",
+            "author": "Shimon Edelman",
+            "abstract": "SUMMARY. This paper examines four current theoretical approaches to the representation and recognition of visual objects: structural descriptions, geometric constraints, multidimensional feature spaces, and shape-space approximation. The strengths and the weaknesses of the theories are considered, with a special focus on their approach to categorization \u2014 a computationally challenging task which is not widely addressed in computer vision (where the stress is rather on the generalization of recognition across changes of viewpoint).",
+            "title": "Computational theories of object recognition"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.62.5309",
+            "keyword": "",
+            "author": "Beno Duc, Stefan Fischer, Josef Bigun",
+            "abstract": "This paper investigates the application of statistical pat-tern recognition methods in the framework of the Dyna-mic Link Matching approach. This method describes ob-jects by means of local frequency information on nodes of a sparse grid. Matching of an input image with a reference is achieved by displacement and deformation of the grid. This method is applied here to the authentication of hu-man faces in a cooperative scenario where candidates claim an identity that is to be checked. The matching error is not powerful enough to provide satisfying results in this case. We introduce an automatic weighting of the nodes accor-ding to their significance. Results show that for regular grids, this weighting leads to a significant improvement of the performance. 1.",
+            "title": "Face authentication with sparse grid gabor information"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.62.7690",
+            "keyword": "",
+            "author": "M. Alex O. Vasilescu, Demetri Terzopoulos",
+            "abstract": "Natural images are the composite consequence of multiple factors related to scene structure, illumination, and imaging. For facial images, the factors include different facial geometries, expressions, head poses, and lighting conditions. We apply multilinear algebra, the algebra of higherorder tensors, to obtain a parsimonious representation of facial image ensembles which separates these factors. Our representation, called TensorFaces, yields improved facial recognition rates relative to standard eigenfaces. 1",
+            "title": "Multilinear Image Analysis for Facial Recognition"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.62.7891",
+            "keyword": "1",
+            "author": "N. J. Martin, Ayr Ka Hw",
+            "abstract": "Abstract { A matching algorithm is proposed for aligning microscope images obtained using di erent modalities, making use of cross-correlations of outputs from Prewitt's edge lter. Bright eld, phase contrast and differential interference contrast microscope images of algal and bacterial cells from an experimental, high-rate algal pond are used for illustration. The information content ofmultimodal images is explored using principal components analysis and colour displays, and an image which represents optical thickness is constructed digitally. Key words { Bright eld microscopy, Cross-correlation, Di erential interference contrast microscopy, High-rate algal pond, Image matching, Optical thickness, Phase contrast microscopy, Prewitt's edge lter, Principal",
+            "title": "Multimodality microscopy by digital image processing"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.62.8554",
+            "keyword": "",
+            "author": "Kinh Tieu, Erik G. Miller",
+            "abstract": "In [1] we introduced a linear statistical model of joint color changes in images due to variation in lighting and certain non-geometric camera parameters. We did this by measuring the mappings of colors in one image of a scene to colors in another image of the same scene under different lighting conditions. Here we increase the flexibility of this color flow model by allowing flow coefficients to vary according to a low order polynomial over the image. This allows us to better fit smoothly varying lighting conditions as well as curved surfaces without endowing our model with too much capacity. We show results on image matching and shadow removal and detection. 1",
+            "title": "Abstract"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.62.8584",
+            "keyword": "",
+            "author": "Haz\u0131m Kemal Ekenel, Rainer Stiefelhagen",
+            "abstract": "In this paper we investigate the benefits of using a local appearance-based face recognition scheme against the problem of facial occlusion. We proposed two separate automatic block selection approaches to select the local image blocks that could be used for classification. Proposed approaches are tested against both upper and lower facial occlusions using the AR face database. Significant improvements are observed in the face recognition performance. 1.",
+            "title": "Block selection in the local appearance-based face recognition scheme,\u201d presented at the CVPR Biometrics Workshop"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.62.8624",
+            "keyword": "",
+            "author": "Fernando Jorge, Soares Carvalho, Jo\u00e3o Manuel, R. S. Tavares",
+            "abstract": "ABSTRACT: In this paper two methodologies to detect and locate the iris of the eye in static images, are presented. One uses the Hough\u2019s transform and other is based on deformable templates. In both methodologies, the contour of the iris is represented geometrically by a circumference and its radius and centre are considered as its control parameters. The dynamic update of these parameters allows the determination of its final values, enabling the fully definition of the iris in the image. After a description of the considered methodologies, the advantages and disadvantages between them are presented, as well as some experimental results, conclusions and perspectives of future work. 1",
+            "title": "Two methodologies for iris detection and location in face images"
+        },
+        {
+            "group": 22,
+            "name": "10.1.1.62.9544",
+            "keyword": "",
+            "author": "Fernando De, Torre Takeo Kanade",
+            "abstract": "Linear discriminant analysis (LDA) has been an active topic of research during the last century. However, the existing algorithms have several limitations when applied to visual data. LDA is only optimal for gaussian distributed classes with equal covariance matrices and just classes-1 features can be extracted. On the other hand, LDA does not scale well to high dimensional data (over-fitting) and it does not necessarily minimize the classification error. In this paper, we introduce Oriented Discriminant Analysis (ODA), a LDA extension which can overcome these drawbacks. Three main novelties are proposed: \u2022 An optimal dimensionality reduction which maximizes the Kullback-Liebler divergence between classes is proposed. This allows us to model class covariances and to extract more than classes-1 features. \u2022 Several covariance approximations are introduced to improve classification in the small sample case. \u2022 A linear time iterative majorization method is introduced in order to find a local optimal solution. Several synthetic and real experiments on face recognition are reported 1.",
+            "title": "Oriented Discriminant Analysis (ODA)"
+        },
+        {
+            "group": 23,
+            "name": "10.1.1.62.9654",
+            "keyword": "",
+            "author": "Daniel Keren, Margarita Osadchy, Craig Gotsman",
+            "abstract": "Abstract. This paper offers a novel detection method, which works well even in the case of a complicated image collection \u2013 for instance, a frontal face under a large class of linear transformations. It was also successfully applied to detect 3D objects under different views. Call the class of images, which should be detected, a multi-template. The detection problem is solved by sequentially applying very simple filters (or detectors), which are designed to yield small results on the multi-template (hence \u201canti-faces\u201d), and large results on \u201crandom \u201d natural images. This is achieved by making use of a simple probabilistic assumption on the distribution of natural images, which is borne out well in practice, and by using a simple implicit representation of the multi-template. Only images which passed the threshold test imposed by the first detector are examined by the second detector, etc. The detectors have the added bonus that they act independently, so that their false alarms are uncorrelated; this results in a percentage of false alarms which exponentially decreases in the number of detectors. This, in turn, leads to a very fast detection algorithm, usually requiring (1 + \u03b4)N operations to classify an N-pixel image, where \u03b4<0.5. Also, the algorithm requires no training loop. The suggested algorithm\u2019s performance favorably compares to the wellknown eigenface and support vector machine based algorithms, and it is substantially faster.",
+            "title": "Anti-faces for detections"
+        },
+        {
+            "group": 24,
+            "name": "10.1.1.62.9696",
+            "keyword": "Hidden Markov Models (HMMs",
+            "author": "Aleix Mart Nez",
+            "abstract": "This paper introduces a new face recognition system that can be used to index (and thus retrieve) images and videos of a database of faces. New face recognition approaches are needed because, although much progress has been made to identify face taken from different viewpoints, we still cannot robustly identify faces under di erent illumination conditions, or when the facial expression changes, or when a part of the face is occluded onaccount of glasses or parts of clothing. When face recognition methods have worked in the past, it was only when all possible \\image variations &quot; were learned. Principal Components Analysis (PCA) and Fisher Discriminant Analysis (FDA) are well-known cases of such methods. In this paper we present a di erent approach to the indexing of face images. Our approach is based on identifying frontal faces and it allows reasonable variability in facial expressions, illumination conditions, and occlusions caused by eye-wear or items of clothing such as scarves. We divide a face image into n di erent regions, analyze each region with PCA, and then use a Bayesian approach to nding the best possible global match between a query image and a database image. The relationships between the n parts is modeled by using",
+            "title": "Face Image Retrieval Using HMMs"
+        },
+        {
+            "group": 25,
+            "name": "10.1.1.62.9760",
+            "keyword": "Principal Component Analysis, Incremental PCA, Robust PCA, Background modelling, Mmulti-view face modelling",
+            "author": "Yongmin Li",
+            "abstract": "Principal Component Analysis (PCA) has been of great interest in computer vision and pattern recognition. In particular, incrementally learning a PCA model, which is computationally e cient for large-scale problems as well as adaptable to re ect the variable state of a dynamic system, is an attractive research topic with numerous applications such as adaptive background modelling and active object recognition. In addition, the conventional PCA, in the sense of least mean squared error minimisation, is susceptible to outlying measurements. To address these two important issues, we present a novel algorithm of incremental PCA, and then extend it to robust PCA. Compared with the previous studies on robust PCA, our algorithm is computationally more e cient. We demonstrate the performance of these algorithms with experimental results on dynamic background modelling and multi-view face modelling.",
+            "title": "On incremental and robust subspace learning"
+        },
+        {
+            "group": 26,
+            "name": "10.1.1.63.443",
+            "keyword": "Models (AAMs) [5] have been proposed to address this",
+            "author": "Yongmin Li A, Shaogang Gong B, Heather Liddell B",
+            "abstract": "trajectories of facial identities using kernel",
+            "title": "discriminant"
+        },
+        {
+            "group": 27,
+            "name": "10.1.1.63.785",
+            "keyword": "",
+            "author": "Sethu Vijayakumar, Si Wu",
+            "abstract": "A gradient based technique for generating sparse representation in function approximation We provide an RKHS based inverse problem formulation[15] for analytically deriving the optimal function approximation when probabilistic information about the underlying regression is available in terms of the associated correlation functions as used in [9, 8]. On the lines of Poggio and Girosi[9], we show that this solution can be sparsified using principles of SVM and provide an implementation of this sparsification using a novel, conceptually simple and robust gradient based sequential method instead of the conventional quadratic programming",
+            "title": ""
+        },
+        {
+            "group": 28,
+            "name": "10.1.1.63.1957",
+            "keyword": "",
+            "author": "Felix A. Wichmann, Arnulf B. A. Graf, Eero P. Simoncelli, Heinrich H. B\u00fclthoff, Bernhard Sch\u00f6lkopf",
+            "abstract": "We study gender discrimination of human faces using a combination of psychophysical classification and discrimination experiments together with methods from machine learning. We reduce the dimensionality of a set of face images using principal component analysis, and then train a set of linear classifiers on this reduced representation (linear support vector machines (SVMs), relevance vector machines (RVMs), Fisher linear discriminant (FLD), and prototype (prot) classifiers) using human classification data. Because we combine a linear preprocessor with linear classifiers, the entire system acts as a linear classifier, allowing us to visualise the decision-image corresponding to the normal vector of the separating hyperplanes (SH) of each classifier. We predict that the female-tomaleness transition along the normal vector for classifiers closely mimicking human classification (SVM and RVM [1]) should be faster than the transition along any other direction. A psychophysical discrimination experiment using the decision images as stimuli is consistent with this prediction.  ",
+            "title": "Machine Learning Applied to Perception: . . . "
+        },
+        {
+            "group": 29,
+            "name": "10.1.1.63.2153",
+            "keyword": "Index Terms \u2014 Human-Robot Interaction, Human-Centred Robotics, Audio-Visual Perception, Multimodal Interaction",
+            "author": "Rainer Stiefelhagen, Haz\u0131m Kemal Ekenel, Christian F\u00fcgen, Petra Gieselmann, Hartwig Holzapfel, Florian Kraft, Kai Nickel, Michael Voit, Alex Waibel",
+            "abstract": "In this paper we present our work in building technologies for natural multimodal human-robot interaction. We present our systems for spontaneous speech recognition, multimodal dialogue processing and visual perception of a user, which includes localization, tracking and identification of the user, recognition of pointing gestures as well as the recognition of a person\u2019s head orientation. Each of the components are described in the paper and experimental results are presented. We also present several experiments on multimodal human-robot interaction, such as interaction using speech and gestures, the automatic determination of the addressee during human-human robot interaction, as well on interactive learning of dialogue strategies. The here presented work and components constitute the core building blocks for audio-visual perception of humans and multimodal human-robot interaction used for the humanoid robot developed within the German research project (Sonderforschungsbereich) on humanoid cooperative robots.",
+            "title": "IEEE TRANSACTIONS ON ROBOTICS: SPECIAL ISSUE ON HUMAN-ROBOT INTERACTION 1 Enabling Multimodal Human-Robot Interaction for the Karlsruhe Humanoid Robot"
+        },
+        {
+            "group": 30,
+            "name": "10.1.1.63.2387",
+            "keyword": "Gabor \u00aelters, Head pose estimation, Similarity representation, Face recognition",
+            "author": "J. Sherrah, S. Gong, E. J. Ong",
+            "abstract": "Real-time identity-independent estimation of head pose from prototype images is a perplexing task requiring pose-invariant face detection. The problem is exacerbated by changes in illumination, identity and facial position. We approach the problem using a view-based statistical learning technique based on similarity of images to prototypes. For this method to be effective, facial images must be transformed in such a way as to emphasise differences in pose while suppressing differences in identity. We investigate appropriate transformations for use with a similarity-to-prototypes philosophy. The results show that orientation-selective Gabor \u00aelters enhance differences in pose and that different \u00aelter orientations are optimal at different poses. In contrast, principal component analysis \ufffdPCA) was found to provide an identity-invariant representation in which similarities can be calculated more robustly. We also investigate the angular resolution at which pose changes can be resolved using our methods. An angular resolution of 108 was found to be suf\u00aeciently discriminable at some poses but not at others, while 208",
+            "title": "Abstract Face distributions in similarity space under varying head pose q"
+        },
+        {
+            "group": 31,
+            "name": "10.1.1.63.2458",
+            "keyword": "",
+            "author": "Matthew N. Dailey, Garrison W. Cottrell, Thomas A. Busey",
+            "abstract": "We compare the ability of three exemplar-based memory models, each using three different face stimulus representations, to account for the probability a human subject responded \u201cold \u201d in an old/new facial memory experiment. The models are 1) the Generalized Context Model, 2) SimSample, a probabilistic sampling model, and 3) MMOM, a novel model related to kernel density estimation that explicitly encodes stimulus distinctiveness. The representations are 1) positions of stimuli in MDS \u201cface space, \u201d 2) projections of test faces onto the \u201ceigenfaces \u201d of the study set, and 3) a representation based on response to a grid of Gabor filter jets. Of the 9 model/representation combinations, only the distinctiveness model in MDS space predicts the observed \u201cmorph familiarity inversion \u201d effect, in which the subjects \u2019 false alarm rate for morphs between similar faces is higher than their hit rate for many of the studied faces. This evidence is consistent with the hypothesis that human memory for faces is a kernel density estimation task, with the caveat that distinctive faces require larger kernels than do typical faces. 1",
+            "title": "Abstract"
+        },
+        {
+            "group": 32,
+            "name": "10.1.1.63.2462",
+            "keyword": "Neural coding, Visual processing, Object recognition, Attention, Spike timing, Rank order coding",
+            "author": "Rufin Vanrullen A, Simon J. Thorpe B",
+            "abstract": "Numerous theories of neural processing, often motivated byexperimental observations, have explored the computational properties of neural codes based on the absolute or relative timing of spikes in spike trains. Spiking neuron models and theories however, as well as their experimental counterparts, have generallybeen limited to the simulation or observation of isolated neurons, isolated spike trains, or reduced neural populations. Such theories would therefore seem inappropriate to capture the properties of a neural code relying on temporal spike patterns distributed across large neuronal populations. Here we report a range of computer simulations and theoretical considerations that were designed to explore the possibilities of one such code and its relevance for visual processing. In a unified framework where the relation between stimulus saliencyand spike relative timing plays the central role, we describe how the ventral stream of the visual system could process natural input scenes and extract meaningful information, both rapidlyand reliably. The first wave of spikes generated in the retina in response to a visual stimulation carries information explicitlyin its spatio-temporal structure: the most salient information is represented bythe first spikes over the population. This spike wave, propagating through a hierarchyof visual areas, is regenerated at each processing stage, where its temporal structure can be modified by(i) the selectivityof the cortical neurons, (ii) lateral interactions and (iii) top-down attentional influences from higher order cortical areas. The resulting model could account for the remarkable efficiencyand rapidityof processing observed in the primate visual system.",
+            "title": "Abstract Surfing a spike wave down the ventral stream"
+        },
+        {
+            "group": 33,
+            "name": "10.1.1.63.3354",
+            "keyword": "",
+            "author": "Engin Erzin, Y\u00fccel Yemez, A. Murat, Tekalp Fellow",
+            "abstract": "We present a multimodal open-set speaker identification system that integrates information coming from audio, face and lip motion modalities. For fusion of multiple modalities, we propose a new adaptive cascade rule that favors reliable modality combinations through a cascade of classifiers. The order of the classifiers in the cascade is adaptively determined based on the reliability of each modality combination. A novel reliability measure, that genuinely fits to the open-set speaker identification problem, is also proposed to assess accept or reject decisions of a classifier. A formal framework is developed based on probability of correct decision for analytical comparison of the proposed adaptive rule with other classifier combination rules. The proposed adaptive rule is more robust in the presence of unreliable modalities, and outperforms the hard-level max rule and soft-level weighted summation rule, provided that the employed reliability measure is effective in assessment of classifier decisions. Experimental results that support this assertion are provided.",
+            "title": "Multimodal speaker identification using an adaptive classifier cascade based on modality reliability"
+        },
+        {
+            "group": 34,
+            "name": "10.1.1.63.4605",
+            "keyword": "",
+            "author": "Qifa Ke, Takeo Kanade",
+            "abstract": "Matrix factorization has many applications in computer vision. Singular Value Decomposition (SVD) is the standard algorithm for factorization. When there are outliers and missing data, which often happen in real measurements, SVD is no longer applicable. For robustness Iteratively Re-weighted Least Squares (IRLS) is often used for factorization by assigning a weight to each element in the measurements. Because it uses L2 norm, good initialization in IRLS is critical for success, but is non-trivial. In this paper, we formulate matrix factorization as a L1 norm minimization problem that is solved efficiently by alternative convex programming. Our formulation 1) is robust without requiring initial weighting, 2) handles missing data straightforwardly, and 3) provides a framework in which constraints and prior knowledge (if available) can be conveniently incorporated. In the experiments we apply our approach to factorization-based structure from motion. It is shown that our approach achieves better results than other approaches (including IRLS) on both synthetic and real data.  ",
+            "title": "  Robust L1 norm factorization in the presence of outliers and missing data by alternative convex programming"
+        },
+        {
+            "group": 35,
+            "name": "10.1.1.63.4641",
+            "keyword": "",
+            "author": "James J. Lien, Jeffrey F. Cohn",
+            "abstract": "Automated recognition of facial expression is an important addition to computer vision research because of its relevance to the study of psychological phenomena and the development of human-computer interaction (HCI). We developed a computer vision system that automatically recognizes individual action units or action unit combinations in the upper face using Hidden Markov Models (HMMs). Our approach to facial expression recognition is based on the Facial Action Coding System (FACS), which separates expressions into upper and lower face action. In this paper, we use three approaches to extract facial expression information: (1) facial feature point tracking, (2) dense flow tracking with principal component analysis (PCA), and (3) high gradient component detection (i.e., furrow detection). The recognition results of the upper face expressions using feature point tracking, dense flow tracking, and high gradient component detection are 85%, 93%, and 85%, respectively. 1.",
+            "title": "Automated Facial Expression Recognition based on FACS Action Units"
+        },
+        {
+            "group": 36,
+            "name": "10.1.1.63.5175",
+            "keyword": "Eigenflow, Individual Eigenspace, Face Authentication, Principal Component Analysis, Optical Flow",
+            "author": "Xiaoming Liu, Tsuhan Chen, B. V. K. Vijaya Kumar",
+            "abstract": "In this paper, we present a novel scheme for face authentication. To deal with variations, such as facial expressions and registration errors, with which traditional intensity-based methods do not perform well, we propose the eigenflow approach. In this approach, the optical flow and the optical flow residue between a test image and an image in the training set are first computed. The optical flow is then fitted to a model that is pre-trained by applying principal component analysis (PCA) to optical flows resulting from facial expressions and registration errors for the subject. The eigenflow residue, optimally combined with the optical flow residue using linear discriminant analysis (LDA), determines the authenticity of the test image. An individual modeling method and a common modeling method are described. We also present a method to optimally choose the threshold for each subject for a multiple-subject authentication system. Experimental results show that the proposed scheme outperforms the traditional methods in the presence of facial expression variations and registration errors.",
+            "title": "Advanced Multimedia Processing Lab"
+        },
+        {
+            "group": 37,
+            "name": "10.1.1.63.6164",
+            "keyword": "",
+            "author": "Bryan C. Russell, Antonio Torralba, Kevin P. Murphy, William T. Freeman",
+            "abstract": "annotation",
+            "title": "Labelme: A database and web-based tool for image annotation"
+        },
+        {
+            "group": 38,
+            "name": "10.1.1.63.6357",
+            "keyword": "",
+            "author": "Xi Ciclo, Tesi Di, Ing Marco Patella, Chiar. Mo Prof, Ing Fabio Filicori, Chiar. Mo Prof, Ing Paolo Tiberio, Relatore Esterno, Chiar. Mo Prof, Ing Paolo Ciaccia, Loren Adams",
+            "abstract": "Relatore:",
+            "title": "Similarity Search in Multimedia Databases"
+        },
+        {
+            "group": 39,
+            "name": "10.1.1.63.7658",
+            "keyword": "",
+            "author": "Ming-Hsuan Yang, David J. Kriegman, Narendra Ahuja",
+            "abstract": " Images containing faces are essential to intelligent vision-based human computer interaction, and research efforts in face processing include face recognition, face tracking, pose estimation, and expression recognition. However, many reported methods assume that the faces in an image or an image sequence have been identified and localized. To build fully automated systems that analyze the information contained in face images, robust and efficient face detection algorithms are required. Given a single image, the goal of face detection is to identify all image regions which contain a face regardless of its three-dimensional position, orientation, and lighting conditions. Such a problem is challenging because faces are nonrigid and have a high degree of variability in size, shape, color, and texture. Numerous techniques have been developed to detect faces in a single image, and the purpose of this paper is to categorize and evaluate these algorithms. We also discuss relevant issues such as data collection, evaluation metrics, and benchmarking. After analyzing these algorithms and identifying their limitations, we conclude with several promising directions for future research.  ",
+            "title": "Detecting faces in images: A survey"
+        },
+        {
+            "group": 40,
+            "name": "10.1.1.63.9721",
+            "keyword": "",
+            "author": "Weiliang Li, Xiang Gao, Terrance E. Boult",
+            "abstract": "Abstract \u2013 Object recognition (or classification) systems largely emphasize improving system performance and focus on their \u201cpositive \u201d recognition (or classification). Few papers have addressed the prediction of recognition algorithm failures, even though it directly addresses a very relevant issue and can be very important in overall system design. This is the first paper to focus on predicting the failure of a recognizer (or classifier) and verifying the correctness of the recognition (or classification) system. This research provides a unique component to the overall understanding of biometric systems. The approach presented in the paper is the post-recognition analysis techniques (PRAT), where the similarity scores used in recognition are analyzed to predict the system failure or to verify the system correctness after a recognizer has been applied. Applying a AdaBoost learning the approach combines the features computed from the similarity measures to produce a patent pending system that predicts the failure of a biometric system. Because the approach is learning-based the PRAT is a general paradigm predicting failure of any \u201csimilarity-based\u201d recognition (or classification) algorithm. Failure prediction, using a leading leading commercial face recognition system, is presented as an example to show how to use the approach. On outdoor weathered face data, the system demonstrated the ability to predict 90 % of the underlying facial recognition system failures with a 15 % false alarm rate. I.",
+            "title": "Predicting Biometric System Failure"
+        },
+        {
+            "group": 41,
+            "name": "10.1.1.64.612",
+            "keyword": "",
+            "author": "Ravi Ramamoorthi",
+            "abstract": "Illumination can have a significant impact on the appearance of surfaces, as the patterns of shading, specularities and shadows change. For instance, some images of a face under different lighting conditions are shown in figure 1. Differences in lighting can often play a much greater role in image variability of human faces than differences between individual people. Lighting designers in",
+            "title": "Modeling Illumination Variation With Spherical Harmonics"
+        },
+        {
+            "group": 42,
+            "name": "10.1.1.64.878",
+            "keyword": "",
+            "author": "",
+            "abstract": "Most pose robust face verification algorithms, which employ 2D appearance, rely heavily on statistics gathered from offline databases containing ample facial appearance variation across many views. Due to the high dimensionality of the face images being employed, the validity of the assumptions employed in obtaining these statistics are essential for good performance. In this paper we assess three common approaches in 2D appearance pose mismatched face recognition literature. In our experiments we demonstrate where these approaches work and fail. As a result of this analysis, we additionally propose a new algorithm that attempts to learn the statistical dependency between gallery patches (i.e. local regions of pixels) and the whole appearance of the probe image. We demonstrate improved performance over a number of leading 2D appearance face recognition algorithms. 1.",
+            "title": "Learning Patch Dependencies for Improved Pose Mismatched Face Verification"
+        },
+        {
+            "group": 43,
+            "name": "10.1.1.64.1939",
+            "keyword": "",
+            "author": "James J. Lien, Takeo Kanade, Adena J. Zlochower, Jeffrey F. Cohn, Ching-chung Li",
+            "abstract": "We developed a computer vision system that automatically recognizes facial action units (AUs) or AU combinations using Hidden Markov Models (HMMs). AUs are defined as visually discriminable muscle movements. The facial expressions are recognized in digitized image sequences of arbitrary length. In this paper, we use two approaches to extract the expression information: (1) facial feature point tracking, which is sensitive to subtle feature motion, in the mouth region, and (2) pixel-wise flow tracking, which includes more motion information, in the forehead and brow regions. In the latter approach, we use principal component analysis (PCA) to compress the data. We accurately recognize 93 % of the lower face expressions and 91 % of the upper face expressions. 1.",
+            "title": "Automatically recognizing facial expressions in spatio-temporal domain using hidden markov models"
+        },
+        {
+            "group": 44,
+            "name": "10.1.1.64.2358",
+            "keyword": "",
+            "author": "Andrew David Wilson, Aaron F. Bobick, Bruce M. Blumberg, Stephen A. Benton, Andrew David Wilson",
+            "abstract": "Adaptive Models for the",
+            "title": "Recognition of Human Gesture"
+        },
+        {
+            "group": 45,
+            "name": "10.1.1.64.3077",
+            "keyword": "",
+            "author": "Zoran Zivkovic",
+            "abstract": "There are various situations where image data is binary: character recognition, result of image segmentation etc. As a first contribution, we compare Gaussian based principal component analysis (PCA), which is often used to model images, and \u201dbinary PCA \u201d which models the binary data more naturally using Bernoulli distributions. Furthermore, we address the problem of data alignment. Image data is often perturbed by some global transformations such as shifting, rotation, scaling etc. In such cases the data needs to be transformed to some canonical aligned form. As a second contribution, we extend the binary PCA to the \u201dtransformation invariant mixture of binary PCAs \u201d which simultaneously corrects the data for a set of global transformations and learns the binary PCA model on the aligned data. 1 1.",
+            "title": "IEEE Conference on Computer Vision and Pattern Recognition, 2006. Transformation invariant component analysis for binary images"
+        },
+        {
+            "group": 46,
+            "name": "10.1.1.64.3285",
+            "keyword": "",
+            "author": "Tim W. Nattkemper, Heiko Wersing, Walter Schubert, Helge Ritter",
+            "abstract": "",
+            "title": "A neural network architecture for automatic segmentation of fluorescence micrographs"
+        },
+        {
+            "group": 47,
+            "name": "10.1.1.64.3413",
+            "keyword": "",
+            "author": "",
+            "abstract": "Abstract\u2014This paper describes a novel method for modeling the shape and appearance of human faces in three dimensions using a constrained three-dimensional (3-D) active appearance model (AAM). Our algorithm is an extension of the classical twodimensional (2-D) AAM. The method uses a generic 3-D wireframe model of the face, based on two sets of controls: anatomically motivated muscle actuators to model facial expressions and statistically based anthropometrical controls to model different facial-types. The 3-D anthropometric-muscle-based model (AMBM) of the face allows representing a facial image in terms of a controlled model-parameter set, hence, providing a natural and constrained basis for face segmentation and analysis. The generated face models are consequently simpler and less memory intensive compared to the classical appearance-based models. The proposed method allows for accurate fitting results by constraining solutions to be valid instances of a face model. Extensive image-segmentation experiments have demonstrated the accuracy of the proposed algorithm against the classical AAM. Index Terms\u2014Active appearance models (AAMs), anthropometric, face analysis, image segmentation, muscle based, threedimensional (3-D) head. I.",
+            "title": "A 3-D Anthropometric-Muscle-Based Active Appearance Model"
+        },
+        {
+            "group": 48,
+            "name": "10.1.1.64.4803",
+            "keyword": "",
+            "author": "Yongmin Li, Shaogang Gong, Heather Liddell",
+            "abstract": "A Support Vector Machine based multi-view face detection and recognition framework is described in this paper. Face detection is carried out by constructing several detectors, each of them in charge of one specific view. The symmetrical property of face images is employed to simplify the complexity of the modelling. The estimation of head pose, which is achieved by using the Support Vector Regression technique, provides crucial information for choosing the appropriate face detector. This helps to improve the accuracy and reduce the computation in multi-view face detection compared to other methods. For video sequences, further computational reduction can be achieved by using Pose Change Smoothing strategy. When face detectors find a face in frontal view, a Support Vector Machine based multi-class classifier is activated for face recognition. All the above issues are integrated under a Support Vector Machine framework. Test results on four video sequences are presented, among them, detection rate is above 95%, recognition accuracy is above 90%, average pose estimation error is around 10 \u00c6, and the full detection and recognition speed is up to 4 frames/second on a PentiumII300 PC. 1.",
+            "title": "Support vector regression and classification based multi-view face detection and recognition"
+        },
+        {
+            "group": 49,
+            "name": "10.1.1.64.5518",
+            "keyword": "Dynamics of linear combinations, CONDENSATION, 3D skeleton tracking",
+            "author": "Eng-jon Ong, Shaogang Gong",
+            "abstract": "We propose a general framework for addressing three fundamental issues using linear combinations: \ufffd1) the properties of the examples to linearly combine, \ufffd2) the constraints, and \ufffd3) the method for estimating the linear combinations coef\u00aecients for reconstructing an object based on noisy and incomplete visual observations. To this end, we synthesise the necessary examples from known data using principal component analysis. Crucially, the dynamics of the object is dealt with by learning spatio-temporal constraints on the coef\u00aecients of the linear combinations. The CONDENSATION framework was adopted to estimate the coef\u00aecients for legitimate and plausible linear combinations. Finally, we apply the linear combinations framework to track 3D skeletons of human subjects using a hybrid representation. q 2002",
+            "title": "Abstract The dynamics of linear combinations: tracking 3D skeletons of human subjects"
+        },
+        {
+            "group": 50,
+            "name": "10.1.1.64.5952",
+            "keyword": "",
+            "author": "Dr Derek, Robert Magee",
+            "abstract": "The candidate confirms that the work submitted is his own and that appropriate credit has been given where reference has been made to the work of others. Over the last few decades the nature of farming has changed dramatically with small labour inten-sive farms being replaced by large, highly automated farms. With this change in the way things are done comes a new concern for animal welfare. Traditionally a skilled stock-man would look after a relatively small number of animals and have much direct contact with them on a daily basis. On the modern automated farm a few people will look after several hundred animals and as such there is much less direct contact. Within this thesis a toolkit of methods is presented which is suitable for the building of automated monitoring systems within a farm environment. Animal shape is modelled by a two dimensional hierarchical contour model and various models for animal dynamics are evaluated. A framework is proposed that combines these spatial and temporal models as a combined tracker and behaviour analysis system. A method is also presented for the identification of individuals from their charac-teristic markings which utilises the result from the animal tracker method. The methods presented have wider application than simply the field of animal behaviour monitoring and are applicable to other problem areas within machine vision and beyond. Acknowledgements I would like to thank my colleagues in the Leeds Vision Group (past and present) for many stim-",
+            "title": "Machine Vision Techniques for the Evaluation of Animal Behaviour"
+        },
+        {
+            "group": 51,
+            "name": "10.1.1.64.6438",
+            "keyword": "",
+            "author": "Gianfranco Doretto, Stefano Soatto",
+            "abstract": "Abstract\u2014We propose a model of the joint variation of shape and appearance of portions of an image sequence. The model is conditionally linear, and can be thought of as an extension of active appearance models to exploit the temporal correlation of adjacent image frames. Inference of the model parameters can be performed efficiently using established numerical optimization techniques borrowed from finite-element analysis and system identification techniques. Index Terms\u2014Active appearance models, linear dynamical systems, video analysis, image motion, dynamic textures. 1",
+            "title": "Dynamic shape and appearance models"
+        },
+        {
+            "group": 52,
+            "name": "10.1.1.64.6751",
+            "keyword": "",
+            "author": "Timo Stich, Marcus Magnor",
+            "abstract": "In this work we propose a novel approach for realistic fire animation and manipulation. We apply a statistical learning method to an image sequence of a real-world flame to jointly capture flame motion and appearance characteristics. A low-dimensional generic flame model is then robustly matched to the video images. The model parameter values are used as input to drive an Expectation-Maximization algorithm to learn an auto regressive process with respect to flame dynamics. The generic flame model and the trained motion model enable us to synthesize new, unique flame sequences of arbitrary length in real-time. 1",
+            "title": "Abstract Learning Flames"
+        },
+        {
+            "group": 53,
+            "name": "10.1.1.64.6792",
+            "keyword": "Neurone, Face processing, Spike",
+            "author": "Rufin Van Rullen, Jacques Gautrais, Arnaud Delorme, Simon Thorpe",
+            "abstract": "The speed with which neurones in the monkey temporal lobe can respond selectively to the presence of a face implies that processing may be possible using only one spike per neurone, a finding that is problematic for conventional rate coding models that need at least two spikes to estimate interspike interval. One way of avoiding this problem uses the fact that integrate-and-fire neurones will tend to fire at different times, with the most strongly activated neurones firing first (Thorpe, 1990, Parallel Processing in Neural Systems). Under such conditions, processing can be performed by using the order in which cells in a particular layer fire as a code. To test this idea, we have explored a range of architectures using SpikeNET (Thorpe and Gautrais, 1997, Neural Information Processing Systems, 9), a simulator designed for modelling large populations of integrate-and-fire neurones. One such network used a simple four-layer feed-forward architecture to detect and localise the presence of human faces in natural images. Performance of the model was tested with a large range of grey-scale images of faces and other objects and was found to be remarkably good by comparison with more classic image processing techniques. The most remarkable feature of these results is that they were obtained using a purely feed-forward neural network in which none of the neurones fired more than one spike (thus ruling out conventional rate coding mechanisms). It thus appears that the combination of asynchronous spike propagation and rank order coding may provide an important key to understanding how the nervous system can achieve such a huge amount of processing in so little time. \u00a9 1998",
+            "title": "Face processing using one spike per neuron"
+        },
+        {
+            "group": 54,
+            "name": "10.1.1.64.7028",
+            "keyword": "Video surveillance, privacy, de-identification, privacy-preserving data mining, k-anonymity 2",
+            "author": "Elaine Newton, Latanya Sweeney, Bradley Malin",
+            "abstract": "In the context of sharing video surveillance data, a significant threat to privacy is face recognition software, which can automatically identify known people, such as from a database of drivers \u2019 license photos, and thereby track people regardless of suspicion. This paper introduces an algorithm to protect the privacy of individuals in video surveillance data by de-identifying faces such that many facial characteristics remain but the face cannot be reliably recognized. A trivial solution to de-identifying faces involves blacking out each face. This thwarts any possible face recognition, but because all facial details are obscured, the result is of limited use. Many ad hoc attempts, such as covering eyes or randomly perturbing image pixels, fail to thwart face recognition because of the robustness of face recognition methods. This paper presents a new privacy-enabling algorithm, named k-Same, that scientifically limits the ability of face recognition software to reliably recognize faces while maintaining facial details in the images. The algorithm determines similarity between faces based on a distance metric and creates new faces by averaging image components, which may be the original image pixels (k-Same-Pixel) or eigenvectors (k-Same-Eigen). Results are presented on a standard collection of real face images with varying k.",
+            "title": "Preserving privacy by de-identifying facial images"
+        },
+        {
+            "group": 55,
+            "name": "10.1.1.64.7192",
+            "keyword": "",
+            "author": "Horst Eidenberger",
+            "abstract": "We propose a novel algorithm for the identification of faces from image samples. The algorithm uses the Kalman filter to identify significant face features. We employ the Kalmanfaces approach on a database of face images that show a variety of different expressions and were recorded under varying lighting conditions. Kalmanfaces show robustness against distortion and outperform the classic Eigenfaces approach in terms of identification performance and algorithm speed. 1.",
+            "title": "Kalman Filtering for Robust Identification of Face Images with Varying Expressions and Lighting Conditions"
+        },
+        {
+            "group": 56,
+            "name": "10.1.1.64.7410",
+            "keyword": "",
+            "author": "Tang Ho-man, Prof Michael, R. Lyu",
+            "abstract": "person(s) intending to use a part or whole of the materials in the thesis in a proposed publication must seek copyright release from the Dean of the Graduate School. Abstract of thesis entitled:",
+            "title": "Face Recognition Committee Machine:"
+        },
+        {
+            "group": 57,
+            "name": "10.1.1.64.7612",
+            "keyword": "Face-color modeling, Skin color modeling, Face segmentation, Gaussian mixture",
+            "author": "Hayit Greenspan A, Jacob Goldberger B, Itay Eshet A",
+            "abstract": "model for face-color modeling and segmentation",
+            "title": "Mixture"
+        },
+        {
+            "group": 58,
+            "name": "10.1.1.64.7995",
+            "keyword": "Eigenflow, Individual Eigenspace, Face Authentication, Principal Component Analysis, Optical Flow",
+            "author": "Xiaoming Liu, Tsuhan Chen, B. V. K. Vijaya Kumar",
+            "abstract": "In this paper, we present a novel scheme for face authentication. To deal with variations, such as facial expressions and registration errors, with which traditional intensity-based methods do not perform well, we propose the eigenflow approach. In this approach, the optical flow and the optical flow residue between a test image and an image in the training set are first computed. The optical flow is then fitted to a model that is pre-trained by applying principal component analysis (PCA) to optical flows resulting from facial expressions and registration errors for the subject. The eigenflow residue, optimally combined with the optical flow residue using linear discriminant analysis (LDA), determines the authenticity of the test image. An individual modeling method and a common modeling method are described. We also present a method to optimally choose the threshold for each subject for a multiple-subject authentication system. Experimental results show that the proposed scheme outperforms the traditional methods in the presence of facial expression variations and registration errors.",
+            "title": "Face authentication for multiple subjects using eigenflow"
+        },
+        {
+            "group": 59,
+            "name": "10.1.1.64.8590",
+            "keyword": "Multimodal interaction, Wizard of Oz, Evaluation techniques",
+            "author": "Daniel Salber, Jo\u00eblle Coutaz",
+            "abstract": "The Wizard of Oz (WOz) technique is a mechanism for the experimental evaluation of user interfaces. It allows the observation of a user operating an apparently fully functioning system whose missing services are supplemented by a hidden wizard. From our analysis of existing WOz systems, we observe that this technique has primarily been used to study natural language interfaces. With recent advances in interactive media, multimodal user interfaces are becoming popular but our current understanding on how to design such systems is still primitive. In the absence of generalizable theories and models, the WOz technique is an appropriate approach to the identification of sound design solutions. We show how it can be extended to the analysis of multimodal interfaces and we formulate a set of requirements for multimodal WOz platforms. The Neimo system is presented as an illustration of our early experience in the development of such platforms.",
+            "title": "REQUIREMENTS FOR MULTIMODAL WIZARD OF OZ PLATFORMS"
+        },
+        {
+            "group": 60,
+            "name": "10.1.1.64.9636",
+            "keyword": "speech",
+            "author": "R. Stiefelhagen, K. Bernardin, H. K. Ekenel, J. Mcdonough, K. Nickel, M. Voit",
+            "abstract": "perception of a lecturer in a smart seminar room",
+            "title": "Signal Processing] (]]]])]]]\u2013]]] Audio-visual"
+        },
+        {
+            "group": 61,
+            "name": "10.1.1.64.9671",
+            "keyword": "",
+            "author": "Zijian Xu, Hong Chen, Song-chun Zhu, Jiebo Luo",
+            "abstract": "This paper presents a hierarchical-compositional model of human faces, as a three-layer And-Or graph to account for the structural variabilities over multiple resolutions. In the And-Or graph, an And-node represents a decomposition of certain graphical structure which expands to a set of Or-nodes with associated relations; an Or-node serves as a switch variable pointing to alternative And-nodes. Faces are then represented hierarchically: the first layer treats each face as a whole; the second layer refines the local facial parts jointly as a set of individual templates; the third layer further divides face into 15 zones and models detail facial features such as eye corners, marks or wrinkles. Transitions between the layers are realized by measuring the minimum description length(MDL) given the complexity of an input face image. Diverse face representations are formed by drawing from dictionaries of global faces, parts and skin detail features. A sketch captures the most informative part of a face in a much more concise and potentially robust representation. However, generating good facial sketches is extremely challenging because of the rich facial details and large structural variations, especially in the high-resolution images. The representing power of our generative model is demostrated by reconstructing high-resolution face images and generating the cartoon facial sketches. Our model is useful for a",
+            "title": "A Hierarchical Compositional Model for Face Representation and Sketching"
+        },
+        {
+            "group": 62,
+            "name": "10.1.1.65.69",
+            "keyword": "Infrared imagery, Background mosaicing, Pedestrian detection, Shape-based classification, Appearance-based localization, Graph theoretic tracking, Shot segmentation, Polarity switch",
+            "author": "Congxia Dai, Yunfei Zheng, Xin Li",
+            "abstract": " ",
+            "title": "Pedestrian detection and tracking in infrared imagery using shape and appearance"
+        },
+        {
+            "group": 63,
+            "name": "10.1.1.65.1606",
+            "keyword": "",
+            "author": "Alice J. O\u2019toole, P. Jonathon Phillips, Senior Member, Fang Jiang, Janet Ayyad, Nils P\u00e9nard, Herv\u00e9 Abdi",
+            "abstract": "Abstract\u2014There has been significant progress in improving the performance of computer-based face recognition algorithms over the last decade. Although algorithms have been tested and compared extensively with each other, there has been remarkably little work comparing the accuracy of computer-based face recognition systems with humans. We compared seven state-of-the-art face recognition algorithms with humans on a face-matching task. Humans and algorithms determined whether pairs of face images, taken under different illumination conditions, were pictures of the same person or of different people. Three algorithms surpassed human performance matching face pairs prescreened to be \u201cdifficult \u201d and six algorithms surpassed humans on \u201ceasy \u201d face pairs. Although illumination variation continues to challenge face recognition algorithms, current algorithms compete favorably with humans. The superior performance of the best algorithms over humans, in light of the absolute performance levels of the algorithms, underscores the need to compare algorithms with the best current control\u2014humans. Index Terms\u2014Face and gesture recognition, performance evaluation of algorithms and systems, human information processing. 1",
+            "title": "Face recognition algorithms surpass humans"
+        },
+        {
+            "group": 64,
+            "name": "10.1.1.65.1902",
+            "keyword": "Active vision interface, Teleconferencing system, Face and hand gesture recognition, Computer Vision System",
+            "author": "R. Herpers A, K. Derpanis A, W. J. Maclean C, G. Verghese D, M. Jenkin A, E. Milios A, A. Jepson D, J. K. Tsotsos A",
+            "abstract": "A Stereo Active Vision Interface \ufffdSAVI) is introduced which detects frontal faces in real world environments and performs particular active control tasks dependent on hand gestures given by the person the system attends to. The SAVI system is thought of as a smart user interface for teleconferencing, telemedicine, and distance learning applications. To reduce the search space in the visual scene the processing is started with the detection of connected skin colour regions applying a new radial scanline algorithm. Subsequently, in the most salient skin colour region facial features are searched for while the skin colour blob is actively kept in the centre of the visual \u00aeeld of the camera system. After a successful evaluation of the facial features the associated person is able to give control commands to the system. For this contribution only visual control commands are investigated but there is no limitation for voice or any other commands. These control commands can either effect the observing system itself or any other active or robotic system wired to the principle observing system via TCP/IP sockets. The system is designed as a perception-action-cycle \ufffdPAC), processing sensory data of different kinds and qualities. Both the vision module and the head motion control module work at frame rate on a PC platform. Hence, the system is able to react instantaneously to",
+            "title": "SAVI: an actively controlled teleconferencing system"
+        },
+        {
+            "group": 65,
+            "name": "10.1.1.65.2791",
+            "keyword": "",
+            "author": "Fan Yang, Michel Paindavoine, Herv\u00e9 Abdi, Dominique Arnoult",
+            "abstract": "Abstract \u2014 In this article, we present some development results of a system that performs mosaicing (or mosaicking) of panoramic faces. Our objective is to study the feasibility of panoramic face construction in real-time. To do so, we built a simple acquisition system composed of 5 standard cameras which, together, can take simultaneously 5 views of a face at different angles. Then, we chose an easily hardware-achievable algorithm, consisting of successive linear transformations, in order to compose a panoramic face from these 5 views. The method has been tested on a relatively large number of faces. In order to validate our system of panoramic face mosaicing, we also conducted a preliminary study on panoramic faces recognition, based on the principal component analysis method. Experimental results show the feasibility and viability of our system. Index Terms \u2013 artificial vision, image mosaicking, face recognition, principal component analysis, FFT I.",
+            "title": "Fast Image Mosaicing for Panoramic Face Recognition"
+        },
+        {
+            "group": 66,
+            "name": "10.1.1.65.3146",
+            "keyword": "",
+            "author": "",
+            "abstract": "clustering and cluster identification",
+            "title": "Journal of Electronic Imaging 10(2), 418\u2013430 (April 2001). Font"
+        },
+        {
+            "group": 67,
+            "name": "10.1.1.65.4407",
+            "keyword": "",
+            "author": "Er Hauptmann, Rong Jin",
+            "abstract": "Video contains multiple types of audio and visual information, which are difficult to extract, combine or trade-off in general video information retrieval. This paper provides an evaluation on the effects of different types of information used for video retrieval from a video collection. A number of different sources of information are present in most typical broadcast video collections and can be exploited for information retrieval. We will discuss the contributions of automatically recognized speech transcripts, image similarity matching, and video OCR in the contexts of experiments performed as part of 2001 TREC Video Retrieval Track evaluation performed by the National Institute of Standards and Technology. For the queries used in this evaluation, image matching and video OCR proved to be the most important aspects of video information retrieval. 1",
+            "title": "Video Information Retrieval: Lessons Learned with the Informedia Digital Video Library"
+        },
+        {
+            "group": 68,
+            "name": "10.1.1.65.4628",
+            "keyword": "",
+            "author": "Ce Liu, Heung-yeung Shum, William T. Freeman",
+            "abstract": "In this paper, we study face hallucination, or synthesizing a high-resolution face image from an input low-resolution image, with the help of a large collection of other high-resolution face images. Our theoretical contribution is a two-step statistical modeling approach that integrates both a global parametric model and a local nonparametric model. At the first step, we derive a global linear model to learn the relationship between the high-resolution face images and their smoothed and down-sampled lower resolution ones. At the second step, we model the residue between an original high-resolution image and the reconstructed high-resolution image after applying the learned linear model by a patch-based non-parametric Markov network, to capture the high-frequency content. By integrating both global and local models, we can generate photorealistic face images. A practical contribution is a robust warping algorithm to align the low-resolution face images to obtain good hallucination results. The effectiveness of our approach is demonstrated by extensive experiments generating high-quality hallucinated face images from low-resolution input with no manual alignment. 1.",
+            "title": "Accepted by International Journal of Computer Vision Face Hallucination: Theory and Practice"
+        },
+        {
+            "group": 69,
+            "name": "10.1.1.65.6651",
+            "keyword": "Additive and multiplicative variance, Functional regression, Gene expression, Pixel censoring, Principal components regression",
+            "author": "Chris Glasbey, Mizanur Khondoker",
+            "abstract": "Correction for pixel censoring in cDNA microarrays",
+            "title": ""
+        },
+        {
+            "group": 70,
+            "name": "10.1.1.65.7245",
+            "keyword": "",
+            "author": "Xiaoming Liu",
+            "abstract": "Researchers have been working on human face recognition for decades. Face recognition is hard due to different types of variations in face images, such as pose, illumination and expression, among which pose variation is the hardest one to deal with. To improve face recognition, this thesis presents an integrated approach to performing pose robust video-based face tracking and recognition by using a face mosaic model. We approximate a human head with a 3D ellipsoid model, where each face image is a projection of the 3D ellipsoid at a certain pose. In our approach, both training and test images are projected back to the surface of the 3D ellipsoid, according to their estimated poses, to form the texture maps. Thus the recognition can be conducted by comparing texture maps instead of the original images, as done in traditional face recognition. In addition, by representing the texture map as an array of local patches, we can train a probabilistic model for comparing corresponding patches. With multiple training images under different views, we are able to obtain a statistical mosaic model as well as a geometric deviation model, which not only reduces the blurring effect in the mosaic model, but also serves as an indication of how much the actual human faces geometry deviates from the 3D ellipsoid",
+            "title": "DEAN DATE"
+        },
+        {
+            "group": 71,
+            "name": "10.1.1.65.9004",
+            "keyword": "Dimensionality Reduction, Gender Classification, Intrinsic Dimension, Principal Component Analysis",
+            "author": "Samarasena Buchala, Neil Davey, Ray J. Frank, Tim M. Gale",
+            "abstract": "Abstract\u23afData in most of the real world applications are high dimensional and learning algorithms like neural networks have problems in handling high dimensional data. However, the Intrinsic Dimension is often much less than the original dimension of the data. Here, we use a fractal based method to estimate the Intrinsic Dimension and show that a nonlinear projection method called Curvilinear Component Analysis can effectively reduce the original dimension to the Intrinsic Dimension. We apply this approach for dimensionality reduction of the face images data and use neural network classifiers for Gender Classification.",
+            "title": "Dimensionality reduction of face images for gender classification"
+        },
+        {
+            "group": 72,
+            "name": "10.1.1.65.9121",
+            "keyword": "",
+            "author": "Yorktown Heights",
+            "abstract": "We have made signi cant progress in automatic speech recognition (ASR) for well-de ned applications like dictation and medium vocabulary transaction processing tasks in relatively controlled environments. However, for ASR to approach human levels of performance and for speech to become a truly pervasive user interface, we need novel, nontraditional approaches that have the potential of yielding dramatic ASR improvements. Visual speech is one such source for making large improvements in high noise environments with the potential of chan-nel and task independence. It is not e ected by the acoustic environment and noise, and it possibly contains the greatest amount of complementary information to the acoustic signal. In this workshop, our goal was to advance the state-of-the-art in ASR by demonstrating the use of visual information in addition to the traditional audio for large vocabulary continuous speech recognition (LVCSR). Starting with an appropriate audio-visual database, collected and provided by IBM, we demonstrated for the rst time that LVCSR performance can be improved by the use of visual information in the clean audio case. Speci cally, by conduct-ing audio lattice rescoring experiments, we showed a 7 % relative word error rate (WER)",
+            "title": "AUDIO-VISUAL SPEECH RECOGNITION"
+        },
+        {
+            "group": 73,
+            "name": "10.1.1.66.2045",
+            "keyword": "Index Terms \u2014 Tensor Framework, HOSVD, Facial Motion Analysis, Motion Signatures",
+            "author": "",
+            "abstract": "Abstract \u2014 Research has shown that the dynamics of facial motion are important in the perception of gender, identity, and emotion. In this paper we show that it is possible to use a multi-linear tensor framework to extract facial motion signatures and to cluster these signatures by gender or by emotion. Here, we consider only the dynamics of internal features of the face (e.g. eyebrows, eyelids and mouth) so as to remove structural and shape cues to identity and gender. Such structural gender biases include jaw width and forehead shape and their removal ensures dynamic cues alone are being used. Additionally, we demonstrate the generative capabilities of using a tensor framework, by reliably synthesising new motion signatures; and find results comparable to human psychology experiments performed on the same facial motion data.",
+            "title": "Analysis of Facial Dynamics Using a Tensor Framework"
+        },
+        {
+            "group": 74,
+            "name": "10.1.1.66.2677",
+            "keyword": "",
+            "author": "Matthew N. Dailey, Garrison W. Cottrell",
+            "abstract": "There is strong evidence that face processing in the brain is localized. The double dissociation between prosopagnosia, a face recognition de cit occurring after brain damage, and visual object agnosia, di culty recognizing other kinds of complex objects, indicates that face and non-face object recognition may be served by partially independent neural mechanisms. In this chapter, we use computational models to show how the face processing specialization apparently underlying prosopagnosia and visual object agnosia could be attributed to 1) a relatively simple competitive selection mechanism that, during development, devotes neural resources to the tasks they are best at performing, 2) the developing infant's need to perform subordinate classi cation (identi cation) of faces early on, and 3) the infant's low visual acuity at birth. Inspired by de Schonen and Mancini's (1998) arguments that factors like these could bias the visual system to develop a specialized face processor, and Jacobs and Kosslyn's (1994) experiments in the mixtures of experts (ME) modeling paradigm, we provide a preliminary computational demonstration of how this theory accounts for the double dissociation between face and object processing. We present two feed-forward computational models of visual processing. In both models, the selection mechanism is a gating network that mediates a competition between modules attempting to classify input stimuli. In Model I, when the modules are simple unbiased classi ers, the competition is su cient to achieve enough of a specialization that damaging one",
+            "title": "Prosopagnosia in Modular Neural Network Models"
+        },
+        {
+            "group": 75,
+            "name": "10.1.1.66.2785",
+            "keyword": "",
+            "author": "Peng Yang, Shiguang Shan, Wen Gao, Stan Z. Li, Dong Zhang",
+            "abstract": "Face representation based on Gabor features have attracted much attention and achieved great success in face recognition area for the advantages of the Gabor filters. However, Gabor features currently adopted by most systems are redundant and too high dimensional. In this paper, we propose a face recognition method using AdaBoosted Gabor features, which are not only low dimensional but also discriminant. The main contribution of the paper lies in two points: (1) AdaBoost is successfully applied to face recognition by introducing the intra-face and extra-face difference space in the Gabor feature space; (2) An appropriate re-sampling scheme is adopted to deal with the imbalance between the amount of the positive samples and that of the negative samples. By using the proposed method, only hundreds of Gabor features are selected. Experiments on FERET database has shown that these hundreds of Gabor features are enough to achieve good performance comparable to that of methods using the complete set of Gabor features. 1.",
+            "title": "Face Recognition Using Ada-Boosted Gabor Features"
+        },
+        {
+            "group": 76,
+            "name": "10.1.1.66.3089",
+            "keyword": "",
+            "author": "Descriptions In, M. Wenger, J. Townsend, Mark Steyvers, Tom Busey",
+            "abstract": "A perceptually-grounded, nonmetric feature mapping model is introduced. This model explicitly relates similarity ratings from a facial comparison experiment to various primitive, physically derived facial features such as Gabor jets, principal components and geometric features. In this approach, abstract features are formed that combine and weight information features form the basis for predicting the similarity ratings for faces. We show how this model extracts abstract &quot;age &quot; and &quot;facial adiposity &quot; features on the basis of all similarity ratings to 50 faces. Whereas traditional multidimensional scaling methods can also uncover important variables for face perception, this model has the additional advantage of making explicit how to compute these variables from primitive facial features. Another advantage of this approach is that the featural descriptions can be used in a generalization test to predict similarity ratings to new faces. We show how this generalization test enables us to constrain various parameters of the model such as the dimensionality of the representation. Predicting Similarity Ratings",
+            "title": "Predicting Similarity Ratings to Faces using Physical Descriptions"
+        },
+        {
+            "group": 77,
+            "name": "10.1.1.66.3437",
+            "keyword": "",
+            "author": "Ajo Fod, Maja J Mataric, Odest Chadwicke Jenkins",
+            "abstract": "Abstract. We describe a new method for representing human movement compactly, in terms of a linear superimposition of simpler movements termed primitives. This method is a part of a larger research project aimed at modeling motor control and imitation using the notion of perceptuo-motor primitives, a basis set of coupled perceptual and motor routines. In our model, the perceptual system is biased by the set of motor behaviors the agent can execute. Thus, an agent can automatically classify observed movements into its executable repertoire. In this paper, we describe a method for automatically deriving a set of primitives directly from human movement data. We used movement data gathered from a psychophysical experiment on human imitation to derive the primitives. The data were first filtered, then segmented, and principal component analysis was applied to the segments. The eigenvectors corresponding to a few of the highest eigenvalues provide us with a basis set of primitives. These are used, through superposition and sequencing, to reconstruct the training movements as well as novel ones. The validation of the method was performed on a humanoid simulation with physical dynamics. The effectiveness of the motion reconstruction was measured through an error metric. We also explored and evaluated a technique of clustering in the space of primitives for generating controllers for executing frequently used movements. 1",
+            "title": "Automated derivation of primitives for movement classification"
+        },
+        {
+            "group": 78,
+            "name": "10.1.1.66.4076",
+            "keyword": "",
+            "author": "Davi Geiger, Tyng-luh Liu, Michael J. Donahue",
+            "abstract": "We are given an image I and a library of templates L, such that L is an overcomplete basis for I. The templates can represent objects, faces, features, analytical functions, or be single pixel templates (canonical templates). There are infinitely many ways to decompose I as a linear combination of the library templates. Each decomposition defines a representation for the image I, given L. What is an optimal representation for I given L and how to select it? We are motivated to select a sparse/compact representation for I, and to account for occlusions and noise in the image. We present a concave cost function criterion on the linear decomposition coefficients that satisfies our requirements. More specifically, we study a \u201cweighted Lp norm \u201d with 0 <p<1. We prove a result that allows us to generate all local minima for the Lp norm, and the global minimum is obtained by searching through the local ones. Due to the computational complexity, i.e., the large number of local minima, we also study a greedy and iterative \u201cweighted L p Matching Pursuit \u201d strategy.",
+            "title": "Sparse representations for image decompositions"
+        },
+        {
+            "group": 79,
+            "name": "10.1.1.66.4263",
+            "keyword": "",
+            "author": "Trista Pei-chun Chen, Tsuhan Chen, Trista Pei-chun Chen, Tsuhan Chen",
+            "abstract": "Second-generation error concealment for video transport over error-prone channels",
+            "title": "U.S.A."
+        },
+        {
+            "group": 80,
+            "name": "10.1.1.66.5153",
+            "keyword": "part-based object recognition, statistical models, energy minimization",
+            "author": "Pedro F. Felzenszwalb, Daniel P. Huttenlocher",
+            "abstract": "In this paper we present a computationally efficient framework for part-based mod-eling and recognition of objects. Our work is motivated by the pictorial structure models introduced by Fischler and Elschlager. The basic idea is to represent an ob-ject by a collection of parts arranged in a deformable configuration. The appearance of each part is modeled separately, and the deformable configuration is represented by spring-like connections between pairs of parts. These models allow for qualitative descriptions of visual appearance, and are suitable for generic recognition problems. We address the problem of using pictorial structure models to find instances of an object in an image as well as the problem of learning an object model from training ex-amples, presenting efficient algorithms in both cases. We demonstrate the techniques by learning models that represent faces and human bodies and using the resulting models to locate the corresponding objects in novel images.",
+            "title": "Pictorial structures for object recognition"
+        },
+        {
+            "group": 81,
+            "name": "10.1.1.66.5406",
+            "keyword": "",
+            "author": "Tyng-luh Liu, Mike Donahue, Davi Geiger, Robert Hummel",
+            "abstract": "Abstract. We study the problem of how to detect \\interesting objects&quot; appeared in a given image, I. Our approach is to treat it as a function approximation problem based on an over-redundant basis. Since the basis (a library of image templates) is over-redundant, there are in nitely many ways to decompose I. To select the \\best &quot; decomposition we rst propose a global optimization procedure that considers a concave cost function derived from a \\weighted L p norm &quot; with 0 < p 1. This concave cost function selects as few coe cients as possible producing a sparse representation of the image and handle occlusions. However, it contains multiple local minima. We identify all local minima so that a global optimization is possible by visiting all of them. Secondly, because the number of local minima grows exponentially with the number of templates, we investigate a greedy \\L p Matching Pursuit &quot; strategy. 1",
+            "title": "Image Recognition with Occlusions"
+        },
+        {
+            "group": 82,
+            "name": "10.1.1.66.7073",
+            "keyword": "",
+            "author": "David Cristinacce, Tim Cootes",
+            "abstract": "We present an efficient method of fitting a set of local feature models to an image within the popular Active Shape Model (ASM) framework [3]. We compare two different types of non-linear boosted feature models trained using GentleBoost [9]. The first type is a conventional feature detector classifier, which learns a discrimination function between the appearance of a feature and the local neighbourhood. The second local model type is a boosted regression predictor which learns the relationship between the local neighbourhood appearance and the displacement from the true feature location. At run-time the second regression model is much more efficient as only the current feature patch needs to be processed. We show that within the local iterative search of the ASM the local feature regression provides improved localisation on two publicly available human face test sets as well as increasing the search speed by a factor of eight. 1",
+            "title": "Boosted Regression Active Shape Models"
+        },
+        {
+            "group": 83,
+            "name": "10.1.1.66.7371",
+            "keyword": "by",
+            "author": "",
+            "abstract": "Learning from weak representations using distance functions and generative models",
+            "title": "THE HEBREW UNIVERSITY OF JERUSALEM"
+        },
+        {
+            "group": 84,
+            "name": "10.1.1.66.8364",
+            "keyword": "",
+            "author": "T. Forster, P. Ghazal",
+            "abstract": "Estimation of expression levels in spotted microarrays",
+            "title": "C.A. Glasbey Biomathematics and Statistics Scotland King\u2019s Buildings, Edinburgh EH9 3JZ, Scotland"
+        },
+        {
+            "group": 85,
+            "name": "10.1.1.66.8877",
+            "keyword": "",
+            "author": "Cha Zhang, Takeo Kanade",
+            "abstract": "Image-based rendering (IBR) generates novel views from images instead of 3D models. It can be considered as a process of sampling the light rays in the space and interpolating the ones in novel views. The sampling of IBR is a high-dimensional sampling problem, and is very challenging. This thesis focuses on answering two questions related to IBR sampling, namely how many images are needed for IBR, and if such number is limited, where should we capture them. There are three major contributions in this dissertation. First, we give a complete analysis on uniform sampling of IBR data. By introducing the surface plenoptic function, we are able to analyze the Fourier spectrum of non-Lambertian and occluded scenes. Given the spectrum, we also apply the generalized sampling theorem on the IBR data, which results in better rendering quality than rectangular sampling for complex scenes. Such uniform sampling analysis provides general guidelines on how the images in IBR should be taken. For instance, it shows that non-Lambertian and occluded scenes often require higher sampling rate. Second, we propose a very general sampling framework named freeform sampling. Freeform",
+            "title": "ON SAMPLING OF IMAGE-BASED RENDERING DATA"
+        },
+        {
+            "group": 86,
+            "name": "10.1.1.66.9507",
+            "keyword": "face analysis, sex discrimination, facial attributes, phantom faces, Gabor wavelets, elastic graph",
+            "author": "Laurenz Wiskott",
+            "abstract": "Pattern Recognition 30(6):837-846 (1997) The system presented is part of a general object recognition system. Images of faces are represented as graphs, labeled with topographical information and local features. New graphs of faces are generated by an elastic graph matching procedure comparing the new face with a composition of stored graphs: the face bunch graph. The result of this matching process can be used to generate composite images of faces and to determine facial attributes represented in the bunch graph, such as sex or the presence of glasses or a beard.",
+            "title": "Phantom faces for face analysis"
+        },
+        {
+            "group": 87,
+            "name": "10.1.1.66.9701",
+            "keyword": "Principal Component Analysis, Eigenspace Updating, Non-Stationary Process",
+            "author": "Xiaoming Liu, Tsuhan Chen, Susan M. Thornton",
+            "abstract": "In this paper, we introduce a novel approach to modeling non-stationary random processes. Given a set of training samples sequentially, we can iteratively update an eigenspace to manifest the current statistics provided by each new sample. The updated eigenspace is derived more from recent samples and less from older samples, controlled by a number of decay parameters. Extensive study has been performed on how to choose these decay parameters. Other existing eigenspace updating algorithms can be regarded as special cases of our algorithm. We show the effectiveness of the proposed algorithm with both synthetic data and practical applications for face recognition. Significant improvements have been observed in recognizing face images with different variations, such as pose, expression and illumination variations. We also expect the proposed algorithm to have other applications in active recognition and modeling.",
+            "title": "Eigenspace updating for non-stationary process and its application to face recognition"
+        },
+        {
+            "group": 88,
+            "name": "10.1.1.67.1389",
+            "keyword": "",
+            "author": "Fu Jie Huang, Zhihua Zhou",
+            "abstract": "In this paper, we describe a novel neural network architecture, which can recognize human faces with any view in a certain viewing angle range (fromy left 30 degrees to right 30 degrees out of plane rotation). View-specific eigenface analysis is used as the frontend of the system to extract features, and the neural network ensemble is used for recognition. Experimental results show that the recognition accuracy of our network ensemble is higher than conventional methods such as using a single neural network to recognize faces of a specific view. 1.",
+            "title": "Pose invariant face recognition"
+        },
+        {
+            "group": 89,
+            "name": "10.1.1.67.3672",
+            "keyword": "",
+            "author": "Marsha Meytlis, Lawrence Sirovich, Gustave L. Levy Place",
+            "abstract": "The dimensionality of face space is measured objectively in a psychophysical study. Within this framework we obtain a measurement of the dimension for the human visual system. Using an eigenface basis, evidence is presented that talented human observers are able to identify familiar faces that lie in a space of roughly 100 dimensions, and the average observer requires a space of between 100 and 200 dimensions. This is below most current estimates. It is further argued that these estimates give an upper bound for face space dimension, and this might be lowered by better constructed &quot;eigenfaces&quot;, and by talented observers. I.",
+            "title": "On the dimensionality of face space"
+        },
+        {
+            "group": 90,
+            "name": "10.1.1.67.3840",
+            "keyword": "Contents",
+            "author": "Shirley Hui",
+            "abstract": "presented to the University of Waterloo",
+            "title": "FlexSADRA: Flexible Structural Alignment using a Dimensionality Reduction Approach"
+        },
+        {
+            "group": 91,
+            "name": "10.1.1.67.4124",
+            "keyword": "",
+            "author": "Xiaoguang Lu, Anil K. Jain, Dirk Colbry",
+            "abstract": " The performance of face recognition systems that use two-dimensional images depends on factors such as lighting and subject\u2019s pose. We are developing a face recognition system that utilizes three-dimensional shape information to make the system more robust to arbitrary pose and lighting. For each subject, a 3D face model is constructed by integrating several 2.5D face scans which are captured from different views. 2.5D is a simplified 3D (x, y, z) surface representation that contains at most one depth value (z direction) for every point in the (x, y) plane. Two different modalities provided by the facial scan, namely, shape and texture, are utilized and integrated for face matching. The recognition engine consists of two components, surface matching and appearance-based matching. The surface matching component is based on a modified Iterative Closest Point (ICP) algorithm. The candidate list from the gallery used for appearance matching is dynamically generated based on the output of the surface matching component, which reduces the complexity of the appearance-based matching stage. Three-dimensional models in the gallery are used to synthesize new appearance samples with pose and illumination variations and the synthesized face images are used in discriminant subspace analysis. The weighted sum rule is applied to combine the scores given by the two matching components. Experimental results are given for matching a database of 200 3D face models with 598 2.5D independent test scans acquired under different pose and some lighting and expression changes. These results show the feasibility of the proposed matching scheme.  ",
+            "title": "Matching 2.5D face scans to 3D models"
+        },
+        {
+            "group": 92,
+            "name": "10.1.1.67.4277",
+            "keyword": "",
+            "author": "Mark R. Verardo, Arnab Bhattacharya, Hyungjeong Yang",
+            "abstract": "Given a large collection of medical images of several conditions and treatments, how can we succinctly describe the characteristics of each setting? For example, given a large collection of retinal images from several different experimental conditions (normal, detached, reattached, etc.), how can data mining help biologists focus on important regions in the images or on the differences between different experimental conditions? If the images were text documents, we could find the main terms and concepts for each condition by existing IR methods (e.g., tf/idf and LSI). We propose something analogous, but for the much more challenging case of an image collection: We propose to automatically develop a visual vocabulary by breaking images into n \u00d7 n tiles and deriving key tiles (\u201cViVos\u201d) for each image and condition. We experiment with numerous domain-independent ways of extracting features from tiles (color histograms, textures, etc.), and several ways of choosing characteristic tiles (PCA, ICA). We perform experiments on two disparate biomedical datasets. The quantitative measure of success is classification accuracy: Our \u201cViVos \u201d achieve high classification accuracy (up to 83 % for a nine-class problem on feline retinal images). More importantly, qualitatively, our \u201cViVos \u201d do an excellent job as \u201cvisual vocabulary terms\u201d: they have biological meaning, as corroborated by domain experts; they help spot characteristic regions of images, exactly like text vocabulary terms do for documents; and they highlight the differences between pairs of images. 1",
+            "title": "ViVo: Visual vocabulary construction for mining biomedical images"
+        },
+        {
+            "group": 93,
+            "name": "10.1.1.67.5562",
+            "keyword": "",
+            "author": "Simon Lucey, Conrad Sanderson",
+            "abstract": "Performance of face verification systems can be adversely affected by mismatches between training and test poses, especially when only one pose is available for training. Compared to holistic/monolithic representations, we show that a \u201cfree-parts \u201d representation of the face is less affected by pose changes, due to: a) some patches of a subject\u2019s face retaining similar appearance across a number of different poses, and b) those patches being able to freely move position across different poses. Furthermore, we propose that this mismatch can be reduced further by synthesizing the statistical model of a subject\u2019s \u201cfree-parts \u201d representation for a set of poses for which there are no gallery observations. The synthesis is accomplished by first learning how a model for a generic frontal face transforms to represent a generic face at a particular non-frontal pose. The learned transformation is then applied to each subject\u2019s frontal model to synthesize a non-frontal model. The original and synthesized models are then concatenated in order to automatically handle multiple poses. 1.",
+            "title": "Synthesized GMM Free-parts Based Face Representation for Pose Mismatch Reduction in Face Verification"
+        },
+        {
+            "group": 94,
+            "name": "10.1.1.67.5752",
+            "keyword": "Laplace\u2013Beltrami operator, Shape invariants, Fingerprints, Shape matching, Database retrieval, Copyright protection, NURBS, Parameterized",
+            "author": "Martin Reuter, Franz-erich Wolter, Niklas Peinecke",
+            "abstract": "This paper introduces a method to extract \u2018Shape-DNA\u2019, a numerical fingerprint or signature, of any 2d or 3d manifold (surface or solid) by taking the eigenvalues (i.e. the spectrum) of its Laplace\u2013Beltrami operator. Employing the Laplace\u2013Beltrami spectra (not the spectra of the mesh Laplacian) as fingerprints of surfaces and solids is a novel approach. Since the spectrum is an isometry invariant, it is independent of the object\u2019s representation including parametrization and spatial position. Additionally, the eigenvalues can be normalized so that uniform scaling factors for the geometric objects can be obtained easily. Therefore, checking if two objects are isometric needs no prior alignment (registration/localization) of the objects but only a comparison of their spectra. In this paper, we describe the computation of the spectra and their comparison for objects represented by NURBS or other parametrized surfaces (possibly glued to each other), polygonal meshes as well as solid polyhedra. Exploiting the isometry invariance of the Laplace\u2013Beltrami operator we succeed in computing eigenvalues for smoothly bounded objects without discretization errors caused by approximation of the boundary. Furthermore, we present two non-isometric but isospectral solids that cannot be distinguished by the spectra of their bodies and present evidence that the spectra of their boundary shells can tell them apart. Moreover, we show the rapid convergence of the heat trace series and demonstrate that it is computationally feasible to extract geometrical data such as the volume, the boundary length and even the Euler characteristic from the numerically calculated eigenvalues. This fact not only confirms the accuracy of our computed eigenvalues, but also underlines the geometrical importance of the spectrum. With the help of this Shape-DNA, it is possible to support copyright protection, database retrieval and quality assessment of digital data representing surfaces and solids.",
+            "title": "Abstract Laplace\u2013Beltrami spectra as \u2018Shape-DNA \u2019 of surfaces and solids"
+        },
+        {
+            "group": 95,
+            "name": "10.1.1.67.5900",
+            "keyword": "",
+            "author": "James Jenn-jier Lien, Jeffrey F. Cohn",
+            "abstract": "We have developed a computer vision system, including both facial feature extraction and recognition, that automatically discriminates among subtly different facial expressions. Expression classification is based on Facial Action Coding System (FACS) action units (AUs), and discrimination is performed using Hidden Markov Models (HMMs). Three methods are developed to extract facial expression information for automatic recognition. The first method is facial feature point tracking using a coarse-to-fine pyramid method. This method is sensitive to subtle feature motion and is capable of handling large displacements with sub-pixel accuracy. The second method is dense flow tracking together with principal component analysis (PCA), where the entire facial motion information per frame is compressed to a lowdimensional weight vector. The third method is high gradient component (i.e., furrow) analysis in the spatiotemporal domain, which exploits the transient variation associated with the facial expression. Upon extraction of the facial information, non-rigid facial expression is separated from the rigid head motion component, and the face images are automatically aligned and normalized using an affine transformation. This system also provides expression intensity estimation, which has significant effect on the actual meaning of the expression. 1.",
+            "title": "Subtly different facial expression recognition and expression intensity estimation"
+        },
+        {
+            "group": 96,
+            "name": "10.1.1.67.6162",
+            "keyword": "",
+            "author": "Hazim Kemal Ekenel, Rainer Stiefelhagen",
+            "abstract": "In this paper, we present a novel face recognition system that uses two-class linear discriminant analysis for classification. In this approach a single M-class linear discriminant classifier is divided into M two-class linear discriminant classifiers. This formulation provides many advantages like more discrimination between classes, simpler calculation of projection vectors and easier update of the database with new individuals. We tested the proposed algorithm on the CMU PIE and Yale face databases. Significant performance improvements are observed, especially when the number of individuals to be classified increases. 1.",
+            "title": "Two-class linear discriminant analysis for face recognition"
+        },
+        {
+            "group": 97,
+            "name": "10.1.1.67.6684",
+            "keyword": "Contents",
+            "author": "Kohtaro Ohba, Katsushi Ikeuchi",
+            "abstract": "The views and conclusions contained in this document are those of the authors and should not be interpreted as representing",
+            "title": "Recognition of the Multi Specularity Objects using the Eigen-Window"
+        },
+        {
+            "group": 98,
+            "name": "10.1.1.67.7230",
+            "keyword": "",
+            "author": "Ralph Gross, Latanya Sweeney",
+            "abstract": "Advances in camera and computing equipment hardware in recent years have made it increasingly simple to capture and store extensive amounts of video data. This, among other things, creates ample opportunities for the sharing of video sequences. In order to protect the privacy of subjects visible in the scene, automated methods to de-identify the images, particularly the face region, are necessary. So far the majority of privacy protection schemes currently used in practice rely on ad-hoc methods such as pixelation or blurring of the face. In this paper we show in extensive experiments that pixelation and blurring offers very poor privacy protection while significantly distorting the data. We then introduce a novel framework for de-identifying facial images. Our algorithm combines a model-based face image parameterization with a formal privacy protection model. In experiments on two large-scale data sets we demonstrate privacy protection and preservation of data utility. 1.",
+            "title": "Model-Based Face De-Identification"
+        },
+        {
+            "group": 99,
+            "name": "10.1.1.67.8813",
+            "keyword": "",
+            "author": "Haz\u0131m Kemal Ekenel, Rainer Stiefelhagen",
+            "abstract": "In this paper we investigate the benefits of using local wavelet analysis to the face recognition problem. We examine two possible approaches to perform local wavelet analysis. In the first approach, discrete wavelet transform is performed on the entire face image and then the transformed image is partitioned into non-overlapping rectangular blocks. In the second approach, as in the JPEG2000 standard, the input face image is first partitioned into non-overlapping rectangular blocks, and then on each block discrete wavelet transformation is performed. Proposed approaches are tested against the occlusion problem using the AR face database and significant improvements are observed in the face recognition performance. 1.",
+            "title": "LOCAL WAVELET ANALYSIS FOR FACE RECOGNITION"
+        },
+        {
+            "group": 100,
+            "name": "10.1.1.67.8922",
+            "keyword": "",
+            "author": "Arnulf B. A. Graf, Felix A. Wichmann",
+            "abstract": "We attempt to understand visual classification in humans using both psychophysical and machine learning techniques. Frontal views of human faces were used for a gender classification task. Human subjects classified the faces and their gender judgment, reaction time and confidence rating were recorded. Several hyperplane learning algorithms were used on the same classification task using the Principal Components of the texture and shape representation of the faces. The classification performance of the learning algorithms was estimated using the face database with the true gender of the faces as labels, and also with the gender estimated by the subjects. We then correlated the human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms. Our results suggest that human classification can be modeled by some hyperplane algorithms in the feature space we used. For classification, the brain needs more processing for stimuli close to that hyperplane than for those further away. 1",
+            "title": "Insights from machine learning applied to human visual classification"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.0909091
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 0.0833333
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 0.119048
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 0.12069
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 0.0901288
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 0.0841584
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 0.126087
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 0.0854701
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 0.08
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 0.122363
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 0.0928144
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "value": 0.0669456
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "value": 0.135135
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "value": 0.112094
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "value": 0.103093
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "value": 0.0962343
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "value": 0.0773196
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "value": 0.0611354
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "value": 0.0495868
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "value": 0.0663265
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "value": 0.0638298
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "value": 0.143396
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "value": 0.111782
+        },
+        {
+            "source": 0,
+            "target": 24,
+            "value": 0.119741
+        },
+        {
+            "source": 0,
+            "target": 25,
+            "value": 0.0823529
+        },
+        {
+            "source": 0,
+            "target": 26,
+            "value": 0.0136986
+        },
+        {
+            "source": 0,
+            "target": 27,
+            "value": 0.0995261
+        },
+        {
+            "source": 0,
+            "target": 28,
+            "value": 0.0977444
+        },
+        {
+            "source": 0,
+            "target": 29,
+            "value": 0.161157
+        },
+        {
+            "source": 0,
+            "target": 30,
+            "value": 0.157088
+        },
+        {
+            "source": 0,
+            "target": 31,
+            "value": 0.122378
+        },
+        {
+            "source": 0,
+            "target": 32,
+            "value": 0.0880682
+        },
+        {
+            "source": 0,
+            "target": 33,
+            "value": 0.112782
+        },
+        {
+            "source": 0,
+            "target": 34,
+            "value": 0.107011
+        },
+        {
+            "source": 0,
+            "target": 35,
+            "value": 0.136546
+        },
+        {
+            "source": 0,
+            "target": 36,
+            "value": 0.116788
+        },
+        {
+            "source": 0,
+            "target": 37,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 38,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 39,
+            "value": 0.117021
+        },
+        {
+            "source": 0,
+            "target": 40,
+            "value": 0.102102
+        },
+        {
+            "source": 0,
+            "target": 41,
+            "value": 0.103825
+        },
+        {
+            "source": 0,
+            "target": 42,
+            "value": 0.0711462
+        },
+        {
+            "source": 0,
+            "target": 43,
+            "value": 0.0878661
+        },
+        {
+            "source": 0,
+            "target": 44,
+            "value": 0.0138889
+        },
+        {
+            "source": 0,
+            "target": 45,
+            "value": 0.0717131
+        },
+        {
+            "source": 0,
+            "target": 46,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 47,
+            "value": 0.113879
+        },
+        {
+            "source": 0,
+            "target": 48,
+            "value": 0.101351
+        },
+        {
+            "source": 0,
+            "target": 49,
+            "value": 0.0886076
+        },
+        {
+            "source": 0,
+            "target": 50,
+            "value": 0.112717
+        },
+        {
+            "source": 0,
+            "target": 51,
+            "value": 0.0673077
+        },
+        {
+            "source": 0,
+            "target": 52,
+            "value": 0.0967742
+        },
+        {
+            "source": 0,
+            "target": 53,
+            "value": 0.126374
+        },
+        {
+            "source": 0,
+            "target": 54,
+            "value": 0.114007
+        },
+        {
+            "source": 0,
+            "target": 55,
+            "value": 0.0820513
+        },
+        {
+            "source": 0,
+            "target": 56,
+            "value": 0.0802469
+        },
+        {
+            "source": 0,
+            "target": 57,
+            "value": 0.0136986
+        },
+        {
+            "source": 0,
+            "target": 58,
+            "value": 0.116788
+        },
+        {
+            "source": 0,
+            "target": 59,
+            "value": 0.128405
+        },
+        {
+            "source": 0,
+            "target": 60,
+            "value": 0.0486111
+        },
+        {
+            "source": 0,
+            "target": 61,
+            "value": 0.156863
+        },
+        {
+            "source": 0,
+            "target": 62,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 63,
+            "value": 0.0809859
+        },
+        {
+            "source": 0,
+            "target": 64,
+            "value": 0.206667
+        },
+        {
+            "source": 0,
+            "target": 65,
+            "value": 0.094697
+        },
+        {
+            "source": 0,
+            "target": 66,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 67,
+            "value": 0.148305
+        },
+        {
+            "source": 0,
+            "target": 68,
+            "value": 0.107143
+        },
+        {
+            "source": 0,
+            "target": 69,
+            "value": 0.0136054
+        },
+        {
+            "source": 0,
+            "target": 70,
+            "value": 0.136943
+        },
+        {
+            "source": 0,
+            "target": 71,
+            "value": 0.078341
+        },
+        {
+            "source": 0,
+            "target": 72,
+            "value": 0.172535
+        },
+        {
+            "source": 0,
+            "target": 73,
+            "value": 0.083004
+        },
+        {
+            "source": 0,
+            "target": 74,
+            "value": 0.0647887
+        },
+        {
+            "source": 0,
+            "target": 75,
+            "value": 0.0747331
+        },
+        {
+            "source": 0,
+            "target": 76,
+            "value": 0.0935252
+        },
+        {
+            "source": 0,
+            "target": 77,
+            "value": 0.157051
+        },
+        {
+            "source": 0,
+            "target": 78,
+            "value": 0.125874
+        },
+        {
+            "source": 0,
+            "target": 79,
+            "value": 0.0134228
+        },
+        {
+            "source": 0,
+            "target": 80,
+            "value": 0.0820896
+        },
+        {
+            "source": 0,
+            "target": 81,
+            "value": 0.0611511
+        },
+        {
+            "source": 0,
+            "target": 82,
+            "value": 0.0981132
+        },
+        {
+            "source": 0,
+            "target": 83,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 84,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 85,
+            "value": 0.0830565
+        },
+        {
+            "source": 0,
+            "target": 86,
+            "value": 0.125604
+        },
+        {
+            "source": 0,
+            "target": 87,
+            "value": 0.108
+        },
+        {
+            "source": 0,
+            "target": 88,
+            "value": 0.104762
+        },
+        {
+            "source": 0,
+            "target": 89,
+            "value": 0.0896861
+        },
+        {
+            "source": 0,
+            "target": 90,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 91,
+            "value": 0.126801
+        },
+        {
+            "source": 0,
+            "target": 92,
+            "value": 0.149847
+        },
+        {
+            "source": 0,
+            "target": 93,
+            "value": 0.131868
+        },
+        {
+            "source": 0,
+            "target": 94,
+            "value": 0.0909091
+        },
+        {
+            "source": 0,
+            "target": 95,
+            "value": 0.118644
+        },
+        {
+            "source": 0,
+            "target": 96,
+            "value": 0.0599078
+        },
+        {
+            "source": 0,
+            "target": 97,
+            "value": 0.0253165
+        },
+        {
+            "source": 0,
+            "target": 98,
+            "value": 0.0984849
+        },
+        {
+            "source": 0,
+            "target": 99,
+            "value": 0.0247934
+        },
+        {
+            "source": 0,
+            "target": 100,
+            "value": 0.099631
+        },
+        {
+            "source": 2,
+            "target": 57,
+            "value": 0.0425532
+        },
+        {
+            "source": 8,
+            "target": 39,
+            "value": 0.376812
+        },
+        {
+            "source": 35,
+            "target": 95,
+            "value": 0.778378
+        },
+        {
+            "source": 39,
+            "target": 40,
+            "value": 0.209726
+        },
+        {
+            "source": 39,
+            "target": 56,
+            "value": 0.0673575
+        },
+        {
+            "source": 39,
+            "target": 61,
+            "value": 0.226115
+        },
+        {
+            "source": 39,
+            "target": 89,
+            "value": 0.304762
+        },
+        {
+            "source": 54,
+            "target": 98,
+            "value": 0.438017
+        },
+        {
+            "source": 58,
+            "target": 87,
+            "value": 0.397196
+        },
+        {
+            "source": 80,
+            "target": 82,
+            "value": 0.434783
+        }
+    ]
+}

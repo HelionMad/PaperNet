@@ -1,0 +1,119 @@
+{
+    "nodes": [
+        {
+            "abstract": "Introduction  A primary goal of virtual environments is to support natural, efficient, powerful, and flexible interaction. If the interaction technology is overly obtrusive, awkward, or constraining, the user's experience with the synthetic environment is severely degraded. If the interaction itself draws attention to the technology, rather than the task at hand, or imposes a high cognitive load on the user, it becomes a burden and an obstacle to a successful virtual environment experience. The traditional two-dimensional, keyboard- and mouse-oriented graphical user interface (GUI) is not well-suited for virtual environments. Instead, synthetic environments provide the opportunity to utilize several different sensing modalities and technologies and integrate them into the user experience. Devices which sense body position and orientation, direction of gaze, speech and sound, facial expression, galvanic skin response, and other aspects of human behavior or state can be used to mediate c",
+            "author": "",
+            "name": "landmark",
+            "keyword": "",
+            "title": "Gesture Recognition"
+        },
+        {
+            "group": 0,
+            "name": "group0"
+        },
+        {
+            "group": 1,
+            "name": "group1"
+        },
+        {
+            "group": 2,
+            "name": "group2"
+        },
+        {
+            "group": 3,
+            "name": "group3"
+        },
+        {
+            "group": 4,
+            "name": "group4"
+        },
+        {
+            "group": 5,
+            "name": "group5"
+        },
+        {
+            "group": 6,
+            "name": "group6"
+        },
+        {
+            "group": 7,
+            "name": "group7"
+        },
+        {
+            "group": 8,
+            "name": "group8"
+        },
+        {
+            "group": 9,
+            "name": "group9"
+        },
+        {
+            "group": 10,
+            "name": "group10"
+        },
+        {
+            "group": 11,
+            "name": "group11"
+        },
+        {
+            "group": 12,
+            "name": "group12"
+        },
+        {
+            "group": 13,
+            "name": "group13"
+        },
+        {
+            "group": 14,
+            "name": "group14"
+        },
+        {
+            "group": 15,
+            "name": "group15"
+        },
+        {
+            "group": 16,
+            "name": "group16"
+        },
+        {
+            "group": 17,
+            "name": "group17"
+        },
+        {
+            "group": 18,
+            "name": "group18"
+        },
+        {
+            "group": 19,
+            "name": "group19"
+        },
+        {
+            "group": 20,
+            "name": "group20"
+        },
+        {
+            "group": 21,
+            "name": "group21"
+        },
+        {
+            "group": 22,
+            "name": "group22"
+        },
+        {
+            "group": 23,
+            "name": "group23"
+        },
+        {
+            "group": 24,
+            "name": "group24"
+        },
+        {
+            "group": 25,
+            "name": "group25"
+        },
+        {
+            "group": 26,
+            "name": "group26"
+        }
+    ]
+}

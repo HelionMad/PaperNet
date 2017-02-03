@@ -1,0 +1,1319 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.133.4884",
+            "keyword": "MAXIMUM LIKELIHOODINCOMPLETE DATAEM ALGORITHMPOSTERIOR MODE",
+            "author": "A. P. DempsterN. M. LairdD. B. Rubin",
+            "abstract": "A broadly applicable algorithm for computing maximum likelihood estimates from incomplete data is presented at various levels of generality. Theory showing the monotone behaviour of the likelihood and convergence of the algorithm is derived. Many examples are sketched, including missing value situations, applications to grouped, censored or truncated data, finite mixture models, variance component estimation, hyperparameter estimation, iteratively reweighted least squares and factor analysis.\r\n",
+            "title": "Maximum likelihood from incomplete data via the EM algorithm"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.197.8224",
+            "keyword": "EM AlgorithmClaimsFraudMissing DataMixture ModelsMedical Bills. Version 3.0",
+            "author": "Rempala Grzegorz ADerrig Richard A",
+            "abstract": "We consider the issue of modeling the latent or hidden exposure occurring through either incomplete data or an unobserved underlying risk factor. We use the celebrated EM algorithm as a convenient tool in detecting latent (unobserved) risks in finite mixture models of claim severity and in problems where data imputation is needed. We provide examples of applicability of the methodology based on real-life auto injury claim data and compare, when possible, the accuracy of our methods with that of standard techniques. Sample data and an EM algorithm program are included to allow readers to experiment with the EM methodology themselves. Keywords:",
+            "title": "Abstract:"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.197.8870",
+            "keyword": "Bayes classifierMissing dataProbability intervals",
+            "author": "Marco Ramoni APaola Sebastiani B",
+            "abstract": "Naive Bayes classifiers provide an efficient and scalable approach to supervised classification problems. When some entries in the training set are missing, methods exist to learn these classifiers under some assumptions about the pattern of missing data. Unfortunately, reliable information about the pattern of missing data may be not readily available and recent experimental results show that the enforcement of an incorrect assumption about the pattern of missing data produces a dramatic decrease in accuracy of the classifier. This paper introduces a Robust Bayes Classifier (RBC) able to handle incomplete databases with no assumption about the pattern of missing data. In order to avoid assumptions, the RBC bounds all the possible probability estimates within intervals using a specialized estimation method. These intervals are then used to classify new cases by computing intervals on the posterior probability distributions over the classes given a new case and by ranking the intervals according to some criteria. We provide two scoring methods to rank intervals and a decision theoretic approach to trade off the risk of an erroneous classification and the choice of not classifying unequivocally a case. This decision theoretic approach can also be used to assess the opportunity of adopting assumptions about the pattern of missing data. The proposed approach is evaluated on twenty publicly available databases. \u00a9 2001 Elsevier Science B.V. All rights reserved.",
+            "title": "Research Note Robust Bayes classifiers"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.197.9343",
+            "keyword": "",
+            "author": "All MorckJungsywan SepanskiBernard Yeung",
+            "abstract": "Using U.S. steel firm data, we find that lobbying for import protection appears to be habit-forming. To identify heterogeneity in lobbying behavior among firms, we use an Expectation-Maximization algorithm to sort our firms into groups with different propensities to lobby and estimate the determinants of lobbying in each group. A twopool model emerges. occasional lobbyers \u2019 lobbying depends on their market performance and habitual lobbyers \u2019 lobbying only depends on past lobbying. The latter tends to be larger steel firms whose business is more focused in steel. Our evidence is consistent with dynamic economies of scale in protection seeking breeding protection-dependent firms. JEL classification: F13 2 I.",
+            "title": "Habitual and Occasional Lobbyers in the US Steel Industry: An EM Algorithm Pooling Approach"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.197.9793",
+            "keyword": "",
+            "author": "Syed Ali Khayam",
+            "abstract": "Wireless local area networks have demonstrated significant promise for the support of high bitrate multimedia communication. However, the performance of wireless LANs is degraded due to frequent network impairments which result in bit-errors and packet losses. To cater for such impairments, real-time applications and protocols tailored for wireless networks are introducing enhanced error robustness. Design of these applications and protocols stipulates a thorough understanding of the bit-error patterns encountered at high bitrates. In this work, we analyze and model the bit-errors encountered at the highest achievable data rate (i.e., 11 Mbps) of an 802.11b channel. We employ autocorrelation and variance-time analyses to ascertain that the bit-error process exhibits long-range dependence (LRD) and, therefore, traditional models (e.g., Markov, Poisson) are ineffective. Consequently, we resort to a more recent modeling paradigm, namely the multifractal wavelet model (MWM), in an attempt to accurately model this highly correlated (biterror) random process. Our results outline that the MWM captures the LRD behavior of the biterrors, thus, rendering a very effective model. We compare the performance of the MWM with varying order Markov chains and illustrate that the MWM outperforms the Markov chains in both channel modeling and complexity. 1.",
+            "title": "A Multifractal Wavelet Model for High Bitrate Wireless Channels"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.198.2798",
+            "keyword": "distributionlogistic regressionMACD technical modelsneural networkstrading",
+            "author": "Andreas LindemannChristian L. DunisPaulo Lisboa",
+            "abstract": "The purpose of this paper is twofold. Firstly, to assess the merit of estimating probability density functions rather than level or classification estimations on a oneday-ahead forecasting task of the EUR/USD time series. This is implemented using a Gaussian mixture model neural network, benchmarking the results against standard forecasting models, namely a na\u00efve model, a moving average convergence divergence technical model (MACD), an autoregressive moving average model (ARMA), a logistic regression model (LOGIT) and a multi-layer perceptron network (MLP). Secondly, to examine the possibilities of improving the trading performance of those models with confirmation filters and leverage. While the benchmark models perform best without confirmation filters and leverage, the Gaussian mixture model outperforms all of the benchmarks when taking advantage of the possibilities offered by a combination of more sophisticated trading strategies and leverage. This might be due to the ability of the Gaussian mixture model to identify successfully trades with a high Sharpe ratio.",
+            "title": "School of Computing and Mathematical Sciences,"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.198.2943",
+            "keyword": "PRINCIPAL CURVESLEARNINGDESIGNAND APPLICATIONS",
+            "author": "Mr. Bal\u00e1zs K\u00e9gl",
+            "abstract": "This is to certify that the thesis prepared",
+            "title": "Principal Curves: Learning, Design and Applications"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.198.4717",
+            "keyword": "",
+            "author": "English OnlyData EditingImputation",
+            "abstract": "Abstract: This paper discusses the EUREDIT project, a large research project that involves twelve participating organisations in seven countries over a period of three years. Its aims include developing new methods that are faster, more efficient, and more flexible, and also a methodology for comparing methods so that informed choices can be made on the most appropriate methods to be used in a particular situation. A range of statistical criteria have been developed for comparing different edit and imputation methods that are appropriate for different types of analyses and data. The project and its methods are described, and progress is reported. The project has now entered its final year and some 32 papers on interim results were presented at the project meeting in March 2002. Experimentation on individual methods will continue until July, and subsequently methods will be compared according to the established criteria, with conclusions published in Spring 2003. I.",
+            "title": "Topic (iv): Impact of new technologies on statistical data editing FIRST RESULTS FROM THE EUREDIT PROJECT \u2013 EVALUATING METHODS FOR"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.198.5478",
+            "keyword": "PB98-0149). We gratefully acknowledge comments from",
+            "author": "Mar\u00eda Jes\u00fas BarcenaFernando Tusell",
+            "abstract": "We address the problem of completing two files with records containing a fully observed common subset of variables. The technique investigated involves the use of regression and/or classification trees. An extension of current methodology (the intersection-seeking or \u201cforest-climbing \u201d algorithm) is proposed to deal with multivariate response variables. The method is demonstrated and shown to be feasible and have some desirable properties.",
+            "title": "Multivariate data imputation using trees"
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.198.5576",
+            "keyword": "",
+            "author": "Anders RahbekNeil Shephard",
+            "abstract": "In this paper we develop a time series model which allows long-term disequilibriums to have epochs of non-stationarity, giving the impression that long term relationships between economic variables have temporarily broken down, before they endogenously collapse back towards their long term relationship. This autoregressive root model is shown to be ergodic and covariance stationary under some rather general conditions. We study how this model can be estimated and tested, developing appropriate asymptotic theory for this task. Finally we apply the model to assess the purchasing power parity relationship. Keywords: Cointegration;Equilibrium correction model;GARCH;Hidden Markov model;Likelihood;Regime switching;STAR model;Stochastic break;Stochastic unit root;Switching regression;Real Exchange Rate;PPP;Unit root hypothesis. 1",
+            "title": "Autoregressive conditional root model"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.198.7806",
+            "keyword": "",
+            "author": "Peter N. YianilosNetrics Inc",
+            "abstract": "We consider the problem of maximizing certain positive rational functions of a form that includes statistical constructs such as conditional mixture densities and conditional hidden Markov models. The wellknown Baum-Welch and expectation maximization (EM) algorithms do not apply to rational functions and are therefore limited to the simpler maximum-likelihood form of such models. Our main result is a general decomposition theorem that like Baum-Welch/EM, breaks up each iteration of the maximization task into independent subproblems that are more easily solved \u2013 but applies to rational functions as well. It extends the central inequality of Baum-Welch/EM and associated high-level algorithms to the rational case, and reduces to the standard inequality and algorithms for simpler problems. Keywords: Baum-Welch (forward backward algorithm), Expectation Maximization (EM), hidden Markov models (HMM), conditional mixture density estimation, discriminative training, Maximum Mutual Information (MMI) Criterion. 1",
+            "title": "A General Decomposition Theorem that Extends the Baum-Welch and Expectation-Maximization Paradigm to Rational Forms"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.198.8541",
+            "keyword": "Bayes factorscorrelated binary dataGibbs samplingmarginal likelihoodMarkov chain Monte CarloMetropolis-Hastings algorithm",
+            "author": "Siddhartha ChibEdward Greenberg",
+            "abstract": "This paper provides a uni ed simulation-based Bayesian and non-Bayesian analysis of correlated binary data using the multivariate probit model. The posterior distribution is simulated by Markov chain Monte Carlo methods, and maximum likelihood estimates are obtained by a Monte Carlo version of the E-M algorithm. Computation of Bayes factors from the simulation output is also considered. The methods are applied to a bivariate data set, to a 534-subject, four-year longitudinal data set from the Six Cities study of the health e ects of air pollution, and to a seven-year data set on the labor supply of married women from the Panel Survey of Income Dynamics.",
+            "title": "Analysis of multivariate probit models"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.198.8561",
+            "keyword": "BootstrapDependent ProportionsEM AlgorithmMissing dataABSTRACT",
+            "author": "Duclaux Talla SouopRobert M. PricePh. DAlain DuclauxTalla Souop",
+            "abstract": "by",
+            "title": "Using the EM Algorithm to Estimate the Difference in Dependent Proportions in a 2\u00d72 Table with Missing Data"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.198.8810",
+            "keyword": "",
+            "author": "Dr Richard Rossmanith",
+            "abstract": "Frankfurt (now d-fine GmbH)  \u2013 for the opportunity to participate in the Mathematical Finance course at the University of Oxford and to prepare this MSc thesis. The company financed this course and gave me part of the necessary time off. I am especially grateful to Dr Hans-Peter Deutsch who had the idea for our group\u2019s participation in the course and who made it all possible. For fruitful discussions about interest rate dynamics and time series analysis, and mutual support concerning library and IT issues, I include my colleagues Dr Christian Hoffmann, Peter Tichatschke, Dr Frank Hofmann, Michael Giberman, Dr Andreas Werner and J\u00fcrgen Topper in my thank-you list. I am indebted to our client Bayerische Landesbank, its team manager Dr Walter Prem, and its project manager Oliver Bopp for the permission to use their test and development market data base servers for my empirical evaluations, even on week-ends. Special thanks also to Kai Radde and Jens Erler for our discussions on the mathematical methods implemented. From the University of Oxford, I want to express my gratitude to Dr Jeff Dewynne, Dr Sam Howison, and Dr Paul Wilmott for launching the course and for their lectures. Particular thanks go to my academic supervisor Jeff Dewynne, also for his understanding that my academic work was squeezed between the time for my profession and the time for my family. I thank all4 external practitioner lecturers for their lectures, but most notably Dr Jamil Baz, Dr Chris Hunter and Dr Riccardo Rebonato for the insights into interest rate dynamics I gained from theirs. Special thanks to Tiffany Fliss for organising the course in Oxford. I also thank her successors Anna Turner, Rosalind Sainty, and Riaz Ahmad for their efforts. I am also grateful to Kellogg College generally and to its President Dr Geoffrey Thomas personally for making our time and stay there very enjoyable.",
+            "title": "Acknowledgements I thank my employer Arthur Andersen \u2013 Financial and Commodity Risk Consulting Division,"
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.198.9979",
+            "keyword": "",
+            "author": "Pasi Moisio",
+            "abstract": "The author wishes to thank IRISS-C/I at CEPS/INSTEAD (Luxembourg) for its financial Poverty is an object of normative, administrative and methodological interest for various actors. This means that it is inevitably a political concept and therefore, per se, continuously debated (Alcock 1993, 3). In very general terms poverty can be defined as living at the bottom of welfare distribution.",
+            "title": "IRISS-C/I Working Paper: A LATENT CLASS APPLICATION TO THE MEASUREMENT OF POVERTY 1"
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.199.6977",
+            "keyword": "Lunin and White1990",
+            "author": "Finn \u02daarup NielsenMathematical Modelling",
+            "abstract": "Word list with short explaination in the areas of neuroinformatics and statistics. 1 abundance matrix: A data matrix X(N \u00d7 P) that contains actual numbers of occurrences or proportions [Kendall, 1971] according to [Mardia et al., 1979, exercise 13.4.5]. activation function: The nonlinear function in the output of the unit in a neural network. Can be a threshold function, a piece-wise linear function or a sigmoidal function, e.g., hyperbolic tangent or logistic sigmoid. If the activation function is on the output of the neural network it can be regarded as a link function. active learning: 1: The same as focusing",
+            "title": "Word list"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.200.1044",
+            "keyword": "",
+            "author": "Maria-pia Victoria-feserCentres For Economics",
+            "abstract": "The Discussion Paper series is available",
+            "title": "The Toyota Centre Suntory and Toyota International"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.200.1401",
+            "keyword": "",
+            "author": "Jonathan H. MantonAnton MuscatelliVikram KrishnamurthyStan Hurn",
+            "abstract": "A basic analysis of stock market excess return data shows both linear and non-linear dependence present. Previous papers have used this to argue that it must therefore be possible to predict future values. However, this paper shows that the linear and non-linear dependence can be explained by simply allowing the mean and variance of Gaussian noise to be modulated by a(typically 3 state) hidden Markov model. Attempting to t a Markov modulated AR process proved fruitless; the conclusion is that there is no AR-predictability present in excess return data.",
+            "title": "Modelling Stock Market Excess Returns by Markov Modulated Gaussian Noise"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.200.1746",
+            "keyword": "ForecastingInformationInventory ManagementSupply Chain Management",
+            "author": "Beril ToktayErwin A. Van Der LaanMarisa P. De Brito",
+            "abstract": "Abstract. In this article, we discuss ways of actively influencing product returns and we review data-driven methods for forecasting return flows that exploit the fact that future returns are a function of past sales. In particular we assess the value of return forecasting at an operational level, specifically for inventory control. We conclude with implications for supply chain management.",
+            "title": "Decision and Information"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.200.3336",
+            "keyword": "",
+            "author": "Peter CaccettaAdrian AllenIan WatsonBrian BeetsonGraeme BehnNorm CampbellPeter EddyFiona EvansSuzanne FurbyHarri KiiveriGeoff MaugerDon McfarlaneJerome GohColin PearceRichard SmithJeremy WallaceRay WallisLeeuwin CentreFloreat Wa",
+            "abstract": "The Land Monitor Project is providing information over the southwest agricultural region of WA. It is assembling and processing sequences of Landsat TM data, a new highresolution digital elevation model (DEM) and other spatial data to provide monitoring information on the area of salt-affected land, and on changes in the area and status of perennial vegetation over the period 1988-2000. Land Monitor is a multi-agency project of the Western Australian Salinity Action Plan supported by the Natural Heritage Trust. The Project will also providing estimates of areas at risk from secondary or future salinisation, based on the historical salinity maps and a set of landform variables derived from the high resolution DEM. Sequences of calibrated Landsat Thematic Mapper satellite images integrated with landform information derived from height data, ground truthing and other existing mapped data are used as the basis for monitoring changes in salinity and woody vegetation. Procedures for accurate registration and calibration were developed by CSIRO Mathematical and Information Sciences (CMIS), as were the data integration procedures",
+            "title": "Water and Rivers Commission"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.200.3832",
+            "keyword": "",
+            "author": "Yongyue ZhangMichael BradyStephen Smith",
+            "abstract": "Abstract\u2014The finite mixture (FM) model is the most commonly used model for statistical segmentation of brain magnetic resonance (MR) images because of its simple mathematical form and the piecewise constant nature of ideal brain MR images. However, being a histogram-based model, the FM has an intrinsic limitation\u2014no spatial information is taken into account. This causes the FM model to work only on well-defined images with low levels of noise; unfortunately, this is often not the the case due to artifacts such as partial volume effect and bias field distortion. Under these conditions, FM model-based methods produce unreliable results. In this paper, we propose a novel hidden Markov random field (HMRF) model, which is a stochastic process generated by a MRF whose state sequence cannot be observed directly but which can be indirectly estimated through observations. Mathematically, it can be shown that the FM model is a degenerate version of the HMRF model. The advantage of the HMRF model derives from the way in which the spatial information is encoded through the mutual influences of neighboring sites. Although MRF modeling has been employed in MR image segmentation by other researchers, most reported methods are limited to using MRF as a general prior in an FM model-based approach. To fit the HMRF model, an EM algorithm is used. We show that by incorporating both the HMRF model and the EM algorithm into a HMRF-EM framework, an accurate and robust segmentation can be achieved. More importantly, the HMRF-EM framework can easily be combined with other techniques. As an example, we show how the bias field correction algorithm of Guillemaud and Brady (1997) can be incorporated into this framework to achieve a three-dimensional fully automated approach for brain MR image segmentation. Index Terms\u2014Bias field correction, expectation-maximization, hidden Markov random field, MRI, segmentation. I.",
+            "title": "Segmentation of brain MR images through a hidden Markov random field model and the expectationmaximization algorithm"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.200.5542",
+            "keyword": "",
+            "author": "Siddhartha R. DalalYu-yun K. Ho",
+            "abstract": "This paper presents a new Bayesian method that can incorporate knowledge gained from past experience to improve early forecasting of new products and services. The method is based on maximum likelihood estimation of a pure birth process with a Bass-type adoption rate that can capture price and promotion effects. Direct maximum likelihood estimation of the model parameters is numerically infeasible. We develop an indirect estimator using a Monte-Carlo EM algorithm and Gibbs sampling. We also develop procedures for estimating standard errors of parameter estimates and forecasts. We apply the method to data on a new telecommunications service. I.",
+            "title": "Learning from Experience to Improve Early Forecasts: A Posterior Mode Approach"
+        },
+        {
+            "group": 22,
+            "name": "10.1.1.200.8261",
+            "keyword": "",
+            "author": "Ayako Yasuda",
+            "abstract": "This paper empirically examines how bank-firm relationships affect post-deregulation competition among underwriters in the U.S. corporate bond underwriting market. I find that there is a trade-off between relationships and price in the demand equation and that this trade-off is sharply higher for junk bond issuers and rst-time issuers. This finding is consistent with the certification effect of commercial bank underwriting. Commercial bank entry has increased bank competition to the extent that their client-specific relationships have increased product differentiation in the market. Since issuers with low reputation value the relationships more, the deregulation has increased competition the most in these segments.",
+            "title": "Do Bank-Firm Relationships affect Bank Competition in the Corporate Bond Underwriting Market?"
+        },
+        {
+            "group": 23,
+            "name": "10.1.1.201.897",
+            "keyword": "",
+            "author": "Thomas A. DipreteHenriette EngelhardtThomas A. DipreteHenriette Engelhardt",
+            "abstract": "This paper explores the implications of possible bias cancellation using Rubin-style matching methods with complete and incomplete data. After reviewing the na\u00efve causal estimator and the approaches of Heckman and Rubin to the causal estimation problem, we show how missing data can complicate the estimation of average causal effects in different ways, depending upon the nature of the missing mechanism. While \u2013 contrary to published assertions in the literature \u2013 bias cancellation does not generally occur when the multivariate distribution of the errors is symmetric, bias cancellation has been observed to occur for the case where selection into training is the treatment variable, and earnings is the outcome variable. A substantive rationale for bias cancellation is offered, which conceptualizes bias cancellation as the result of a mixture process based on two distinct individual-level decision-making models. While the general properties are unknown, the existence of bias cancellation appears to reduce the average bias in both OLS and matching methods relative to the symmetric distribution case. Analysis of simulated data under a set of difference scenarios suggests that matching methods do",
+            "title": "ISSN 1433-0210Estimating Causal Effects with Matching Methods in the Presence and Absence of Bias Cancellation"
+        },
+        {
+            "group": 24,
+            "name": "10.1.1.201.1293",
+            "keyword": "",
+            "author": "David ArthurGethin Williams",
+            "abstract": "The development of reliable measures of confidence for the decoding of speech sounds by machine has the potential to greatly enhance the \u2018state-of-the-art \u2019 in the field of automatic speech recognition (ASR). This dissertation describes the derivation of several complimentary confidence measures from a so-called acceptor hidden Markov model (HMM) based large vocabulary continuous speech recognition system, and their application to a variety of tasks pertaining to ASR in realistic environments. A key contribution of the thesis is the demonstration that if a rather general definition of what constitutes a confidence measure is adopted, a framework results within which it is possible to explore the utility of confidence measures throughout the recognition process. This general definition accrues additional benefits when used in conjunction with a set of more specific confidence measure categories. The fundamental difference between an acceptor HMM and one which adheres to the more common generative formulation is the acceptor\u2019s ability to directly estimate the posterior probability of a class of speech sound given some acoustic observations. Posterior class probabilities, unlike the class conditional likelihoods estimated by generative HMMs, provide measures of model match which are",
+            "title": "Knowing What You Don\u2019t Know: Roles for Confidence Measures in Automatic Speech Recognition"
+        },
+        {
+            "group": 25,
+            "name": "10.1.1.201.2469",
+            "keyword": "",
+            "author": "Arthur E. C. Pece",
+            "abstract": "The EM method is used to track moving objects as clusters of pixels significantly different from the corresponding pixels in a reference image. Non-parametric grey-level statistics for the moving clusters are learned online to improve robustness. Simple statistical principles are used for the initialisation, termination, merging and splitting of clusters. The system is complemented by some higher-level reasoning about object distance, occlusion and shadows. 1",
+            "title": "Tracking of non-gaussian clusters in the pets2001 image sequences"
+        },
+        {
+            "group": 26,
+            "name": "10.1.1.201.2959",
+            "keyword": "",
+            "author": "Yoshua BengioR\u00e9jean Ducharme",
+            "abstract": "are conditional hidden Markov models in which the emission (and possibly the transition) probabilities can be conditioned on an input sequence. For example, these conditional distributions can be linear, logistic, or nonlinear (using for example multilayer neural networks). We compare the generalization performance of several models which are special cases of input\u2013output hidden Markov models on financial time-series prediction tasks: an unconditional Gaussian, a conditional linear Gaussian, a mixture of Gaussians, a mixture of conditional linear Gaussians, a hidden Markov model, and various IOHMMs. The experiments compare these models on predicting the conditional density of returns of market and sector indices. Note that the unconditional Gaussian estimates the first moment with the historical average. The results show that, although for the first moment the historical average gives the best results, for the higher moments, the IOHMMs yielded significantly better performance, as estimated by the out-of-sample likelihood. Index Terms\u2014Input\u2013output hidden Markov model (IOHMM), financial series, volatility.",
+            "title": "Experiments on the Application of IOHMMs to Model Financial Returns Series"
+        },
+        {
+            "group": 27,
+            "name": "10.1.1.201.3595",
+            "keyword": "1",
+            "author": "Session OrganizerEdward WolffMaria Grazia PittauRoberto ZelliM. Grazia PittauMaria Grazia PittauRoberto Zelli",
+            "abstract": "Using kernel density estimation and mixture models, household size-adjusted income distributions in Italy are cross-sectionally examined over the period 1987-2000. Nonparametric tests assess the shape time invariance and the presence of modes in the distributions. Evidence shows that income tend to cluster around more than one point, giving good reasons to model the shapes by a finite mixture density with an appropriate choice of components which represent homogeneous subpopulations. Effects of socio-demographic factors on the probability of households to belong to one of the component of the mixture are identified by a compositional data analysis.",
+            "title": "1 TRENDS IN INCOME DISTRIBUTION IN ITALY: A NON PARAMETRIC AND A SEMI-PARAMETRIC ANALYSIS"
+        },
+        {
+            "group": 28,
+            "name": "10.1.1.201.3814",
+            "keyword": "",
+            "author": "M. Grazia PittauRoberto Zelli",
+            "abstract": "Using nonparametric density estimation and mixture models, the most relevant changes in Italy over the period 1987-2000 have been empirically examined from the perspective of the whole size-adjusted income distribution. The weighted kernel density estimates have been obtained by an adaptive bandwidth to handle data sparseness. To obtain a better insight into the estimated cross-sectional distribution, statistical tests have been conducted to assess the shape time invariance and the presence of modes in the distributions. The results indicate that the Italian real income distribution significantly shifted rightward during the eighties, positively affecting the well being of a large fraction of the households. Moreover, the mass of the distribution tend to be less dispersed over time. Instead, the 1993 recession altered shape and location of the size-adjusted income density, increasing spread and polarisation of the distribution. In the following period of slow recovery the whole distribution tended to maintain the same shape, eventually increasing the income dispersion. The multimodality test was able to assess that size-adjusted household income tends in general to cluster around more than one point along the income scale. This evidence gives good reason for modelling the income distribution by a finite mixture density, which provides a semiparametric framework to model unknown distributional shapes through an appropriate choice of components. This allows one to identify homogeneous subpopulations directly from the data, without imposing any a priori assumption. Our results indicate that the number of components chosen is usually greater than the number of modes selected by the multimodality test. In fact, a mixture of three or four normal components seems to fit the data well for almost all the Italian income distributions. Key words: income distribution, kernel density estimation, multimodality test, mixture models.",
+            "title": "Trends in income distribution in Italy: a non parametric and a semi-parametric analysis."
+        },
+        {
+            "group": 29,
+            "name": "10.1.1.201.4380",
+            "keyword": "",
+            "author": "G DavidsonK OuchiG SaitoN IshitsukaK MohriS Uratsuka",
+            "abstract": "Optimal (Maximum Likelihood) processing for a SAR image comprised of discrete regions of constant radar cross section is now well known. This scheme considerably improves upon windowed and iterative schemes by merging regions on an individual pixel basis. In theory, rigorous expressions for \u2018false alarm rate \u2019 can be defined but they are perhaps too sensitive to the underlying assumptions of independence and homogeneity. Images can be visually improved by a restraint on the \u2018surface tension \u2019 of the segmented regions but, to avoid subjective judgement, performance is assessed using pixelaccuracy ground truth from a rice growing area in central Japan based on multi-temporal, 8m resolution Radarsat data. Gaussian Expectation Maximisation is used to achieve accurate, fully-unsupervised classification of the area without fixed-value thresholding. This large scale backscatter information is then used in a Bayesian merging scheme to give a significant improvement in performance.",
+            "title": "PERFORMANCE EVALUATION OF MAXIMUM LIKELIHOOD SAR SEGMENTATION FOR MULTI-TEMPORAL RICE CROP MAPPING"
+        },
+        {
+            "group": 30,
+            "name": "10.1.1.201.4490",
+            "keyword": "BootstrapDependent ProportionsEM AlgorithmMissing DataABSTRACT",
+            "author": "Duclaux Talla SouopRobert M. PricePh. DAlain DuclauxTalla Souop",
+            "abstract": "by",
+            "title": "Using the EM Algorithm to Estimate the Difference in Dependent Proportions in a 2\u00d72 Table with Missing Data"
+        },
+        {
+            "group": 31,
+            "name": "10.1.1.201.7136",
+            "keyword": "",
+            "author": "G. SullivanDaniel G. Sullivan",
+            "abstract": "Bank of Chicago or the Federal Reserve System. Thanks are owed to Ken Housinger for very capable assistance and to Federal Reserve Bank of Chicago Micro Lunch participants and especially Dan Aaronson and Joe Altonji for I consider the estimation of linear regression models when the independent variables are measured with errors whose variances differ across observations, a situation that arises, for example, when the explanatory variables in a regression model are estimates of population parameters based on samples of varying sizes. Replacing the error variance that is assumed common to all observations in the standard errors-in-variables estimator by the mean measurement error variance yields a consistent estimator in the case of measurement error heteroscedacticity. However, another estimator, which I call the Heteroskedastic Errors in Variables Estimator (HEIV), is, under standard assumptions, asymptotically more efficient. Simulations show that the efficiency gains are likely to appreciable in practice. In addition, the HEIV estimator, which is the ordinary least squares regression of the dependent variable on the best linear predictor of the true independent It is well known that when the independent variables in a regression model are measured with",
+            "title": "WP 2001-23A Note on the Estimation of Linear Regression Models with Heteroskedastic Measurement Errors"
+        },
+        {
+            "group": 32,
+            "name": "10.1.1.201.8130",
+            "keyword": "Bayes ruleexpectation maximizationmobile robotsnavigationlocalizationmappingmaximum likelihood estimation",
+            "author": "Sebastian Thrun , et al.",
+            "abstract": "This paper addresses the problem of building large-scale geometric maps of indoor environments with mobile robots. It poses the map building problem as a constrained, probabilistic maximum-likelihood estimation problem. It then devises a practical algorithm for generating the most likely map from data, along with the most likely path taken by the robot. Experimental results in cyclic environments of size up to 80 by 25 meter illustrate the appropriateness of the approach.",
+            "title": "A Probabilistic Approach to Concurrent Mapping and Localization for Mobile Robots"
+        },
+        {
+            "group": 33,
+            "name": "10.1.1.201.8863",
+            "keyword": "forecastingseasonal adjustmentmissing observations",
+            "author": "Jan Jacobs",
+            "abstract": "One of the traditional motivations for building quarterly macroeconometric models is the demand for quarterly forecasts. Models based on annual data conceal higher frequency information and are not considered suf ciently informative to policy makers. Two dif culties may encumber quarterly macroeconometric modelling: the lack of observations, i.e. variables not being observed at the quarterly frequency, and the seasonal pattern in the data. Many methods have been suggested to deal with missing observations. Most of them employ smoothed series of approximations for the missing observations and necessitate seasonal adjustment of all other series in the models as well. Seasonal adjustment is no longer beyond criticism; the current view is that seasonal information should be employed rather than ltered out. An alternative method when confronted with missing quarterly observations is to generate forecasts with an annual model, to disaggregate these annual series into quarterly observations, and to add a seasonal pattern if required. This paper investigates under which circumstances this approach is preferable to forecasting with a quarterly model (partly) based on approximations of variables with missing observations.",
+            "title": "Dividing by 4': a feasible quarterly forecasting method"
+        },
+        {
+            "group": 34,
+            "name": "10.1.1.201.9694",
+            "keyword": "",
+            "author": "John S. BreeseDavid HeckermanCarl Kadie",
+            "abstract": "1",
+            "title": "Empirical Analysis of Predictive Algorithm for Collaborative Filtering"
+        },
+        {
+            "group": 35,
+            "name": "10.1.1.201.9864",
+            "keyword": "",
+            "author": "Maria AnaE. Odejar",
+            "abstract": "This study develops Bayesian methods of estimating the parameters of the stochastic switching regression model. Markov Chain Monte Carlo methods data augmentation and Gibbs sampling are used to facilitate estimation of the posterior means. The main feature of these two methods is that the posterior means are estimated by the ergodic averages of samples drawn from conditional distributions which are relatively simple and more feasible to sample from than the complex joint posterior distribution. A simulation study is conducted to compare model estimates obtained using data augmentation, Gibbs sampling and maximum likelihood EM algorithm and to determine the effect of accuracy and bias of the researcher\u2019s prior distributions on parameter estimates. 1.",
+            "title": "Bayesian Analysis of the Stochastic Switching Regression Model Using Markov Chain Monte Carlo Methods"
+        },
+        {
+            "group": 36,
+            "name": "10.1.1.202.3699",
+            "keyword": "Jumpsdiffusionscharacteristic functions. JEL codesC13C22",
+            "author": "Sanjiv R. Das",
+            "abstract": "Abstract. That information surprises result in discontinuous interest rates is no surprise to participants in the bond markets. We develop a class of Poisson-Gaussian models of the Fed Funds rate to capture surprise effects, and show that these models offer a good statistical description of short rate behavior, and are useful in understanding many empirical phenomena. Estimators are used based on analytical derivations of the characteristic functions and moments of jump-diffusion stochastic processes for a range of jump distributions, and are extended to discrete-time models. Jump (Poisson) processes capture empirical features of the data which would not be captured by Gaussian models, and there is strong evidence that existing models would be well-enhanced by jump and ARCH-type processes. The analytical and empirical methods in the paper support many applications, such as testing for Fed intervention effects, which are shown to be an important source of surprise jumps in interest rates. The jump model is shown to mitigate the non-linearity of interest rate drifts, so prevalent in pure-diffusion models. Day-of-week effects are modelled explicitly, and the jump model provides evidence of bond market overreaction, rejecting the martingale hypothesis for interest rates. Jump models mixed with Markov switching processes predicate that conditioning on regime is important in determining short rate behavior.",
+            "title": "The Surprise Element: Jumps in Interest Rates"
+        },
+        {
+            "group": 37,
+            "name": "10.1.1.202.6114",
+            "keyword": "",
+            "author": "Linda L. MoellerU. S. BureauLabor StatisticsLinda L. Moeller",
+            "abstract": "Abstract: The BLS multifactor productivity series decomposes labor productivity growth into components associated with increased capital intensity of production and shifts in the skillcomposition of the work force attributable to changes in the level and distribution of human capital. The use of administrative record data on actual accumulated work experience as an indicator of workers \u2019 current productivity is a distinguishing features of this series. The current procedure relies on a one-time match of Social Security Administration (SSA) data to records from the March 1973 CPS to develop an experience proxy that is entered in a human capital wage equation. Since the parametric relationship between accumulated work experience and the demographic characteristics of the work force is unlikely to remain stable over time, the BLS has undertaken a long-run research project to update the work experience data at regular intervals. Two independent sources of information on accumulated work experience were examined: SSA administrative record data on quarters of covered employment, and data from the 1984 Survey of",
+            "title": "Census. On the Estimation of Classical Human Capital Wage Equations With Two Independent Sources of Data on Actual Work Experience"
+        },
+        {
+            "group": 38,
+            "name": "10.1.1.202.7124",
+            "keyword": "Mixture distributionsswitching regressionslaborseparabilityPeru",
+            "author": "Renos Vakis YElisabeth Sadoulet YAlain De Janvry Y",
+            "abstract": "Searching for failures in the Peruvian labor market via mixture models \u00a4 Draft-Please do not site",
+            "title": ""
+        },
+        {
+            "group": 39,
+            "name": "10.1.1.202.7148",
+            "keyword": "JEL CodesC33D83I12I18. KeywordsSmokingMatchingBargainingLearningHealth",
+            "author": "Andrew ClarkAndrew ClarkFabrice Etil\u00e9",
+            "abstract": "We use nine waves of BHPS data to examine interactions between spouses in terms of a behaviour with important health repercussions: cigarette smoking. Partners \u2019 behaviours may be correlated due to matching in the marriage market, bargaining within marriage, or information revealed by others \u2019 behaviour. Simple probit and bivariate probits reveal a positive correlation between partners \u2019 smoking participation, which is consistent with both matching and bargaining. Controlling for fixed effects allows us to distinguish between opposing interpretations. In our preferred specification, a bivariate probit with random effects, partners \u2019 behaviours are statistically independent: all of the correlation in smoking status works through the correlation in individual fixed effects. As such, we believe that the correlation in the raw smoking data reflects matching on the marriage market, rather than bargaining within the couple.",
+            "title": "WORKING PAPER N\u00b0 Mots cl\u00e9s: Codes JEL: DON\u2019T GIVE UP ON ME BABY: SPOUSAL CORRELATION IN SMOKING BEHAVIOUR*"
+        },
+        {
+            "group": 40,
+            "name": "10.1.1.202.7653",
+            "keyword": "author",
+            "author": "Ben TimsRonald MahieuBen Tims",
+            "abstract": "In this paper we present a parsimonious multivariate model for exchange rate volatilities based on logarithmic high-low ranges of daily exchange rates. The multivariate stochastic volatility model divides the log range of each exchange rate into two independent latent factors, which are interpreted as the underlying currency specific components. Due to the normality of logarithmic volatilities the model can be estimated conveniently with standard Kalman filter techniques. Our results show that our model fits the exchange rate data quite well. Exchange rate news seems to be very currency-specific and allows us to identify which currency contributes most to both exchange rate levels and exchange rate volatilities.",
+            "title": "Corresponding"
+        },
+        {
+            "group": 41,
+            "name": "10.1.1.202.8214",
+            "keyword": "JEL CodesC33D83I12I18. KeywordsSmokingMatchingBargainingLearningHealth",
+            "author": "Andrew ClarkFabrice Etil\u00e9Andrew ClarkFabrice Etil\u00e9",
+            "abstract": "We use nine waves of BHPS data to examine interactions between spouses in terms of one of a behaviour with important health repercussions: cigarette smoking. Partners \u2019 behaviours may be correlated due to matching in the marriage market, strategy within marriage, or information revealed by others \u2019 behaviour. Simple probit and bivariate probits reveal a positive correlation between partners \u2019 smoking participation which is consistent with both matching and bargaining. Controlling for fixed effects allows us to distinguish between opposing interpretations. In our preferred specification, a bivariate probit with random effects, partners\u2019 behaviours are statistically independent: all of the correlation in smoking status works through the correlation in individual fixed effects. As such, we believe that the correlation in the raw data reflects matching on the marriage market, rather than bargaining within the couple. We also find some evidence consistent with learning about smoking\u2019s health risks, but for women only.",
+            "title": "Don\u2019t Give Up on Me Baby: Spousal Correlation in Smoking Behaviour"
+        },
+        {
+            "group": 42,
+            "name": "10.1.1.202.8499",
+            "keyword": "",
+            "author": "Dirk DahlhausBernard H. FleuryAndrej Radovi\u0107",
+            "abstract": "Abstract. A direct sequence (DS) spread spectrum code division multiple access (CDMA) communication system is considered where several users transmit data symbols over different multipath channels. The main objective of this work is the proposal of a sequential algorithm for joint parameter estimation and multiuser data detection. The computationally prohibitive maximization of the log-likelihood function is replaced by a sequential scheme using the multistage detector for recovering the data symbols and the expectation-maximization algorithm for estimating the channel parameters. The performance of the resulting multiuser receiver is evaluated via Monte Carlo simulations using both synthetic as well as measured channel impulse responses. A comparison of the performance with analytical expressions for the single-user single-path case shows that the proposed system is capable of eliminating the near-far effect existing in conventional DS/CDMA systems. Key words: multistage detection, expectation-maximization (EM) algorithm, interference cancellation, near-far problem. 1.",
+            "title": "A sequential algorithm for joint parameter estimation and multiuser detection in DS/CDMA systems with multipath propagation"
+        },
+        {
+            "group": 43,
+            "name": "10.1.1.203.1740",
+            "keyword": "trackingvideolevel setssurveillancedata mining",
+            "author": "M. MoelichMark Moelich",
+            "abstract": "document was prepared as an account of work sponsored by an agency of the United States Government. Neither the United States Government nor the University of California nor any of their employees, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or the University of California. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or the University of California, and shall not be",
+            "title": "IN LOW RESOLUTION VIDEO USING VARIATIONAL LEVEL SETS"
+        },
+        {
+            "group": 44,
+            "name": "10.1.1.203.2379",
+            "keyword": "Hidden Markov modelsregime switchinggrowthbusiness cyclesvolatilityproduction sectors",
+            "author": "Bob BuckleDavid HaughPeter Thomson",
+            "abstract": "This paper reviews and documents methodology for fitting hidden Markov switching models to New Zealand GDP data. A primary objective is to better understand the utility of these methods for modelling growth and volatility regimes present in the New Zealand data and their interaction. Properties of the models are developed together with a description of the estimation methods, including use of the EM algorithm. The models are fitted to New Zealand GDP and production sector growth rates to analyse changes in the mean and volatility of historical business cycles. The paper discusses applications of the methodology to dating business cycles, identifies changes in growth performances, and examines the timing of growth and volatility regime switching between GDP and its production sectors. Directions for further development are also discussed.",
+            "title": "2002) \u201cGrowth and volatility regime switching models for New Zealand GDP data"
+        },
+        {
+            "group": 45,
+            "name": "10.1.1.203.3408",
+            "keyword": "",
+            "author": "David Robert Bailey",
+            "abstract": "Children learn a variety of verbs for hand actions starting in their second year of life. The semantic distinctions can be subtle, and they vary across languages, yet they are learned quickly. Howis this possible? This dissertation explores the hypothesis that to explain the acquisition and use of action verbs, motor control must be taken into account. It presents a model of embodied semantics|based on the principles of neural computation in general and on the human motor system in particular|which takes a set of labelled actions and learns both to label novel actions and to obey verbal commands. Akey feature of the model is the executing schema, anactivecontroller mechanism which, by actually driving behavior, allows the model to carry out verbal commands. A hard-wired mechanism links the activity of executing schemas to a set of linguistically important features including hand posture, joint motions, force, aspect and goals. The feature set is relatively small and is xed, helping to make learning tractable. Moreover, the use of traditional feature structures facilitates the use of model merging, a Bayesian probabilistic learning algorithm which rapidly learns plausible word meanings, automatically determines an appropriate number of senses for each verb, and can plausibly be mapped to a connectionist recruitment",
+            "title": "When Push comes to Shove: A Computational Model of the Role of Motor Control in the Acquisition of Action Verbs  "
+        },
+        {
+            "group": 46,
+            "name": "10.1.1.203.4768",
+            "keyword": "Key words. yield managementrevenue managementdiscrete choice theoryairlines",
+            "author": "Kalyan TalluriGarrett Van Ryzin Y",
+            "abstract": "Customer choice behavior, such as \\buy-up \" and \\buy-down\", is an important phenomenon in a wide range of industries. Yet there are few models or methodologies available to exploit this phenomenon within yield management systems. We make some progress on \u00aflling this void. Speci\u00afcally, we develop a model of yield management in which the buyers ' behavior is modeled explicitly using a multi-nomial logit model of demand. The control problem is to decide which subset of fare classes to o\u00aeer at each point in time. The set of open fare classes then a\u00aeects the purchase probabilities for each class. We formulate a dynamic program to determine the optimal control policy and show that it reduces to a dynamic nested allocation policy. Thus, the optimal choice-based policy can easily be implemented in reservation systems that use nested allocation controls. We also develop an estimation procedure for our model based on the expectation-maximization (EM) method that jointly estimates arrival rates and choice model parameters when no-purchase outcomes are unobservable. Numerical results show that this combined optimization-estimation approach may signi\u00afcantly improve revenue performance relative to traditional leg-based models that do not account for choice behavior.",
+            "title": "A discrete choice model of yield management"
+        },
+        {
+            "group": 47,
+            "name": "10.1.1.203.5693",
+            "keyword": "",
+            "author": "Patrick PantelDekang Lin",
+            "abstract": "Many corpus-based machine translation systems require parallel corpora. In this paper, we present a word-for-word glossing algorithm that requires only a source language corpus. To gloss a word, we first identify its similar words that occurred in the same context in a large corpus. We then determine the gloss by maximizing the similarity between the set of contextually similar words and the different translations of the word in a bilingual thesaurus. 1.",
+            "title": "Word-for-Word Glossing with Contextually Similar Words"
+        },
+        {
+            "group": 48,
+            "name": "10.1.1.204.2717",
+            "keyword": "Unsupervised image segmentationColorParameter estimationNormal mixture identificationMarkov random fieldsReversible jump Markov chain Monte CarloSimulated annealing",
+            "author": "Zoltan Kato",
+            "abstract": "Available online at www.sciencedirect.com",
+            "title": "Segmentation"
+        },
+        {
+            "group": 49,
+            "name": "10.1.1.204.6287",
+            "keyword": "Key wordsdynamic correlationregime switchingMarkov chainARMACH. Journal of Economic Literature Classification",
+            "author": "Denis PelletierJean-marie DufourYongil JeonDoug PearceJames MckinnonLynda KhalafTodd SmithSean CampbellNeil ShephardMichael Mcaleer",
+            "abstract": "Giampiero M. Gallo and two anonymous referees for suggestions and constructive comments that have led to improvement of the paper. I want to thank participants at the CIREQ-CIRANO Univariate and Multivariate Models for Asset Pricing conference (2002), the 36th CEA annual conference (University of Calgary, 2002), the 42nd SCSE annual conference (Aylmer,2002) and the New Frontiers in Financial Volatility Modelling",
+            "title": "Regime switching for dynamic correlations"
+        },
+        {
+            "group": 50,
+            "name": "10.1.1.204.8378",
+            "keyword": "E",
+            "author": "Antonio Ponce DeDepends R",
+            "abstract": "Title Multivariate time series data imputation Description This is a EM algorithm based method for imputation of missing values in multivariate normal time series. The imputation algorithm accounts for both spatial and temporal correlation structures. Temporal patterns can be modelled using an ARIMA(p,d,q), optionally with seasonal components, a non-parametric cubic spline or generalised additive models with exogenous covariates. This algorithm is specially tailored for climate data with missing measurements from several monitors along a given region.",
+            "title": "License GPL (> = 2) Repository CRAN"
+        },
+        {
+            "group": 51,
+            "name": "10.1.1.205.2228",
+            "keyword": "Key wordsMixture modelMixing densityNonparametric maximum penalized likelihood",
+            "author": "Lei LiuMichael LevineYu Zhu",
+            "abstract": "When the true mixing density is known to be continuous, the maximum likelihood estimate of the mixing density does not provide a satisfying answer due to its degeneracy. Estimation of mixing densities is a well-known ill-posed indirect problem. In this article, we propose to estimate the mixing density by maximizing a penalized likelihood and call the resulting estimate the nonparametric maximum penalized likelihood estimate (NPMPLE). Using theory and methods from the calculus of variations and differential equations, a new functional EM algorithm is derived for computing the NPMPLE of the mixing density. In the algorithm, maximizers in M-steps are found by solving an ordinary differential equation with boundary conditions numerically. Simulation studies show the algorithm outperforms other existing methods such as the popular EMS algorithm. Some theoretical properties of the NPMPLE and the algorithm are also discussed.",
+            "title": "A Functional EM Algorithm for Mixing Density Estimation via Nonparametric Penalized Likelihood Maximization"
+        },
+        {
+            "group": 52,
+            "name": "10.1.1.205.3573",
+            "keyword": "",
+            "author": "Sullivan HidotChristophe Saint-jeanJean-yves Lafaye",
+            "abstract": "Classification de signaux multidimensionnels utilisant la distribution de Wishart: Application \u00e0 la reconnaissance de mouvements",
+            "title": ""
+        },
+        {
+            "group": 53,
+            "name": "10.1.1.205.3718",
+            "keyword": "",
+            "author": "Taisuke SatoNeng-fa ZhouYoshitaka KameyaYusuke IzumiYoshitaka KameyaYusuke Izumi Preface",
+            "abstract": "The past several years have witnessed a tremendous interest in logic-based probabilistic learning as testified by the number of formalisms and systems and their applications. Logic-based probabilistic learning is a multidisciplinary research area that integrates relational or logic formalisms, probabilistic reasoning mechanisms, and machine learning and data mining principles. Logic-based probabilistic learning has found its way into many application areas including bioinformatics, diagnosis and troubleshooting, stochastic language processing, information retrieval, linkage analysis and discovery, robot control, and probabilistic constraint solving. PRISM (PRogramming In Statistical Modeling) is a logic-based language that integrates logic programming and probabilistic reasoning including parameter learning. It allows for the description of independent probabilistic choices and their consequences in general logic programs. PRISM supports parameter learning, i.e. for a given set of possibly incomplete observed data, PRISM can estimate the probability distributions to best explain the data. This power is suitable for applications such as learning parameters of stochastic grammars, training stochastic models for gene sequence analysis, game record analysis, user modeling, and obtaining probabilistic information for tuning systems performance. PRISM offers incomparable flexibility compared with specific statistical tools such as hidden Markov models (HMMs) [4, 30], probabilistic context free grammars (PCFGs) [4] and discrete Bayesian networks. PRISM employs a proof-theoretic approach to learning. It conducts learning in two phases: the first phase searches for all the explanations for the observed data, and the second phase estimates the probability distributions by using the EM algorithm. Learning from flat explanations can be exponential in both space and time. To speed up learning, the authors proposed learning from explanation graphs and using tabling to reduce redundancy in the construction of explanation graphs. The PRISM programming system is implemented on top of B-Prolog",
+            "title": "PRISM User\u2019s Manual (Version 2.0 beta 4)"
+        },
+        {
+            "group": 54,
+            "name": "10.1.1.205.3885",
+            "keyword": "",
+            "author": "Haz\u0131m Kemal Ekenel AJohannes Stallkamp ARainer Stiefelhagen A",
+            "abstract": "journal homepage: www.elsevier.com/locate/cviu",
+            "title": "Contents lists available at ScienceDirect Computer Vision and Image Understanding"
+        },
+        {
+            "group": 55,
+            "name": "10.1.1.205.3893",
+            "keyword": "",
+            "author": "L\u00e1szl\u00f3 Gerencs\u00e9rIldik\u00f3 KmecsBal\u00e1zs Torma",
+            "abstract": "Abstract. Quantization is a basic operation in communication, having a considerable impact also on control, in particular on control over communication networks, see [2] for an early reference. In this paper we consider a classic, seemingly innocent problem of reconstructing a single signal value \u03b8 \u2217 when measured with additive Gaussian noise, followed by uniform quantization of sensitivity h, with or without saturation. A peculiar feature of the above estimation problem is that its Fisher information varies considerably with the noise variance and the location of the true parameter. It is therefore a meaningful objective to adjust (shift) the quantization levels so as to maximize the Fisher information or to inject additional measurement noise for the same purpose. We shall focus on the first problem. Empirical evidence shows that, for given noise variance, the Fisher information is maximal when the location parameter is of the form \u03b8 \u2217  = kh+h/2. Adjusting the quantization levels is equivalent, from the statistical point of view, to adjusting, say increasing the location parameter by an amount of \u03b4> 0 to achieve a known target, say \u03b7 \u2217  = kh+h/2 for some integer k. The problem that we address in this paper is if such an adjustment of the problem can be done adaptively, in the context of a previously developed recursive, real-time estimation method for estimating \u03b8 \u2217 , that was called a randomized EM-method for estimating \u03b8 \u2217. We give a positive answer to this question. The proposed method results in considerable improvement in efficiency, supported both by the algebra of the asymptotic theory of stochastic approximation, and by extensive experimental evidence. The basic ideas developed and presented for this benchmark problem can be easily generalized for the multi-variable case. Keywords: quantization; Gaussian linear regression; EM-method; Metropolis-Hastings method; stochastic approximation.",
+            "title": "QUANTIZATION WITH ADAPTATION- ESTIMATION OF GAUSSIAN LINEAR MODELS \u2217"
+        },
+        {
+            "group": 56,
+            "name": "10.1.1.205.4071",
+            "keyword": "",
+            "author": "Christophe Saint-jeanCarl Fr\u00e9licot",
+            "abstract": "In this paper, we address the problem of semisupervision in the framework of parametric clustering by using labeled and unlabeled data together. Clustering algorithms can take advantage from few labeled instances in order to tune parameters, improve convergence and overcome local extrema due to bad initialization. We extend a robust parametric clustering algorithm able to manage outlier rejection to the semi-supervision approach. This is achieved by modifying the Expectation-Maximization algorithm. The proposed method shows good performance with respect to data structure discovering, even facing to outliers. 1. Introducing partial supervision in clustering algorithms Clustering is an important task for exploratory data analysis.",
+            "title": "DOI: 10.1109/ICPR.2002.1047930 A robust semi-supervised EM-based clustering algorithm with a reject option"
+        },
+        {
+            "group": 57,
+            "name": "10.1.1.205.4545",
+            "keyword": "Soft clusteringensemble methodsgraph based algorithmsinformation theoretic",
+            "author": "Kunal PuneraJoydeep Ghosh",
+            "abstract": "Abstract \u2014 Cluster Ensembles is a framework for combining multiple partitionings obtained from separate clustering runs into a final consensus clustering. This framework has attracted much interest recently because of its numerous practical applications, and a variety of approaches including Graph Partitioning, Maximum Likelihood, Genetic algorithms, and Voting-Merging have been proposed. The vast majority of these approaches accept hard clusterings as input. There are, however, many clustering algorithms such as EM and fuzzy c-means that naturally output soft partitionings of data, and forcibly hardening these partitions before obtaining a consensus potentially involves loss of valuable information. In this paper we propose several consensus algorithms that work on soft clusterings and experiment with many real-life datasets to empirically show that using soft clusterings as input does offer significant advantages, especially when dealing with vertically partitioned data.",
+            "title": "Consensus Based Ensembles of Soft Clusterings"
+        },
+        {
+            "group": 58,
+            "name": "10.1.1.205.5056",
+            "keyword": "",
+            "author": "Hisashi KashimaTadashi TsumuraTsuyoshi Id\u00e9Takahide NogayamaRyo HiradeHiroaki EtohTakeshi Fukuda",
+            "abstract": "We introduce a network-based problem detection framework for distributed systems, which includes a data-mining method for discovering dynamic dependencies among distributed services from transaction data collected from network, and a novel problem detection method based on the discovered dependencies. From observed containments of transaction execution time periods, we estimate the probabilities of accidental and non-accidental containments, and build a competitive model for discovering direct dependencies by using a model estimation method based on the online EM algorithm. Utilizing the discovered dependency information, we also propose a hierarchical problem detection framework, where microscopic dependency information is incorporated with a macroscopic anomaly metric that monitors the behavior of the system as a whole. This feature is made possible by employing a network-based design which provides overall information of the system without any impact on the performance. 1",
+            "title": "Network-based Problem Detection for Distributed Systems"
+        },
+        {
+            "group": 59,
+            "name": "10.1.1.205.5115",
+            "keyword": "",
+            "author": "Jesse Hoey",
+            "abstract": "1 One-Way Likelihood Ratio or \u03c7 2 test Suppose we have a set of data x and two hypotheses HR and HS. We wish to know which hypothesis explains the data better. To do this, we compute the likelihood ratio P (x|HR) log",
+            "title": "log"
+        },
+        {
+            "group": 60,
+            "name": "10.1.1.205.6095",
+            "keyword": "PrivacyDistributed clusteringGenerative models",
+            "author": "Srujana MeruguJoydeep Ghosh",
+            "abstract": "While data mining algorithms are often designed to operate on centralized data, in practice data is often acquired and stored in a distributed manner. Centralization of such data before analysis may not be desirable, and often not possible due to a variety of real-life constraints such as security, privacy and communication costs. This paper presents a general framework for distributed clustering that takes into account privacy requirements. It is based on building probabilistic models of the data at each local site, whose parameters are then transmitted to a central location. We mathematically show that the best representative of all the local models is a certain \u2018\u2018mean\u2019 \u2019 model, and empirically show that this model can be approximated quite well by generating artificial samples from the local models using sampling techniques, and then fitting a global model of a chosen parametric form to these samples. We also propose a new measure that quantifies privacy based on information theoretic concepts, and show that decreasing privacy improves the quality of the global model and vice versa. Empirical results are provided on different kinds of data to highlight the generality of our framework. The results show that high quality global clusters can be achieved with little loss of privacy.",
+            "title": "  A privacy-sensitive approach to distributed clustering"
+        },
+        {
+            "group": 61,
+            "name": "10.1.1.205.7369",
+            "keyword": "",
+            "author": "Suju RajanJoydeep GhoshMelba M. Crawford",
+            "abstract": "Abstract\u2014Obtaining training data for land cover classification using remotely sensed data is time consuming and expensive especially for relatively inaccessible locations. Therefore, designing classifiers that use as few labeled data points as possible is highly desirable. Existing approaches typically make use of small-sample techniques and semisupervision to deal with the lack of labeled data. In this paper, we propose an active learning technique that efficiently updates existing classifiers by using fewer labeled data points than semisupervised methods. Further, unlike semisupervised methods, our proposed technique is well suited for learning or adapting classifiers when there is substantial change in the spectral signatures between labeled and unlabeled data. Thus, our active learning approach is also useful for classifying a series of spatially/temporally related images, wherein the spectral signatures vary across the images. Our interleaved semisupervised active learning method was tested on both single and spatially/temporally related hyperspectral data sets. We present empirical results that establish the superior performance of our proposed approach versus other active learning and semisupervised methods. Index Terms\u2014Active learning, hierarchical classifier, multitemporal data, semisupervised classifiers, spatially separate data. I.",
+            "title": "An active learning approach to hyperspectral data classification"
+        },
+        {
+            "group": 62,
+            "name": "10.1.1.205.7658",
+            "keyword": "",
+            "author": "Shi ZhongJoydeep Ghosh",
+            "abstract": "Balanced clustering algorithms can be useful in a variety of applications and have recently attracted increasing research interest. Most recent work, however, addressed only hard balancing by constraining each cluster to have equal or a certain minimum number of data objects. This paper provides a soft balancing strategy built upon a soft mixtureof-models clustering framework. This strategy constrains the sum of posterior probabilities of object membership for each cluster to be equal and thus balances the expected number of data objects in each cluster. We first derive soft model-based clustering from an information-theoretic viewpoint and then show that the proposed balanced clustering can be parameterized by a temperature parameter that controls the softness of clustering as well as that of balancing. As the temperature decreases, the resulting partitioning becomes more and more balanced. In the limit, when temperature becomes zero, the balancing becomes hard and the actual partitioning becomes perfectly balanced. The effectiveness of the proposed soft balanced clustering algorithm is demonstrated on both synthetic and real text data. 1",
+            "title": "Model-based clustering with soft balancing"
+        },
+        {
+            "group": 63,
+            "name": "10.1.1.205.8083",
+            "keyword": "gene expression",
+            "author": "J. M. Pe \u00d1aJ. A. Lozano",
+            "abstract": "This paper proposes using estimation of distribution algorithms for unsupervised learning of Bayesian networks, directly as well as within the framework of the Bayesian structural EM algorithm. Both approaches are empirically evaluated in synthetic and real data. Specifically, the evaluation in real data consists in the application of this paper\u2019s proposals to gene expression data clustering, i.e., the identification of clusters of genes with similar expression profiles across samples, for the leukemia database. The validation of the clusters of genes that are identified suggests that these may be biologically meaningful.",
+            "title": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems c \u25cb World Scientific Publishing Company UNSUPERVISED LEARNING OF BAYESIAN NETWORKS VIA ESTIMATION OF DISTRIBUTION ALGORITHMS: AN APPLICATION TO GENE EXPRESSION DATA CLUSTERING"
+        },
+        {
+            "group": 64,
+            "name": "10.1.1.205.8776",
+            "keyword": "",
+            "author": "Diane J. HuLawrence K. Saul",
+            "abstract": "We describe a probabilistic model for learning musical keyprofiles from symbolic files of polyphonic, classical music. Our model is based on Latent Dirichlet Allocation (LDA), a statistical approach for discovering hidden topics in large corpora of text. In our adaptation of LDA, symbolic music files play the role of text documents, groups of musical notes play the role of words, and musical keyprofiles play the role of topics. The topics are discovered as significant, recurring distributions over twelve neutral pitch-classes. Though discovered automatically, these distributions closely resemble the traditional key-profiles used to indicate the stability and importance of neutral pitchclasses in the major and minor keys of western music. Unlike earlier approaches based on human judgement, our model learns key-profiles in an unsupervised manner, inferring them automatically from a large musical corpus that contains no key annotations. We show how these learned key-profiles can be used to determine the key of a musical piece and track its harmonic modulations. We also show how the model\u2019s inferences can be used to compare musical pieces based on their harmonic structure. 1.",
+            "title": "A probabilistic topic model for unsupervised learning of musical key-profiles"
+        },
+        {
+            "group": 65,
+            "name": "10.1.1.205.9059",
+            "keyword": "",
+            "author": "Hanna LukashevichJakob Abe\u00dferChristian DittmarHolger Grossmann",
+            "abstract": "In this publication we describe a novel two-dimensional approach for automatic music genre classification. Although the subject poses a well studied task in Music Information Retrieval, some fundamental issues of genre classification have not been covered so far. Especially many modern genres are influenced by manifold musical styles. Most of all, this holds true for the broad category \u201cWorld Music\u201d, which comprises many different regional styles and a mutual mix up thereof. A common approach to tackle this issue in manual categorization is to assign multiple genre labels to a single recording. However, for commonly used automatic classification algorithms, multilabeling poses a problem due to its ambiguities. Thus, we propose to break down multi-label genre annotations into single-label annotations within given time segments and musical domains. A corresponding multi-stage evaluation based on a representative set of items from a global music taxonomy is performed and discussed accordingly. Therefore, we conduct 3 different experiments that cover multi-labeling, multi-labeling with time segmentation and the proposed multi-domain labeling. 1.",
+            "title": "FROM MULTI-LABELING TO MULTI-DOMAIN-LABELING: A NOVEL TWO-DIMENSIONAL APPROACH TO MUSIC GENRE CLASSIFICATION"
+        },
+        {
+            "group": 66,
+            "name": "10.1.1.205.9325",
+            "keyword": "",
+            "author": "Umar SyedJason D. Williams",
+            "abstract": "We use an EM algorithm to learn user models in a spoken dialog system. Our method requires automatically transcribed (with ASR) dialog corpora, plus a model of transcription errors, but does not otherwise need any manual transcription effort. We tested our method on a voice-controlled telephone directory application, and show that our learned models better replicate the true distribution of user actions than those trained by simpler methods and are very similar to user models estimated from manually transcribed dialogs. 1",
+            "title": "Proceedings of the Forty-Sixth Annual Meeting of the Association for Computational Linguistics, 2008. Using Automatically Transcribed Dialogs to Learn User Models in a Spoken Dialog System"
+        },
+        {
+            "group": 67,
+            "name": "10.1.1.205.9546",
+            "keyword": "",
+            "author": "L. NatarajA. SarkarB. S. Manjunath",
+            "abstract": "In this paper, we propose robust methods to detect image resizing. A common problem affecting most resizing detection algorithms is that they are susceptible to JPEG compression attacks. The reason is that JPEG compression introduces its own periodicity, as it works on 8\u00d78 blocks. In our proposed approach, we add a suitable amount of Gaussian noise to a resized and JPEG compressed image so that the periodicity due to JPEG compression is suppressed while that due to the resizing is retained. The controlled Gaussian noise addition works better than median filtering and weighted averaging based filtering for suppressing the JPEG induced periodicity. Index Terms \u2014 image forensics, image resizing, bilinear interpolation, Gaussian noise addition, JPEG compression, 1.",
+            "title": "ADDING GAUSSIAN NOISE TO \u201cDENOISE \u201d JPEG FOR DETECTING IMAGE RESIZING"
+        },
+        {
+            "group": 68,
+            "name": "10.1.1.205.9757",
+            "keyword": "Key Words. maximum likelihoodEM algorithmmajorizationconvexityNewton\u2019s method",
+            "author": "Kenneth LangeDavid R. HunterIlsoon Yang",
+            "abstract": "The well-known EM algorithm is an optimization transfer algorithm that depends on the notion of incomplete or missing data. By invoking convexity arguments, one can construct a variety of other optimization transfer algorithms that do not involve missing data. These algorithms all rely on a majorizing or minorizing function that serves as a surrogate for the objective function. Optimizing the surrogate function drives the objective function in the correct 1 direction. The current paper illustrates this general principle by a number of specific examples drawn from the statistical literature. Because optimization transfer algorithms often exhibit the slow convergence of EM algorithms, two methods of accelerating optimization transfer are discussed and evaluated in the context of specific problems.",
+            "title": "Optimization Transfer Using . . . "
+        },
+        {
+            "group": 69,
+            "name": "10.1.1.205.9845",
+            "keyword": "EM algorithmkernel density estimationmultivariate mixture",
+            "author": "Tatiana BenagliaDidier ChauveauDavid R. Hunter",
+            "abstract": "An EM-like algorithm for semi- and non-parametric estimation in multivariate mixtures",
+            "title": ""
+        },
+        {
+            "group": 70,
+            "name": "10.1.1.206.771",
+            "keyword": "",
+            "author": "David R. HunterKenneth Lange",
+            "abstract": "What\u2019s in a Name? We thank the discussants for their insightful and substantive comments. In replying, we open with the least substantive issue\u2014the name of the algorithm. We take the objections to \u201coptimization transfer \u201d well and find Professor Meng\u2019s call for a more attractive name compelling. Although we could not help but be amused by his suggestion of the \u201cSM algorithm\u201d, we fear that the pun on sadomasochism might wear poorly over time. His suggestion also fails to meet a major objection of the other discussants. As both Groenen-Heiser and de Leeuw-Michailidis point out, a name like \u201cSurrogate-Maximization \u201d could apply equally well to Newton\u2019s method or steepest ascent with a line search. We therefore propose the name \u201cMM algorithm \u201d as a compromise. Here MM stands for either Majorize-Minimize or Minorize-Maximize, depending on the context. Unlike SM or optimization transfer, this name tells us that the surrogate function is special because it either majorizes or minorizes the objective function. MM algorithm also echoes the names \u201cmajorization \u201d and \u201citerative majorization\u201d",
+            "title": "Rejoinder"
+        },
+        {
+            "group": 71,
+            "name": "10.1.1.206.838",
+            "keyword": "",
+            "author": "David R. Hunter",
+            "abstract": "An understanding of a simple geometric argument that underlies all EM algorithms gives an appreciation for certain aspects of their behavior. Using several illustrative examples, this paper demonstrates how the geometry of EM algorithms can help explain how their rate of convergence is related to the proportion of missing data and how an EM algorithm can fail in a pathological case. This geometric intuition also helps explain why, contrary to a view expressed by some, there is no reason to exclude EM algorithms from cases in which the likelihood function is zero for certain values of the parameter. Key Words: EM algorithm, MM algorithm 1",
+            "title": "On the Geometry of EM algorithms"
+        },
+        {
+            "group": 72,
+            "name": "10.1.1.206.1157",
+            "keyword": "Rake receiver",
+            "author": "Norman C. BeaulieuDavid J. Young",
+            "abstract": "Abstract\u2014The multiple-user interference (MUI) in timehopped impulse-radio ultra-wide bandwidth (UWB) systems is impulse-like and poorly approximated by a Gaussian distribution. Therefore, conventional matched filter receiver designs, which are optimal for Gaussian noise, are not fully efficient for UWB applications. Several alternative distributions for approximating the MUI process and the MUI-plus-noise process in UWB systems are motivated and compared. These distributions have in common that they are more impulsive than the Gaussian approximation, with a greater area in the tails of the probability density function (pdf) compared to a Gaussian pdf. The improved MUI and MUIplus-noise models are utilized to derive new receiver designs for UWB applications, which are shown to be superior to the conventional matched filter receiver. Multipath propagation is abundant in UWB channels and is exploited by a Rake receiver. A Rake receiver uses multiple fingers to comb the multipath rays with a conventional matched filter implemented in each finger. Rake structures utilizing the new receiver designs that are suitable for reception of UWB signals in multipath fading channels are provided. An optimal performance benchmark, based on an accurate theoretical model for the interference which fully explains the features of the MUI pdf, is also presented. Analysis and simulation results are shown for the novel receivers which demonstrate that the new designs have superior performance compared to the conventional linear receiver when MUI is significant. Several adaptive receivers are shown to always match or exceed the performance of the conventional linear receiver in all MUI-plus-noise environments. Parameter estimation for the new receivers also is discussed. Index Terms\u2014Demodulation, digital receivers, error rate, multiple-access interference (MAI), multiuser interference (MUI),",
+            "title": "DESIGNING TH-UWB RECEIVERS FOR MUI 1 Designing Time-Hopping Ultra-Wide Bandwidth Receivers for Multi-User Interference Environments"
+        },
+        {
+            "group": 73,
+            "name": "10.1.1.206.1161",
+            "keyword": "",
+            "author": "David R. HunterKenneth Lange",
+            "abstract": "The semiparametric proportional odds model for survival data is useful when mortality rates of different groups converge over time. However, fitting the model by maximum likelihood proves computationally cumbersome for large datasets because the number of parameters exceeds the number of uncensored  observations. We present here an alternative to the standard Newton-Raphson method of maximum likelihood estimation. Our algorithm, an example of a minorization-maximization (MM) algorithm, is guaranteed to converge to the maximum likelihood estimate whenever it exists. For large problems, both the algorithm and its quasi-Newton accelerated counterpart outperform Newton-Raphson by more than two orders of magnitude.",
+            "title": "Computing Estimates in the Proportional Odds Model"
+        },
+        {
+            "group": 74,
+            "name": "10.1.1.206.1351",
+            "keyword": "Key words and phrasesL1 regressionmajorizationEM algorithmGauss",
+            "author": "David R. HunterKenneth LangeDepartments Of BiomathematicsHuman Genetics",
+            "abstract": "Quantile regression is an increasingly popular method for estimating the quantiles of a distribution conditional on the values of covariates. Regression quantiles are robust against the influence of outliers, and taken several at a time, they give a more complete picture of the conditional distribution than a single estimate of the center. The current paper first presents an iterative algorithm for finding sample quantiles without sorting and then explores a generalization of the algorithm to nonlinear quantile regression. Our quantile regression algorithm is termed an MM, or Majorize-Minimize, algorithm because it entails majorizing the objective function by a quadratic function followed by minimizing that quadratic. The algorithm is conceptually simple and easy to code, and our numerical tests suggest that it is computationally competitive with a recent interior point algorithm for most problems.",
+            "title": "Quantile regression via an MM algorithm"
+        },
+        {
+            "group": 75,
+            "name": "10.1.1.206.1433",
+            "keyword": "Human robot interactionMachine learningEntertainment",
+            "author": "Wolfram Burgard, Armin B. CremersDieter Fox , Dirk H\u00e4hnelGerhard Lakemeyer Dirk Schulz Walter Steiner Sebastian Thrun",
+            "abstract": "",
+            "title": "Experiences with an interactive museum tour-guide robot"
+        },
+        {
+            "group": 76,
+            "name": "10.1.1.206.1538",
+            "keyword": "",
+            "author": "David R. HunterKenneth LangeDepartments Of BiomathematicsHuman Genetics",
+            "abstract": "Most problems in frequentist statistics involve optimization of a function such as a likelihood or a sum of squares. EM algorithms are among the most effective algorithms for maximum likelihood estimation because they consistently drive the likelihood uphill by maximizing a simple surrogate function for the loglikelihood. Iterative optimization of a surrogate function as exemplified by an EM algorithm does not necessarily require missing data. Indeed, every EM algorithm is a special case of the more general class of MM optimization algorithms, which typically exploit convexity rather than missing data in majorizing or minorizing an objective function. In our opinion, MM algorithms deserve to part of the standard toolkit of professional statisticians. The current article explains the principle behind MM algorithms, suggests some methods for constructing them, and discusses some of their attractive features. We include numerous examples throughout the article to illustrate the concepts described. In addition to surveying previous work on MM algorithms, this article introduces some new material on constrained optimization and standard error estimation. Key words and phrases: constrained optimization, EM algorithm, majorization, minorization, Newton-Raphson 1 1",
+            "title": "A tutorial on MM algorithms"
+        },
+        {
+            "group": 77,
+            "name": "10.1.1.206.1565",
+            "keyword": "",
+            "author": "R. HunterRunze Li",
+            "abstract": "Variable selection is fundamental to high-dimensional statistical modeling. Many variable selection techniques may be implemented by maximum penalized likelihood using various penalty functions. Optimizing the penalized likelihood function is often challenging because it may be nondifferentiable and/or nonconcave. This article proposes a new class of algorithms for finding a maximizer of the penalized likelihood for a broad class of penalty functions. These algorithms operate by perturbing the penalty function slightly to render it differentiable, then optimizing this differentiable function using a minorize\u2013maximize (MM) algorithm. MM algorithms are useful extensions of the well-known class of EM algorithms, a fact that allows us to analyze the local and global convergence of the proposed algorithm using some of the techniques employed for EM algorithms. In particular, we prove that when our MM algorithms converge, they must converge to a desirable point; we also discuss conditions under which this convergence may be guaranteed. We exploit the Newton\u2013Raphson-like aspect of these algorithms",
+            "title": "Variable Selection Using MM Algorithm"
+        },
+        {
+            "group": 78,
+            "name": "10.1.1.206.1641",
+            "keyword": "data miningmachine learning algorithmsclassifiersdisease predictiontime seriesARIMADSDM",
+            "author": "K. SrinivasDr. G. Raghavendra RaoDr. A. Govardhan",
+            "abstract": "Data mining is the non trivial extraction of implicit, previously unknown and potentially useful information from data. Data mining technology provides a user- oriented approach to novel and hidden patterns in the data. This paper presents about the various existing techniques, the issues and challenges associated with them. The discovered knowledge can be used by the healthcare administrators to improve the quality of service and also used by the medical practitioners to reduce the number of adverse drug effect, to suggest less expensive therapeutically equivalent alternatives. In this paper we discuss the popular data mining techniques namely, Decision Trees, Na\u00efve Bayes and Neural Network that are used for prediction of disease.",
+            "title": "SURVEY ON PREDICTION OF HEART MORBIDITY USING DATA MINING TECHNIQUES"
+        },
+        {
+            "group": 79,
+            "name": "10.1.1.206.1846",
+            "keyword": "",
+            "author": "Andrew O. Arnold",
+            "abstract": " It is often convenient to make certain assumptions during the learning process. Unfortunately, algorithms built on these assumptions can often break down if the assumptions are not stable between train and test data. Relatedly, we can do better at various tasks (like named entity recognition) by exploiting the richer relationships found in real-world complex systems. By exploiting these kinds of non-conventional regularities we can more easily address problems previously unapproachable, like transfer learning. In the transfer learning setting, the distribution of data is allowed to vary between the training and test domains, that is, the independent and identically distributed (i.i.d.) assumption linking train and test examples is severed. Without this link between the train and test data, traditional learning is difficult. In this thesis we explore learning techniques that can still succeed even in",
+            "title": "Exploiting Domain and Task REGULARITIES FOR ROBUST NAMED ENTITY RECOGNITION"
+        },
+        {
+            "group": 80,
+            "name": "10.1.1.206.1994",
+            "keyword": "Origin-Destination Traffic FlowsLink LoadsInverse ProblemTransportation ProblemLog-NormalGammaState-Space ModelMCMCBayesian Dynamical SystemParticle FilterStochastic DynamicsInformative Priorsnon-parametric Empirical BayesAcknowledgments",
+            "author": "Edoardo M. Airoldi",
+            "abstract": "Knowledge about the origin-destination (OD) traffic matrix allows us to solve problems in design, routing, configuration debugging, monitoring and pricing. Direct measurement of these flows is usually not implemented because it is too expensive. A recent work provided a quick method to learn the OD traffic matrix from a set of available standard measurements, which correspond traffic flows observed on the link of a network every 5 minutes. Such a time span allows for more computationally expensive methods that in turn yield a better estimate of the OD traffic matrix. In this work we are the first to explicitly introduce time in learning the OD traffic matrix. The second contribution is that we are the first to use realistic non-Gaussian marginals, specifically the Gamma and the successful log-Normal ones. We combine both these ideas in a novel, doubly stochastic and time-varying Bayesian dynamical system, and provide a simple and elegant solution to obtain informative prior distributions for the stochastic dynamical behavior. Our method outperforms",
+            "title": "Advances in network tomography"
+        },
+        {
+            "group": 81,
+            "name": "10.1.1.206.2000",
+            "keyword": "",
+            "author": "Sohag Sundar NSoumya MishraSanghamitra Mohanty",
+            "abstract": "Abstract: Text Mining is essential for knowledge discovery from valuable texts available in many forms. These texts carry relevant information pertaining to the need of the user. In this paper we describe a tourist decision support system that mines data regarding tourist places in Orissa from Oriya text files, translates and preprocesses data and classifies the tourist places into three classes using C 5.0 algorithm. The result obtained is then used to help international tourists in selecting places of interest according to their choice. Oriya Language is the official language of Orissa, a state in the eastern part of India. More than 31 million people speak and write this language. It has a rich heritage and culture and knowledge is stored in many forms through Oriya language text. We also present a sketch of our ongoing and future work on the same tourism datasets using field force automation and opinion mining techniques. Keywords \u2014 Text Mining, Decision Support System,",
+            "title": "Oriya Language Text Mining Using C5.0 Algorithm"
+        },
+        {
+            "group": 82,
+            "name": "10.1.1.206.2225",
+            "keyword": "",
+            "author": "Indrayana RustandiZoubin GhahramaniEric Xing",
+            "abstract": "1.2 Related Work.............................................. 3",
+            "title": "Predictive fMRI Analysis for Multiple Subjects and Multiple Studies (Thesis)"
+        },
+        {
+            "group": 83,
+            "name": "10.1.1.206.2294",
+            "keyword": "",
+            "author": "Mary McGlohon",
+            "abstract": "  Network data (also referred to as relational data, social network data, real graph data) has become ubiquitous, and understanding patterns in this data has become an important research problem. We investigate how interactions in social networks are formed and how these interactions facilitate diffusion, model these behaviors, and apply these findings to real-world problems. We examined graphs of size up to 16 million nodes, across many domains from academic citation networks, to campaign contributions and actor-movie networks. We also performed several case studies in online social networks such as blogs and message board communities. Our major contributions are the following: (a) We discover several surprising patterns in network topology and interactions, such as Popularity Decay power law (in-links to a blog post decay with a power law with \u22121.5 exponent) and the oscillating",
+            "title": " Structural Analysis of Large Networks: Observations and Applications"
+        },
+        {
+            "group": 84,
+            "name": "10.1.1.206.2945",
+            "keyword": "",
+            "author": "Erik Peter ZawadzkiKevin Leyton-brown",
+            "abstract": "Design decisions for TAC SCM agents are usually evaluated empirically by running complete agents against each other. While this approach is sufficient for many purposes, it be difficult to use it for running large-scale, controlled experiments to evaluate particular aspects of an agent\u2019s design. This is true both for technical reasons (availability of other agent code, the trouble of setting up a TAC server, etc.) and especially because results can depend heavily on the experimenter\u2019s choice of opponent agents. This paper introduces a novel model of the TAC SCM scheduling problem for use in such empirical evaluations. The model aims to reduce the experimental variability caused by the experimenter\u2019s choice of opponent agents, replacing markets with stochastic processes that simulate them. These stochastic processes are designed by using machine learning to distill typical agent behaviors from real game logs taken from the TAC SCM finals. After describing the operation of our model, we validate it by showing that its predictions of opponent behavior are highly consistent with further game logs that were not used for building the model. Finally, we apply our model to investigate the performance of several integer/linear programming approaches for solving the delivery and scheduling subproblems in TAC SCM.",
+            "title": "Empirically Testing Decision Making in TAC SCM"
+        },
+        {
+            "group": 85,
+            "name": "10.1.1.206.3525",
+            "keyword": "Regenerate of Datadistribution",
+            "author": "Fehreen HasanNiranjan Singh",
+            "abstract": "The main contribution of this paper lies in the algorithm to accurately reconstruct the community joint density given the perturbed multidimensional stream data information. Any statistical question about the community can be answered using the reconstructed joint density. There have been many efforts on the community distribution reconstruction. In this project, we are considering the information privacy which now-a-days has become one of the most important issues. We touch upon several techniques of masking the data, namely random distortion, including the uniform and Gaussian noise, applied to the data in order to protect it. Then, after using a certain data recovering techniques we look for the distribution of data obtained. Our task is to determine whether the distributions of the original and recovered data are close enough to each other despite the nature of the noise applied. We are considering an ensemble clustering method to reconstruct the initial data distribution. As the tool for the algorithm implementations we chose the \u201clanguage of choice in industrial world \u201d  \u2013 MATLAB.",
+            "title": "TIT Bhopal"
+        },
+        {
+            "group": 86,
+            "name": "10.1.1.206.4129",
+            "keyword": "",
+            "author": "Brian MakRoger Hsiao",
+            "abstract": "Abstract \u2014 Recently, we have been investigating the application of kernel methods for fast speaker adaptation by exploiting possible non-linearity in the input speaker space. In this paper, we propose another solution based on kernelizing the eigenspace-based MLLR adaptation (EMLLR) method. We call our new method \u201ckernel eigenspace-based MLLR adaptation\u201d (KEMLLR). In KEMLLR, speaker-dependent (SD) models are estimated from a common speaker-independent (SI) model using MLLR adaptation, and the SD MLLR transformation matrices are mapped to a kernel-induced high-dimensional feature space, and kernel principal component analysis is used to derive a set of eigenmatrices in the feature space. In addition, composite kernel is used to preserve the row information in the transformation matrices. A new speaker\u2019s MLLR transformation matrix is then represented as a linear combination of the leading kernel eigenmatrices, which, though exists only in the feature space, still allows the speaker\u2019s mean vectors to be found explicitly. As a result, at the end of KEMLLR adaptation, a regular HMM is obtained for the new speaker and subsequent speech recognition is as fast as normal HMM decoding. KEMLLR adaptation was tested and compared with other adaptation methods (MAP, MLLR, EV, EMLLR, and eKEV) on the Resource Management and Wall Street Journal tasks using 5s or 10s of adaptation speech. It is found that in both cases, KEMLLR adaptation gives the greatest improvement over the SI model with 11\u201320 % word error rate reduction.",
+            "title": "Kernel eigenspace-based MLLR adaptation"
+        },
+        {
+            "group": 87,
+            "name": "10.1.1.206.4300",
+            "keyword": "Gaussian Mixture ModelHidden Markov ModelExpectation Maximization algorithmGenetic",
+            "author": "T. Selva RaniK. Usha Kingsly Devi",
+            "abstract": "Segmentation of images holds an important position in the area of image processing. It becomes more important while typically dealing with medical images, magnetic resonance (MR) imaging offers more accurate information for medical examination than other medical images such as X-ray, ultrasonic and CT images. Tumor segmentation from MRI data is an important but time consuming task performed manually by medical experts when compared with modern day\u2019s high speed computing machines which enable us to visually observe the volume and location of unwanted tissues.One of the reasons behind the inferior segmentation efficiency is the presence of artifacts in the MR images. One such artifact is the extracranial tissues (skull). These extracranial tissues often interfere with the normal tissues during segmentation that accounts for the inferior segmentation efficiency. This paper deals with an efficient segmentation algorithm for extracting brain tumors in magnetic resonance images using hidden Markov Gauss Mixture Model (HMGMM) with Genetic algorithm (GA). HMGMMs incorporate supervised learning, fitting the observation probability distribution given by each class using Gaussian mixture model. The GA and Expectation Maximization (EM) algorithms are used to obtain an HMM model with optimized number of states in the HMM models and its model parameters brain tumor extraction.",
+            "title": "Isolation of Brain Tumor Segment using HMGMM"
+        },
+        {
+            "group": 88,
+            "name": "10.1.1.206.4596",
+            "keyword": "pre-image",
+            "author": "Brian MakRoger HsiaoSimon HoJames T. Kwok",
+            "abstract": "Abstract \u2014 Recently, we proposed an improvement to the conventional eigenvoice (EV) speaker adaptation using kernel methods. In our novel kernel eigenvoice (KEV) speaker adaptation [1], speaker supervectors are mapped to a kernelinduced high dimensional feature space, where eigenvoices are computed using kernel principal component analysis. A new speaker model is then constructed as a linear combination of the leading eigenvoices in the kernel-induced feature space. KEV adaptation was shown to outperform EV, MAP, and MLLR adaptation in a TIDIGITS task with less than 10s of adaptation speech [2]. Nonetheless, due to many kernel evaluations, both adaptation and subsequent recognition in KEV adaptation are considerably slower than conventional EV adaptation. In this paper, we solve the efficiency problem and eliminate all kernel evaluations involving adaptation or testing observations by finding an approximate preimage of the implicit adapted model found by KEV adaptation in the feature space; we call our new method embedded kernel eigenvoice (eKEV) adaptation. eKEV adaptation is faster than KEV adaptation, and subsequent recognition runs as fast as normal HMM decoding. eKEV adaptation makes use of multi-dimensional scaling technique so that the resulting adapted model lies in the span of a subset of carefully chosen training speakers. It is related to the reference speaker weighting (RSW) adaptation method that is based on speaker clustering. Our experimental results on Wall Street Journal show that eKEV adaptation continues to outperform EV, MAP, MLLR, and the original RSW method. However, by adopting the way we choose the subset of reference speakers for eKEV adaptation, we may also improve RSW adaptation so that it performs as well as our eKEV adaptation.",
+            "title": "Embedded kernel eigenvoice speaker adaptation and its implication to reference speaker weighting"
+        },
+        {
+            "group": 89,
+            "name": "10.1.1.206.4654",
+            "keyword": "Categories and Subject Descriptors D.3.3 [Natural Language ProcessingDocument Similarity General Terms AlgorithmsMeasurementExperimentation. Keywords Document SimilarityPronoun ResolutionInformation RetrievalStatistical Algorithm",
+            "author": "Atul KumarSudip Sanyal",
+            "abstract": "This paper presents a novel effect of Pronoun Resolution on measurement of document similarity. In this paper we have studied the effect of pronoun resolution within the framework of the Vector Space Model and Probabilistic Latent Semantic Analysis. For this purpose we have developed a Benchmark Corpus consisting of documents whose similarity scores have been given by human beings. We measured the inter-document similarity on these documents using VSM and PLSA. We then performed pronoun resolution on these documents and again calculated the similarity using both methods. Next, the correlation coefficient of the scores was taken with those of the human generated scores. The correlation coefficients clearly demonstrated substantial and consistent improvements of the similarity score after pronoun resolution.",
+            "title": "Volume 1 \u2013 No. 16 Effect of Pronoun Resolution on Document Similarity"
+        },
+        {
+            "group": 90,
+            "name": "10.1.1.206.4886",
+            "keyword": "",
+            "author": "Ankur P. ParikhLe SongEric P. Xing",
+            "abstract": "Latent variable models are powerful tools for probabilistic modeling, and have been successfully applied to various domains, such as speech analysis and bioinformatics. However, parameter learning algorithms for latent variable models have predominantly relied on local search heuristics such as expectation maximization (EM). We propose a fast, local-minimum-free spectral algorithm for learning latent variable models with arbitrary tree topologies, and show that the joint distribution of the observed variables can be reconstructed from the marginals of triples of observed variables irrespective of the maximum degree of the tree. We demonstrate the performance of our spectral algorithm on synthetic and real datasets; for large training sizes, our algorithm performs comparable to or better than EM while being orders of magnitude faster. 1",
+            "title": "A Spectral Algorithm for Latent Tree Graphical Models"
+        },
+        {
+            "group": 91,
+            "name": "10.1.1.206.5778",
+            "keyword": "",
+            "author": "Mary McglohonGeoffrey Gordon",
+            "abstract": "in this document are those of the author and should not be interpreted as representing the official policies, either expressed or implied, of any sponsoring institution, the U.S. government or any other entity. Keywords: Social networks, data mining, network diffusion, anomaly detectionDedicated to my father, who nurtured the inquisitiveness to begin this work, Network data (also referred to as relational data, social network data, real graph data) has become ubiquitous, and understanding patterns in this data has become an important research problem. We investigate how interactions in social networks are formed and how these interactions facilitate diffusion, model these behaviors, and apply these findings to real-world problems. We examined graphs of size up to 16 million nodes, across many domains from academic citation networks, to campaign contributions and actor-movie networks. We also performed several case studies in online social networks such as blogs and message board communities. Our major contributions are the following: (a) We discover several surprising patterns in network topology and interactions, such as Popularity Decay power law (in-links to a blog post decay with a power law with \u22121.5 exponent) and the oscillating",
+            "title": "Structural Analysis of Large Networks: Observations and Applications"
+        },
+        {
+            "group": 92,
+            "name": "10.1.1.206.5828",
+            "keyword": "",
+            "author": "Akshay Krishnamurthy",
+            "abstract": "We consider the problem of clustering high-dimensional data using Gaussian Mixture Models (GMMs) with unknown covariances. In this context, the Expectation-Maximization algorithm (EM), which is typically used to learn GMMs, fails to cluster the data accurately due to the large number of free parameters in the covariance matrices. We address this weakness by assuming that the mixture model consists of sparse gaussian distributions and leveraging this assumption in a novel algorithm for learning GMMs. Our approach incorporates the graphical lasso procedure for sparse covariance estimation into the EM algorithm for learning GMMs, and by encouraging sparsity, it avoids the problems faced by traditional GMMs. We guarantee convergence of our algorithm and show through experimentation that this procedure outperforms the traditional Expectation Maximization algorithm and other clustering algorithms in the high-dimensional clustering setting. 1",
+            "title": "High-Dimensional Clustering with Sparse Gaussian Mixture Models"
+        },
+        {
+            "group": 93,
+            "name": "10.1.1.207.26",
+            "keyword": "",
+            "author": "Yu ZhangDit-yan Yeung",
+            "abstract": "Multi-task learning seeks to improve the generalization performance of a learning task with the help of other related learning tasks. Among the multi-task learning methods proposed thus far, Bonilla et al.\u2019s method (Bonilla et al., 2008) provides a novel multi-task extension of Gaussian process (GP) by using a task covariance matrix to model the relationships between tasks. However, learning the task covariance matrix directly has both computational and representational drawbacks. In this paper, we propose a Bayesian extension by modeling the task covariance matrix as a random matrix with an inverse-Wishart prior and integrating it out to achieve Bayesian model averaging. To make the computation feasible, we first give an alternative weight-space view of Bonilla et al.\u2019s multi-task GP model and then integrate out the task covariance matrix in the model, leading to a multi-task generalized ",
+            "title": "Multi-task learning using generalized "
+        },
+        {
+            "group": 94,
+            "name": "10.1.1.207.197",
+            "keyword": "",
+            "author": "J. Peres AR. Oliveira BS. Feyodeazevedo A",
+            "abstract": "This article was published in an Elsevier journal. The attached copy is furnished to the author for non-commercial research and education use, including for instruction at the author\u2019s institution, sharing with colleagues and providing to institution administration. Other uses, including reproduction and distribution, or selling or licensing copies, or posting to personal, institutional or third party websites are prohibited. In most cases authors are permitted to post their version of the article (e.g. in Word or Tex form) to their personal website or institutional repository. Authors requiring further information regarding Elsevier\u2019s archiving and manuscript policies are encouraged to visit:",
+            "title": ""
+        },
+        {
+            "group": 95,
+            "name": "10.1.1.207.401",
+            "keyword": "",
+            "author": "Ivan TitovAlexandre KlementievKevin SmallDan Roth",
+            "abstract": "Classification problems with a very large or unbounded set of output categories are common in many areas such as natural language and image processing. In order to improve accuracy on these tasks, it is natural for a decision-maker to combine predictions from various sources. However, supervised data needed to fit an aggregation model is often difficult to obtain, especially if needed for multiple domains. Therefore, we propose a generative model for unsupervised aggregation which exploits the agreement signal to estimate the expertise of individual judges. Due to the large output space size, this aggregation model cannot encode expertise of constituent judges with respect to every category for all problems. Consequently, we extend it by incorporating the notion of category types to account for variability of the judge expertise depending on the type. The viability of our approach is demonstrated both on synthetic experiments and on a practical task of syntactic parser aggregation. 1",
+            "title": "Unsupervised Aggregation for Classification Problems with Large Numbers of Categories"
+        },
+        {
+            "group": 96,
+            "name": "10.1.1.207.619",
+            "keyword": "\u2217 INRIA FutursProjet selectUniversit\u00e9 Paris-Sud 11",
+            "author": "Cathy Maugis BertrTh\u00e8me CogCathy MaugisProjets Select",
+            "abstract": "apport de recherche",
+            "title": "A non asymptotic penalized criterion for Gaussian mixture model selection"
+        },
+        {
+            "group": 97,
+            "name": "10.1.1.207.796",
+            "keyword": "",
+            "author": "Jean-fran\u00e7ois PaiementYves GrandvaletSamy BengioDouglas Eck",
+            "abstract": "Modeling long-term dependencies in time series has proved very difficult to achieve with traditional machine learning methods. This problem occurs when considering music data. In this paper, we introduce a model for rhythms based on the distributions of distances between subsequences. A specific implementation of the model when considering Hamming distances over a simple rhythm representation is described. The proposed model consistently outperforms a standard Hidden Markov Model in terms of conditional prediction accuracy on two different music databases. 1.",
+            "title": "A Distance Model for Rhythms"
+        },
+        {
+            "group": 98,
+            "name": "10.1.1.207.921",
+            "keyword": "",
+            "author": "Masashi SugiyamaIchiro TakeuchiTaiji SuzukiTakafumi KanamoriHirotaka HachiyaDaisuke Okanohara",
+            "abstract": "Estimating the conditional mean of an inputoutput relation is the goal of regression. However, regression analysis is not sufficiently informative if the conditional distribution has multi-modality, is highly asymmetric, or contains heteroscedastic noise. In such scenarios, estimating the conditional distribution itself would be more useful. In this paper, we propose a novel method of conditional density estimation. Our basic idea is to express the conditional density in terms of the ratio of unconditional densities, and the ratio is directly estimated without going through density estimation. Experiments using benchmark and robot transition datasets illustrate the usefulness of the proposed approach. 1",
+            "title": "Conditional Density Estimation via Least-Squares Density Ratio Estimation"
+        },
+        {
+            "group": 99,
+            "name": "10.1.1.207.1295",
+            "keyword": "",
+            "author": "F. ForbesS. DoyleD. Garcia-lorenzoC. BarillotM. DojatMistis TeamInria RennesBretagne AtlantiqueVisages Team",
+            "abstract": "We propose a technique for fusing the output of multiple Magnetic Resonance (MR) sequences to robustly and accurately segment brain lesions. It is based on an augmented multi-sequence hidden Markov model that includes additional weight variables to account for the relative importance and control the impact of each sequence. The augmented framework has the advantage of allowing 1) the incorporation of expert knowledge on the a priori relevant information content of each sequence and 2) a weighting scheme which is modified adaptively according to the data and the segmentation task under consideration. The model, applied to the detection of multiple sclerosis and stroke lesions shows promising results. 1",
+            "title": "INRIA Grenoble Rh\u00f4ne-Alpes, LJK"
+        },
+        {
+            "group": 100,
+            "name": "10.1.1.207.1956",
+            "keyword": "",
+            "author": "Hal Daum\u00e9 IiiDaniel Marcu",
+            "abstract": "Current research in automatic single document summarization is dominated by two effective, yet na\u00efve approaches: summarization by sentence extraction, and headline generation via bagof-words models. While successful in some tasks, neither of these models is able to adequately capture the large set of linguistic devices utilized by humans when they produce summaries. One possible explanation for the widespread use of these models is that good techniques have and document/headline corpora. We believe that future progress in automatic summarization will be driven both by the development of more sophisticated, linguistically informed models, as well as a more effective leveraging of document/abstract corpora. In order to open the doors to simultaneously achieving both of these goals, we have developed techniques for automatically producing word-to-word and phrase-to-phrase alignments between documents and their human-written abstracts. These alignments make explicit the correspondences that exist in such document/abstract pairs, and create a potentially rich data source from which complex summarization algorithms may learn. This paper describes experiments we have carried out to analyze the ability of humans to perform such alignments, and based on these analyses, we describe experiments for creating them automatically. Our model for the alignment task is based on an extension of the standard hidden Markov model, and learns to create alignments in a completely unsupervised fashion. We describe our model in detail and present experimental results that show that our model is able to learn to reliably identify word- and phrase-level alignments in a corpus of \u2329document, abstract \u232a pairs.",
+            "title": "Induction of Word and Phrase Alignments for Automatic Document Summarization"
+        }
+    ],
+    "links": [
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.197.8224",
+            "value": 0.145833
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.197.8870",
+            "value": 0.0551471
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.197.9343",
+            "value": 0.0621118
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.197.9793",
+            "value": 0.0487805
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.2798",
+            "value": 0.0478469
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.2943",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.4717",
+            "value": 0.0487805
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.5478",
+            "value": 0.016129
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.5576",
+            "value": 0.011976
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.7806",
+            "value": 0.0466321
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.8541",
+            "value": 0.111111
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.8561",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.8810",
+            "value": 0.0625
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.198.9979",
+            "value": 0.0695652
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.199.6977",
+            "value": 0.0512821
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.200.1044",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.200.1401",
+            "value": 0.0408163
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.200.1746",
+            "value": 0.0695652
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.200.3336",
+            "value": 0.0938967
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.200.3832",
+            "value": 0.0491329
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.200.5542",
+            "value": 0.140845
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.200.8261",
+            "value": 0.025
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.897",
+            "value": 0.0657895
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.1293",
+            "value": 0.0243902
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.2469",
+            "value": 0.0403226
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.2959",
+            "value": 0.0631068
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.3595",
+            "value": 0.0965517
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.3814",
+            "value": 0.0872274
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.4380",
+            "value": 0.0246305
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.4490",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.7136",
+            "value": 0.0632911
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.8130",
+            "value": 0.0793651
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.8863",
+            "value": 0.0663717
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.9694",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.201.9864",
+            "value": 0.128205
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.202.3699",
+            "value": 0.0301887
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.202.6114",
+            "value": 0.05
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.202.7124",
+            "value": 0.0526316
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.202.7148",
+            "value": 0.047619
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.202.7653",
+            "value": 0.0365854
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.202.8214",
+            "value": 0.0490196
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.202.8499",
+            "value": 0.0890052
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.203.1740",
+            "value": 0.0864865
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.203.2379",
+            "value": 0.0666667
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.203.3408",
+            "value": 0.0428016
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.203.4768",
+            "value": 0.0406504
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.203.5693",
+            "value": 0.0461538
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.204.2717",
+            "value": 0.030303
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.204.6287",
+            "value": 0.0420168
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.204.8378",
+            "value": 0.166667
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.2228",
+            "value": 0.116667
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.3573",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.3718",
+            "value": 0.084375
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.3885",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.3893",
+            "value": 0.0744048
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.4071",
+            "value": 0.106667
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.4545",
+            "value": 0.0418848
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.5056",
+            "value": 0.0473684
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.5115",
+            "value": 0.0918367
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.6095",
+            "value": 0.054902
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.7369",
+            "value": 0.0655022
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.7658",
+            "value": 0.0684932
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.8083",
+            "value": 0.0405405
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.8776",
+            "value": 0.0253165
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.9059",
+            "value": 0.040724
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.9325",
+            "value": 0.0431655
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.9546",
+            "value": 0.0225989
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.9757",
+            "value": 0.13125
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.205.9845",
+            "value": 0.0869565
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.771",
+            "value": 0.0727273
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.838",
+            "value": 0.134228
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1157",
+            "value": 0.040625
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1161",
+            "value": 0.132867
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1351",
+            "value": 0.0944444
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1433",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1538",
+            "value": 0.123853
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1565",
+            "value": 0.116162
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1641",
+            "value": 0.0479042
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1846",
+            "value": 0.0531915
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.1994",
+            "value": 0.0316742
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.2000",
+            "value": 0.0372093
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.2225",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.2294",
+            "value": 0.042328
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.2945",
+            "value": 0.0513834
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.3525",
+            "value": 0.088785
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.4129",
+            "value": 0.045614
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.4300",
+            "value": 0.0685484
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.4596",
+            "value": 0.0309598
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.4654",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.4886",
+            "value": 0.114458
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.5778",
+            "value": 0.0504202
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.206.5828",
+            "value": 0.106742
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.26",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.197",
+            "value": 0.101351
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.401",
+            "value": 0.0689655
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.619",
+            "value": 0.0
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.796",
+            "value": 0.0285714
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.921",
+            "value": 0.0123457
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.1295",
+            "value": 0.0299401
+        },
+        {
+            "source": "10.1.1.133.4884",
+            "target": "10.1.1.207.1956",
+            "value": 0.0365449
+        },
+        {
+            "source": "10.1.1.206.1351",
+            "target": "10.1.1.206.1538",
+            "value": 0.389381
+        }
+    ]
+}

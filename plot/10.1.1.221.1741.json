@@ -1,0 +1,13 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.221.1741",
+            "keyword": "",
+            "author": "Tania Pouli, Douglas W. Cunningham, Erik Reinhard",
+            "abstract": "The statistics of natural images have attracted the attention of researchers in a variety of fields and have been used as a means to better understand the human visual system and its processes. A number of algorithms in computer graphics, vision and image processing take advantage of such statistical findings to create visually more plausible results. With this report we aim to review the state of the art in image statistics and discuss existing and potential applications within computer graphics and related areas. 1.",
+            "title": "COMPUTER GRAPHICS forum A Survey of Image Statistics in Computer Graphics"
+        }
+    ],
+    "links": []
+}

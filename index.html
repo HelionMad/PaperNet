@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PaperNet</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Paper</span> Network
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">about</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#search">Search</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#explore">Explore</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#analysis">Analysis</a>
+                    </li>                    
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">PaperNet</h1>
+                        <p class="intro-text">Show you connection between papers based on similarity<br>Created by Zhen Sun.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About PaperNet</h2>
+                <p>PaperNet is a free website offers paper search service. It shows you the similarity between papers and helps you find the most resemble ones. </p>
+                <p>You can upload paper information or just a short description of what you are looking for. PaperNet will display the result with paper list and graph.</p>
+                <p>Explore and find want you want here!</p>
+                <a href="#search" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section id="search" class="content-section text-center">
+        <div class="search-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="row">
+                        <h2>Start a query</h2>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="custom-search-input">
+                                <!--<form action="dashboard" method="post">-->
+                                    <div class = "input-group">
+                                        <input type = "text" class = "form-control input-lg" id="query" placeholder="Search for papers">
+                                        <div class = "input-group-btn">
+                                            <button id="search-btn" type = "button" class = "btn btn-default btn-lg" tabindex = "-1">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+
+                                            <button id="query-btn-type" type = "button" class = "btn btn-default btn-lg" tabindex = "-1" disabled>Search by keywords</button>
+
+                                            <!--<button type = "button" class = "btn btn-default dropdown-toggle btn-lg" data-toggle = "dropdown" tabindex = "-1">
+                                                <span class = "caret"></span>
+                                                <span class = "sr-only">Toggle Dropdown</span>
+                                            </button>
+                      
+                                            <ul class = "dropdown-menu pull-right select">
+                                                <li><a href = "#search">Keywords</a></li>
+                                                <li><a href = "#search">Title</a></li>
+                                                <li><a href = "#search">Summary</a></li>
+                                            </ul>-->
+                                        </div><!-- /btn-group -->
+                                    </div><!-- /input-group -->
+                                <!-- </form>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="alert alert-danger query-alert" role="alert">
+                            <strong>Warning ! </strong> You must choose one type of search!
+                        </div>
+
+                        <div class="alert alert-danger query-alert" role="alert">
+                            <strong>Warning ! </strong> Search must not be empty!
+                        </div>
+
+                        <p class="hint"><br/>Hint: You can insert key words or title to search papers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#explore" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Section -->
+     <section id="explore" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Explore PaperNet</h2>
+                <p>PaperNet is a gigantic graph network contains more than 1 million papers. We provide a traverse space for you to explore the paper's world</p>
+                <p>Exploration starts here!</p>
+                <p><a href="/static/explore.html" class="btn btn-default btn-lg"><span class="network-name">Explore</span></a></p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="#contact" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+     </section>
+
+     <!-- Analysis Section -->
+     <section id="analysis" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Reference Contribution</h2>
+                <p>Use Machine Learning algorithm, we are able to analyze how reference contribute to a certain paper. It may help you to research the components of paper.</p>
+                <p>Start to analyze a paper</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <div id="custom-analysis-input">
+                    <!--<form action="dashboard" method="post">-->
+                        <div class = "input-group">
+                            <input type = "text" class = "form-control input-lg" id="analysis_input" placeholder="Search for papers">
+                            <div class = "input-group-btn">
+                                <button id="analysis-btn" type = "button" class = "btn btn-default btn-lg" tabindex = "-1">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+
+                                <button id="analysis-btn-type" type = "button" class = "btn btn-default btn-lg" tabindex = "-1" disabled>Analysis</button>
+
+                                <!--<button type = "button" class = "btn btn-default dropdown-toggle btn-lg" data-toggle = "dropdown" tabindex = "-1">
+                                    <span class = "caret"></span>
+                                    <span class = "sr-only">Toggle Dropdown</span>
+                                </button>
+          
+                                <ul class = "dropdown-menu pull-right select">
+                                    <li><a href = "#search">Keywords</a></li>
+                                    <li><a href = "#search">Title</a></li>
+                                    <li><a href = "#search">Summary</a></li>
+                                </ul>-->
+                            </div><!-- /btn-group -->
+                        </div><!-- /input-group -->
+                    <!-- </form>-->
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact PaperNet</h2>
+                <p>Feel free to email us to provide new resource, give us suggestions for our service, report problems to us, or to just say hello!</p>
+                <p><a href="mailto:zhensun@gmail.com">ryan.zhen.s@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/HelionMad" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/106348992546886124676/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="row bar">
+                <img scr="../img/bar.png" height="10px"/>
+            </div>
+            <div class="row">
+                <p>Copyright &copy; PaperNet Website 2015</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/static/js/jquery.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/static/js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/static/js/papernet.js"></script>
+
+</body>
+
+</html>

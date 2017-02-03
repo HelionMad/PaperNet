@@ -1,0 +1,820 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.92.6426",
+            "keyword": "",
+            "author": "Vikram Krishnamurthy, John B. Moore",
+            "abstract": "Abstract\u2014In this paper, sequential or \u201con-line \u201d hidden Markov model (HMM) signal processing schemes are derived and their performance illustrated in simulation studies. The on-line algorithms are sequential expectation maximization (EM) schemes and are derived by using stochastic approximations to maximize the Kullback-Leibler information measure. The whemes can be implemented either as filters or fixed-lag or.wtooth-lag smoothers. They yield estimates of the HMM pa-;meters including transition probabilities, Markov state levcis, and noise variance. In contrast to the off-line EM algorithm (Baum Welch scheme) which uses the fixed-interval \u201cforwardbackward\u201d scheme, the on-line schemes have significantly reduced memory requirements, improved convergence (as shown in simulations), and can estimate HMM parameters that vary slowly with time or undergo infrequent jump changes. Using similar techniques we also derive on-line schemes to extract finite-state Markov chains imbedded in a mixture of white Gaussian noise (WGN) and deterministic signals of known;\u2019,lnctional form with unknown parameters, In particular, de-:rministic periodic signals with unknown and time-varying amplitudes and phases are considered. Simulations presented show that these schemes satisfactorily estimate the HMM parameters and also the time-varying amplitudes and phases. I.",
+            "title": "On-Line Estimation of Hidden Markov Model Parameters Based on the Kullback-Leibler Information Measure"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.3.6403",
+            "keyword": "",
+            "author": "M. H. Jaward,  V. Kadirkamanathan",
+            "abstract": "In this paper, a blind sequence estimation algorithm based on interacting multiple model is introduced to estimate the channel and the transmitted sequence corrupted by ISI (intersymbol interference) and noise. The proposed algorithm avoids the exponential growth complexity caused by increasing channel memory length. The performance of the IMM (interacting multiple model) based equalizer is studied and compared with the well known algorithm like DDFSE (Delayed Decision-Feedback Sequence Estimation).",
+            "title": "Interacting Multiple Models for Single-User Channel Estimation and Equalization"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.5.4353",
+            "keyword": "",
+            "author": "Carles Anton-Haro,  Javier R. Fonollosa,  Claudi Fauli, Javier R. Fonollosa",
+            "abstract": "In this paper, the theory of hidden Markov models (HMM) is applied to the problem of blind (without training sequences) channel estimation and data detection. Within a HMM framework, the Baum--Welch (BW) identification algorithm is frequently used to find out maximum-likelihood (ML) estimates of the corresponding model. However, such a procedure assumes the model (i.e., the channel response) to be static throughout the observation sequence. By means of introducing a parametric model for time-varying channel responses, a version of the algorithm, which is more appropriate for mobile channels [time-dependent Baum-Welch (TDBW)] is derived. Aiming to compare algorithm behavior, a set of computer simulations for a GSM scenario is provided. Results indicate that, in comparison to other Baum--Welch (BW) versions of the algorithm, the TDBW approach attains a remarkable enhancement in performance. For that purpose, only a moderate increase in computational complexity is needed.",
+            "title": "On the Inclusion of Channel's Time Dependence in a Hidden Markov Model for Blind Channel Estimation"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.7.5603",
+            "keyword": "",
+            "author": "Modeling Temporal Structure, Aaron C. Courville, David S. Touretzky",
+            "abstract": "The Temporal Coding Hypothesis of Miller and colleagues [7] suggests  that animals integrate related temporal patterns of stimuli  into single memory representations. We formalize this concept  using quasi-Bayes estimation to update the parameters of a constrained  hidden Markov model. This approach allows us to account  for some surprising temporal e#ects in the second order conditioning  experiments of Miller et al. [1, 2, 3], which other models are  unable to explain.",
+            "title": "In T. G. Dietterich, S. Becker, Z. Ghahramani, eds., NIPS 14. MIT Press, Cambridge MA, 2002. (In Press)"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.12.4185",
+            "keyword": "",
+            "author": "Michael C. Nechyba,  Yangsheng Xu",
+            "abstract": "this article, we describe and develop methodologies for mod- eling and transferring human control strategy (HCS). This research has potential application in a variety of areas such as the Intelligent Vehicle Highway System (IVHS), human-machine interfacing, real-time training, space telerobotics, and agile manufacturing. We specifically address the following issues: (1) how to efficiently model human control strategy through learning cascade neural networks, (2) how to select state inputs in order to generate reliable models, (3) how to validate the computed models through an independent, Hidden Markov Model-based procedure, and (4) how to effectively transfer human control strategy. We have implemented this approach experimentally in the real-time control of a human driving simulator, and are working to transfer these methodologies for the control of an autonomous vehicle and a mobile robot. In providing a framework for abstracting computational models of human skill, we expect to facilitate analysis of human control, the development of humanlike intelligent machines, improved human-robot coordination, and the transfer of skill from one  human to another",
+            "title": "Human Control Strategy: Abstraction, Verification, and Replication"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.19.9202",
+            "keyword": "",
+            "author": "Aaron C. Courville,  David S. Touretzky",
+            "abstract": "The Temporal Coding Hypothesis of Miller and colleagues [7] suggests  that animals integrate related temporal patterns of stimuli  into single memory representations. We formalize this concept  using quasi-Bayes estimation to update the parameters of a constrained  hidden Markov model. This approach allows us to account  for some surprising temporal eects in the second order conditioning  experiments of Miller et al. [1, 2, 3], which other models are  unable to explain.",
+            "title": "Modeling Temporal Structure in Classical Conditioning"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.22.6002",
+            "keyword": "2 System identication, control, stabilization, denitions and",
+            "author": "n.n.",
+            "abstract": "Very extended version of papers published in proceedings of EFTF 2001 and ICNF 2001 (J.M. Friedt/O. Teytaud/M. Planat/D. Gillet).  Many recent works consider practical applications of neural networks for control. A few papers only have been devoted to the application of the theoretical part of learning to control (their main results are recalled here). This paper provides:   Notations and denitions for system identication, stabilization and control.   An as extensive as possible survey of results about ergodic, stationary or chaotic time series (learning theory with temporal dependencies).   Historical introductions to areas of science which intersect system identi cation, stabilization or control: statistical physics, stochastic dynamics of deterministic systems, empirical process and VC-theory, fuzzy logic, neural networks and related learning tools, Markov models.   Practical illustrations and classical benchmarks, with references for practical algorithms.   Theoretical open problems in system identication, stabilization and control.   ",
+            "title": "Learning non-independent sequences of examples. System identification, control and stabilization"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.28.7014",
+            "keyword": "Contents",
+            "author": "Nando de Freitas,  Mahesan Niranjan,  Andrew Gee,  Arnaud Doucet, Jfg De Freitas, M Niranjan, Ah Gee, A Doucet",
+            "abstract": "We discuss a novel strategy for training neural networks using sequential Monte Carlo algorithms and propose a new hybrid gradient descent/sampling importance resampling algorithm (HySIR). In terms of both computational time and accuracy, the hybrid SIR is a clear improvement over conventional sequential Monte Carlo techniques. The new algorithm may be viewed as a global optimisation strategy, which allows us to learn the probability distributions of the network weights and outputs in a sequential framework. It is well suited to applications involving on-line, nonlinear and non-Gaussian signal processing. We show how the new algorithm outperforms extended Kalman filter training on several problems. In particular, we address the problem of pricing option contracts, traded in financial markets. In this context, we are able to estimate the one-step-ahead probability density functions of the options prices. i  Contents  1 Introduction 1 2 State Space Neural Network Modelling 2 3 The Bayes...",
+            "title": "Sequential Monte Carlo Methods For Optimisation Of Neural Network Models"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.28.7527",
+            "keyword": "",
+            "author": "Mohamed Afify,  Olivier Siohan",
+            "abstract": "Mismatch is known to degrade the performance of speech recognition systems. In real life applications mismatch is usually nonstationary, and a general way to compensate for slowly time varying mismatch is by using sequential algorithms with forgetting. The choice of forgetting factor is usually performed empirically on some development data, and no optimality criterion is used. In this paper we introduce a framework for obtaining optimal forgetting factor. The proposed method is applied in conjunction with a sequential noise estimation algorithm, but can be extended to sequential bias or affine transformation estimation. Speech recognition experiments conducted first under a controlled scenario on the 5K Wall Street Journal task corrupted by different noise types, then under a real-life scenario on speech recorded in a noisy car environment validate the proposed method.",
+            "title": "Sequential Noise Estimation With Optimal Forgetting For Robust Speech Recognition"
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.31.6037",
+            "keyword": "RPCL",
+            "author": "Yiu-ming Cheung,  Lei Xu",
+            "abstract": "This paper presents an alternative identification approach for the Markov model studied in [3]. Our approach estimates the state sequence and model parameters with the help of a clustering analysis by the rival penalized competitive learning (RPCL) algorithm [4]. Compared to the method in [3], this new approach not only extends the model from scalar states to multidimensional ones, but also makes the model identification with the correct number of states decided automatically. The experiments have shown that it works well.  Index Terms---Clustering property, Markov model identification, number of states, rival penalized competitive learning (RPCL).  I. INTRODUCTION  R  ECENTLY, one Markov model has been studied in paper [3] due to its attractive applications in neurobiological signal processing and communication systems. This model formulates a discrete time finite-scalar-state Markov chain observed under the corruption of noise. Paper [3] has presented an on-line EM algorithm based on...",
+            "title": "An RPCL-Based Approach for Markov Model Identification with Unknown State Number"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.32.3832",
+            "keyword": "",
+            "author": "Bernard Frankpitt, John S. Baras",
+            "abstract": "We look at the problem of estimation for partially observed, risk-sensitive control problems with finite state,input and output sets,and receding horizon. We describe architectures for risk sensitive controllers,  and estimation, and we state conditions under which both the estimated model converges to the true model,  and the control policy will converge to the optimal risk sensitive policy. ",
+            "title": "Estimation of Hidden Markov Models for Partially Observed . . ."
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.33.4853",
+            "keyword": "parameter estimation, system",
+            "author": "Lang Tong,  SYLVIE PERREAU",
+            "abstract": "this paper is to review developments in blind channel identification and estimation within the estimation theoretical framework. We have paid special attention to the issue of identifiability, which is at the center of all blind channel estimation problems. Various existing algorithms are classified into the moment-based and the maximum likelihood (ML) methods. We further divide these algorithms based on the modeling of the input signal. If input is assumed to be random with prescribed statistics (or distributions), the corresponding blind channel estimation schemes are considered to be statistical. On the other hand, if the source does not have a statistical description, or although the source is random but the statistical properties of the source are not exploited, the corresponding estimation algorithms are classified as deterministic. Fig. 2 shows a map for different classes of algorithms and the organization of the paper.",
+            "title": "Multichannel Blind Identification: From Subspace to Maximum Likelihood Methods"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.40.2853",
+            "keyword": "EDICS category, SA",
+            "author": "Yoshihiko Gotoh, Michael M. Hochberg, Harvey F. Silverman",
+            "abstract": "Typically, parameter estimation for a hidden Markov model (HMM) is performed using an  expectation-maximization (EM) algorithm with the maximum-likelihood (ML) criterion. The  EM algorithm is an iterative scheme which is well-defined and numerically stable, but convergence  may require a large number of iterations. For speech recognition systems utilizing large  amounts of training material, this results in long training times. This paper presents an incremental  estimation approach to speed-up the training of HMMs without any loss of recognition  performance. The algorithm selects a subset of data from the training set, updates the model  parameters based on the subset, and then iterates the process until convergence of the parameters.  The advantage of this approach is a substantial increase in the number of iterations of  the EM algorithm per training token which leads to faster training. In order to achieve reliable  estimation from a small fraction of the complete data set at each...",
+            "title": "Efficient Training Algorithms for HMMs Using Incremental Estimation"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.41.116",
+            "keyword": "System identification, Blind techniques, Multichannels, Equalization, Source separation",
+            "author": "K. Abed-meraim, W. Qiu, Y. Hua",
+            "abstract": "Blind system identification is a fundamental signal processing technology aimed to retrieve unknown information of a system from its output only. This technology has a wide range of possible applications such as mobile communications, speech reverberation cancellation and blind image restoration. This paper reviews a number of recently developed concepts and techniques for blind system identification which include the concept of blind system identifiability in a deterministic framework, the blind techniques of maximum likelihood and subspace for estimating the system's impulse response, and other techniques for direct estimation of the system input.  Keywords: System identification, Blind techniques, Multichannels, Equalization, Source separation. This work has been supported by the Australian Research Council and the Australian Cooperative Research Center for Sensor Signal and Information Processing.  y  Currently with Motorola Australian Research Centre, 12 Lord Street, Botany 2019, ...",
+            "title": "Blind System Identification"
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.41.1736",
+            "keyword": "",
+            "author": "Hossein Zamiri-Jafarian",
+            "abstract": "This thesis presents the structural design, performance evaluation and complexity reduction of adaptive maximum likelihood sequence detection and estimation (MLSDE) receivers for wireless communications. The receiver structure is developed based on the maximum likelihood (ML) criterion for joint channel estimation and data detection and using the expectation and maximization (EM) algorithm. Generalized MLSDE (GMLSDE) algorithm, which alternates between estimation and detection and at the same time increases the likelihood iteratively, is developed using the on-line EM algorithm. The GMLSDE provides the theoretical ML base from which per-survivor processing (using different estimators for each survivor path) and conventional channel estimation (using only one estimator for all survivor paths) can be deduced for different channel models. Numerous adaptive MLSDE receiver structures are developed for different channel models from the GMLSDE algorithm using causal estimation and detection methods which only guarantee increasing the likelihood. Although some structures are new, the",
+            "title": "Adaptive MLSDE Receivers for Wireless Communications"
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.41.9693",
+            "keyword": "1",
+            "author": "Iain B. Collings, John B. Moore",
+            "abstract": "This paper presents a signal processing scheme for the class of lumpable, or weakly-lumpable, hidden Markov models (HMMs) which have state values clustered into groups. Attention is focussed not only on state estimation for known models, but also on on-line model identification. The approach taken employs a new technique whereby separate state estimators are used for each group of state-values. The state estimator for each group estimates the discrete states in that group, together with an associated flag state which represents all the other groups. The result is that computational complexity is greatly reduced. Hidden Markov model parameters associated with lumpable, or weakly-lumpable, Markov chains can be identified on-line using available techniques such as the recursive prediction error (RPE) approach taken in this paper. These techniques estimate the transition probabilities and the discrete state values of the Markov chain, on-line. Other parameters, such as the noise density as...",
+            "title": "On-line Estimation and Identification of HMMs with Grouped State Values"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.42.6619",
+            "keyword": "",
+            "author": "Iain Collings,  Tobias Ryden",
+            "abstract": "This paper presents a new algorithm for on-line identification of hidden Markov model (HMM) parameters. The scheme is gradient based, and provides parameter estimates which recursively maximise the likelihood function. It is therefore a recursive maximum likelihood(RML) algorithm, and it has optimal asymptotic properties. The only current on-line HMM identification algorithm with anything other than suboptimal rate of convergence is based on a prediction error (PE) cost function. As well as presenting a new algorithm, this paper also highlights and explains a counterintuitive convergence problem for the current recursive PE (RPE) algorithm, when operating in low noise conditions. Importantly, this problem does not exist for the new RML algorithm. Simulation studies demonstrate the superior performance of the new algorithm, compared to current techniques.  1. INTRODUCTION Recently, hidden Markovmodels (HMMs) have been used in a wide variety of applications, including speech processing [...",
+            "title": "A New Maximum Likelihood Gradient Algorithm For On-Line Hidden Markov Model Identification"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.46.1434",
+            "keyword": "Key Words, Hidden Markov Model, exponential forgetting, fixed-lag smoothing",
+            "author": "Louis Shue Brian, Brian D. O. Anderson, Subhrakanti Dey",
+            "abstract": "In this paper, we address the problem of filtering and fixed-lag smoothing for discrete-time and discrete-state Hidden Markov Models (HMMs), with the intention of extending some important results in Kalman filtering, notably the property of exponential stability. By appealing to a generalised Perron-Frobenius result for nonnegative matrices, we are able to demonstrate exponential forgetting for both the recursive filters and smoothers; furthermore, methods for deriving overbounds on the convergence rate are indicated. Simulation studies for a two-state and two-output HMM verify qualitatively some of the theoretical predictions, and the observed convergence rate is shown to be bounded in accordance with the theoretical predictions.  Key Words: Hidden Markov Model, exponential forgetting, fixed-lag smoothing.  EDICS classification: SP 3.8.1   The authors wish to acknowledge the funding of the activities of the Cooperative Research Centre for Robust and Adaptive Systems by the Australian ...",
+            "title": "Exponential Stability of Filters and Smoothers for Hidden Markov Models"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.46.2679",
+            "keyword": "Key Words, Hidden Markov Model, exponential forgetting, fixed-lag smoothing",
+            "author": "Louis Shue Brian, Brian D. O. Anderson, Subhrakanti Dey",
+            "abstract": "In this paper, we address the problem of filtering and fixed-lag smoothing for discrete-time and discrete-state Hidden Markov Models (HMMs), with the intention of extending some important results in Kalman filtering, notably the property of exponential stability. By appealing to a generalised Perron-Frobenius result for nonnegative matrices, we are able to demonstrate exponential forgetting for both the recursive filters and smoothers; furthermore, methods for deriving overbounds on the convergence rate are indicated. Simulation studies for a two-state and two-output HMM verify qualitatively some of the theoretical predictions, and the observed convergence rate is shown to be bounded in accordance with the theoretical predictions.  Key Words: Hidden Markov Model, exponential forgetting, fixed-lag smoothing.  EDICS classification: SP 3.8.1   The authors wish to acknowledge the funding of the activities of the Cooperative Research Centre for Robust and Adaptive Systems by the Australian ...",
+            "title": "Exponential Stability of Filters and Smoothers for Hidden Markov Models"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.46.7175",
+            "keyword": "",
+            "author": "Michael C. Nechyba,  Yangsheng Xu",
+            "abstract": "Modeling dynamic human control strategy (HCS), or human skill in response to real-time sensing is becoming an increasingly popular paradigm in many different research areas, such as intelligent vehicle systems, virtual reality, and space robotics. Such models are often learned from experimental data, and as such can be characterized despite the lack of a good physical model. Unfortunately, learned models presently offer few, if any, guarantees in terms of model fidelity to the training data. This is especially true for dynamic reaction skills, where errors can feed back on themselves to generate state and command trajectories uncharacteristic of the source process. Thus, we propose a stochastic similarity measure --- based on Hidden Markov Model analysis --- capable of comparing and contrasting stochastic, dynamic, multi-dimensional trajectories. This similarity measure is the first step in validating a learned model's fidelity to its training data by comparing the model's dynamic traj...",
+            "title": "Stochastic Similarity For Validating Human Control Strategy Models"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.47.4492",
+            "keyword": "",
+            "author": "A Scilab Toolbox, Tarik Al-ani, Ar Hamam",
+            "abstract": "A Hidden Markov Model Toolbox is presented within the Scilab environement. In this toolbox popular methods for the resolution of HMM problems are incorporated. These methods cover the training and recognition phases. Models may be used with discrete and continuous observations. This toolbox includes conventional methods as well as extensions. 1. Introduction  Hidden Markov models (HMM) have been widely applied in automatic speech recognition. In this field, signals are encoded as temporal variation of short time power spectrum [12]. HMM applications are now being extended to many fields such as pattern recognition, signal processing, modeling and control of dynamic systems. They are well suited for the classification of one or two dimensional signals. A HMM is a double stochastic process with one underlying process that is not observable but may be estimated through a set of processes that produce a sequence of observations. They may be used for the treatment of problems where informat...",
+            "title": "An Integrated Environment for Hidden Markov Models A Scilab Toolbox"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.49.7968",
+            "keyword": "1",
+            "author": "Iain B. Collings, Student Member,  JOHN B. MOORE, Vikram Krishnamurthy, Ieee John B. Moore",
+            "abstract": "In this paper an on-line state and parameter identification scheme for Hidden Markov Models (HMMs), with states in a finite-discrete set, is developed using Recursive Prediction Error (RPE) techniques. The parameters of interest are the transition probabilities and discrete state values of a Markov chain. The noise density associated with the observations can also be estimated. Implementation aspects of the proposed algorithms are discussed, and simulation studies are presented to show that the algorithms converge for a wide variety of initialisations. Also, an improved version of an earlier proposed scheme, the Recursive Kullback-Leibler (RKL) algorithm, is presented with a parameterisation that ensures positivity of transition probability estimates. I Introduction Hidden Markov models (HMMs) with states in a finite-discrete set have been widely applied in areas such as communication systems, speech processing and biological signal processing [1]. However a limitation of the popular o...",
+            "title": "On-Line Identification of Hidden Markov Models via Recursive Prediction Error Techniques"
+        },
+        {
+            "group": 22,
+            "name": "10.1.1.54.3058",
+            "keyword": "hidden Markov models, maximum likelihood estimate, recursive",
+            "author": "Fran\u00e7ois LeGland,  Laurent M\u00e9vel",
+            "abstract": ": We consider the problem of identification of a partially observed finite--state Markov chain, based on observations in a finite set. We first investigate the asymptotic behaviour of the maximum likelihood estimate (MLE) for the transition probabilities, as the number of observations increases to infinity. In particular, we exhibit the associated contrast function, and we discuss consistency issues. Based on this expression, we design a recursive identification algorithm, which converges to the set of local minima of the contrast function.  Keywords : hidden Markov models, maximum likelihood estimate, recursive identification  1 INTRODUCTION  In this paper, we consider the problem of recursive identification of a partially observed finite--state Markov chain, based on observations in a finite set. In a first part, we investigate the asymptotic behaviour of the maximum likelihood estimate (MLE) for the transition probabilities, as the number of observations increases to infinity. The p...",
+            "title": "Recursive Identification of HMM's with Observations in a Finite Set"
+        },
+        {
+            "group": 23,
+            "name": "10.1.1.54.9644",
+            "keyword": "",
+            "author": "Yskandar Hamam, Ar Hamam, Tarik Al-ani",
+            "abstract": "A simulated annealing method for estimating the parameters of Hidden Markov Models is presented. This method is based on the choice of the optimal trajectory of the discrete state. It is applied to both discrete and continuous observations. The program developped needs no specific initialization of the algorithm by the user, the cooling schedule being general and applicable to any specific model. The method is applied to data generated randomly and compared to the initial model. Numerical experience in using the method is also presented. 1. INTRODUCTION  Hidden Markov Models (HMM) have been widely applied in automatic speech recognition. In this field signals are encoded as temporal variation of short time power spectrum [15]. HMM applications are now being extended to many fields such as pattern recognition, signal processing and control. They are well suited for the classification of one or two dimensional signals. An HMM is a double stochastic process with one underlying process tha...",
+            "title": "Simulated Anealing Approach for Training Hidden Markov Models"
+        },
+        {
+            "group": 24,
+            "name": "10.1.1.57.8102",
+            "keyword": "",
+            "author": "Aaron C. Courville,  David S. Touretzky",
+            "abstract": "The Temporal Coding Hypothesis of Miller and colleagues [7] suggests that animals integrate related temporal patterns of stimuli into single memory representations. We formalize this concept using quasi-Bayes estimation to update the parameters of a constrained hidden Markov model. This approach allows us to account for some surprising temporal effects in the second order conditioning experiments of Miller et al. [1, 2, 3], which other models are unable to explain.",
+            "title": "Modeling Temporal Structure in Classical Conditioning"
+        },
+        {
+            "group": 25,
+            "name": "10.1.1.59.1320",
+            "keyword": "",
+            "author": "Kaisheng Yao,  Kuldip K. Paliwal, Kuldip K. Paliwal \ufffd\u00fd, Satoshi Nakamura",
+            "abstract": "We present a sequential noise compensation method based on the sequential Kullback proximal algorithm, which uses the Kullback-Leibler divergence as a regularization function for the maximum likelihood estimation. The method is implemented as filters. In contrast to sequential noise compensation method based on the sequential EM algorithm, the convergence rate of the method and estimation error after convergence can be adjusted by a relaxation factor # # , where the sequential EM algorithm corresponds to the particular case of # # ####. Through experiments on parameter estimation and speech recognition in noise, we verified the efficacy of the algorithm.",
+            "title": "Sequential Noise Compensation by a Sequential Kullback Proximal Algorithm"
+        },
+        {
+            "group": 26,
+            "name": "10.1.1.59.1392",
+            "keyword": "",
+            "author": "Kaisheng Yao,  Kuldip K. Paliwal,  Bertram E. Shi, Satoshi Nakamura",
+            "abstract": "We present sequential parameter estimation in the framework of the Hidden Markov Models. The sequential algorithm is a sequential Kullback proximal algorithm, which chooses the Kullback-Liebler divergence as a penalty function for the maximum likelihood estimation. The scheme is implemented as filters. In contrast to algorithms based on the sequential EM algorithm, the algorithm has faster convergence rate in parameter estimation, and the computational complexity is proportional to the algorithms based on the sequential EM algorithm. In particular, we derive sequential noise parameter estimation for a model-based sequential noise compensation method for nonstationary noise environments. Noise parameter estimation, updating and speech recognition are carried out frame by frame. Simulation results have shown that the derived schemes can have faster convergence rate than the sequential noise compensation based on the sequential EM algorithm.",
+            "title": "Noise Compensation by a Sequential Kullback Proximal Algorithm"
+        },
+        {
+            "group": 27,
+            "name": "10.1.1.59.1396",
+            "keyword": "Noisy speech recognition, Non-stationary noise, Expectation maximization algorithm, Kullback proximal algorithm",
+            "author": "Kaisheng Yao,  Kuldip K. Paliwal,  Satoshi Nakamura",
+            "abstract": "In this paper, a noise adaptive speech recognition approach is proposed for recognizing speech which is corrupted by additive non-stationary background noise. The approach sequentially estimates noise parameters, through which a nonlinear parametric function adapts mean vectors of acoustic models. In the estimation process, posterior probability of state sequence given observation sequence and the previously estimated noise parameter sequence is approximated by the normalized joint likelihood of active partial paths and observation sequence given the previously estimated noise parameter sequence. The Viterbi process provides the normalized joint-likelihood. The acoustic models are not required to be trained from clean speech and they can be trained from noisy speech. The approach can be applied to perform continuous speech recognition in presence of non-stationary noise. Experiments conducted on speech contaminated by simulated and real non-stationary noise show that when acoustic models are trained from clean speech, the noise adaptive speech recognition system provides improvements in word accuracy as compared to the normal noise compensation system (which assumes the noise to be stationary) in slowly time-varying noise. When the acoustic models are trained from noisy speech, the noise adaptive speech recognition system is found to be helpful to get improved performance in slowly time-varying noise over a system employing multi-conditional training.",
+            "title": "Noise Adaptive Speech Recognition Based on Sequential Noise Parameter Estimation"
+        },
+        {
+            "group": 28,
+            "name": "10.1.1.59.1416",
+            "keyword": "",
+            "author": "Kaisheng Yao,  Kuldip K. Paliwal, Satoshi Nakamura",
+            "abstract": "In this paper, we apply the noise adaptive speech recognition for noisy speech recognition in non-stationary noise to the situation that acoustic models are trained from noisy speech. We justify it by that the noise adaptive speech recognition includes iterative processes between a noise parameter estimation step and a model adaptation step, which can possibly do non-linear mapping between the original training space and that for recognition. Experiments were performed onAurora-2 task with multi-conditional training set which includes noisy utterances. Through experiments, we observed that the noise adaptive speech recognition can have better performance than the baseline system trained from multiconditional training set without noise adaptive speech recognition. 1. ",
+            "title": "Noise Adaptive Speech Recognition with Acoustic Models Trained from Noisy Speech Evaluated on Aurora-2 Database"
+        },
+        {
+            "group": 29,
+            "name": "10.1.1.62.8679",
+            "keyword": "",
+            "author": "David Yuheng Zhao, Zhao David Yuheng, Copyright David, Y. Zhao",
+            "abstract": "In mobile speech communication, adverse conditions, such as noisy acoustic environments and unreliable network connections, may severely degrade the intelligibility and naturalness of the received speech quality, and increase the listening effort. This thesis focuses on countermeasures based on statistical signal processing techniques. The main body of the thesis consists of three research articles, targeting two specific problems: speech enhancement for noise reduction and flexible source coder design for unreliable networks. Papers A and B consider speech enhancement for noise reduction. New schemes based on an extension to the auto-regressive (AR) hidden Markov model (HMM) for speech and noise are proposed. Stochastic models for speech and noise gains (excitation variance from an AR model) are integrated into the HMM framework in order to improve the modeling of energy variation. The extended model is referred to as a stochastic-gain hidden Markov model (SG-HMM). The speech gain describes the energy variations of the speech phones, typically due to differences in pronunciation and/or different vocalizations of individual speakers. The noise gain improves the tracking of the time-varying energy of",
+            "title": "Model Based Speech Enhancement and Coding"
+        },
+        {
+            "group": 30,
+            "name": "10.1.1.64.3941",
+            "keyword": "",
+            "author": "German Florez-larrahondo, Susan Bridges, Eric A. Hansen",
+            "abstract": "We address the problem of learning discrete hidden Markov models from very long sequences of observations. Incremental versions of the Baum-Welch algorithm that approximate the \u03b2-values used in the backward procedure are commonly used for this problem, since their memory complexity is independent of the sequence length. We introduce an improved incremental Baum-Welch algorithm with a new backward procedure that approximates the \u03b2-values based on a one-step lookahead in the training sequence. We justify the new approach analytically, and report empirical results that show it converges faster than previous incremental algorithms.",
+            "title": "Incremental Estimation of Discrete Hidden Markov Models Based on a New Backward Procedure"
+        },
+        {
+            "group": 31,
+            "name": "10.1.1.65.408",
+            "keyword": "",
+            "author": "",
+            "abstract": "We propose a hidden Markov model (HMM) based speech enhancement method using explicit modeling of speech and noise gains. The gains are considered to be stochastic variables in an HMM framework. The speech gain models the energy variations of speech phones, typically due to differences in pronunciation and/or different vocalizations of individual speakers. The noise gain helps to improve the tracking of the time-varying energy of non-stationary noise. The time-varying parameters of the gain models are estimated on-line using the recursive expectation maximization (EM) algorithm. The performance of the proposed enhancement system is evaluated through both objective and subjective tests. The experimental results confirm the advantage of explicit gain modeling, particularly for non-stationary noise sources. 1.",
+            "title": "HMM-BASED SPEECH ENHANCEMENT USING EXPLICIT GAIN MODELING"
+        },
+        {
+            "group": 32,
+            "name": "10.1.1.67.903",
+            "keyword": "hidden Markov models, maximum Likelihood estimate, recursive",
+            "author": "Franqois Legland",
+            "abstract": "Abstract: We consider the problem of identification of a partially observed finit~state Markov chain, based on observations in a finite set. We first investigate the asymptotic behaviour of the maximum likelihood estimate (MLE) for the transition probabilities, w the number of observations increases to infinity. In particular, we exhibit the ssociated contrast function, and we discuss consistency issues. Baed on this expression, we design a recursive identification algorithm, which converges to the set of local minima of the contrast function.",
+            "title": "Recursive identification of HMM's with observations in a finite set"
+        },
+        {
+            "group": 33,
+            "name": "10.1.1.67.6604",
+            "keyword": "",
+            "author": "Iain B. Collings",
+            "abstract": "This paper presents a new algorithm for on-line identification of hidden Markov model (HMM) parameters. The scheme is gradient based, and provides parameter estimates which recursively maximise the likelihood function. It is therefore a recursive maximum likelihood (RML) algorithm, and it has optimal asymptotic properties. The only current on-line HMM identification algorithm with anything other than suboptimal rate of convergence is based on a prediction error (PE) cost function. As well as presenting a new algorithm, this paper also highlights and explains a counterintuitive convergence problem for the current recursive PE (RPE) algorithm, when operating in low noise conditions. Importantly, this problem does not exist for the new RML algorithm. Simulation studies demonstrate the superior performance of the new algorithm, compared to current techniques. 1.",
+            "title": "A new maximum likelihood gradient algorithm for on-line hidden Markov model identification"
+        },
+        {
+            "group": 34,
+            "name": "10.1.1.71.8467",
+            "keyword": "",
+            "author": "Gary Desmond Brushe, Gary D. Brushe",
+            "abstract": "The contents of this thesis is the result of original research and it has not been submitted for any other degree or award in any other university or educational institution.",
+            "title": "Acknowledgments"
+        },
+        {
+            "group": 35,
+            "name": "10.1.1.71.8931",
+            "keyword": "",
+            "author": "",
+            "abstract": "Abstract \u2014 We propose an iterative solution to the problem of blindly and jointly identifying the channel response and transmitted symbols in a digital communications system. The proposed algorithm iterates between a symbol estimator, which uses tentative channel estimates to provide soft symbol estimates, and a channel estimator, which uses the symbol estimates to improve the channel estimates. The proposed algorithm shares some similarities with the Expectation-Maximization (EM) algorithm but with lower complexity and better convergence properties. Specifically, the complexity of the proposed scheme is linear in the memory of the equalizer, and it avoids most of the local maxima that trap the EM algorithm. I.",
+            "title": "Blind Iterative Channel Identification and Equalization"
+        },
+        {
+            "group": 36,
+            "name": "10.1.1.74.7210",
+            "keyword": "",
+            "author": "Xi Zhou, Xiaodan Zhuang, Ming Liu, Hao Tang, Mark Hasegawa-johnson, Thomas Huang",
+            "abstract": "Abstract. Because of the spectral difference between speech and acoustic events, we propose using Kullback-Leibler distance to quantify the discriminant capability of all speech feature components in acoustic event detection. Based on these distances, we use AdaBoost to select a discriminant feature set and demonstrate that this feature set outperforms classical speech feature set such as MFCC in one-pass HMM-based acoustic event detection. We implement an HMM-based acoustic events detection system with lattice rescoring using a feature set selected by the above AdaBoost based approach. 1",
+            "title": "HMM-based acoustic event detection with AdaBoost feature selection"
+        },
+        {
+            "group": 37,
+            "name": "10.1.1.79.8744",
+            "keyword": "Index Terms Ad Hoc Networks, Cognitive Radio, Channel and Data Estimation, Adaptive wireless transmission, and Asymptotic variance. 2",
+            "author": "Larry N. Singh, G. R. Dattatreya, G. R. Dattatreya",
+            "abstract": "Estimation of channel and data characteristics by the receiver is important in adaptive wireless transmission protocols and in cognitive radio. This paper formulates the estimation problem with the help of an illustrative example from the IEEE 802.11a OFDM standard. The problem reduces to the estimation of the common component variance and mixing probabilities in a finite Gaussian mixture, with known values for component means. Using the known component means, \u00b51,..., \u00b5M, a set of non-linear transformations, sinh\u00b5ix and cosh \u00b5ix of the data (mixture random variable X) are used to develop convergent and computationally efficient estimators for both the noise variance and the vector of symbol probabilities. The estimation equations can be implemented recursively or with a batch processing algorithm. Asymptotic variances of the estimates and the Cramer-Rao minimum variance bounds are derived. The estimates converge to true unknowns even when the sequences of noise and data symbols are dependent sequences. The OFDM example is simulated with parameters corresponding to the highest acceptable error rate. For a time-varying channel model chosen from the literature, it is shown that our estimator receives considerably more than adequate amount of data during an average time interval of unchanging channel characteristics. Analytical results, numerical results and related issues are discussed.",
+            "title": "Channel and Data Estimation for Ad Hoc Networks and Cognitive Radio"
+        },
+        {
+            "group": 38,
+            "name": "10.1.1.83.9356",
+            "keyword": "",
+            "author": "Joseph Rynkiewicz",
+            "abstract": "Hybrid HMM/MLP models are useful to model piecewise stationary non-linear time series. A popular way to estimate the parameters of such models is to use the E.M. algorithm thanks to the Baum and Welch, forward-backward, algorithm. In this paper, we study a convenient way to estimate the parameters thanks to differential optimization. This new method can dramatically improve the time of calculus for long time series. 1",
+            "title": "Lead"
+        },
+        {
+            "group": 39,
+            "name": "10.1.1.89.5160",
+            "keyword": "",
+            "author": "J. B. Moore, J. J. Ford",
+            "abstract": "In this paper we propose and study low complexity algorithms for online estimation of hidden Markov model (HMM) parameters. The estimates approach the true model parameters as the measurement noise approaches zero, but otherwise give improved estimates, albeit with bias. On a nite data set in the high noise case, the bias may not be signi cantly more severe than for a higher complexity asymptotically optimal scheme. Our algorithms require O(N 3) calculations per time instant, where N is the number of states. Previous algorithms based on earlier hidden Markov model signal processing methods, including the expectation-maximumisation (EM) algorithm require O(N 4) calculations per time instant. 1",
+            "title": "Reduced complexity on-line estimation of Hidden Model parameters"
+        },
+        {
+            "group": 40,
+            "name": "10.1.1.92.4170",
+            "keyword": "equalization, multichannels",
+            "author": "Karim Abed-Meraim, Wanzhi Qiu, Yingbo Hua, Senior Member",
+            "abstract": "Blind system identification (BSI) is a fundamental signal processing technology aimed at retrieving a system\u2019s unknown information from its output only. This technology has a wide range of possible applications such as mobile communications, speech reverberation cancellation, and blind image restoration. This paper reviews a number of recently developed concepts and techniques for BSI, which include the concept of blind system identifiability in a deterministic framework, the blind techniques of maximum likelihood and subspace for estimating the system\u2019s impulse response, and other techniques for direct estimation of the system input.",
+            "title": "Blind system identification"
+        },
+        {
+            "group": 41,
+            "name": "10.1.1.93.4464",
+            "keyword": "",
+            "author": "Yariv Ephraim, Neri Merhav",
+            "abstract": "Abstract\u2014An overview of statistical and information-theoretic aspects of hidden Markov processes (HMPs) is presented. An HMP is a discrete-time finite-state homogeneous Markov chain observed through a discrete-time memoryless invariant channel. In recent years, the work of Baum and Petrie on finite-state finite-alphabet HMPs was expanded to HMPs with finite as well as continuous state spaces and a general alphabet. In particular, statistical properties and ergodic theorems for relative entropy densities of HMPs were developed. Consistency and asymptotic normality of the maximum-likelihood (ML) parameter estimator were proved under some mild conditions. Similar results were established for switching autoregressive processes. These processes generalize HMPs. New algorithms were developed for estimating the state, parameter, and order of an HMP, for universal coding and classification of HMPs, and for universal decoding of hidden Markov channels. These and other related topics are reviewed in this paper. Index Terms\u2014Baum\u2013Petrie algorithm, entropy ergodic theorems, finite-state channels, hidden Markov models, identifiability, Kalman filter, maximum-likelihood (ML) estimation, order estimation, recursive parameter estimation, switching autoregressive processes, Ziv inequality. I.",
+            "title": "Hidden Markov processes"
+        },
+        {
+            "group": 42,
+            "name": "10.1.1.107.8252",
+            "keyword": "",
+            "author": "Masahiko Haruno, Daniel M. Wolpert, Mitsuo Kawato",
+            "abstract": "Humans demonstrate a remarkable ability to generate accurate and appropriate motor behavior under many different and often uncertain environmental conditions. We previously proposed a new modular architecture, the modular selection and identi\ufffdcation for control (MOSAIC) model, for motor learning and control based on multiple pairs of forward (predictor) and inverse (controller) models. The architecture simultaneously learns the multiple inverse models necessary for control as well as how to select the set of inverse models appropriate for a given environment. It combines both feedforward and feedback sensorimotor information so that the controllers can be selected both prior to movement and subsequently during movement. This article extends and evaluates the MOSAIC architecture in the following respects. The learning in the architecture was implemented by both the original gradient-descent method and the expectation-maximizatio n (EM) algorithm. Unlike gradient descent, the newly derived EM algorithm is robust to the initial starting conditions and learning parameters. Second, simulations of an object manipulation task prove that the architecture can learn to manipulate multiple objects and switch between them appropriately. Moreover, after learning, the model shows generalization to novel objects whose dynamics lie within the polyhedra of already learned dynamics. Finally, when each of the dynamics is associated with a particular object shape, the model is able to select the appropriate controller before movement execution. When presented with a novel shape-dynamic pairing, inappropriate activation of modules is observed followed by on-line correction.",
+            "title": "LETTER Communicated by Andrew Barto MOSAIC Model for Sensorimotor Learning and Control"
+        },
+        {
+            "group": 43,
+            "name": "10.1.1.114.6269",
+            "keyword": "",
+            "author": "Van Khanh Nguyen, Van Khanh Nguyen, Van Khanh Nguyen",
+            "abstract": "I declare that this thesis does not incorporate without acknowledgment any ma-terial previously submitted for a degree or diploma in any university and that, to the best of my knowledge and belief, the thesis contains no material previously pub-lished or written by any other person except where due reference is made in the text. I consent to the thesis being made available for photocopying and loan if accepted for the award of the degree.",
+            "title": "OF THE UNIVERSITY OF ADELAIDE BY"
+        },
+        {
+            "group": 44,
+            "name": "10.1.1.119.3010",
+            "keyword": "multiuser detection, CDMA, sequential EM, mulitpath fading. Designation technical area",
+            "author": "Qinghua Li, Costas N. Georghiades, Xiaodong Wang",
+            "abstract": "We consider joint channel estimation and data detection in uplink asynchronous CDMA sys-tems employing aperiodic (long) spreading sequences in the presence of unknown multipath fading. Since maximum-likelihood sequence estimation is too complex to perform, multiuser receivers are proposed based on the sequential expectation-maximization (EM) algorithm. With the prior knowledge of only the signature waveforms, the delays and the second-order statistics of the fading channel, the receivers sequentially estimate the channel using the se-quential EM algorithm. Moreover, the snapshot estimates of each path are tracked by linear minimum-mean-squared-error (MMSE) filters. The user data are detected by a maximum-likelihood sequence detector, given the channel estimates. The proposed receivers that use the exact expressions have a computational complexity O(2 K) per bit, where K is the num-ber of users. Using the EM algorithm, we derive low-complexity approximations which have a computational complexity of O(K 2) per bit. Simulation results demonstrate that the proposed receivers offer substantial performance gains over conventional pilot-symbol assisted techniques and achieve a performance close to the known-channel bounds. Further-more, the proposed receivers even outperform the single-user RAKE receiver with Nyquist pilot-insertion rate in a single-user environment.",
+            "title": "Joint Sequential Channel Estimation and Multiuser Detection for Uplink CDMA over Multipath Fading"
+        },
+        {
+            "group": 45,
+            "name": "10.1.1.125.2502",
+            "keyword": "",
+            "author": "Chin-hui Lee, Qiang Huo",
+            "abstract": "Recent advances in automatic speech recognition are accomplished by designing a plug-in maximum a posteriori decision rule such that the forms of the acoustic and language model distributions are specified and the parameters of the assumed distributions are estimated from a collection of speech and language training corpora. Maximum-likelihood point estimation is by far the most prevailing training method. However, due to the problems of unknown speech distributions, sparse training data, high spectral and temporal variabilities in speech, and possible mismatch between training and testing conditions, a dynamic training strategy is needed. To cope with the changing speakers and speaking conditions in real operational conditions for high-performance speech recognition, such paradigms incorporate a small amount of speaker and environment specific adaptation data into the training process. Bayesian adaptive learning is an optimal way to combine",
+            "title": "On adaptive decision rules and decision parameter adaptation for automatic speech recognition"
+        },
+        {
+            "group": 46,
+            "name": "10.1.1.131.8702",
+            "keyword": "",
+            "author": "Zhenyue Zhang, Yiu-ming Cheung",
+            "abstract": " The recent Maximum Weighted Likelihood (MWL) [18], [19] has provided a general learning paradigm for density-mixture model selection and learning, in which weight design, however, is a key issue. This paper will therefore explore such a design, and through which a heuristic extended Expectation-Maximization (X-EM) algorithm is presented accordingly. Unlike the EM algorithm [1], the X-EM algorithm is able to perform model selection by fading the redundant components out from a density mixture, meanwhile estimating the model parameters appropriately. The numerical simulations demonstrate the efficacy of our algorithm. ",
+            "title": "On Weight Design of Maximum Weighted Likelihood and an Extended EM Algorithm"
+        },
+        {
+            "group": 47,
+            "name": "10.1.1.133.3315",
+            "keyword": "SPLICE, short for Stereo-based Piecewise Linear Compensation",
+            "author": "",
+            "abstract": "We present an algorithm for recursive estimation of parameters in a mildly nonlinear model involving incomplete data. In particular, we focus on the time-varying deterministic parameters of additive noise in the nonlinear model. For the nonstationary noise that we encounter in robust speech recognition, different observation data segments correspond to different noise parameter values. Hence, recursive estimation algorithms are more desirable than batch algorithms, since they can be designed to adaptively track the changing noise parameters. One such design based on the iterative stochastic approximation algorithm in the recursive-EM framework is described in this paper. This new algorithm jointly adapts time-varying noise parameters and the auxiliary parameters introduced to linearly approximate the nonlinear model. We present stereo-based robust speech recognition results for the AU-RORA task, which demonstrate the effectiveness of the new algorithm compared with a more traditional, MMSE noise estimation technique under otherwise identical experimental conditions. 1.",
+            "title": "RECURSIVE NOISE ESTIMATION USING ITERATIVE STOCHASTIC APPROXIMATION FOR STEREO-BASED ROBUST SPEECH RECOGNITION"
+        },
+        {
+            "group": 48,
+            "name": "10.1.1.138.6274",
+            "keyword": "",
+            "author": "Hossein Zamiri-jafarian, Member Ieee, Subbarayan Pasupathy",
+            "abstract": "Abstract\u2014The idea of adaptive state allocation (ASA) algorithm is used in this paper to substantially reduce the computational complexity of the maximum-likelihood sequence detection and estimation (MLSD/MLSDE) receiver without a significant degradation in its performance. In the ASA algorithm, the total number of states assigned to the trellis and the number of states selected from the entire set are changed adaptively based on the short-term power of the channel impulse response (CIR) or its estimate. The ASA algorithm is a combination of two methods: adaptive threshold (AT) and adaptive state partitioning (AP). In the AT method, a threshold value is formulated based on the probability of removing the correct state in the trellis diagram. At each time, only the paths whose costs are less than the minimum cost (corresponding to the best survivor path) plus the threshold value are retained and are extended to the next trellis stage. The AT method significantly reduces the computational complexity of the regular MLSDE mostly at high signal-to-noise ratio (SNR) with a negligible loss in performance. Simulation results for fading channels show that the AT method typically selects one trellis state (the minimum possible number of states) at high SNRs. In the AP method, the branch metrics are fused and diffused adaptively by using the Kullback\u2013Leibler (KL) distance metric invoked for quantifying the differences between the probability density functions of the correct and incorrect branch metrics in the trellis. The adaptation is done such that the channel coefficients with short-term power less than a threshold are assumed to be zero in computing the branch metrics. The AP method decreases the computational complexity of the regular MLSDE at low SNRs. Index Terms\u2014Adaptive detection and estimation, complexity reduction, complexity theory, fading channels, maximum-likelihood detection, multipath channels, sequence detection theory. I.",
+            "title": "Complexity reduction of the MLSD/MLSDE receiver using the adaptive state allocation algorithm"
+        },
+        {
+            "group": 49,
+            "name": "10.1.1.143.9089",
+            "keyword": "",
+            "author": "Bernard Adrian Frankpitt",
+            "abstract": "This dissertation formulates and solves a combined estimation and optimal control problem for a finite-state, discrete-time, partially observed, controlled, hidden Markov model with unknown state transition and output transition matrices. The cardinality of the state and the cost structure are assumed known. The control implemented at each step is a randomized approximation to an optimal risk-sensitive control, and is calculated with the current value of the plant estimates. The degree of randomization is determined by the value of a positive parameter which is allowed to decay to zero at a constant rate. As the parameter decays to zero the control converges to an optimal control for a moving horizon risk sensitive criterion. The main contribution of the dissertation is the presentation of a stochastic approximation proof for the asymptotic convergence of the algorithm for combined estimation and control. The proof requires the development of a potential theory for the Markov chain that captures the combined dynamics of the hidden Markov model, the estimator and the control algorithm. The potential kernel associated with this chain is shown to be regular with respect to variation in the plant estimates which influence the kernel both directly though the estimation algorithm, and indirectly through the control",
+            "title": "Estimation of hidden Markov models For Partially-observed, Risk-Sensitive, Control Problems"
+        },
+        {
+            "group": 50,
+            "name": "10.1.1.150.968",
+            "keyword": "",
+            "author": "Olivier Capp\u00e9",
+            "abstract": "Online (or recursive) estimation of fixed model parameters in general state-space models is a crucial but often difficult task. This paper is about likelihood-based point estimation, showing that an online EM (Expectation-Maximization) algorithm recently proposed for discrete hidden Markov models can be extended to more general settings, including non-linear non-Gaussian state-space models that necessitate the use of sequential Monte Carlo filtering approximations. The performance of the proposed online sequential Monte Carlo EM algorithm is illustrated on numerical examples. ",
+            "title": "ONLINE SEQUENTIAL MONTE CARLO EM ALGORITHM"
+        },
+        {
+            "group": 51,
+            "name": "10.1.1.152.8542",
+            "keyword": "Index Terms Relative Entropy Rate, hidden Markov models, Markov processes, Detection. EDICS Category(s, ASP-ANAL, SSP-FILT, SSP-IDEN",
+            "author": "John Lai, Jason J. Ford",
+            "abstract": "This paper proposes a novel relative entropy rate (RER) based approach for multiple HMM (MHMM) approximation of a class of discrete-time uncertain processes. Under different uncertainty assumptions, the model design problem is posed either as a min-max optimisation problem or stochastic minimisation problem on the RER between joint laws describing the state and output processes (rather than the more usual RER between output processes). A suitable filter is proposed for which performance results are established which bound conditional mean estimation performance and show that estimation performance improves as the RER is reduced. These filter consistency and convergence bounds are the first results characterising multiple HMM approximation performance and suggest that joint RER concepts provide a useful model selection criteria. The proposed model design process and MHMM filter are demonstrated on an important image processing dim-target detection problem.",
+            "title": "Relative Entropy Rate based Multiple Hidden Markov Model Approximation"
+        },
+        {
+            "group": 52,
+            "name": "10.1.1.163.7859",
+            "keyword": "blind channel estimation, EM algorithm, maximum-likelihood estimation, iterative systems",
+            "author": "Renato R. Lopes, John R. Barry",
+            "abstract": "The application of the expectation-maximization (EM) algorithm to channel estimation results in a well-known iterative channeland-symbol estimator (ICSE). The EM-ICSE iterates between a symbol estimator based on the forward-backward recursion (BCJR equalizer) and a channel estimator, and may provide approximate maximum-likelihood blind or semiblind channel estimates. Nevertheless, the EM-ICSE has high complexity, and it is prone to misconvergence. In this paper, we propose the extendedwindow (EW) estimator, a novel channel estimator for ICSE that can be used with any soft-output symbol estimator. Therefore, the symbol estimator may be chosen according to performance or complexity specifications. We show that the EW-ICSE, an ICSE that uses the EW estimator and the BCJR equalizer, is less complex and less susceptible to misconvergence than the EM-ICSE. Simulation results reveal that the EW-ICSE may converge faster than the EM-ICSE.",
+            "title": "EURASIP Journal on Wireless Communications and Networking 2005:2, 92\u201399 c \u25cb 2005 Hindawi Publishing Corporation The Extended-Window Channel Estimator for Iterative Channel-and-Symbol Estimation"
+        },
+        {
+            "group": 53,
+            "name": "10.1.1.163.8150",
+            "keyword": "",
+            "author": "R. R. Lopes, J. R. Barry",
+            "abstract": "Abstract-We propose an iterative solution to the problem of blindly and jointly identifying the channel response and transmitted symbols in a digital communications system. The proposed algorithm iterates between a symbol estimator, which uses tentative channel estimates to provide soft symbol estimates, and a channel estimator, which uses the symbol estimates to improve the channel estimates. The proposed algorithm shares some similarities with the Expectation-Maximization (EM) algorithm but with lower complexity and better convergence properties. Specifically, the complexity of the proposed scheme is linear in the memory of the equalizer, and it avoids most of the local maxima that trap the EM algorithm. I.",
+            "title": "Blind iterative channel identification and equalization"
+        },
+        {
+            "group": 54,
+            "name": "10.1.1.178.1465",
+            "keyword": "",
+            "author": "Sylvie Perreau, Langford B. White, Pierre Duhamel",
+            "abstract": "Abstract\u2014A new type of blind decision feedback equalizer (DFE) incorporating fixed lag smoothing is developed in this paper. The structure is motivated by the fact that if we make full use of the dependence of the observed data on a given transmitted symbol, delayed decisions may produce better estimates of that symbol. To this end, we use a hidden Markov model (HMM) suboptimal formulation that offers a good tradeoff between computational complexity and bit error rate (BER) performance. The proposed equalizer also provides estimates of the channel coefficients and operates adaptively (so that it can adapt to a fading channel for instance) by means of an online version of the expectation-maximization (EM) algorithm. The resulting equalizer structure takes the form of a linear feedback system including a quantizer, and hence, it is easily implemented. In fact, because of its feedback structure, the proposed equalizer shows some similarities with the well-known DFE. A full theoretical analysis of the initial version of the algorithm is not available, but a characterization of a simplified version is provided. We demonstrate that compared to the zero-forcing DFE (ZF-DFE), the algorithm yields many improvements. A large range of simulations on finite impulse response (FIR) channels and on typical fading GSM channel models illustrate the potential of the proposed equalizer. I.",
+            "title": "A Blind Decision Feedback Equalizer Incorporating Fixed Lag Smoothing"
+        },
+        {
+            "group": 55,
+            "name": "10.1.1.198.9533",
+            "keyword": "",
+            "author": "Vikram Krishnamurthy, Senior Member, George Gang Yin, Senior Member",
+            "abstract": "Abstract\u2014This paper is concerned with recursive algorithms for the estimation of hidden Markov models (HMMs) and autoregressive (AR) models under Markov regime. Convergence and rate of convergence results are derived. Acceleration of convergence by averaging of the iterates and the observations are treated. Finally, constant step-size tracking algorithms are presented and examined. Index Terms\u2014Convergence, hidden Markov estimation, rate of convergence, recursive estimation. I.",
+            "title": "Recursive algorithms for estimation of hidden Markov models and autoregressive models with Markov regime"
+        },
+        {
+            "group": 56,
+            "name": "10.1.1.217.4918",
+            "keyword": "",
+            "author": "Luca Francesco Bertuccelli, Jonathan P. How, David L. Darmofal, Luca Francesco Bertuccelli",
+            "abstract": "Actual performance of sequential decision-making problems can be extremely sensitive to errors in the models, and this research addressed the role of robustness in coping with this uncertainty. The first part of this thesis presents a computationally efficient sampling methodology, Dirichlet Sigma Points, for solving robust Markov Decision Processes with transition probability uncertainty. A Dirichlet prior is used to model the uncertainty in the transition probabilities. This approach uses the first two moments of the Dirichlet to generates samples of the uncertain probabilities and",
+            "title": "in Aerospace Systems"
+        },
+        {
+            "group": 57,
+            "name": "10.1.1.218.2688",
+            "keyword": "",
+            "author": "Tom Vercauteren, Student Member, Alberto Lopez Toledo, Student Member, Xiaodong Wang, Senior Member",
+            "abstract": "Abstract\u2014The performance of the IEEE 802.11 protocol based on the distributed coordination function (DCF) has been shown to be dependent on the number of competing terminals and the backoff parameters. Better performance can be expected if the parameters are adapted to the number of active users. In this paper we develop both off-line and online Bayesian signal processing algorithms to estimate the number of competing terminals. The estimation is based on the observed use of the channel and the number of competing terminals is modeled as a Markov chain with unknown transition matrix. The off-line estimator makes use of the Gibbs sampler whereas the first online estimator is based on the sequential Monte Carlo (SMC) technique. A deterministic variant of the SMC estimator is then developed, which is simpler to implement and offers superior performance. Finally a novel approximate maximum a posteriori (MAP) algorithm for hidden Markov models (HMM) with unknown transition matrix is proposed. Realistic IEEE 802.11 simulations using the ns-2 network simulator are provided to demonstrate the excellent performance of the proposed estimators. Index Terms\u2014Gibbs sampler, hidden Markov model (HMM), IEEE 802.11 wireless networks, sequential Monte Carlo, unknown transition matrix. I.",
+            "title": "Batch and Sequential Bayesian Estimators of the Number of Active Terminals in an IEEE 802.11 Network"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.146119
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 0.186131
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 0.135135
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 0.111111
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 0.135135
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 0.0878378
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 0.18705
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 0.214008
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 0.267442
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 0.034632
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 0.121528
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "value": 0.194245
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "value": 0.0965517
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "value": 0.134483
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "value": 0.410256
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "value": 0.270588
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "value": 0.154122
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "value": 0.154122
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "value": 0.114865
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "value": 0.235294
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "value": 0.359833
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "value": 0.220149
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "value": 0.251852
+        },
+        {
+            "source": 0,
+            "target": 24,
+            "value": 0.135135
+        },
+        {
+            "source": 0,
+            "target": 25,
+            "value": 0.237885
+        },
+        {
+            "source": 0,
+            "target": 26,
+            "value": 0.440367
+        },
+        {
+            "source": 0,
+            "target": 27,
+            "value": 0.22327
+        },
+        {
+            "source": 0,
+            "target": 28,
+            "value": 0.187755
+        },
+        {
+            "source": 0,
+            "target": 29,
+            "value": 0.217687
+        },
+        {
+            "source": 0,
+            "target": 30,
+            "value": 0.123457
+        },
+        {
+            "source": 0,
+            "target": 31,
+            "value": 0.268085
+        },
+        {
+            "source": 0,
+            "target": 32,
+            "value": 0.154185
+        },
+        {
+            "source": 0,
+            "target": 33,
+            "value": 0.247967
+        },
+        {
+            "source": 0,
+            "target": 34,
+            "value": 0.0653266
+        },
+        {
+            "source": 0,
+            "target": 35,
+            "value": 0.142857
+        },
+        {
+            "source": 0,
+            "target": 36,
+            "value": 0.0938776
+        },
+        {
+            "source": 0,
+            "target": 37,
+            "value": 0.175758
+        },
+        {
+            "source": 0,
+            "target": 38,
+            "value": 0.15814
+        },
+        {
+            "source": 0,
+            "target": 39,
+            "value": 0.278761
+        },
+        {
+            "source": 0,
+            "target": 40,
+            "value": 0.105691
+        },
+        {
+            "source": 0,
+            "target": 41,
+            "value": 0.125
+        },
+        {
+            "source": 0,
+            "target": 42,
+            "value": 0.142466
+        },
+        {
+            "source": 0,
+            "target": 43,
+            "value": 0.0711297
+        },
+        {
+            "source": 0,
+            "target": 44,
+            "value": 0.186495
+        },
+        {
+            "source": 0,
+            "target": 45,
+            "value": 0.0782313
+        },
+        {
+            "source": 0,
+            "target": 46,
+            "value": 0.134454
+        },
+        {
+            "source": 0,
+            "target": 47,
+            "value": 0.213235
+        },
+        {
+            "source": 0,
+            "target": 48,
+            "value": 0.117371
+        },
+        {
+            "source": 0,
+            "target": 49,
+            "value": 0.2
+        },
+        {
+            "source": 0,
+            "target": 50,
+            "value": 0.214953
+        },
+        {
+            "source": 0,
+            "target": 51,
+            "value": 0.203774
+        },
+        {
+            "source": 0,
+            "target": 52,
+            "value": 0.179104
+        },
+        {
+            "source": 0,
+            "target": 53,
+            "value": 0.144
+        },
+        {
+            "source": 0,
+            "target": 54,
+            "value": 0.214724
+        },
+        {
+            "source": 0,
+            "target": 55,
+            "value": 0.103604
+        },
+        {
+            "source": 0,
+            "target": 56,
+            "value": 0.141631
+        },
+        {
+            "source": 0,
+            "target": 57,
+            "value": 0.297578
+        },
+        {
+            "source": 8,
+            "target": 27,
+            "value": 0.415966
+        },
+        {
+            "source": 8,
+            "target": 47,
+            "value": 0.330144
+        },
+        {
+            "source": 14,
+            "target": 48,
+            "value": 0.348624
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "value": 0.29148
+        },
+        {
+            "source": 21,
+            "target": 32,
+            "value": 0.232044
+        },
+        {
+            "source": 21,
+            "target": 33,
+            "value": 0.326733
+        },
+        {
+            "source": 21,
+            "target": 41,
+            "value": 0.248
+        },
+        {
+            "source": 21,
+            "target": 55,
+            "value": 0.170455
+        },
+        {
+            "source": 25,
+            "target": 27,
+            "value": 0.348018
+        },
+        {
+            "source": 25,
+            "target": 28,
+            "value": 0.341935
+        },
+        {
+            "source": 26,
+            "target": 27,
+            "value": 0.4125
+        },
+        {
+            "source": 26,
+            "target": 28,
+            "value": 0.478528
+        },
+        {
+            "source": 55,
+            "target": 57,
+            "value": 0.137778
+        }
+    ]
+}

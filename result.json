@@ -1,0 +1,287 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.110.4050",
+            "keyword": "",
+            "author": "David M. Blei, Andrew Y. Ng, Michael I. Jordan, John Lafferty",
+            "abstract": "We describe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics. Each topic is, in turn, modeled as an infinite mixture over an underlying set of topic probabilities. In the context of text modeling, the topic probabilities provide an explicit representation of a document. We present efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation. We report results in document modeling, text classification, and collaborative filtering, comparing to a mixture of unigrams model and the probabilistic LSI model. 1.",
+            "title": "Latent dirichlet allocation"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.140.6686",
+            "keyword": "",
+            "author": "David M. Blei, Michael I",
+            "abstract": "We consider the problem of modeling annotated data\u2014data with multiple types where the instance of one type (such as a caption) serves as a description of the other type (such as an image). We describe three hierarchical probabilistic mixture models that are aimed at such data, culminating in the Corr-LDA model, a latent variable model that is effective at modeling the joint distribution of both types and the conditional distribution of the annotation given the primary type. We take an empirical Bayes approach to finding parameter estimates and conduct experiments in held-out likelihood, automatic annotation, and text-based image retrieval using the Corel database of images and captions. 1",
+            "title": "Modeling annotated data"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.43.7517",
+            "keyword": "",
+            "author": "Kamal Nigam, John Lafferty, Andrew Mccallum",
+            "abstract": "This paper proposes the use of maximum entropy techniques for text classification. Maximum entropy is a probability distribution estimation technique widely used for a variety of natural language tasks, such as language modeling, part-of-speech tagging, and text segmentation. The underlying principle of maximum entropy is that without external knowledge, one should prefer distributions that are uniform. Constraints on the distribution, derived from labeled training data, inform the technique where to be minimally non-uniform. The maximum entropy formulation has a unique solution which can be found by the improved iterative scaling algorithm. In this paper, maximum entropy is used for text classification by estimating the conditional distribution of the class variable given the document. In experiments on several text datasets we compare accuracy to naive Bayes and show that maximum entropy is sometimes significantly better, but also sometimes worse. Much future work remains, but the re...",
+            "title": "Using Maximum Entropy for Text Classification"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.220.175",
+            "keyword": "",
+            "author": "Thomas P. Minka",
+            "abstract": "The Dirichlet distribution and its compound variant, the Dirichlet-multinomial, are two of the most basic models for proportional data, such as the mix of vocabulary words in a text document. Yet the maximum-likelihood estimate of these distributions is not available in closed-form. This paper describes simple and efficient iterative schemes for obtaining parameter estimates in these models. In each case, a fixed-point iteration and a Newton-Raphson (or generalized Newton-Raphson) iteration is provided. 1 The Dirichlet distribution The Dirichlet distribution is a model of how proportions vary. Let p denote a random vector whose elements sum to 1, so that pk represents the proportion of item k. Under the Dirichlet model with parameter vector \u03b1, the probability density at p is p(p)  \u223c D(\u03b11,...,\u03b1K)  = \u0393(\u2211k \u03b1k) k \u0393(\u03b1k)",
+            "title": "Estimating a Dirichlet distribution"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.13.5600",
+            "keyword": "",
+            "author": "Eric Brochu, Nando De Freitas",
+            "abstract": "We present a novel, flexible statistical approach for modelling music and  text jointly. The approach is based on multi-modal mixture models and  maximum a posteriori estimation. The learned models can be used to  browse databases with documents containing music and text, to search  for music using queries consisting of music and text (lyrics and other  contextual information), to annotate text documents with music, and to  automatically recommend or identify similar songs.",
+            "title": "\"Name That Song!\": A Probabilistic Approach to Querying on Music and Text"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.36.2841",
+            "keyword": "",
+            "author": "Hagai Attias",
+            "abstract": "This paper presents a novel practical framework for Bayesian model  averaging and model selection in probabilistic graphical models.  Our approach approximates full posterior distributions over model  parameters and structures, as well as latent variables, in an analytical  manner. These posteriors fall out of a free-form optimization  procedure, which naturally incorporates conjugate priors. Unlike  in large sample approximations, the posteriors are generally nonGaussian  and no Hessian needs to be computed. Predictive quantities  are obtained analytically. The resulting algorithm generalizes  the standard Expectation Maximization algorithm, and its convergence  is guaranteed. We demonstrate that this approach can be  applied to a large class of models in several domains, including  mixture models and source separation.  1 Introduction  A standard method to learn a graphical model  1  from data is maximum likelihood (ML). Given a training dataset, ML estimates a single optimal value f...",
+            "title": "A Variational Bayesian Framework for Graphical Models"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.40.3614",
+            "keyword": "",
+            "author": "M. I. Jordan,  Zoubin Ghahramani,  Tommi S. Jaakkola,  Lawrence K. Saul",
+            "abstract": "This paper presents a tutorial introduction to the use of variational methods for inference and learning in graphical models. We present a number of examples of graphical models, including the QMR-DT database, the sigmoid belief network, the Boltzmann machine, and several variants of hidden Markov models, in which it is infeasible to run exact inference algorithms. We then introduce variational methods, showing how upper and lower bounds can be found for local probabilities, and discussing methods for extending these bounds to bounds on global probabilities of interest. Finally we return to the examples and demonstrate how variational algorithms can be formulated in each case.",
+            "title": "An Introduction to Variational Methods for Graphical Models"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.33.1187",
+            "keyword": "",
+            "author": "Thomas Hofmann",
+            "abstract": "Probabilistic Latent Semantic Analysis is a novel statistical technique for the analysis of two--mode and co-occurrence data, which has applications in information retrieval and filtering, natural language processing, machine learning from text, and in related areas. Compared to standard Latent Semantic Analysis which stems from linear algebra and performs a Singular Value Decomposition of co-occurrence tables, the proposed method is based on a mixture decomposition derived from a latent class model. This results in a more principled approach which has a solid foundation in statistics. In order to avoid overfitting, we propose a widely applicable generalization of maximum likelihood model fitting by tempered EM. Our approach yields substantial and consistent improvements over Latent Semantic Analysis in a number of experiments.",
+            "title": "Probabilistic Latent Semantic Analysis"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.25.2936",
+            "keyword": "",
+            "author": "Holger H. Hoos, Kai Renz,  Marko G\u00f6rg",
+            "abstract": "Musical databases are growing in number,  size, and complexity, and they are becoming  increasingly relevant for a broad range  of academic as well as commercial applications.",
+            "title": "GUIDO/MIR - an Experimental Musical Information Retrieval System based on GUIDO Music Notation"
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.16.2014",
+            "keyword": "Object recognition, correspondence, EM algorithm",
+            "author": "Pinar Duygulu,  Kobus Barnard,  Nando de Freitas, P. Duygulu, K. Barnard,  David Forsyth",
+            "abstract": "We describe a model of object recognition as machine translation.",
+            "title": "Object Recognition as Machine Translation: Learning a Lexicon for a Fixed Image Vocabulary"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.14.1729",
+            "keyword": "",
+            "author": "Fernando Pereira,  Naftali Tishby,  Lillian Lee",
+            "abstract": "We describe and evaluate experimentally a method for clustering words according to their dis- tribution in particular syntactic contexts. Words are represented by the relative frequency distributions of contexts in which they appear, and relative entropy between those distributions is used as the similarity measure for clustering. Clusters are represented by average context distributions derived from the given words according to their probabilities of cluster membership. In many cases, the clusters can be thought of as encoding coarse sense distinctions. Deterministic annealing is used to find lowest distortion sets of clusters: as the an- nealing parameter increases, existing clusters become unstable and subdivide, yielding a hierarchi- cal \"soft\" clustering of the data. Clusters are used as the basis for class models of word coocurrence, and the models evaluated with respect to held-out test data.",
+            "title": "Distributional Clustering Of English Words"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.133.4884",
+            "keyword": "MAXIMUM LIKELIHOOD, INCOMPLETE DATA, EM ALGORITHM, POSTERIOR MODE",
+            "author": "A. P. Dempster, N. M. Laird, D. B. Rubin",
+            "abstract": "A broadly applicable algorithm for computing maximum likelihood estimates from incomplete data is presented at various levels of generality. Theory showing the monotone behaviour of the likelihood and convergence of the algorithm is derived. Many examples are sketched, including missing value situations, applications to grouped, censored or truncated data, finite mixture models, variance component estimation, hyperparameter estimation, iteratively reweighted least squares and factor analysis.\r\n",
+            "title": "Maximum likelihood from incomplete data via the EM algorithm"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.1.4458",
+            "keyword": "",
+            "author": "Thomas Hofmann  ",
+            "abstract": "Probabilistic Latent Semantic Indexing is a novel approach to automated document indexing which is based on a statistical latent class model for factor analysis of count data. Fitted from a training corpus of text documents by a generalization of the Expectation Maximization algorithm, the utilized model is able to deal with domain-specific synonymy as well as with polysemous words. In contrast to standard Latent Semantic Indexing (LSI) by Singular Value Decomposition, the probabilistic variant has a solid statistical foundation and defines a proper generative data model. Retrieval experiments on a number of test collections indicate substantial performance gains over direct term matching methodsaswell as over LSI. In particular, the combination of models with different dimensionalities has proven to be advantageous.  ",
+            "title": "Probabilistic Latent Semantic Indexing"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.104.1055",
+            "keyword": "",
+            "author": "Nathalie Henry, Jean-daniel Fekete",
+            "abstract": "Abstract \u2014 MatrixExplorer is a network visualization system that uses two representations: node-link diagrams and matrices. Its design comes from a list of requirements formalized after several interviews and a participatory design session conducted with social science researchers. Although matrices are commonly used in social networks analysis, very few systems support the matrix-based representations to visualize and analyze networks. MatrixExplorer provides several novel features to support the exploration of social networks with a matrix-based representation, in addition to the standard interactive filtering and clustering functions. It provides tools to reorder (layout) matrices, to annotate and compare findings across different layouts and find consensus among several clusterings. MatrixExplorer also supports Node-link diagram views which are familiar to most users and remain a convenient way to publish or communicate exploration results. Matrix and node-link representations are kept synchronized at all stages of the exploration process. Index Terms \u2014 social networks visualization, node-link diagrams, matrix-based representations, exploratory process, matrix ordering, interactive clustering, consensus. Fig. 1. MatrixExplorer showing two synchronized representations of the same network: matrix on the left and node-link on the right. 1",
+            "title": "MatrixExplorer: a Dual-Representation System to Explore Social Networks"
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.13.9919",
+            "keyword": "",
+            "author": "Peter F. Brown,  Peter V. deSouza, Robert L. Mercer,  Vincent J. Della Pietra,  Jenifer C. Lai",
+            "abstract": "We address the problem of predicting a word from previous words in a sample of text. In particular we discuss n-gram models based on calsses of words. We also discuss several statistical algoirthms for assigning words to classes based on the frequency of their co-occurrence with other words. We find that we are able to extract classes that have the flavor of either syntactically based groupings or semantically based groupings, depending on the nature of the underlying statistics.",
+            "title": "Class-Based n-gram Models of Natural Language"
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.15.579",
+            "keyword": "",
+            "author": "Donald Hindle ",
+            "abstract": "A method of determining the similarity of nouns on the basis of a metric derived from the distribution  of subject, verb and object in a large text corpus is described. The resulting quasi-semantic classification of nouns demonstrates the plausibility of the distributional hypothesis, and has potential application to a variety of tasks, including automatic indexing, resolving nominal compounds, and determining the scope of modification.",
+            "title": "Noun Classification From Predicate.argument Structures"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.106.5621",
+            "keyword": "",
+            "author": "Emden R. Gansner, Stephen C. North",
+            "abstract": "We describe a package of practical tools and libraries for manipulating graphs and their drawings. Our design, which aimed at facilitating the combination of the package components with other tools, includes stream and event interfaces for graph operations, high-quality static and dynamic layout algorithms, and the ability to handle sizable graphs. We conclude with a description of the applications of this package to a variety of software engineering tools.",
+            "title": "An open graph visualization system and its applications to software engineering"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.123.7607",
+            "keyword": "",
+            "author": "S. Kirkpatrick, C. D. Gelatt, M. P. Vecchi",
+            "abstract": "prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you may use content in the JSTOR archive only for your personal, non-commercial use. Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at",
+            "title": "Optimization by simulated annealing"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.162.2367",
+            "keyword": "",
+            "author": "Eytan Adar",
+            "abstract": "As graph models are applied to more widely varying fields, researchers struggle with tools for exploring and analyzing these structures. We describe GUESS, a novel system for graph exploration that combines an interpreted language with a graphical front end that allows researchers to rapidly prototype and deploy new visualizations. GUESS also contains a novel, interactive interpreter that connects the language and interface in a way that facilities exploratory visualization tasks. Our language, Gython, is a domain-specific embedded language which provides all the advantages of Python with new, graph specific operators, primitives, and shortcuts. We highlight key aspects of the system in the context of a large user survey and specific, real-world, case studies ranging from social and knowledge networks to distributed computer network analysis.",
+            "title": "a language and interface for graph exploration"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.126.4437",
+            "keyword": "",
+            "author": "Brian W. Kernighan, Dennis M. Ritchie",
+            "abstract": "C is a general-purpose programming language. It has been closely associated with the UNIX operating system where it was developed, since both the system and most of the programs that run on it are written in C. The language, however, is not tied to any one operating system or machine; and although it has been called a \u2018\u2018system programming language\u2019\u2019 because it is useful for writing compilers and operating systems, it has been used equally well to write major programs in many different\r\ndomains.\r\nMany of the important ideas of C stem from the language BCPL, developed by Martin Richards. The influence of BCPL on\r\nC proceeded indirectly through the language B, which was written by Ken Thompson in 1970 for the first UNIX system on\r\nthe DEC PDP-7.\r\nBCPL and B are \u2018\u2018typeless\u2019\u2019 languages. By contrast, C provides a variety of data types. The fundamental types are characters, and integers and floating point numbers of several sizes. In addition, there is a hierarchy of derived data types created with pointers, arrays, structures and unions. Expressions are formed from operators and operands; any expression, including an assignment or a function call, can be a statement. Pointers provide for machine-independent address arithmetic.\r\nC provides the fundamental control-flow constructions required for well-structured programs: statement grouping, decision making (if-else), selecting one of a set of possible values (switch), looping with the termination test at the top (while, for) or at the bottom (do), and early loop exit (break).\r\nFunctions may return values of basic types, structures, unions, or pointers. Any function may be called recursively. Local variables are typically \u2018\u2018automatic\u2019\u2019, or created anew with each invocation. Function definitions may not be nested but variables may be declared in a block-structured fashion. The functions of a C program may exist in separate source files that are compiled separately. Variables may be internal to a function, external but known only within a single source file, or visible to the entire program.",
+            "title": "The C programming Language"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.183.535",
+            "keyword": "Conceptual Modeling, Dead Code Detection, Program Database, Software Repository, Reachablity Analysis, Reverse Engineering, Static Analysis",
+            "author": "Yih-farn Chen, Emden R. Gansner, Eleftherios Koutso Os",
+            "abstract": "Abstract | A software repository provides a central information source for understanding and reengineering code in a software project. Complex reverse engineering tools can be built by analyzing information stored in the repository without reparsing the original source code. The most critical design aspect of a repository is its data model, which directly a ects how e ectively the repository supports various analysis tasks. This paper focuses on the design rationales behind a data model for a C++ software repository that supports reachability analysis and dead code detection at the declaration level. These two tasks are frequently needed in large software projects to help remove excess software baggage, select regression tests, and support software reuse studies. The language complexity introduced by class inheritance, friendship, and template instantiation in C++ requires a carefully designed model to catch all necessary dependencies for correct reachability analysis. We examine the major design decisions and their consequences in our model and illustrate how future software repositories can be evaluated for completeness at a selected abstraction level. Examples are given to illustrate how our model also supports variants of reachability analysis: impact analysis, class visibility analysis, and dead code detection. Finally, wediscuss the implementation and experience of our analysis tools on a few C++ software projects.",
+            "title": "A C++ Data Model Supporting Reachability Analysis and Dead Code Detection"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.38.3837",
+            "keyword": "",
+            "author": "E. R. Gansner, S. C. North,  K.P. Vo",
+            "abstract": "dag is a pic or POSTSCRIPT preprocessor that draws directed graphs. It works well on acyclic graphs and other graphs that can be drawn as hierarchies. Graph descriptions contain nodes, edges, and optional control statements. Here is a drawing of a graph from Forrester's book, World Dynamics (Wright-Allen, Cambridge, MA, 1971). It took 2.1 CPU seconds on a VAX-8650 to make this drawing. S8 9 S24 25 27 S1 2 10 S35 43 36 S30 31 33 42 T1 26 T24 3 16 17 18 11 14 13 12 32 T30 34 4 15 19 29 37 39 41 38 40 23 5 21 20 28 6 T35 22 7 T8 I. Introduction  Directed graphs have many applications in computing, such as describing data structures, finite automata, data flow, procedure calls, and software configuration dependencies. A picture is a good way to represent a directed graph. It is seldom easy to understand much about a graph from a list of edges, but with a picture one can quickly find individual nodes, groups of related nodes, and trace paths in the graph. The main obstacle is that it can be...",
+            "title": "DAG - A Program that Draws Directed Graphs"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": "0.082108288516"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": "0.082108288516"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": "0.0656272818509"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": "0.213532867487"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": "0.180590405166"
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "value": "0.131176711685"
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": "0.229622316942"
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "value": "0.145849045412"
+        },
+        {
+            "source": 4,
+            "target": 9,
+            "value": "0.145849045412"
+        },
+        {
+            "source": 7,
+            "target": 10,
+            "value": "0.194223104551"
+        },
+        {
+            "source": 7,
+            "target": 11,
+            "value": "0.179241365724"
+        },
+        {
+            "source": 7,
+            "target": 12,
+            "value": "0.149277888069"
+        },
+        {
+            "source": 10,
+            "target": 13,
+            "value": "0.333868965673"
+        },
+        {
+            "source": 10,
+            "target": 14,
+            "value": "0.244622988558"
+        },
+        {
+            "source": 10,
+            "target": 15,
+            "value": "0.177688505721"
+        },
+        {
+            "source": 13,
+            "target": 16,
+            "value": "0.131278614779"
+        },
+        {
+            "source": 13,
+            "target": 17,
+            "value": "0.131278614779"
+        },
+        {
+            "source": 13,
+            "target": 18,
+            "value": "0.12305519325"
+        },
+        {
+            "source": 16,
+            "target": 19,
+            "value": "0.0826244372383"
+        },
+        {
+            "source": 16,
+            "target": 20,
+            "value": "0.0722496825447"
+        },
+        {
+            "source": 16,
+            "target": 21,
+            "value": "0.0618749278511"
+        }
+    ]
+}

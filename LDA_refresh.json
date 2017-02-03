@@ -1,0 +1,66 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.15.9292",
+            "keyword": "",
+            "author": "Simon Tong, Daphne Koller ",
+            "abstract": "The task of causal structure discovery from empirical data is  a fundamental problem in many areas. Experimental data is  crucial for accomplishing this task. However, experiments  are typically expensive, and must be selected with great care. This paper",
+            "title": "Active Learning for Structure in Bayesian Networks"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.156.9918",
+            "keyword": "",
+            "author": "David Heckerman, David M. Chickering",
+            "abstract": "We describe scoring metrics for learning Bayesian networks from a combination of user knowledge and statistical data. We identify two important properties of metrics, which we call event equivalence and parameter modularity. These properties have been mostly ignored, but when combined, greatly simplify the encoding of a user\u2019s prior knowledge. In particular, a user can express his knowledge\u2014for the most part\u2014as a single prior Bayesian network for the domain. 1",
+            "title": "Learning Bayesian networks: The combination of knowledge and statistical data"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.52.1068",
+            "keyword": "",
+            "author": "Wray Buntine",
+            "abstract": "Theory refinement is the task of updating a domain theory in the light of new cases, to be done automatically or with some expert assistance. The problem of theory refinement under uncertainty is reviewed here in the context of Bayesian statistics, a theory of belief revision. The problem is reduced to an incremental learning task as follows: the learning system is initially primed with a partial theory supplied by a domain expert, and thereafter maintains its own internal representation of alternative theories which is able to be interrogated by the domain expert and able to be incrementally refined from data. Algorithms for refinement of Bayesian networks are presented to illustrate what is meant by \"partial theory\", \"alternative theory representation \", etc. The algorithms are an incremental variant of batch learning algorithms from the literature so can work well in batch and incremental mode. 1 Introduction Theory refinement is the task of updating a domain theory in the light of...",
+            "title": "Theory Refinement on Bayesian Networks"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.48.9593",
+            "keyword": "",
+            "author": "David Heckerman, Christopher Meek, Gregory Cooper",
+            "abstract": "We examine the Bayesian approach to the discovery of directed acyclic causal models and compare it to the constraint-based approach. Both approaches rely on the Causal Markov assumption, but the two differ significantly in theory and practice. An important difference between the approaches is that the constraint-based approach uses categorical information about conditional-independence constraints in the domain, whereas the Bayesian approach weighs the degree to which such constraints hold. As a result, the Bayesian approach has three distinct advantages over its constraint-based counterpart. One, conclusions derived from the Bayesian approach are not susceptible to incorrect categorical decisions about independence facts that can occur with data sets of finite size. Two, using the Bayesian approach, finer distinctions among model structures---both quantitative and qualitative---can be made. Three, information from several models can be combined to make better inferences and to better ...",
+            "title": "A Bayesian Approach to Causal Discovery"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.100.1923",
+            "keyword": "",
+            "author": "",
+            "abstract": "Adaptable component model (ACM) is proposed based on the product line analysis. The ACM helps revealing variable parts in the system and tailoring them in real time based on pre-defined rules as such enhancing and maintaining an enterprise level application system are effectively managed. With the rule components, we can make necessary changes easily to adapt to new business context. A pilot study was conducted at an enterprise-level application. The productivity improvement performance was resulted in 6 times effective in average in terms of LOC and 2 times decreased workload in terms of M-day for one new product addition. The quality improvement was resulted in 5 times less in average in terms of the number of defects and 3 times decreased workload. Accordingly, this paper (1) proposes a component architecture based on ACM (2) defines the rule components to define variable parts of business, and (3) introduces a case study which applies product line based ACM.",
+            "title": "Abstract Adaptable Component Model for Product"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": "0.11671798995"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": "0.0193673373204"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": "0.00509196072912"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": "1.0"
+        }
+    ]
+}

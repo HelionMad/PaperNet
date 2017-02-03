@@ -1,0 +1,13 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.221.1",
+            "keyword": "",
+            "author": "Luiz S. Oliveira, Ro L. Koerich, Marcelo Mansano",
+            "abstract": "Although it shows enormous potential as a feature extractor, 2D principal component analysis (2DPCA) produces numerous coefficients. Using a feature-selection algorithm based on a multiobjective genetic algorithm to analyze and discard irrelevant coefficients offers a solution that considerably reduces the number of coefficients, while also improving recognition rates. 1521-9615/11/$26.00 \u00a9 2011 IEEE Copublished by the IEEE CS and the AIP Face recognition and facial-expression recognition have been active research fields for several years. Potential application areas include access control, searching mug shots, screening, security monitoring and surveillance systems, human-computer interaction, emotion analysis, and automated tutoring systems. Both face and facial-expression recognition continue to attract researchers from image processing, pattern recognition, machine learning, and computer vision. 1 Several attempts have been made to improve the reliability of these recognition systems. One highly successful approach is eigenfaces, which Matthew Turk and Alex Pentland proposed in 19912 based on principal component analysis (PCA). Since then, researchers have been investigating PCA and using it as a basis for developing successful techniques for face and facial-expression recognition. 1",
+            "title": "2D Principal Component Analysis for Face and Facial-Expression Recognition"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,1319 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.219.6784",
+            "keyword": "",
+            "author": "Rakesh Agrawal, Ramakrishnan Srikant",
+            "abstract": "We consider the problem of discovering association rules between items in a large database of sales transactions. We present two new algorithms for solving this problem that are fundamentally di erent from the known algorithms. Experiments with synthetic as well as real-life data show that these algorithms outperform the known algorithms by factors ranging from three for small problems to more than an order of magnitude for large problems. We also show how the best features of the two proposed algorithms can be combined into a hybrid algorithm, called AprioriHybrid. Scale-up experiments show that AprioriHybrid scales linearly with the number of transactions. AprioriHybrid also has excellent scale-up properties with respect to the transaction size and the number of items in the database. 1",
+            "title": "Fast algorithms for mining association rules"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.132.6576",
+            "keyword": "",
+            "author": "",
+            "abstract": "Motivation: Here we present two approaches to solving the substructure similarity problem. The first approach is a parallel version of a previously developed substructure mining algorithm. The second is an algorithm that operates on the protein domain and uses a protein\u2019s amino acid sequence in addition to substructures to determine similarity. 1",
+            "title": ""
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.132.6919",
+            "keyword": "",
+            "author": "Frans Coenen, Paul Leng, Aris Pagourtzis, Wojciech Rytter, Dora Souliou",
+            "abstract": "Mining association rules in relational databases is a significant computational task with lots of applications. A fundamental ingredient of this task is the discovery of sets of attributes (itemsets) whose frequency in the data exceeds some threshold value. In previous work [9] we have introduced an approach to this problem which begins by carrying out an efficient partial computation of the necessary totals, storing these interim results in a set-enumeration tree. This work demonstrated that making \u2217 Aris Pagourtzis and Dora Souliou were partially supported for this research by \u201cPythagoras\u201d",
+            "title": "Improved Methods for Extracting Frequent Itemsets from Interim-Support Trees"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.132.7422",
+            "keyword": "",
+            "author": "Hendrik Blockeel, Toon Calders, Elisa Fromont, Bart Goethals, Adriana Prado",
+            "abstract": "Abstract \u2014 We present a system towards the integration of data mining into relational databases. To this end, a relational database model is proposed, based on the so called virtual mining views. We show that several types of patterns and models over the data, such as itemsets, association rules and decision trees, can be represented and queried using a unifying framework. I.",
+            "title": "Mining Views: Database Views for Data Mining"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.132.7660",
+            "keyword": "",
+            "author": "Anjo Anjewierden, Bas Koll\u00f6ffel, Casper Hulshof",
+            "abstract": "methods for automated chat analysis to understand and support inquiry learning processes",
+            "title": "Towards educational data mining: Using data mining"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.132.8641",
+            "keyword": "",
+            "author": "Hongyan Liu, Jiawei Han, Dong Xin, Zheng Shao",
+            "abstract": null,
+            "title": "Top-Down Mining of Frequent Patterns from Very High Dimensional Data"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.132.8785",
+            "keyword": "",
+            "author": "Stefan Mutter",
+            "abstract": "",
+            "title": "Classification using . . . "
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.132.9801",
+            "keyword": "",
+            "author": "Amol Ghoting, Matthew Eric Otey, Srinivasan Parthasarathy, The Ohio",
+            "abstract": "Detecting outliers or anomalies efficiently is an important problem in many areas of science, medicine and information technology. Applications range from data cleaning to fraud and intrusion detection. Most approaches to date have focused on detecting outliers in a continuous attribute space. However, almost all real-world data sets contain a mixture of continuous and categorical attributes, and the categorical attributes are either ignored or handled in an ad-hoc manner by current approaches, resulting in a loss of information. The challenge is to efficiently identify outliers in mixed attribute data sets under a variety of constraints, such as minimizing the time to respond, and adapting to the data influx rate. To address this challenge, we present LOADED, a one-pass algorithm for outlier detection in evolving data sets containing both continuous and categorical attributes. LOADED is a tunable algorithm, wherein one can trade off computation for accuracy so that domain-specific (e.g. intrusion detection) response times are achieved. Experimental results validate the effectiveness of our schemes over several real data sets. LOADED provides very good detection and false positive rates, which are several times better than those provided by existing distance-based schemes. 1",
+            "title": "Loaded: Link-based outlier and anomaly detection in evolving data sets"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.133.51",
+            "keyword": "",
+            "author": "Nikos Mamoulis, David W. Cheung, Wang Lian",
+            "abstract": "Data mining applications analyze large collections of set data and high dimensional categorical data. Search on these data types is not restricted to the classic problems of mining association rules and classification, but similarity search is also a frequently applied operation. Access methods for multidimensional numerical data are inappropriate for this problem and specialized indexes are needed. We propose a method that represents set data as bitmaps (signatures) and organizes them into a hierarchical index, suitable for similarity search and other related query types. In contrast to a previous technique, the signature tree is dynamic and does not rely on hardwired constants. Experiments with synthetic and real datasets show that it is robust to different data characteristics, scalable to the database size and efficient for various queries. 1",
+            "title": "Similarity search in sets and categorical data using the signature tree"
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.133.2125",
+            "keyword": "",
+            "author": "Po-shan Kam",
+            "abstract": "",
+            "title": "Discovering Temporal Patterns for Interval-based Events "
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.133.2367",
+            "keyword": "distributed data mining",
+            "author": "Jie Chi, Mehmet Koyut\u00fcrk, Ananth Grama",
+            "abstract": "The problem of constructing bounded-error summaries of binary attributed data of very high dimensions is an important and difficult one. These summaries enable more expensive analysis techniques to be applied efficiently with little loss in accuracy. Recent work in this area has resulted in the use of discrete linear algebraic transforms to construct such summaries efficiently. This paper addresses the problem of constructing summaries of distributed datasets. Specifically, the problem can be stated as follows: given a set of n discrete attributed vectors distributed across p sites, construct a summary of k << n vectors such that each of the input vectors is within given bounded distance from some output vector. In addition to being algorithmically efficient (i.e., must do no more work than corresponding serial algorithm), the distributed formulation must have low parallelization overheads. We present here, CONQUEST, a tool that achieves excellent performance and scalability for summarizing distributed datasets. In contrast to traditional parallel techniques that distribute the kernel operations, CONQUEST uses a less aggressive parallel formulation that relies on the principle of sampling to reduce communication overhead while maintaining high accuracy. Specifically, each individual site computes its local patterns independently. Various sites cooperate within dynamically orchestrated workgroups to construct consensus patters from these local patterns. Individual sites then decide to participate in the consensus or leave the group. Experimental results on a set of Intel Xeon servers demonstrate that this strategy is capable of excellent performance in terms of compression time, ratio, and accuracy with respect to postprocessing tasks. The communication overhead associated with CONQUEST is also shown to be minimal, making it ideally suited to wide-area deployment.",
+            "title": "CONQUEST: A distributed tool for constructing summaries of high-dimensional discrete-attributed datasets"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.133.3676",
+            "keyword": "mining, scientific",
+            "author": "David M. Fram",
+            "abstract": "Because of practical limits in characterizing the safety profiles of therapeutic products prior to marketing, manufacturers and regulatory agencies perform post-marketing surveillance based on the collection of adverse reaction reports (&quot;pharmacovigilance&quot;). The resulting databases, while rich in real-world information, are notoriously difficult to analyze using traditional techniques. Each report may involve multiple medicines, symptoms, and demographic factors, and there is no easily linked information on drug exposure in the reporting population. KDD techniques, such as association finding, are well-matched to the problem, but are difficult for medical staff to apply and interpret. To deploy KDD effectively for pharmacovigilance, Lincoln Technologies and GlaxoSmithKline collaborated to create a webbased safety data mining web environment. The analytical core is a high-performance implementation of the MGPS (Multi-Item Gamma Poisson Shrinker) algorithm described previously by DuMouchel and Pregibon, with several significant extensions and enhancements. The environment offers an interface for specifying data mining runs, a batch execution facility, tabular and graphical methods for exploring associations, and drilldown to case details. Substantial work was involved in preparing the raw adverse event data for mining, including harmonization of drug names and removal of duplicate reports. The environment can be used to explore both drug-event and multi-way associations (interactions, syndromes). It has been used to study age/gender effects, to predict the safety profiles of proposed combination drugs, and to separate contributions of individual drugs to safety problems in polytherapy situations.",
+            "title": "Empirical bayesian data mining for discovering patterns in post-marketing drug safety"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.133.3678",
+            "keyword": "",
+            "author": "Jarek Nabrzyski,  Jennifer M. Schopf, Jan Weglarz",
+            "abstract": "",
+            "title": "GRID RESOURCE MANAGEMENT  -- State of the art and future trends"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.133.4045",
+            "keyword": "Allocating Patterns, Association Rules, Data Mining, Investments, Portfolio Management, Weighted Association Rules",
+            "author": "Yanbo J. Wang, Xinwei Zheng, Frans Coenen",
+            "abstract": "An Association Rule (AR) is a common type of mined knowledge in data mining that describes an implicative co-occurring relationship between two sets of binary-valued transaction-database attributes (items), expressed in the form of an \u2329antecedent \u232a  \u21d2 \u2329consequent \u232a rule. A variation of ARs is the Weighted Association Rules (WARs), which addresses the weighting issue in ARs. A special case of WARs can be introduced as the \u201cone-sum \u201d WARs, where each item in a rule is assigned with a weighting score between 0 and 1, and the sum of all rule-item scores is 1. A one-sum WAR can not only indicate the implicative co-occurring relationship between two sets of items in a weighting setting, but also inform the \u201callocating \u201d relationship among rule-items. In this chapter, the authors introduce the concept of one-sum WAR and name such WARs as Allocating Patterns (ALPs). An algorithm is proposed to extract all hidden and interesting ALPs from a one-sum weighted transaction-database (the well-established transaction-database in a one-sum weighting fashion). The authors further indicate that ALPs can be applied in portfolio management (the core study in investments research). Firstly by modelling a collection of investment portfolios as a one-sum weighted transaction-database that contains hidden ALPs. Secondly the authors show that ALPs, mined from the given portfolio-data, can be applied to guide future investment activities. The experimental results show good performance that demonstrates the effectiveness of using ALPs in the proposed application.",
+            "title": "Mining Allocating Patterns in Investment Portfolios  "
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.133.4372",
+            "keyword": "",
+            "author": "Mehmet Dalkilic, Arijit Sengupta",
+            "abstract": "We present a novel classifier based upon principles of logic-theoretic Boolean function minimization. The classifier, called Circle, recursively produces a set of implicants (or rules). The implicant set contains information not only about the presence of features, but also about their absence in determining class values. Thus, Circle\u2019s implicant set is initially non-monotonic with respect to inserting new tuples that have feature values that were not in the training set. One important benefit of this non-monotonicity, however, is that Circle is capable of being robust in the presence of novel feature values. We have created a full implementation of Circle using Java as a host language and Oracle database backend. Because we are interested in data mining in bioinformatics, particularly genomic data, the database was borne out of necessity to both manage and effectively query the information. 1",
+            "title": "A Logic-theoretic classifier called Circle"
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.133.4405",
+            "keyword": "Apriori algorithm, association rule, data mining, incremental mining, multidimensional mining, negative",
+            "author": "Ching-yao Wang, Shian-shyong Tseng, Tzung-pei Hong, Yian-shu Chu",
+            "abstract": "Recently, some researchers have developed incremental and online mining approaches to maintain association rules without having to re-process the entire database whenever the database is updated or user specified thresholds are changed. However, they usually can not flexibly obtain association rules or patterns from portions of data, consider problems with different aspects, or provide online decision support for users. We earlier developed an online mining approach for generation of association rules under multidimensional consideration. The multidimensional online mining approach may, however, get loose upper-bound support of candidate itemsets and thus cause excessive I/O and computation costs. In this paper, we attempt to apply the concept of a negative border to enlarge the mining information in the multidimensional pattern relation to help get tighter upper-bound, and thus reduce the number of candidate itemsets to consider. Based on the extended multidimensional pattern relation, a corresponding online mining approach called Negative-Border Online Mining (NOM) is proposed to efficiently and effectively utilize the information of negative itemset in the negative border. Experiments for heterogeneous datasets are also performed to show the effectiveness of the proposed approach.",
+            "title": "Online Generation of Association Rules under Multidimensional Consideration Based on Negative-Border *"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.133.5168",
+            "keyword": "",
+            "author": "Gao Cong",
+            "abstract": "",
+            "title": "Mining top-k covering rule groups for gene expression data"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.133.7901",
+            "keyword": "",
+            "author": "G. Buehrer, A. Ghoting, Xi Zhang, S. Tatikonda, S. Parthasarathy, T. Kurc, J. Saltz",
+            "abstract": "Advances in data collection and storage technologies have given rise to large dynamic data stores. In order to effectively manage and mine such stores on modern and emerging architectures, one must consider both designing effective middleware support and re-architecting algorithms, to derive performance that commensurates with technological advances. In this article, we present a topdown view of how one can achieve this goal for next generation data analysis centers. Specifically, we present a case study on frequent pattern algorithms, and show how such algorithms can be re-structured to be cache, memory and I/O conscious. Furthermore, motivated by such algorithms, we present a services oriented middleware framework for the derivation of high performance on next generation architectures. 1",
+            "title": "I/O Conscious Algorithm Design and Systems Support for Data Analysis on Emerging Architectures \u2217"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.133.8060",
+            "keyword": "",
+            "author": "Liang Chen, Gagan Agrawal",
+            "abstract": "There are many application classes where the users are flexible with respect to the output quality. At the same time, there are other constraints, such as the need for real-time or interactive response, which are more crucial. This paper presents and evaluates a runtime algorithm for supporting adaptive execution for such applications. The particular domain we target is distributed data mining on streaming data. This work has been done in the context of a middleware system called GATES (Grid-based AdapTive Execution on Streams) that we have been developing. The self-adaptation algorithm we present and evaluate in this paper has the following characteristics. First, it carefully evaluates the long-term load at each processing stage. It consider different possibilities for the load at a processing stage and its next stages, and decides if the value of an adaptation parameter needs to be modified, and if so, in which direction. To find the ideal new value of an adaptation parameter, it performs a binary search on the specified range of the parameter. To evaluate the self-adaptation algorithm in our middleware, we have implemented two streaming data mining applications. The main observations from our experiments are as follows. First, our algorithm is able to quickly converge to stable values of the adaptation parameter, for different data arrival rates, and independent of the specified initial value. Second, in a dynamic environment, the algorithm is able to adapt the processing rapidly. Finally, in both static and dynamic environments, the algorithm clearly outperforms the algorithm described in our earlier work and an obvious alternative, which is based on linear-updates. 1.",
+            "title": "Supporting self-adaptation in streaming data mining applications"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.133.8403",
+            "keyword": "",
+            "author": "Jeroen De Knijf, Ad Feelders",
+            "abstract": "Recent studies show that using constraints that can be pushed into the mining process, substantially improves the performance of frequent pattern mining algorithms. However the constraints and algorithms have not yet been explored for frequent structure mining. In this paper we present monotone constraints for trees and develop an opportunistic pruning algorithm that mines frequent trees with monotone constraints. We illustrate the use of these constraints within the application of web log mining. Finally, the effect of applying these constraints on synthetic data sets is evaluated. The opportunistic pruning methods leads to a considerable speedup and a reduction in the number of candidates generated compared to the basic algorithm.",
+            "title": "Monotone Constraints in Frequent Tree Mining"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.133.9686",
+            "keyword": "",
+            "author": "Tapan Kamdar, Anupam Joshi, Tapan Kamdar, Anupam Joshi",
+            "abstract": "Personalization of content returned from a web site is an important problem in general, and affects e-commerce and e-services in particular. Targeting appropriate information or products to the end user can significantly change (for the better) the users experience on a web site. One possible approach to web personalization is to mine typical user profiles from the vast amount of historical data stored in access logs. In the absence of any a priori knowledge, unsupervised classification or clustering methods are ideally suited to analyze the semi-structured log data of user accesses by examining user sessions. User access profiles are generated by clustering user sessions on the basis of pair-wise dissimilarities using a robust fuzzy clustering algorithm.We present a system that mines the logs to get profiles and uses them to automatically generate a web page containing URLs the user might be interested in. We also evaluate the efficacy of sessionizing the information with and without the use of cookies. 1",
+            "title": "On creating adaptive web servers using weblog mining"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.134.1266",
+            "keyword": "mining",
+            "author": "Maria Rigou",
+            "abstract": "Online learning communities may greatly benefit from incorporating adaptive features which take advantage of the knowledge and experiences of community members and use it to better serve each individual depending on personal preferences, goals and needs, as well as the history of activity in the community. This paper investigates the incorporation of adaptive features in online learning communities and focuses on deploying web mining techniques for this purpose. It presents a pilot system that experiments with the application of a number of adaptation forms and concludes with identifying some open issues and concerns in the domain of applying adaptiveness to web environments that host learning communities.",
+            "title": " ON THE DEVELOPMENT OF ADAPTIVE WEB-BASED LEARNING COMMUNITIES"
+        },
+        {
+            "group": 22,
+            "name": "10.1.1.134.2013",
+            "keyword": "Data Mining, Association Rul",
+            "author": "Stephen Krebsbach, Qiang Ding, William Jockheck, William Perrizo",
+            "abstract": "Abstract. Spatial data mining of Remotely Sensed Images (RSI) has become an important field of research as extremely large amounts of data are being collected from remote sources such as the Landsat satellite Thematic Mapper (TM) and other remote imaging systems. Association Rule Mining (ARM) has become an important method for mining large amounts of data in many areas beyond its originally proposed market-basket domain. The popularity of ARM comes from the well-known a-priori algorithm that exploits a user-specified minimum support (called minsup). Rules of interest are defined as only those lying within the set of rules that exceed this support level. To work efficiently, rules of interest need to be restricted to those that occur frequently. While this restriction enables a-priori based data mining to perform efficiently it rules out the discover of an entire class of rules of interest which are pruned for lack of support. Such a class of rules is of interest in applications such as those found in the agricultural domain where a rule of interest might address early insect infestation; a rule with extremely low support but of extremely high interest to a producer. In this paper, we develop a conceptual decision cube called a P-cube that is derived from a P-tree storage of remotely sensed images. This conceptual P-cube is then used to help develop an efficient algorithm for discovering high confidence rules using a precision-hierarchy approach. This approach discovers high confidence rules without concern for 1 Patents are pending on the bSQ and P-tree technology from which the P-cube is derived.",
+            "title": "Discovery of High Confidence Association Rules in Remotely Sensed Images Without Regard for Support 12"
+        },
+        {
+            "group": 23,
+            "name": "10.1.1.134.3499",
+            "keyword": "",
+            "author": "Jiong Yang, Wei Wang",
+            "abstract": "Pattern discovery in long sequences is of great importance in many applications including computational biology study, con-sumer behavior analysis, system performance analysis, etc. In a noisy environment, an observed sequence may not accurately reflect the underlying behavior. For example, in a protein se-quence, the amino acid N is likely to mutate to D with little impact to the biological function of the protein. It would be desirable if the occurrence of D in the observation can be re-lated to a possible mutation from N in an appropriate manner. Unfortunately, the support measure (i.e., the number of occur-rences) of a pattern does not serve this purpose. In this paper, we introduce the concept of compatibility matrix as the means to provide a probabilistic connection from the observation to the underlying true value. A new metric match is also pro-posed to capture the &quot;real support &quot; of a pattern which would be expected if a noise-free environment is assumed. In addition, in the context we address, a pattern could be very long. The standard pruning technique developed for the market basket problem may not work efficiently. As a result, a novel algo-rithm that combines statistical sampling and a new technique (namely border collapsing) is devised to discover long patterns in a minimal number of scans of the sequence database with sufficiently high confidence. Empirical results demonstrate the robustness of the match model (with respect to the noise) and the efficiency of the probabilistic algorithm. 1.",
+            "title": "Mining long sequential patterns in a noisy environment"
+        },
+        {
+            "group": 24,
+            "name": "10.1.1.134.3676",
+            "keyword": "",
+            "author": "G. Buehrer, A. Ghoting, S. Tatikonda, S. Parthasarathy, T. Kurc, J. Saltz",
+            "abstract": "Advances in data collection and storage technologies have given rise to large dynamic data stores. In order to effectively manage and mine such stores on modern and emerging architectures, one must consider both designing effective middleware support and re-architecting algorithms, to derive performance that commensurates with technological advances. In this article, we present a topdown view of how one can achieve this goal for next generation data analysis centers. Specifically, we present a case study on frequent pattern algorithms, and show how such algorithms can be re-structured to be cache, memory and I/O conscious. Furthermore, motivated by such algorithms, we present a services oriented middleware framework for the derivation of high performance on next generation architectures. 1",
+            "title": "I/O Conscious Algorithm Design and Systems Support for Data Analysis on Emerging Architectures \u2217"
+        },
+        {
+            "group": 25,
+            "name": "10.1.1.134.4945",
+            "keyword": "File Systems (Reiser, Ext2, Ext3, Data Mining, Association Rules, Frequent Itemsets, Journaling",
+            "author": "Bouchra Bouqata, Christopher D. Carothers, Boleslaw K. Szymanski, Mohammed J. Zaki",
+            "abstract": "Motivated by the importance of I/O performance in data mining efficiency, we focus this paper on analyzing data mining performance across different file systems. In our study, we consider three of the most popular filesystems available under the Linux distribution. These include: Ext2[3] (nonjournaled), Ext3[16] (journaled), and Reiser[12] (journaled). We conclude that full data and metadata journaling (Ext3) appears to dramatically slow down the performance of a data mining engine. For I/O intensive cases, data mining execution time was double when run over Ext3 as compared to Reiser. We found that the write speed of Ext3 was 35 times slower than Reiser, and file address references display only a shortrange dependence in data mining, indicating high degree of locality in data references.",
+            "title": "Understanding Filesystem Performance for Data Mining Applications"
+        },
+        {
+            "group": 26,
+            "name": "10.1.1.134.5777",
+            "keyword": "",
+            "author": "Sen Zhang, Jason T. L. Wang",
+            "abstract": "Abstract\u2014We study a new data mining problem concerning the discovery of frequent agreement subtrees (FASTs) from a set of phylogenetic trees. A phylogenetic tree, or phylogeny, is an unordered tree in which the order among siblings is unimportant. Furthermore, each leaf in the tree has a label representing a taxon (species or organism) name, whereas internal nodes are unlabeled. The tree may have a root, representing the common ancestor of all species in the tree, or may be unrooted. An unrooted phylogeny arises due to the lack of sufficient evidence to infer a common ancestor of the taxa in the tree. The FAST problem addressed here is a natural extension of the maximum agreement subtree (MAST) problem widely studied in the computational phylogenetics community. The paper establishes a framework for tackling the FAST problem for both rooted and unrooted phylogenetic trees using data mining techniques. We first develop a novel canonical form for rooted trees together with a phylogeny-aware tree expansion scheme for generating candidate subtrees level by level. Then, we present an efficient algorithm to find all FASTs in a given set of rooted trees, through an Apriori-like approach. We show the correctness and completeness of the proposed method. Finally, we discuss the extensions of the techniques to unrooted trees. Experimental results demonstrate that the proposed methods work well, and are capable of finding interesting patterns in both synthetic data and real phylogenetic trees. Index Terms\u2014Data mining, evolutionary bioinformatics, computational phylogenetics, algorithmic design, pattern discovery. 1",
+            "title": "Discovering Frequent Agreement Subtrees from Phylogenetic Data"
+        },
+        {
+            "group": 27,
+            "name": "10.1.1.134.5907",
+            "keyword": "",
+            "author": "Tingshao Zhu, Russ Greiner, Gerald H\u00e4ubl, et al.",
+            "abstract": "This paper introduces a novel method to find Web pages that satisfy the user\u2019s current information need. The method infers the user\u2019s need from the content of the pages the user has visited and the actions the user has applied to these pages. Unlike content-based systems that attempt to learn a user\u2019s long-term interests, our system learns user-independent patterns of behavior that identify the user\u2019s current information need, based on his/her current browsing session, then uses this information to suggest specific pages intended to address this need. Our system learns these behavior patterns from labeled data collected during a five-week user study, involving over one hundred participants working on their day-to-day tasks. We tested this learned model in a second phase of this same study, and found that this model can effectively identify the information needs of new users as they browse previously unseen pages, and that we can use this information to help them find relevant pages.  ",
+            "title": "Goal-Directed Site-Independent Recommendations from Passive Observations"
+        },
+        {
+            "group": 28,
+            "name": "10.1.1.134.6986",
+            "keyword": "",
+            "author": "Mohammed Javeed Zaki, Srinivasan Parthasarathy, Wei Li",
+            "abstract": "Discovery of association rules is an important database mining problem. Mining for association rules involves extracting patterns from large databases and inferring useful rules from them. Several parallel and sequential algorithms have been proposed in the literature to solve this problem. Almost all of these algorithms make repeated passes over the database to determine the commonly occurring patterns or itemsets (set of items), thus incurring high I/O overhead. In the parallel case, these algorithms do a reduction at the end of each pass to construct the global patterns, thus incurring high synchronization cost. In this paper we describe a new parallel association mining algorithm. Our algorithm is a result of detailed study of the available parallelism and the properties of associations. The algorithm uses a scheme to cluster related frequent itemsets together, and to partition them among the processors. At the same time it also uses a different database layout which clusters related transactions together, and selectively replicates the database so that the portion of the database needed for the computation of associations is local to each processor. After the initial set-up phase, the algorithm eliminates the need for further communication or synchronization. The algorithm further scans the local database partition only three times, thus minimizing I/O overheads. Unlike previous approaches, the algorithms uses simple intersection operations to compute frequent itemsets and doesn\u2019t have to maintain or search complex hash structures. Our experimental testbed is a 32-processor DEC Alpha cluster inter-connected by the Memory Channel network. We present results on the performance of our algorithm on various databases, and compare it against a well known parallel algorithm. Our algorithm outperforms it by an more than an order of magnitude. 1",
+            "title": "A localized algorithm for parallel association mining"
+        },
+        {
+            "group": 29,
+            "name": "10.1.1.134.7251",
+            "keyword": "",
+            "author": "Timothy J. Wilmering",
+            "abstract": "Initial test and maintenance solutions that are deployed to support new complex systems are generally imperfect and are initially liable to contribute substantially to system ownership costs. This is because development of effective health management solutions requires prediction of complex systemic interactions and the effect of presupposed external stimuli. It is nearly always the case that unforeseen emergent behavior (those that result from unpredicted system interactions) of fielded systems within their operational context create deviations from anticipated health management system performance. This suggests a need for processes and tools to monitor the effectiveness of product health management solutions in their application domains, collect data that validates and documents system",
+            "title": "to Support Diagnostic Maturation"
+        },
+        {
+            "group": 30,
+            "name": "10.1.1.134.9392",
+            "keyword": "World Wide Web, Mobile",
+            "author": "Chuan-feng Chiu, Timothy K. Shih, Ying-hong Wang",
+            "abstract": "Internet has become a popular medium for information exchange and knowledge delivery. Many people get the useful information that they wanted from the Internet and network. Several traditional social activities have changed and evaluated to Internet, like distance learning and tele-medical system. Traditional buying and selling activities also follow the trend. Almost all things will be sold in the Internet and user will buy the product from the Internet too. However with the advent of the World Wide Web, online merchant must know what users wanted or user\u2019s interests and let users to buy something in their site. So recommendation process became an important strategy for the merchants. In this paper we analyze users \u2019 behavior and their interests, and then we recommend something to these users. The analysis mechanism is based on the correlations among customer, product items, and product features. In this paper we propose an algorithm to classify users into groups and recommend product items based on these classified groups. And the system will help merchants to make suitable business decision and push personal information to customers. In the other hand we also propose a generic mobile agent framework for electronic commerce applications and collaborative agent computing architecture for the recommendation system based on the framework.",
+            "title": "An Integrated Analysis Strategy and Mobile Agent Framework for Recommendation System in EC over Internet"
+        },
+        {
+            "group": 31,
+            "name": "10.1.1.134.9476",
+            "keyword": "",
+            "author": "James Cheng, Yiping Ke, Wilfred Ng",
+            "abstract": "In this paper, we study an inherent problem of mining Frequent Itemsets (FIs): the number of FIs mined is often too large. The large number of FIs not only affects the mining performance, but also severely thwarts the application of FI mining. In the literature, Closed FIs (CFIs) and Maximal FIs (MFIs) are proposed as concise representations of FIs. However, the number of CFIs is still too large in many cases, while MFIs lose information about the frequency of the FIs. To address this problem, we relax the restrictive definition of CFIs and propose the \u03b4-Tolerance CFIs (\u03b4-TCFIs). Mining \u03b4-TCFIs recursively removes all subsets of a \u03b4-TCFI that fall within a frequency distance bounded by \u03b4. We propose two algorithms, CFI2TCFI and MineTCFI, to mine \u03b4-TCFIs. CFI2TCFI achieves very high accuracy on the estimated frequency of the recovered FIs but is less efficient when the number of CFIs is large, since it is based on CFI mining. MineTCFI is significantly faster and consumes less memory than the algorithms of the state-of-the-art concise representations of FIs, while the accuracy of MineTCFI is only slightly lower than that of CFI2TCFI. 1",
+            "title": "\u03b4-tolerance closed frequent itemsets"
+        },
+        {
+            "group": 32,
+            "name": "10.1.1.135.279",
+            "keyword": "Database Applications- Data Mining General Terms Algorithms, Performance Keywords itemset mining, data mining, parallel, out of",
+            "author": "Gregory Buehrer, Tahsin Kurc, Srinivasan Parthasarathy, Shirish Tatikonda, Joel Saltz",
+            "abstract": "We present a strategy for mining frequent itemsets from terabyte-scale data sets on cluster systems. The algorithm embraces the holistic notion of architecture-conscious data mining, taking into account the capabilities of the processor, the memory hierarchy and the available network interconnects. Optimizations have been designed for lowering communication costs using compressed data structures and a succinct encoding. Optimizations for improving cache, memory and I/O utilization using pruning and tiling techniques, and smart data placement strategies are also employed. We leverage the extended memory space and computational resources of a distributed message-passing cluster to design a scalable solution, where each node can extend its meta structures beyond main memory by leveraging 64bit architecture support. Our solution strategy is presented in the context of FPGrowth, a well-studied and rather efficient frequent pattern mining algorithm. Results demonstrate that the proposed strategy result in near-linear scaleup on up to 48 nodes. Categories and Subject Descriptors H.2.8 [Database Management]:",
+            "title": "An Architecture-conscious Solution"
+        },
+        {
+            "group": 33,
+            "name": "10.1.1.135.1763",
+            "keyword": "",
+            "author": "Hady W. Lauw, Ee-peng Lim, Teck-tim Tan, Hwee-hwa Pang",
+            "abstract": "Knowing patterns of relationship in a social network is very useful for law enforcement agencies to investigate collaborations among criminals, for businesses to exploit relationships to sell products, or for individuals who wish to network with others. After all, it is not just what you know, but also whom you know, that matters. However, finding out who is related to whom on a large scale is a complex problem. Asking every single individual would be impractical, given the huge number of individuals and the changing dynamics of relationships. Recent advancement in technology has allowed more data about activities of individuals to be collected. Such data may be mined to reveal associations between these individuals. Specifically, we focus on data having space and time elements, such as logs of people\u2019s movement over various locations or of their",
+            "title": "Abstract Mining Social Network from Spatio-Temporal Events"
+        },
+        {
+            "group": 34,
+            "name": "10.1.1.135.3868",
+            "keyword": "Clustering, data mining, association rules, hypergraph partitioning, dimensionality reduction, Principal Component Analysis, Latent Semantic Indexing",
+            "author": "Bamshad Mobasher",
+            "abstract": "Clustering of data in a large dimension space is of a great interest in many data mining applications. Most of the traditional algorithms such as K-means or AutoClass fail to produce meaningful clusters in such data sets even when they are used with well known dimensionality reduction techniques such as Principal Component Analysis and Latent Semantic Indexing. In this paper, we propose a method for clustering of data in a high dimensional space based on a hypergraph model. The hypergraph model maps the relationship present in the original data in high dimensional space into a hypergraph. A hyperedge represents a relationship (affinity) among subsets of data and the weight of the hyperedge reflects the strength of this affinity. A hypergraph partitioning algorithm is used to find a partitioning of the vertices such that the corresponding data items in each partition are highly related and the weight of the hyperedges cut by the partitioning is minimized. We present results of experiments on three different data sets: S&P500 stock data for the period of 1994-1996, protein coding data, and Web document data. Wherever applicable, we compared our results with those of AutoClass and K-means clustering algorithm on original data as well as on the reduced dimensionality data obtained via Principal Component Analysis or Latent Semantic Indexing scheme. These experiments demonstrate that our approach is applicable and effective in a wide range",
+            "title": "Eui-Hong (Sam) Han George Karypis Vipin Kumar"
+        },
+        {
+            "group": 35,
+            "name": "10.1.1.135.4429",
+            "keyword": "",
+            "author": "Yongwook Yoon, Gary Geunbae Lee",
+            "abstract": "Abstract. In practical text classification tasks, the ability to interpret the classification result is as important as the ability to classify exactly. The associative classifier has favorable characteristics, rapid training, good classification accuracy, and excellent interpretation. However, the associative classifier has some obstacles to overcome when it is applied in the area of text classification. First of all, the training process of the associative classifier produces a huge amount of classification rules, which makes the prediction for a new document ineffective. We resolve this by pruning the rules according to their contribution to correct classifications. In addition, since the target text collection generally has a high dimension, the training process might take a very long time. We propose mutual information between the word and class variables as a feature selection measure to reduce the space dimension. Experimental classification results using the 20-newsgroups dataset show many benefits of the associative classification in both training and predicting. 1",
+            "title": "Practical Application of Associative Classifier for Document Classification"
+        },
+        {
+            "group": 36,
+            "name": "10.1.1.135.5087",
+            "keyword": "",
+            "author": "Hany Mahgoub, Dietmar R\u00f6sner, Nabil Ismail, Fawzy Torkey",
+            "abstract": " This paper describes text mining technique for automatically extracting association rules from collections of textual",
+            "title": "A Text Mining Technique Using Association Rules Extraction"
+        },
+        {
+            "group": 37,
+            "name": "10.1.1.135.5133",
+            "keyword": "Classification, Hidden Markov Models",
+            "author": "Charu C. Aggarwal, Philip S. Yu",
+            "abstract": "String data has recently become important because of its use in a number of applications such as computational and molecular biology, protein analysis, and market basket data. In many cases, these strings contain a wide variety of substructures which may have physical significance for that application. For example, such substructures could represent important fragments of a DNA string or an interesting portion of a fraudulent transaction. In such a case, it is desirable to determine the identity, location, and extent of that substructure in the data. This is a much more difficult generalization of the classification problem, since the latter problem labels entire strings rather than deal with the more complex task of determining string fragments with a particular kind of behavior. The problem becomes even more complicated when different kinds of substrings show complicated nesting patterns. Therefore, we define a somewhat different problem which we refer to as the generalized classification problem. We propose a scalable approach based on hidden markov models for this problem. We show how to implement the generalized string classification procedure for very large data bases and data streams. We present experimental results over a number of large data sets and data streams.",
+            "title": "ABSTRACT On String Classification in Data Streams"
+        },
+        {
+            "group": 38,
+            "name": "10.1.1.135.6660",
+            "keyword": "",
+            "author": "Olfa Nasraoui, Raghu Krishnapuram, Anupam Joshi",
+            "abstract": "Mining typical user profiles and URL associations from the vast amount of access logs is an important component of Web personalization. In this paper, we define the notion of a \u201cuser session \u201d as being a temporally compact sequence of Web accesses by a user. We also define a dissimilarity measure between two Web sessions that captures the organization of a Web site. To cluster the user sessions based on the pair-wise dissimilarities, we introduce the Relational Fuzzy\u00a0\u00a1Maximal Density Estimator (RF \u00a1MDE) algorithm. RF\u00a0\u00a1MDE is robust, and can deal with outliers that are typical in this application. We show real examples of the use of RF\u00a0\u00a1MDE for extraction of user profiles from log data, and and compare its performance to the standard Non Euclidean Fuzzy\u00a0\u00a1Means. 1",
+            "title": "Relational clustering based on a new robust estimator with application to web mining"
+        },
+        {
+            "group": 39,
+            "name": "10.1.1.135.8385",
+            "keyword": "",
+            "author": "Hongyan Liu, Jiawei Han, Dong Xin, Zheng Shao",
+            "abstract": "Data sets of very high dimensionality, such as microarray data, pose great challenges on efficient processing to most existing data mining algorithms. Recently, there comes a row-enumeration method that performs a bottom-up search of row combination space to find corresponding frequent patterns. Due to a limited number of rows in microarray data, this method is more efficient than column enumerationbased algorithms. However, the bottom-up search strategy cannot take an advantage of user-specified minimum support threshold to effectively prune search space, and therefore leads to long runtime and much memory overhead. In this paper we propose a new search strategy, top-down mining, integrated with a novel rowenumeration tree, which makes full use of the pruning power of the minimum support threshold to cut down search space dramatically. Using this kind of searching strategy, we design an algorithm, TD-Close, to find a complete set of frequent closed patterns from very high dimensional data. Furthermore, an effective closeness-checking method is also developed that avoids scanning the dataset multiple times. Our performance study shows that the TD-Close algorithm outperforms substantially both Carpenter, a bottom-up searching algorithm, and FPclose, a column enumeration-based frequent closed pattern mining algorithm. 1.",
+            "title": "Mining Frequent Patterns from Very High Dimensional Data: A Top-Down Row Enumeration Approach *"
+        },
+        {
+            "group": 40,
+            "name": "10.1.1.135.8509",
+            "keyword": "document clustering, text documents, frequent itemsets",
+            "author": "Benjamin C. M, Fung Ke, Wang Martin Ester",
+            "abstract": null,
+            "title": "Large hierarchical document clustering using frequent itemsets"
+        },
+        {
+            "group": 41,
+            "name": "10.1.1.135.8678",
+            "keyword": "",
+            "author": "A. Veloso, W. Meira, R. Ferreira, D. Guedes, S. Parthasarathy",
+            "abstract": "Abstract In this paper we propose a novel parallel algorithm for frequent itemset mining. The algorithm is based on the filter-stream programming model, in which the frequent itemset mining process is represented as a data flow controlled by a series producer and consumer components (filters), and the data flow (communication) between such filters is made via streams. When production rate matches consuption rate, and communication overhead between producer and consumer filters is minimized, a high degree of asynchrony is achieved. Our algorithm is built on this strategy \u2212 it employs an asynchronous candidate generation, and minimizes communication between filters by transfering only the necessary aggregated information. Another nice feature of our algorithm is a look forward approach which accelerates frequent itemset determination. Extensive experimental evaluation comproves the parallel performance and scalability of our algorithm. 1",
+            "title": "S.: Asynchronous and anticipatory filter-stream based parallel algorithm for frequent itemset mining"
+        },
+        {
+            "group": 42,
+            "name": "10.1.1.135.9130",
+            "keyword": "",
+            "author": "Alexandre Evfimievski",
+            "abstract": "Suppose there are many clients, each having some personal information, and one server, which is interested only in aggregate, statistically significant, properties of this information. The clients can protect privacy of their data by perturbing it with a randomization algorithm and then submitting the randomized version. The randomization algorithm is chosen so that aggregate properties of the data can be recovered with sufficient precision, while individual entries are significantly distorted. How much distortion is needed to protect privacy can be determined using a privacy measure. Several possible privacy measures are known; finding the best measure is an open question. This paper presents some methods and results in randomization for numerical and categorical data, and discusses the issue of measuring privacy.  ",
+            "title": "  Randomization in Privacy Preserving Data Mining"
+        },
+        {
+            "group": 43,
+            "name": "10.1.1.135.9266",
+            "keyword": "Learning action models, Automated planning, Statistical relational learning",
+            "author": "Qiang Yang A, Kangheng Wu A, Yunfei Jiang B",
+            "abstract": "AI planning requires the definition of action models using a formal action and plan description language, such as the standard Planning Domain Definition Language (PDDL), as input. However, building action models from scratch is a difficult and time-consuming task, even for experts. In this paper, we develop an algorithm called ARMS (action-relation modelling system) for automatically discovering action models from a set of successful observed plans. Unlike the previous work in action-model learning, we do not assume complete knowledge of states in the middle of observed plans. In fact, our approach works when no or partial intermediate states are given. These example plans are obtained by an observation agent who does not know the logical encoding of the actions and the full state information between the actions. In a real world application, the cost is prohibitively high in labelling the training examples by manually annotating every state in a plan example from snapshots of an environment. To learn action models, ARMS gathers knowledge on the statistical distribution of frequent sets of actions in the example plans. It then builds a weighted propositional satisfiability (weighted MAX-SAT) problem and solves it using a MAX-SAT solver. We lay the theoretical foundations of the learning problem and evaluate the effectiveness of ARMS empirically. \u00a9 2006 Elsevier B.V. All rights reserved.",
+            "title": "Learning action models from plan examples using weighted MAX-SAT"
+        },
+        {
+            "group": 44,
+            "name": "10.1.1.136.739",
+            "keyword": "with Untrusted Parties",
+            "author": "Sheng Zhong",
+            "abstract": "In this dissertation, I study privacy, integrity, and incentive compatibility in computations with untrusted parties. The study of privacy and integrity belongs to the research area of secure multi-party computation, while incentive compatibility is a natural extension of the research on secure multi-party computation. First, I present a mix network tailored for election systems, with a substantial speedup over previous work. Second, I design and analyze efficient algorithms for distributed mining of association rules. Third, to protect data integrity in an untrusted storage service, I study the possibility of entangling multiple users\u2019 data together in such a way that loss of one user\u2019s data implies loss of all others\u2019. Fourth, I intro-duce VDOT, a new cryptographic primitive, which can be viewed as an extension of oblivious transfer with malicious servers. I also apply VDOT to the problem of mobile-agent security to implement the key components of an architecture for mobile agents. Finally, I propose a way to add incentive considerations to the study of secure multi-party computation, by stimulating cooperation among selfish mobile nodes in an ad hoc network. I propose Sprite, a simple, cheat-proof, credit-based system for accompanishing this task. The system suppresses cheating behavior and provides incentives for mobile nodes to cooperate and report actions honestly. Simulations and analysis show that mobile nodes can cooperate and forward each other\u2019s messages, unless the resources of each node are extremely depleted.",
+            "title": " Privacy, Integrity, and Incentive-Compatibility in Computations with Untrusted Parties"
+        },
+        {
+            "group": 45,
+            "name": "10.1.1.136.1824",
+            "keyword": "Categories and Subject Descriptors D.2.5 [Software Engineering, Testing and Debugging, I.2.6 [Artificial Intelligence, Learning\u2014Knowlege acquisition General Terms Algorithms, Theory, Experimentation, Measurement",
+            "author": "Tristan Denmat, Mireille Ducass\u00e9, Olivier Ridoux",
+            "abstract": "The current trend in debugging and testing is to cross-check information collected during several executions. Jones et al., for example, propose to use the instruction coverage of passing and failing runs in order to visualize suspicious statements. This seems promising but lacks a formal justification. In this paper, we show that the method of Jones et al. can be re-interpreted as a data mining procedure. More particularly, they define an indicator which characterizes association rules between data. With this formal framework we are able to explain intrinsic limitations of the above indicator.",
+            "title": "Data mining and cross-checking of execution traces. A reinterpretation of Jones, Harrold and Stasko test information visualization"
+        },
+        {
+            "group": 46,
+            "name": "10.1.1.136.3969",
+            "keyword": "",
+            "author": "Bamshad Mobasher, Robert Cooley, Jaideep Srivastava",
+            "abstract": null,
+            "title": "Creating adaptive web sites through usage-based clustering of urls"
+        },
+        {
+            "group": 47,
+            "name": "10.1.1.136.4192",
+            "keyword": "H.2.8 [Database Management, Database Applications General Terms Algorithms Keywords visual data mining, classification",
+            "author": "Charu C. Aggarwal",
+            "abstract": "In an interactive classification application, a user may find it more valuable to develop a diagnostic decision support method which can reveal significant classification behavior of exemplar records. Such an approach has the additional advantage of being able to optimize the decision process for the individual record in order to design more effective classification methods. In this paper, we propose the Subspace Decision Path method which provides the user with the ability to interactively explore a small number of nodes of a hierarchical decision process so that the most significant classification characteristics for a given test instance are revealed. In addition, the SD-Path method can provide enormous interpretability by constructing views of the data in which the different classes are clearly separated out. Even in cases where the classification behavior of the test instance is ambiguous, the SD-Path method provides a diagnostic understanding of the characteristics which result in this ambiguity. Therefore, this method combines the abilities of the human and the computer in creating an effective diagnostic tool for instance-centered high dimensional classification.",
+            "title": "Towards Exploratory Test Instance Specific Algorithms for High Dimensional Classification"
+        },
+        {
+            "group": 48,
+            "name": "10.1.1.136.6194",
+            "keyword": "",
+            "author": "Z. Huang, L. Chen, J-y. Cai, D. Gross, D. Musicant, R. Ramakrishnan, J. Schauer, S. J. Wright",
+            "abstract": "We introduce the problem of labeling a particle\u2019s mass spectrum with the substances it contains, and develop several formal representations of the problem, taking into account practical complications such as unknown compounds and noise. This task is currently a bottle-neck in analyzing data from a new generation of instruments for real-time environmental monitoring. 1.",
+            "title": "Mass Spectrum Labeling: Theory and Practice"
+        },
+        {
+            "group": 49,
+            "name": "10.1.1.136.7052",
+            "keyword": "Data Mining, Constraints, Sequential Patterns, Regular Expressions, Finite Automata. 1 Introduction Discovering sequential patterns from a large database of sequences i, given a set of data sequences, the proble",
+            "author": "Minos Garofalakis, Rajeev Rastogi, Kyuseok Shim",
+            "abstract": "KAIST\\Lambda and AITrcy 373-1 Kusong-Dong, Yusong-Gu",
+            "title": "Mining sequential patterns with regular expression constraints"
+        },
+        {
+            "group": 50,
+            "name": "10.1.1.136.7654",
+            "keyword": "",
+            "author": "Bamshad Mobasher, Robert Cooley, Jaideep Srivastava",
+            "abstract": "",
+            "title": "  Automatic Personalization Based on Web Usage Mining"
+        },
+        {
+            "group": 51,
+            "name": "10.1.1.136.7692",
+            "keyword": "Noise Data, Alarm Model, Network Management, Data Mining, Correlation Rules, Interestingness Measure",
+            "author": "Qingguo Zheng, Ke Xu, Weifeng Lv, Shilong Ma",
+            "abstract": "Alarm correlation plays an important role in improving the service and reliability in modern telecommunication networks. Most previous research of alarm correlation didn\u2019t consider the effects of noise data in the database. This paper focuses on the method of discovering alarm correlation rules from the database containing noise data. We firstly define two parameters Win_freq and Win_add as the measures of noise data and then present the Robust_search algorithm to solve the problem. At different size of Win_freq and Win_add, the experiments on alarm database containing noise data show that the Robust_search Algorithm can discover more rules with the bigger size of Win_add. We also compare two different interestingness measures of confidence and correlation by experiments.",
+            "title": "Intelligent search of correlated alarms from database containing noise data"
+        },
+        {
+            "group": 52,
+            "name": "10.1.1.136.8942",
+            "keyword": "",
+            "author": "Takayuki Tamura, Masato Oguchi, Masaru Kitsuregawa",
+            "abstract": "We developed a PC cluster system consists of 100 PCs. Each PC employs the 200MHz Pentium Pro CPU and is connected with others through an ATM switch. We picked up two kinds of data intensive applications. One is decision support query processing. And the other is data mining, specifically, association rule mining. As a high speed network, ATM technology has recently come to be a de facto standard. While other high performance network standards are also available, ATM networks are widely used from local area to widely distributed environments. One of the problems of the ATM networks is its high latencies, in contrast to their higher bandwidths. This is usually considered a serious flaw of ATM in composing high performance massively parallel processors. However, applications such as large scale database analyses are insensitive to the communication latency, requiring only the bandwidth. On the other hand, the performance of personal computers is increasing rapidly these days while the prices of PCs continue to fall at a much faster rate than workstations\u2019. The 200MHz Pentium Pro CPU is competitive in integer performance to the processor chips found in workstations. Although it is still weak at floating point operations, they are not frequently used in database applications. Thus, by combining PCs and ATM switches we can construct a large scale parallel platform very",
+            "title": " Parallel Database Processing on a 100 Node PC Cluster: Cases for Decision Support Query Processing and Data Mining"
+        },
+        {
+            "group": 53,
+            "name": "10.1.1.136.9510",
+            "keyword": "",
+            "author": "Feng Pan, Gao Cong, Anthony K. H. Tung",
+            "abstract": "closed pattern, row enumeration The growth of bioinformatics has resulted in datasets with new characteristics. These datasets typically contain a large number of columns and a small number of rows. For example, many gene expression datasets may contain 10,000-100,000 columns but only 100-1000 rows. Such datasets pose a great challenge for existing (closed) frequent pattern discovery algorithms, since they have an exponential dependence on the average row length. In this paper, we describe a new algorithm called CARPENTER that is specially designed to handle datasets having a large number of attributes and relatively small number of rows. Several experiments on real bioinformatics datasets show that CARPENTER is orders of magnitude better than previous closed pattern mining algorithms like CLOSET and CHARM. 1.",
+            "title": "Categories and Subject Descriptors H.2.8 [Database Management]: Database Applications- Data Mining"
+        },
+        {
+            "group": 54,
+            "name": "10.1.1.136.9605",
+            "keyword": "LIST OF TABLES......................................................................................",
+            "author": "Alisa Kongthon",
+            "abstract": " ",
+            "title": "A Text Mining Framework for Discovering . . . "
+        },
+        {
+            "group": 55,
+            "name": "10.1.1.137.151",
+            "keyword": "Mining",
+            "author": "Jianyun Xu, Andrew H. Sung, Qingzhong Liu",
+            "abstract": "Despite significant efforts by merchants, card issuers and law enforcement to curb fraud, online fraud continues to plague electronic commerce web sites. More advanced solutions are desired to protect merchants from the constantly evolving problem caused by fraud. The supervised machine learning technique for the most well known fraud detection algorithms makes them inadequate for an online system, which usually contains a mammoth size of non-stationery data. This paper describes a method to dynamically create user profile for the purpose of fraud detection. We use a data mining algorithm to adaptively profile legitimate customer behaviour in a form of association rule set from a transaction database. Then the incoming transactions are compared against the user profile to indicate the anomalies. A novel pattern match approach is proposed to evaluate how unusual the new transactions are. An empirical evaluation shows that we can accurately differentiate the anomaly behaviour from profiled user behaviour.",
+            "title": "Behaviour Mining for Fraud Detection"
+        },
+        {
+            "group": 56,
+            "name": "10.1.1.137.1995",
+            "keyword": "",
+            "author": "Jeffrey Xu Yu A, Zhihong Chong B, Hongjun Lu C, Zhenjie Zhang D, Aoying Zhou B",
+            "abstract": "2 A false negative approach to mining frequent 3 itemsets from high speed transactional data streams",
+            "title": "4"
+        },
+        {
+            "group": 57,
+            "name": "10.1.1.137.2559",
+            "keyword": "",
+            "author": "Qiang Yang, Kangheng Wu, Yunfei Jiang",
+            "abstract": "AI planning requires the definition of an action model using a language such as PDDL as input. However, building an action model from scratch is a difficult and time-consuming task even for experts. In this paper, we develop an algorithm called ARMS for automatically discovering action models from a set of successful plan examples. Unlike the previous work in action-model learning, we do not assume complete knowledge of states in the middle of the example plans; that is, we assume that no intermediate states are given. This requirement is motivated by a variety of applications, including object tracking and plan monitoring where the knowledge about intermediate states is either minimal or unavailable to the observing agent. In a real world application, the cost is prohibitively high in labelling the training examples by manually annotating every state in a plan example from snapshots of an environment. To learn action models, our ARMS algorithm gathers knowledge on the statistical distribution of frequent sets of actions in the example plans. It then builds a propositional satisfiability (SAT) problem and solves it using a SAT solver. We lay the theoretical foundations of the learning problem and evaluate the effectiveness ofARMS empirically.",
+            "title": "Learning action models from plan examples with incomplete knowledge"
+        },
+        {
+            "group": 58,
+            "name": "10.1.1.137.2572",
+            "keyword": "",
+            "author": "Bmc Bioinformatics, Haiying Wang, Huiru Zheng, David Simpson, Francisco Azuaje, Francisco Azuaje",
+            "abstract": "Research article Machine learning approaches to supporting the identification of photoreceptor-enriched genes based on expression data",
+            "title": ""
+        },
+        {
+            "group": 59,
+            "name": "10.1.1.137.3384",
+            "keyword": "",
+            "author": "Haiquan Li, Jinyan Li, Limsoon Wong",
+            "abstract": "Data and text mining Discovering motif pairs at interaction sites from protein sequences on a proteome-wide scale Vol. 22 no. 8 2006, pages 989\u2013996 doi:10.1093/bioinformatics/btl020",
+            "title": "BIOINFORMATICS ORIGINAL PAPER"
+        },
+        {
+            "group": 60,
+            "name": "10.1.1.137.4169",
+            "keyword": "cause",
+            "author": "F. Pouget, M. Dacier",
+            "abstract": "Some attacks on honeypots are very frequent and repetitive. In addition, such repetitive attacks generate a very large amount of data. In this paper, we show that it might be misleading to consider general statistics obtained on these data without carrying an in depth analysis of the various processes that have led to their creation. We show that such analysis can be done by means of a simple clustering approach. We present an algorithm to characterize the root causes of these attacks. This algorithm enables us to obtain precious and non trivial information to identify the various attacks targeting our environment. We use this algorithm to identify root causes of the data collected from our honeypot environment. We demonstrate that identifying the root causes is a prerequisite for a better understanding of malicious activity observed thanks to honeypots environments. Finally, we hope this work will open new avenues for the ongoing work related to honeynets. Keywords: Log analysis, attack forensics, alert correlation, quantitative risk assessment, honeypots, root",
+            "title": "Honeypot-based forensics"
+        },
+        {
+            "group": 61,
+            "name": "10.1.1.137.4467",
+            "keyword": "transfer models, logistic regression, association rules, prediction, search, learning factors analysis",
+            "author": "Jonathan Freyberger, Neil T. Heffernan, Carolina Ruiz",
+            "abstract": "Abstract: We say a transfer model is a mapping between the questions in an intelligent tutoring system and the knowledge components (i.e., skills, strategies, declarative knowledge, etc) needed to answer a question correctly. [JKT00] showed how you could take advantage of 1) the Power Law Of Learning, 2) an existing transfer model, and 3) set of tutorial log files, to learn a function (using logistic regression) that will predict when a student will get a question correct. In the main conference proceeding [CHK2004] give an example of using this technique for transfer model selection. Koedinger and Junker [KJ99] also conceptualized a search space where each state is a new transfer model. The operators in this search space split, add or merge knowledge components based upon factors that are tagged to questions. Koedinger and Junker called this method learning factors analysis emphasizing that this method can be used to study learning. Unfortunately, the search space is huge and searching for good fitting transfer models is exponential. The main goal of this paper is show a technique that will make searching for transfer models more efficient. Our procedure implements a search method using association rules as a means of guiding the search. The association rules are mined from a dataset derived from student-tutor interaction logs. The association rules found in the mining process determine what operations to perform on the current transfer model. We report on the speed up achieved. Being able to find good transfer models quicker will help intelligent tutor system builders as well as cognitive science researchers better assess what makes certain problems hard and other problems easy for students.",
+            "title": "Using association rules to guide a search for best fitting transfer models of student learning"
+        },
+        {
+            "group": 62,
+            "name": "10.1.1.137.5834",
+            "keyword": "",
+            "author": "Keven Ates, Jacek Kukluk, Lawrence Holder, Diane Cook, Kang Zhang",
+            "abstract": "Computer programs that can be expressed in two or more dimensions are typically called visual programs. The underlying theories of visual programming languages involve graph grammars. As graph grammars are usually constructed manually, construction can be a time-consuming process that demands technical knowledge. Therefore, a technique for automatically constructing graph grammars\u2014at least in part\u2014is desirable. An induction method is given to infer node replacement graph grammars. The method operates on labeled graphs of broad applicability. It is evaluated by its performance on inferring graph grammars from various structural representations. The correctness of an inferred grammar is verified by parsing graphs not present in the training set. 1.",
+            "title": "Graph grammar induction on structural data for visual programming"
+        },
+        {
+            "group": 63,
+            "name": "10.1.1.137.7987",
+            "keyword": "Faculty, Natural Sciences",
+            "author": "Advisor Prof, Ehud Gudes",
+            "abstract": "Thesis submitted as part of the requirements for the",
+            "title": "Subject: Temporal Mining Algorithms: Generalization and Performance Improvements This thesis is submitted as part of the requirements for the M.Sc. degree"
+        },
+        {
+            "group": 64,
+            "name": "10.1.1.137.8698",
+            "keyword": "Data Mining, Image Retrieval System, E- Business Intelligence, Image Metadata Mining",
+            "author": "",
+            "abstract": "Recently, the web sites such as e-business sites and shopping mall sites deal with a lot of image information. To find a specific image from these image sources, we usually use web search engines or image database engines which rely on keyword only retrievals or color based retrievals with limited search capabilities. This paper presents an intelligent web e-catalog image retrieval system using metadata and user log. We propose the system architecture, the texture and color based image classification and indexing techniques, and representation schemes of user usage patterns. The query can be given by providing keywords, by selecting one or more sample texture patterns, by assigning color values within positional color blocks, or by combining some or all of these factors. The system keeps track of user\u2019s preferences by generating user query logs and automatically adds more search information to subsequent user queries. To demonstrate the usefulness of the proposed system, some experimental results showing recall and precision are also explained.",
+            "title": "E-CATALOG IMAGE METADATA MINING SYSTEM USING USER USAGE PATTERNS FOR E-BUSINESS INTELLIGENCE"
+        },
+        {
+            "group": 65,
+            "name": "10.1.1.137.9030",
+            "keyword": "",
+            "author": "Agathe Merceron, Kalina Yacef",
+            "abstract": "Abstract. In this paper, we show how using data mining algorithms can help discovering pedagogically relevant knowledge contained in databases obtained from Web-based educational systems. These findings can be used both to help teachers with managing their class, understand their students \u2019 learning and reflect on their teaching and to support learner reflection and provide proactive feedback to learners. 1",
+            "title": "Educational Data Mining: a Case Study"
+        },
+        {
+            "group": 66,
+            "name": "10.1.1.137.9452",
+            "keyword": "Index Terms, Data Mining, Knowledge Discovery, Deviation, Exception, Error",
+            "author": "",
+            "abstract": "We describe the problem of nding deviations in large data bases. Normally, explicit information outside the data, like integrity constraints or prede ned patterns, is used for deviation detection. In contrast, we approach the problem from the inside of the data, using the implicit redundancy of the data. We give a formal description of the problem and present a linear algorithm for detecting deviations. Our solution simulates a mechanism familiar to human beings: after seeing a series of similar data, an element disturbing the series is considered an exception. We also present experimental results from the application of this algorithm on real-life datasets showing its effectiveness.",
+            "title": "A Linear Method for Deviation Detection in Large Databases"
+        },
+        {
+            "group": 67,
+            "name": "10.1.1.137.9769",
+            "keyword": "",
+            "author": "Richard Muntz, et al.",
+            "abstract": "In any environment where the amount of available information is larger than available storage space there is a need for a system capable of extracting relevant information for a particular user. An example is a system where movies are broadcast and only those potentially interesting for a user should be saved onto the hard-disk in that user\u2019s set-top box. To achieve efficient use of available memory, the system should be able to recognize semantic relationships between concepts, in addition to matching index terms from a user profile with index terms for a movie currently broadcast and available to be saved on user's set-top box. Such a system must contain some ontological knowledge in order to recognize relationships between lexically unrelated topics. ",
+            "title": "LARGE SCALE DATA MINING PROBLEMS: APPLICATION TO CLIENT-SIDE CACHING IN DIRECTTV"
+        },
+        {
+            "group": 68,
+            "name": "10.1.1.138.132",
+            "keyword": "List of Figures.....................................................................................",
+            "author": "Shian-Hua Lin",
+            "abstract": "",
+            "title": "Using Machine Learning to Retrieve and Manage Internet Information  "
+        },
+        {
+            "group": 69,
+            "name": "10.1.1.138.399",
+            "keyword": "association rules",
+            "author": "Jianyong Wang, Jian Pei",
+            "abstract": "Mining frequent closed itemsets provides complete and nonredundant results for frequent pattern analysis. Extensive studies have proposed various strategies for efficient frequent closed itemset mining, such as depth-first search vs. breadthfirst search, vertical formats vs. horizontal formats, treestructure vs. other data structures, top-down vs. bottomup traversal, pseudo projection vs. physical projection of conditional database, etc. It is the right time to ask \u201cwhat are the pros and cons of the strategies? \u201d and \u201cwhat and how can we pick and integrate the best strategies to achieve higher performance in general cases?\u201d In this study, we answer the above questions by a systematic study of the search strategies and develop a winning algorithm CLOSET+. CLOSET+ integrates the advantages of the previously proposed effective strategies as well as some ones newly developed here. A thorough performance study on synthetic and real data sets has shown the advantages of the strategies and the improvement of CLOSET+ over existing mining algorithms, including CLOSET, CHARM and OP, in terms of runtime, memory usage and scalability.",
+            "title": "Closet+: searching for the best strategies for mining frequent closed itemsets"
+        },
+        {
+            "group": 70,
+            "name": "10.1.1.138.3465",
+            "keyword": "data analysis, data mining, risk assessment of level crossing",
+            "author": "",
+            "abstract": "Today with the advances of technology, mountainous amounts of data are now available in science, business, industry and many other areas. Evaluation of these collected data may lead to the discovery of trends and patterns hidden within the data that increase the working efficiency and improve the quality of decision making. Of course this advantage comes with a price. It is becoming more and more difficult to gain some valuable information when analysing with these increasing data sets. This paper attempts to discuss a wide range of problems that may appear while analysing the data, and suggests strategies to deal with them. Some of these problems and suggestions are examined with the results of data analysis on a real-life example of risk assessment of level crossing data.",
+            "title": "Intelligent Data Analysis: Issues and Challenges"
+        },
+        {
+            "group": 71,
+            "name": "10.1.1.138.3491",
+            "keyword": "",
+            "author": "Yi-dong Shen",
+            "abstract": "The necessity to develop methods for discovering association patterns to increase business utility of an enterprise has long been recognized in data mining community. This requires modeling specific association patterns that are both statistically (based on support and confidence) and semantically (based on objective utility) relating to a given objective that a user wants to achieve or is interested in. However, we notice that no such a general model has been reported in the literature. Traditional association mining focuses on deriving correlations among a set of items and their association rules like \u00a2\u00a4\u00a3\u00a6\u00a5\u00a8\u00a7\ufffd\u00a9\u00a8\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u00a9\ufffd\u00a9\ufffd \ufffd only tell us that a pattern like \ufffd\ufffd\u00a2\u00a4\u00a3\u00a6\u00a5\u00a8\u00a7\ufffd\u00a9\u00a8\ufffd\ufffd \ufffd is statistically related to an item like \ufffd\ufffd\u00a9\ufffd\u00a9\ufffd \ufffd. In this paper, we present a new approach, called Objective-Oriented utility-based Association (OOA) mining, to modeling such association patterns that are explicitly relating to a user\u2019s objective and its utility. Due to its focus on a user\u2019s objective and the use of objective utility as key semantic information to measure the usefulness of association patterns, OOA mining differs significantly from existing approaches such as the existing constraint-based association mining. We formally define OOA mining and develop an algorithm for mining OOA rules. The algorithm is an enhancement to Apriori with specific mechanisms for handling objective utility. We prove that the utility constraint is neither monotone nor anti-monotone nor succinct nor convertible and present a novel pruning strategy based on the utility constraint to improve the efficiency of OOA mining. 1",
+            "title": "Objective-oriented utility-based association mining"
+        },
+        {
+            "group": 72,
+            "name": "10.1.1.138.7368",
+            "keyword": "",
+            "author": "Dejing Dou, Paea Lependu, Shiwoong Kim",
+            "abstract": "To realize the Semantic Web, it will be necessary to make existing database content available for emerging Semantic Web applications, such as web agents and services, which use ontologies to formally define the semantics of their data. Our research in the design and implementation of an ontology-based system, OntoGrate, addresses the critical and challenging problem of supporting human experts in multiple domains to interactively integrate information that is heterogenous in both structure and semantics. Databases, knowledge bases, the World Wide Web, and the emerging Semantic Web are some of the resources for which scalable integration remains a challenge. To integrate databases into the Semantic Web, we use Semantic Web ontologies to incorporate database schemas. An expressive first order ontology language, Web-PDDL, is used to define the structure, semantics, and mappings of data resources. A powerful inference engine, OntoEngine, can be used for query answering and data translation. In this paper, besides introducing new ideas in the OntoGrate system, we will elaborate on two case studies for which our system works well. 1",
+            "title": "Integrating Databases into the Semantic Web through an Ontology-based Framework"
+        },
+        {
+            "group": 73,
+            "name": "10.1.1.138.8026",
+            "keyword": "",
+            "author": "Christian Hidber",
+            "abstract": "We present anovel algorithm to compute large itemsets online. The user is free to change the support threshold any time during the rst scan of the transaction sequence. The algorithm maintains a superset of all large itemsets and for each itemset a shrinking, deterministic interval on its support. After at most 2 scans the algorithm terminates with the precise support for each large itemset. Typically our algorithm is by an order of magnitude more memory e cient than Apriori or DIC. 1",
+            "title": "Online Association Rule Mining"
+        },
+        {
+            "group": 74,
+            "name": "10.1.1.138.8984",
+            "keyword": "document clustering, text documents",
+            "author": "Benjamin C. M, Fung Ke, Wang Martin Ester",
+            "abstract": "A major challenge in document clustering is the extremely high dimensionality. For example, the vocabulary for a document set can easily be thousands of words. On the other hand, each document often contains a small fraction of words in the vocabulary. These features require special handlings. Another requirement is hierarchical clustering where clustered documents can be browsed according to the increasing specificity of topics. In this paper, we propose to use the notion of frequent itemsets, which comes from association rule mining, for document clustering. The intuition of our clustering criterion is that each cluster is identified by some common words, called frequent itemsets, for the documents in the cluster. Frequent itemsets are also used to produce a hierarchical topic tree for clusters. By focusing on frequent items, the dimensionality of the document set is drastically reduced. We show that this method outperforms best existing methods in terms of both clustering accuracy and scalability.",
+            "title": "Abstract Hierarchical Document Clustering Using Frequent Itemsets"
+        },
+        {
+            "group": 75,
+            "name": "10.1.1.139.1355",
+            "keyword": "",
+            "author": "Yan Hu, Dah-ming Chiu",
+            "abstract": "Abstract \u2014 Accurate identification of network applications is important to many network activities. Traditional port-based technique has become much less effective since many new applications no longer use well-known port numbers. In this paper, we propose a novel profile-based approach to identify traffic flows belonging to the target application. In contrast to classifying traffic based on statistics of individual flows in previous studies, we build behavioral profiles of the target application, which describe dominant patterns of the application. Based on the behavioral profiles, a two-level matching is used in identifying new traffic. We first determine if a host participates in the application by comparing its behavior with the profiles. Subsequently, for each flow of the host we compare if it matches with the patterns in the profiles to determine which flows belong to this application. We demonstrate the effectiveness of our method on campus traffic traces. Our results show that one can identify the popular P2P applications with very high accuracy. I.",
+            "title": "Application Identification Based on Network Behavioral Profiles"
+        },
+        {
+            "group": 76,
+            "name": "10.1.1.139.2597",
+            "keyword": "",
+            "author": "Tianchao Li, Toni Bollinger, Nikolaus Breuer, Hans-dieter Wehle",
+            "abstract": "This paper presents a Grid-based distributed and parallel data mining system targeting a real-life application scenario typical in the business realm \u2013 franchise supermarket basket analysis. Following a layered design of three tiers, this system enables parallel association rule mining on a farm of Grid servers, offers a standard service interface for custom applications, and provides a friendly user portal. The work presented in this paper reveals specific requirements for applying Grid-based data mining in the business realm, which is helpful for the design and implementation of a generic Grid-based data mining system. 1.",
+            "title": "Grid-based Data Mining in Real-life Business Scenario"
+        },
+        {
+            "group": 77,
+            "name": "10.1.1.139.2785",
+            "keyword": "",
+            "author": "Mohamed G. Elfeky, Walid G. Aref, Ahmed K. Elmagarmid",
+            "abstract": " Periodicity mining is used for predicting trends in time series data. Discovering the rate at which the time series is periodic has always been an obstacle for fully automated periodicity mining. Existing periodicity mining algorithms assume that the periodicity rate (or simply the period) is user-specified. This assumption is a considerable limitation, especially in time series data where the period is not known a priori. In this paper, we address the problem of detecting the periodicity rate of a time series database. Two types of periodicities are defined, and a scalable, computationally efficient algorithm is proposed for each type. The algorithms perform in O\u00f0n log n\u00de time for a time series of length n. Moreover, the proposed algorithms are extended in order to discover the periodic patterns of unknown periods at the same time without affecting the time complexity. Experimental results show that the proposed algorithms are highly accurate with respect to the discovered periodicity rates and periodic patterns. Real-data experiments demonstrate the practicality of the discovered periodic patterns.  ",
+            "title": "Periodicity detection in time series databases"
+        },
+        {
+            "group": 78,
+            "name": "10.1.1.139.3590",
+            "keyword": "and Society, Public Policy Issues\u2014privacy General Terms Algorithms, Security, Performance, Experimentation",
+            "author": "Richard Chow",
+            "abstract": "Detecting inferences in documents is critical for ensuring privacy when sharing information. In this paper, we propose a refined and practical model of inference detection using a reference corpus. Our model is inspired by association rule mining: inferences are based on word co-occurrences. Using the model and taking the Web as the reference corpus, we can find inferences and measure their strength through web-mining algorithms that leverage search engines such as Google or Yahoo!. Our model also includes the important case of private corpora, to model inference detection in enterprise settings in which there is a large private document repository. We find inferences in private corpora by using analogues of our Web-mining algorithms, relying on an index for the corpus rather than a Web search engine. We present results from two experiments. The first experiment demonstrates the performance of our techniques in identifying all the keywords that allow for inference of a particular topic (e.g. \u201cHIV\") with confidence above a certain threshold. The second experiment uses the public Enron e-mail dataset. We postulate a sensitive topic and use the Enron corpus and the Web together to find inferences for the topic. These experiments demonstrate that our techniques are practical, and that our model of inference based on word co-occurrence is well-suited to efficient inference detection.",
+            "title": "ABSTRACT Detecting Privacy Leaks Using Corpus-based Association Rules"
+        },
+        {
+            "group": 79,
+            "name": "10.1.1.139.4313",
+            "keyword": "Categories and Subject Descriptors I.2.6 [Artificial Intelligence, Learning, H.3.3 [Information Storage and Retrieval, Information Search and Retrieval Keywords On-line advertising, CTR prediction, decision rules, ensemble",
+            "author": "Krzysztof Dembczy\u0144ski, Wojciech Kot\u0142owski",
+            "abstract": "Paid advertisements displayed alongside search results constitute a major source of income for search companies. Optimizations leading to more clicks on ads are a target goal shared by advertisers and search engines. In this context, an ad\u2019s quality can be measured by the probability of it being clicked assuming it was noticed by the user (click-through rate, CTR). There are two problems here. First, the real CTR is heavily affected by the ad\u2019s position, not only by its content. Second, it is not possible to directly calculate CTR for new ads. In this paper we build upon a large data set with real ad clicks and impressions, acquired thanks to Microsoft\u2019s Beyond Search program. First, we describe the data set and anomalies found inside it. We then address the problem of computing CTR for existing ads using maximum likelihood estimation. Finally, we present an algorithm learning an ensemble of decision rules that can be used for predicting the CTR for unseen ads and giving recommendations to improve ads \u2019 quality.",
+            "title": "Predicting Ads \u2019 Click-Through Rate with Decision Rules ABSTRACT"
+        },
+        {
+            "group": 80,
+            "name": "10.1.1.139.5634",
+            "keyword": "",
+            "author": "Johannes Fischer, Universit\u00e4t T\u00fcbingen",
+            "abstract": "Let D1 and D2 be two databases (i.e. multisets) of d strings, over an alphabet \u03a3, with overall length n. We study the problem of mining discriminative patterns between D1 and D2 \u2014 e.g., patterns that are frequent in one database but not in the other, emerging patterns, or patterns satisfying other frequency-related constraints. Using the algorithmic framework by Hui (CPM 1992), one can solve several variants of this problem in the optimal linear time with the aid of suffix trees or suffix arrays. This stands in high contrast to other pattern domains such as itemsets or subgraphs, where super-linear lower bounds are known. However, the space requirement of existing solutions is O(n log n) bits, which is not optimal for |\u03a3 | << n (in particular for constant |\u03a3|), as the databases themselves occupy only n log |\u03a3 | bits. Because in many real-life applications space is a more critical resource than time, the aim of this article is to reduce the space, at the cost of an increased running time. In particular, we give a solution for the above problems that uses O(n log |\u03a3 | + d log n) bits, while the time requirement is increased from the optimal linear time to O(n log n). Our new method is tested extensively on a biologically relevant datasets and shown to be usable even on a genome-scale data. 1.",
+            "title": "Space-Efficient String Mining under Frequency Constraints"
+        },
+        {
+            "group": 81,
+            "name": "10.1.1.139.5754",
+            "keyword": "",
+            "author": "Ilija Subasic, Bettina Berendt",
+            "abstract": "Abstract. In recent years social bookmarking systems (tagging systems) became one of the highly popular applications on the Internet. The main idea of social bookmarking is to organize content in a loose fashion by allowing users to completely freely annotate content. This work presents a way of combining the information retrieval (IR), Semantic Web and social web approaches of searching the Web by including general topic categories as a part of tagging systems. In this way semantic and social web are presented in a unified framework of search and indexing content. The work also shows a way of ontology learning by creating a hierarchical network of tag associations. This network is created using association rules discovery. In order to enhance these networks, IR search engine results are used to evaluate relevance of resources to a given topic. Networks of association, created by application of a modified Apriori algorithm, are evaluated with topic networks from the Open Directory Project (www.dmoz.org). 1",
+            "title": "Topical Structure Discovery in Folksonomies"
+        },
+        {
+            "group": 82,
+            "name": "10.1.1.140.3704",
+            "keyword": "",
+            "author": "Liliana Ferreira",
+            "abstract": "The paper systematically compares two feature extraction algorithms to mine product features commented on in customer reviews. The first approach [17] identifies candidate features by applying a set of POS patterns and pruning the candidate set based on the Log Likelihood Ratio test. The second approach [11] applies association rule mining for identifying frequent features and a heuristic based on the presence of sentiment terms for identifying infrequent features. We evaluate the performance of the algorithms on five product specific document collections regarding consumer electronic devices. We perform an analysis of errors and discuss advantages and limitations of the algorithms. 1",
+            "title": "A Comparative Study of Feature Extraction Algorithms in Customer Reviews"
+        },
+        {
+            "group": 83,
+            "name": "10.1.1.140.5546",
+            "keyword": "",
+            "author": "Jeroen De Knijf",
+            "abstract": "In this work we describe a new algorithm to mine tree structured data. Our method computes an almost smallest supertree, based upon iteratively employing tree alignment. This supertree is a global pattern, that can be used both for descriptive and predictive data mining tasks. Experiments performed on two real datasets, show that our approach leads to a drastic compression of the database. Furthermore, when the resulting pattern is used for classification, the results show a considerable improvement over existing algorithms. Moreover, the incremental nature of the algorithm provides a flexible way of dealing with extension or reduction of the original dataset. Finally, the computation of the almost smallest supertree can be easily parallelized.  ",
+            "title": "  Mining tree patterns with Almost Smallest Supertrees"
+        },
+        {
+            "group": 84,
+            "name": "10.1.1.140.7078",
+            "keyword": "stream",
+            "author": "Alexander Lachmann",
+            "abstract": "Sequence data is ubiquitous and finding frequent sequences in a large database is one of the most common problems when analyzing sequence data. Unfortunately many sources of sequence data, e.g., sensor networks for data-driven science, RFID-based supply chain monitoring, and computing system monitoring infrastructure, produce a challenging workload for sequence mining. It is common to find bursts of events of the same type. Such bursts result in high mining cost, because input sequences are longer. An even greater challenge is that these bursts tend to produce an overwhelming number of irrelevant repetitive sequence patterns with high support. Simply raising the support threshold is not a solution, because at some point interesting sequences will get eliminated. As an alternative we propose a novel transformation of the input sequences. We show that this transformation has several desirable properties. First, the transformed data can still be mined with existing sequence mining algorithms. Second, for a given support threshold the mining result can often be obtained much faster and it is usually much smaller and easier to interpret. Third, and most importantly, we show that the result sequences retain the important characteristics of the sequences that would have been found in the original (not transformed) data. We validate our technique with an experimental study using synthetic and real data.",
+            "title": "ABSTRACT Finding Relevant Patterns in Bursty Sequences"
+        },
+        {
+            "group": 85,
+            "name": "10.1.1.140.8169",
+            "keyword": "classification, dimensionality reduction",
+            "author": "",
+            "abstract": "High dimensional data presents a challenge to the classification problem because of the difficulty in modeling the precise relationship between the large number of feature variables and the class variable. In such cases, it may be desirable to reduce the information to a small number of dimensions in order to improve the accuracy and effectiveness of the classification process. While data reduction has been a well studied problem for the unsupervised domain, the technique has not been explored quite as extensively for the supervised case. Existing techniques which try to perform dimensionality reduction are too slow for practical use in the high dimensional case. These techniques try to find global discriminants in the data. However, the behavior of the data often varies considerably with data locality and different subspaces may show better discrimination in different localities. This is an even more challenging task than the global discrimination problem because of the additional issue of data localization. In this paper, we propose the novel idea of supervised subspace sampling in order to create a reduced representation of the data for classification applications in an efficient and effective way. The method exploits the natural distribution of the different classes in order to sample the best subspaces for class discrimination. Because of its sampling approach, the procedure is extremely fast and scales almost linearly both with data set size and dimensionality.",
+            "title": "A Framework for Local Supervised Dimensionality Reduction of High Dimensional Data"
+        },
+        {
+            "group": 86,
+            "name": "10.1.1.140.8460",
+            "keyword": "",
+            "author": "Florian Verhein",
+            "abstract": "Finding interactions between variables is a fundamental concept in Data Mining. In this work, correlations between variables are considered using Pearson\u2019s product moment correlation coefficient. Of interest are complex, complete, and maximal sub-graphs which describe the correlation structure between variables. This paper considers both positive and negative correlations \u2013 complex interactions. It is proved that under a constraint on the minimum level of correlation desired, there are useful guarantees on the structure of the correlations. In particular, the sign of the correlation between variables can be mapped to the variables themselves (i.e. to the vertices). This means that the complete complex sub-graphs can be represented as a complex set, where each element \u2013 a variable with a positive or a negative sign \u2013 is highly positively correlated with every other. This makes the interaction much easier to understand. It is also exploited to develop an algorithm that runs in the same time as if complex interactions were not considered, resulting in significantly improved scalability. Mining maximal sets of variables characterized by the lack of correlations is also briefly considered. The approach is useful for examining complex correlation structures, as well as mining a representative subset of the entire data set. The latter idea is extended to the problem of feature subset selection in a way that gives guarantees on the minimum correlation required for features to be considered interchangeable (redundant), while guaranteeing that the selected features are not correlated with each other. Experiments show the approach performs well. 1",
+            "title": "Mining Complex, Maximal and Complete Sub-graphs and Sets of Correlated Variables with Applications to Feature Subset Selection"
+        },
+        {
+            "group": 87,
+            "name": "10.1.1.140.8585",
+            "keyword": "",
+            "author": "Lo\u00efc Cerf, J\u00e9r\u00e9my Besson, C\u00e9line Robardet, Jean-Fran\u00e7ois Boulicaut",
+            "abstract": "Set pattern discovery from binary relations has been extensively studied during the last decade. In particular, many complete and efficient algorithms which extract frequent closed sets are now available. Generalizing such a task to n-ary relations (n \u2265 2) appears as a timely challenge. It may be important for many applications, e.g., when adding the time dimension to the popular objects \u00d7 features binary case. The generality of the task \u2014 no assumption being made on the relation arity or on the size of its attribute domains \u2014 makes it computationally challenging. We introduce an algorithm called Data-Peeler. From a n-ary relation, it extracts all closed n-sets satisfying given piecewise (anti)-monotonic constraints. This new class of constraints generalizes both monotonic and anti-monotonic constraints. Considering the special case of ternary relations, Data-Peeler outperforms the state-of-the-art algorithms CubeMiner and Trias by orders of magnitude. These good performances must be granted to a new clever enumeration strategy allowing an efficient closeness checking. An original application on a real-life 4-ary relation is used to assess the relevancy of closed n-sets constraint-based mining. ",
+            "title": "Data-Peeler: Constraint-Based Closed Pattern Mining in n-ary Relations"
+        },
+        {
+            "group": 88,
+            "name": "10.1.1.140.9143",
+            "keyword": "",
+            "author": "Qiang Yang, Jie Yindepartment, Computer Science, Hong Kong, Technologyclearwater Bay, Kowloon Hong Kong",
+            "abstract": "Extensive research in data mining has been done ondiscovering distributional knowledge about the underlying data. Models such as the Bayesian models, decision trees,support vector machines and association rules have been applied to various industrial applications such as customer re-lationship management (CRM) [6, 1]. Despite such phenomenal success, most of these techniques stop short of thefinal objectives of data mining, such as maximizing profit while reducing costs, relying on such postprocessing tech-niques as visualization and interestingness ranking [2, 3, 5]. While these techniques are essential to move the data min-ing result to the eventual application, they nevertheless require a great deal of human manual work by experts.",
+            "title": "Postprocessing decision trees to extract actionable knowledge"
+        },
+        {
+            "group": 89,
+            "name": "10.1.1.140.9769",
+            "keyword": "Association rules, fuzzy, weighted attributes, apriori, downward",
+            "author": "M. Sulaiman Khan, Maybin Muyeba, Frans Coenen",
+            "abstract": "Abstract. A novel approach is presented for mining weighted association rules (ARs) from binary and fuzzy data. We address the issue of invalidation of downward closure property (DCP) in weighted association rule mining where each item is assigned a weight according to its significance w.r.t some user defined criteria. Most works on weighted association rule mining so far struggle with invalid downward closure property and some assumptions are made to validate the property. We generalize the weighted association rule mining problem for databases with binary and quantitative attributes with weighted settings. Our methodology follows an Apriori approach [9] and avoids pre and post processing as opposed to most weighted association rule mining algorithms, thus eliminating the extra steps during rules generation. The paper concludes with experimental results and discussion on evaluating the proposed approach.",
+            "title": "Weighted Association Rule Mining from Binary and Fuzzy Data"
+        },
+        {
+            "group": 90,
+            "name": "10.1.1.140.9979",
+            "keyword": "",
+            "author": "Yanbo J. Wang, Xinwei Zheng, Frans Coenen, Cindy Y. Li",
+            "abstract": "An Association Rule (AR) is a common knowledge model in data mining that describes an implicative cooccurring relationship between two disjoint sets of binary-valued transaction database attributes (items), expressed in the form of an \u201cantecedent \u21d2 consequent \u201d rule. A variant of the AR is the Weighted Association Rule (WAR). With regard to a marketing context, this paper introduces a new knowledge model in data mining \u23af ALlocating Pattern (ALP). An ALP is a special form of WAR, where each rule item is associated with a weighting score between 0 and 1, and the sum of all rule item scores is 1. It can not only indicate the implicative co-occurring relationship between two (disjoint) sets of items in a weighted setting, but also inform the \u201callocating \u201d relationship among rule items. ALPs can be demonstrated to be applicable in marketing and possibly a surprising variety of other areas. We further propose an Apriori based algorithm to extract hidden and interesting ALPs from a \u201cone-sum \u201d weighted transaction database. The experimental results show the effectiveness of the proposed algorithm. 1.",
+            "title": "Mining Allocating Patterns in One-sum Weighted Items"
+        },
+        {
+            "group": 91,
+            "name": "10.1.1.141.54",
+            "keyword": "",
+            "author": "Jiuyong Li A, Ada Wai-chee Fu B, Paul Fahey C, Risk Pattern",
+            "abstract": "Objective: This paper studies a problem of efficiently discovering risk patterns in medical data. Risk patterns are defined by a statistical metric, relative risk, which has been widely used in epidemiological research. Methods: To avoid fruitless search in the complete exploration of risk patterns, we define optimal risk pattern set to exclude superfluous patterns, i.e. complicated patterns with lower relative risk than their corresponding simpler form patterns. We prove that mining optimal risk pattern sets conforms an anti-monotone property that supports an efficient mining algorithm. We propose an efficient algorithm for mining optimal risk pattern sets based on this property. We also propose a hierarchical structure to present discovered patterns for the easy perusal by domain experts. Results: The proposed approach is compared with two well-known rule discovery methods, decision tree and association rule mining approaches on benchmark data sets and applied to a real world application. The proposed method discovers more and better quality risk patterns than a decision tree approach. The decision tree method is not designed for such applications and is inadequate for pattern exploring. The",
+            "title": "Data mining; Association rule; Decision tree;"
+        },
+        {
+            "group": 92,
+            "name": "10.1.1.141.165",
+            "keyword": "",
+            "author": "",
+            "abstract": "AI planning has traditionally dealt with developing sophisticated plans for achieving well-defined goals in welldefined domains. In this paper we consider the problem of building marketing plans for massive customers to achieve a company\u2019s financial goal in a business-planning domain. Corporations and institutions are often interested in strategic planning for marketing strategies to target their customers and outperform their competitors. For example, a stockbroker company may draft a marketing plan for retaining valuable customers or for switching a potential customer to a true customer. Planning in these applications consists of market segmentation, marketing-action selection and validation. For such problems, the traditional planning frameworks no longer apply. Instead, planning is done based on statistical reasoning of previous cases and patterns. In this paper, we present a novel framework that incorporates data mining, case based reasoning and planning to support marketing-strategy planning. In our approach, we discover case bases by data mining on the customer database and formulate plans based on the mined cases or \u201crole-models\u201d. These plans are not guaranteed to work for each individual; however, based on previous experience, they have a high probability of succeeding. We explore the tradeoff among time, space and quality of computation in this framework. We demonstrate the effectiveness of the methods through empirical results. 1.",
+            "title": "Towards Statistical Planning for Marketing Strategies"
+        },
+        {
+            "group": 93,
+            "name": "10.1.1.141.194",
+            "keyword": "",
+            "author": "M. Sulaiman Khan, Maybin Muyeba, Frans Coenen",
+            "abstract": "Abstract This paper presents an approach for mining fuzzy Association Rules (ARs) relating the properties of composite items, i.e. items that each feature a number of values derived from a common schema. We partition the values associated to properties into fuzzy sets in order to apply fuzzy Association Rule Mining (ARM). This paper describes the process of deriving the fuzzy sets from the properties associated to composite items and a unique Composite Fuzzy Association Rule Mining (CFARM) algorithm founded on the certainty factor interestingness measure to extract fuzzy association rules. The paper demonstrates the potential of composite fuzzy property ARs, and that a more succinct set of property ARs can be produced using the proposed approach than that generated using a nonfuzzy method. 1",
+            "title": "Mining Fuzzy Association Rules from Composite Items"
+        },
+        {
+            "group": 94,
+            "name": "10.1.1.141.462",
+            "keyword": "Association rules, fuzzy, weighted support, weighted confidence, downward",
+            "author": "M. Sulaiman Khan, Maybin Muyeba, Frans Coenen",
+            "abstract": "In this paper we extend the problem of mining weighted association rules. A classical model of boolean and fuzzy quantitative association rule mining is adopted to address the issue of invalidation of downward closure property (DCP) in weighted association rule mining where each item is assigned a weight according to its significance w.r.t some user defined criteria. Most works on DCP so far struggle with invalid downward closure property and some assumptions are made to validate the property. We generalize the problem of downward closure property and propose a fuzzy weighted support and confidence framework for boolean and quantitative items with weighted settings. The problem of invalidation of the DCP is solved using an improved model of weighted support and confidence framework for classical and fuzzy association rule mining. Our methodology follows an Apriori algorithm approach and avoids pre and post processing as opposed to most weighted ARM algorithms, thus eliminating the extra steps during rules generation. The paper concludes with experimental results and discussion on evaluating the proposed framework.",
+            "title": "F.: Fuzzy Weighted Association Rule Mining with Weighted Support and Confidence Framework"
+        },
+        {
+            "group": 95,
+            "name": "10.1.1.141.838",
+            "keyword": "previous studies, such as those on frequent itemsets, are on mining contemporal relationships, i.e, the",
+            "author": "Kuo-yu Huang, Chia-hui Chang, Kuo-zui Lin",
+            "abstract": "Mining frequent patterns in databases is a fundamental and essential problem in data mining research. A continuity is a kind of causal relationship which describes a definite temporal factor with exact position between the records. Since continuities break the boundaries of records, the number of potential patterns will increase drastically. An alternative approach is to mine compressed or closed frequent continuities. Mining compressed/closed frequent patterns has the same power as mining the complete set of frequent patterns, while substantially reducing redundant rules to be generated and increasing the effectiveness of mining. In this paper, we propose a method called projected window list (PWL) technology for the mining of frequent continuities. We present a series of frequent continuity mining algorithms, including PROWL+, COCOA and ClosedPROWL. Experimental evaluation on both real world and synthetic datasets shows that our algorithm is more efficient than previously proposed algorithms. 1.",
+            "title": "Efficient Discovery of Frequent Continuities by Projected Window List Technology"
+        },
+        {
+            "group": 96,
+            "name": "10.1.1.141.885",
+            "keyword": "",
+            "author": " Ming-Yen Lin",
+            "abstract": " ",
+            "title": "Efficient Algorithms for Association Rule Mining and Sequential Pattern Mining"
+        },
+        {
+            "group": 97,
+            "name": "10.1.1.141.1735",
+            "keyword": "",
+            "author": "",
+            "abstract": "1 Introduction Recent progress in technologies for data input have made it easier for finance and retail organizations to collect massive amounts of data and to store them on disk at a low cost. Such organizations are interested in extracting from these huge databases unknown information that inspires new marketing strategies. In the database and AI communities, there has been a growing interest in efficient discovery of interesting rules, which is beyond the power of current database functions.",
+            "title": ""
+        },
+        {
+            "group": 98,
+            "name": "10.1.1.141.1825",
+            "keyword": "",
+            "author": "Patrick Rabbat, Fran\u00e7ois Pachet",
+            "abstract": "We propose an algorithm for exploiting statistical properties of large-scale metadata databases about music titles to answer musicological queries. We introduce two inference schemes called \u201cdirect \u201d and \u201cinverse \u201d inference, based on an efficient implementation of a kernel regression approach. We describe an evaluation experiment conducted on a large-scale database of finegrained musical metadata. We use this database to train the direct inference algorithm, test it, and also to identify the optimal parameters of the algorithm. The inverse inference algorithm is based on the direct inference algorithm. We illustrate it with some examples. 1.",
+            "title": "DIRECT AND INVERSE INFERENCE IN MUSIC DATABASES: HOW TO MAKE A SONG FUNK?"
+        },
+        {
+            "group": 99,
+            "name": "10.1.1.141.6060",
+            "keyword": "",
+            "author": "Barzan Mozafari, Hetal Thakkar, Carlo Zaniolo",
+            "abstract": "Abstract \u2014 Mining frequent itemsets from data streams has proved to be very difficult because of computational complexity and the need for real-time response. In this paper, we introduce a novel verification algorithm which we then use to improve the performance of monitoring and mining tasks for association rules. Thus, we propose a frequent itemset mining method for sliding windows, which is faster than the state-of-the-art methods\u2014in fact, its running time that is nearly constant with respect to the window size entails the mining of much larger windows than it was possible before. The performance of other frequent itemset mining methods (including those on static data) can be improved likewise, by replacing their counting methods (e.g., those using hash trees) by our verification algorithm. I.",
+            "title": "Verifying and mining frequent patterns from large windows over data streams"
+        },
+        {
+            "group": 100,
+            "name": "10.1.1.141.6700",
+            "keyword": "",
+            "author": "Anna Goldenberg",
+            "abstract": " ",
+            "title": "Proposal for a scalable class of graphical models for Social Networks"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.15894
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 0.224138
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 0.34058
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 0.0465116
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 0.232283
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 0.459302
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 0.23125
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 0.119874
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "value": 0.253472
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "value": 0.219626
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "value": 0.270833
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "value": 0.348315
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "value": 0.198758
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "value": 0.372781
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "value": 0.204255
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "value": 0.21164
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "value": 0.273333
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "value": 0.211921
+        },
+        {
+            "source": 0,
+            "target": 24,
+            "value": 0.348315
+        },
+        {
+            "source": 0,
+            "target": 25,
+            "value": 0.20098
+        },
+        {
+            "source": 0,
+            "target": 26,
+            "value": 0.267123
+        },
+        {
+            "source": 0,
+            "target": 27,
+            "value": 0.227074
+        },
+        {
+            "source": 0,
+            "target": 28,
+            "value": 0.356902
+        },
+        {
+            "source": 0,
+            "target": 29,
+            "value": 0.137255
+        },
+        {
+            "source": 0,
+            "target": 30,
+            "value": 0.164912
+        },
+        {
+            "source": 0,
+            "target": 31,
+            "value": 0.278689
+        },
+        {
+            "source": 0,
+            "target": 32,
+            "value": 0.231111
+        },
+        {
+            "source": 0,
+            "target": 33,
+            "value": 0.227488
+        },
+        {
+            "source": 0,
+            "target": 34,
+            "value": 0.338403
+        },
+        {
+            "source": 0,
+            "target": 35,
+            "value": 0.223684
+        },
+        {
+            "source": 0,
+            "target": 36,
+            "value": 0.112903
+        },
+        {
+            "source": 0,
+            "target": 37,
+            "value": 0.377682
+        },
+        {
+            "source": 0,
+            "target": 38,
+            "value": 0.338624
+        },
+        {
+            "source": 0,
+            "target": 39,
+            "value": 0.220077
+        },
+        {
+            "source": 0,
+            "target": 41,
+            "value": 0.156951
+        },
+        {
+            "source": 0,
+            "target": 42,
+            "value": 0.168269
+        },
+        {
+            "source": 0,
+            "target": 43,
+            "value": 0.189474
+        },
+        {
+            "source": 0,
+            "target": 44,
+            "value": 0.273381
+        },
+        {
+            "source": 0,
+            "target": 45,
+            "value": 0.25731
+        },
+        {
+            "source": 0,
+            "target": 47,
+            "value": 0.207317
+        },
+        {
+            "source": 0,
+            "target": 48,
+            "value": 0.255319
+        },
+        {
+            "source": 0,
+            "target": 49,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 50,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 51,
+            "value": 0.389535
+        },
+        {
+            "source": 0,
+            "target": 52,
+            "value": 0.207746
+        },
+        {
+            "source": 0,
+            "target": 53,
+            "value": 0.376404
+        },
+        {
+            "source": 0,
+            "target": 54,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 55,
+            "value": 0.376884
+        },
+        {
+            "source": 0,
+            "target": 56,
+            "value": 0.0451128
+        },
+        {
+            "source": 0,
+            "target": 57,
+            "value": 0.235521
+        },
+        {
+            "source": 0,
+            "target": 58,
+            "value": 0.0145985
+        },
+        {
+            "source": 0,
+            "target": 59,
+            "value": 0.0571429
+        },
+        {
+            "source": 0,
+            "target": 60,
+            "value": 0.318182
+        },
+        {
+            "source": 0,
+            "target": 61,
+            "value": 0.335593
+        },
+        {
+            "source": 0,
+            "target": 62,
+            "value": 0.210526
+        },
+        {
+            "source": 0,
+            "target": 63,
+            "value": 0.0819672
+        },
+        {
+            "source": 0,
+            "target": 64,
+            "value": 0.177686
+        },
+        {
+            "source": 0,
+            "target": 65,
+            "value": 0.203947
+        },
+        {
+            "source": 0,
+            "target": 66,
+            "value": 0.301136
+        },
+        {
+            "source": 0,
+            "target": 67,
+            "value": 0.178744
+        },
+        {
+            "source": 0,
+            "target": 68,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 69,
+            "value": 0.158103
+        },
+        {
+            "source": 0,
+            "target": 70,
+            "value": 0.152074
+        },
+        {
+            "source": 0,
+            "target": 71,
+            "value": 0.298932
+        },
+        {
+            "source": 0,
+            "target": 72,
+            "value": 0.209016
+        },
+        {
+            "source": 0,
+            "target": 73,
+            "value": 0.257669
+        },
+        {
+            "source": 0,
+            "target": 74,
+            "value": 0.276498
+        },
+        {
+            "source": 0,
+            "target": 75,
+            "value": 0.177686
+        },
+        {
+            "source": 0,
+            "target": 76,
+            "value": 0.166667
+        },
+        {
+            "source": 0,
+            "target": 77,
+            "value": 0.309417
+        },
+        {
+            "source": 0,
+            "target": 78,
+            "value": 0.320312
+        },
+        {
+            "source": 0,
+            "target": 79,
+            "value": 0.308036
+        },
+        {
+            "source": 0,
+            "target": 80,
+            "value": 0.24735
+        },
+        {
+            "source": 0,
+            "target": 81,
+            "value": 0.174274
+        },
+        {
+            "source": 0,
+            "target": 82,
+            "value": 0.258427
+        },
+        {
+            "source": 0,
+            "target": 83,
+            "value": 0.268817
+        },
+        {
+            "source": 0,
+            "target": 84,
+            "value": 0.265918
+        },
+        {
+            "source": 0,
+            "target": 85,
+            "value": 0.295203
+        },
+        {
+            "source": 0,
+            "target": 86,
+            "value": 0.252525
+        },
+        {
+            "source": 0,
+            "target": 87,
+            "value": 0.223577
+        },
+        {
+            "source": 0,
+            "target": 88,
+            "value": 0.128079
+        },
+        {
+            "source": 0,
+            "target": 89,
+            "value": 0.200935
+        },
+        {
+            "source": 0,
+            "target": 90,
+            "value": 0.318777
+        },
+        {
+            "source": 0,
+            "target": 91,
+            "value": 0.307359
+        },
+        {
+            "source": 0,
+            "target": 92,
+            "value": 0.218978
+        },
+        {
+            "source": 0,
+            "target": 93,
+            "value": 0.349727
+        },
+        {
+            "source": 0,
+            "target": 94,
+            "value": 0.186235
+        },
+        {
+            "source": 0,
+            "target": 95,
+            "value": 0.300971
+        },
+        {
+            "source": 0,
+            "target": 96,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 97,
+            "value": 0.218182
+        },
+        {
+            "source": 0,
+            "target": 98,
+            "value": 0.252874
+        },
+        {
+            "source": 0,
+            "target": 99,
+            "value": 0.209756
+        },
+        {
+            "source": 0,
+            "target": 100,
+            "value": 0.0
+        },
+        {
+            "source": 16,
+            "target": 39,
+            "value": 0.0
+        },
+        {
+            "source": 69,
+            "target": 87,
+            "value": 0.195876
+        },
+        {
+            "source": 69,
+            "target": 91,
+            "value": 0.246429
+        },
+        {
+            "source": 73,
+            "target": 96,
+            "value": 0.0
+        }
+    ]
+}

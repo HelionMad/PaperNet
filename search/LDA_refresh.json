@@ -1,0 +1,53 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.110.4050",
+            "keyword": "",
+            "author": "David M. Blei, Andrew Y. Ng, Michael I. Jordan, John Lafferty",
+            "abstract": "We describe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics. Each topic is, in turn, modeled as an infinite mixture over an underlying set of topic probabilities. In the context of text modeling, the topic probabilities provide an explicit representation of a document. We present efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation. We report results in document modeling, text classification, and collaborative filtering, comparing to a mixture of unigrams model and the probabilistic LSI model. 1.",
+            "title": "Latent dirichlet allocation"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.100.1923",
+            "keyword": "",
+            "author": "",
+            "abstract": "Adaptable component model (ACM) is proposed based on the product line analysis. The ACM helps revealing variable parts in the system and tailoring them in real time based on pre-defined rules as such enhancing and maintaining an enterprise level application system are effectively managed. With the rule components, we can make necessary changes easily to adapt to new business context. A pilot study was conducted at an enterprise-level application. The productivity improvement performance was resulted in 6 times effective in average in terms of LOC and 2 times decreased workload in terms of M-day for one new product addition. The quality improvement was resulted in 5 times less in average in terms of the number of defects and 3 times decreased workload. Accordingly, this paper (1) proposes a component architecture based on ACM (2) defines the rule components to define variable parts of business, and (3) introduces a case study which applies product line based ACM.",
+            "title": "Abstract Adaptable Component Model for Product"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.108.8490",
+            "keyword": "",
+            "author": "Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, Richard Harshman",
+            "abstract": "A new method for automatic indexing and retrieval is described. The approach is to take advantage of implicit higher-order structure in the association of terms with documents (\u201csemantic structure\u201d) in order to improve the detection of relevant documents on the basis of terms found in queries. The particular technique used is singular-value decomposition, in which a large term by document matrix is decomposed into a set of ca. 100 or-thogonal factors from which the original matrix can be approximated by linear combination. Documents are represented by ca. 100 item vectors of factor weights. Queries are represented as pseudo-document vectors formed from weighted combinations of terms, and documents with supra-threshold cosine values are re-turned. initial tests find this completely automatic method for retrieval to be promising.",
+            "title": "Indexing by latent semantic analysis"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.217.2021",
+            "keyword": "",
+            "author": "Andrew Gelman, Christian Robert, Nicolas Chopin, Judith Rousseau",
+            "abstract": "I actually own a copy of Harold Jeffreys\u2019s Theory of Probability but have only read small bits of it, most recently over a decade ago to confirm that, indeed, Jeffreys was not too proud to use a classical chi-squared p-value when he wanted to check the misfit of a model to data (Gelman, Meng and Stern, 2006). I do, however, feel that it is important to understand where our probability models come from, and I welcome the opportunity to use the present article by Robert, Chopin and Rousseau as a platform for further discussion of foundational issues. 2 In this brief discussion I will argue the following: (1) in thinking about prior distributions, we should go beyond Jeffreys\u2019s principles and move toward weakly informative priors; (2) it is natural for those of us who work in social and computational sciences to favor complex models, contra Jeffreys\u2019s preference for simplicity; and (3) a key generalization of Jeffreys\u2019s ideas is to explicitly include model checking in the process of data analysis.",
+            "title": "Bayesian Data Analysis"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": "0.0525949840467"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": "0.000392428683803"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": "5.45678906095e-05"
+        }
+    ]
+}

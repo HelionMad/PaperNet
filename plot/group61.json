@@ -1,0 +1,1339 @@
+{
+    "nodes": [
+        {
+            "group": 0,
+            "name": "10.1.1.133.4884",
+            "keyword": "MAXIMUM LIKELIHOOD, INCOMPLETE DATA, EM ALGORITHM, POSTERIOR MODE",
+            "author": "A. P. Dempster, N. M. Laird, D. B. Rubin",
+            "abstract": "A broadly applicable algorithm for computing maximum likelihood estimates from incomplete data is presented at various levels of generality. Theory showing the monotone behaviour of the likelihood and convergence of the algorithm is derived. Many examples are sketched, including missing value situations, applications to grouped, censored or truncated data, finite mixture models, variance component estimation, hyperparameter estimation, iteratively reweighted least squares and factor analysis.\r\n",
+            "title": "Maximum likelihood from incomplete data via the EM algorithm"
+        },
+        {
+            "group": 1,
+            "name": "10.1.1.142.8926",
+            "keyword": "",
+            "author": "Charles J. Geyer",
+            "abstract": " ",
+            "title": "Likelihood and Exponential Families"
+        },
+        {
+            "group": 2,
+            "name": "10.1.1.142.8976",
+            "keyword": "Markov chain",
+            "author": "Species Minor, Genetic Variants, Michael Kosoy",
+            "abstract": "Modern advances in genetic analysis have made it feasible to ascertain the variant type of a pathogen infecting a host. Classification of pathogen variant is commonly performed by clustering analysis of the observed genetic divergence between the variants. A natural question arises as to whether the genetically distinct variants are epidemiologically distinct. A broader question is whether the different variants constitute separate microbial species or represent minor variations of the same species. We developed new statistical methodologies for addressing these important issues, in the context of classifying genetically distinct variants of bartonella bacteria found in a rodent species based on marked capture-recapture trapping data of a rodent \u2217Author for correspondence",
+            "title": "Analysis of Multi-Strain Pathogens \u2013"
+        },
+        {
+            "group": 3,
+            "name": "10.1.1.142.9102",
+            "keyword": "",
+            "author": "Mario Parente, Argyris Zymnis",
+            "abstract": "Hyperspectral Imaging is a technique for obtaining a spectrum in each position of a large array of spatial positions so that a recognizable image is obtained at each of a set of discrete wavelengths. The images might be of a rock in the",
+            "title": "Statistical clustering and Mineral Spectral Unmixing in Aviris Hyperspectral Image of Cuprite, NV"
+        },
+        {
+            "group": 4,
+            "name": "10.1.1.142.9126",
+            "keyword": "Technology Enhanced Learning, Educational Metadata, Social Filtering, Data Clustering",
+            "author": "Pythagoras Karampiperis, Aristeidis Diplaros",
+            "abstract": "Abstract. The need for applying advanced social information retrieval techniques for personalizing web-based information discovery has been identified as a key challenge. Until now, significant R&D effort has been devoted aiming towards applying collaborative filtering techniques for educational content retrieval. However, limited attention has been given to the use of educational metadata as a mean to enhance social filtering techniques via educationally informed filtering decisions. In this paper we propose the use of an add-on filtering service on existing social filtering systems/applications so as to create a data post-filtering mechanism that makes use of intelligence stored in TEL metadata. The proposed methodology starts with the generation of a matrix that represents the educational characteristics of the resources suggested by typical social filtering techniques and applies post-filtering using the educational \u201cfootprint \u201d of the resources already used by the targeted end-user.",
+            "title": "Exploiting Image Segmentation Techniques for Social Filtering of Educational Content"
+        },
+        {
+            "group": 5,
+            "name": "10.1.1.142.9342",
+            "keyword": "Model-based clustering, Pattern recognition, Bayesian cluster analysis, Machine vision, Industrial inspection, Hough transform 1. The flaw detection problem Garment",
+            "author": "J. G. Campbell A, C. Fraley B, F. Murtagh A, A. E. Raftery B",
+            "abstract": "clustering",
+            "title": "Linear flaw detection in woven textiles using model-based"
+        },
+        {
+            "group": 6,
+            "name": "10.1.1.142.9511",
+            "keyword": "Hidden Markov models, segmentation, Bayesian methods, protein structure prediction, \u03b2-sheets, sequence",
+            "author": "Scott C. Schmidler, Jun S. Liu, Douglas L. Brutlag",
+            "abstract": "We introduce a class of probability models for sequences of random variables with complex long-range dependency structure, called stochastic segment interaction models, motivated by problems arising in the analysis of biopolymer sequence data. We generalize and extend previous work in this area, and make explicit the relations to existing literature on hidden Markov models (HMMs) and \u201cgeneralized \u201d HMMs. We show that this class of models allows for incorporation of non-local interaction information in biological sequence analysis. We demonstrate this approach by developing models for prediction of 3D contacts in protein sequences using models for amino acid dependencies in \u03b2-sheets. We provide algorithms for Bayesian inference on these models via dynamic programming and Markov chain Monte Carlo simulation. Results are presented from an application to protein structure prediction from sequence.",
+            "title": "Stochastic segment interaction models for biological sequence analysis"
+        },
+        {
+            "group": 7,
+            "name": "10.1.1.142.9558",
+            "keyword": "",
+            "author": "Adrian E. Raftery, Tilmann Gneiting, Fadoua Balabdaoui, Michael Polakowski",
+            "abstract": "Ensembles used for probabilistic weather forecasting often exhibit a spread-error correlation, but they tend to be underdispersive. This paper proposes a statistical method for postprocessing ensembles based on Bayesian model averaging (BMA), which is a standard method for combining predictive distributions from different sources. The BMA predictive probability density function (PDF) of any quantity of interest is a weighted average of PDFs centered on the individual bias-corrected forecasts, where the weights are equal to posterior probabilities of the models generating the forecasts and reflect the models \u2019 relative contributions to predictive skill over the training period. The BMA weights can be used to assess the usefulness of ensemble members, and this can be used as a basis for selecting ensemble members; this can be useful given the cost of running large ensembles. The BMA PDF can be represented as an unweighted ensemble of any desired size, by simulating from the BMA predictive distribution. The BMA predictive variance can be decomposed into two components, one corresponding to the between-forecast variability, and the second to the within-forecast variability. Predictive PDFs or intervals based solely on the ensemble spread incorporate the first component but not the second. Thus BMA provides a theoretical explanation of the tendency of ensembles to exhibit a spread-error correlation but yet",
+            "title": "Using Bayesian model averaging to calibrate forecast ensembles. Monthly Weather Review 133"
+        },
+        {
+            "group": 8,
+            "name": "10.1.1.142.9576",
+            "keyword": "",
+            "author": "Abhijit Dasgupta, Adrian E. Raftery",
+            "abstract": "We consider the problem of detecting features in spatial point processes in the presence of substantial clutter. One example is the detection of mine elds using reconnaissance aircraft images that erroneously identify many objects that are not mines. Another is the detection of seismic faults on the basis of earthquake catalogs: earthquakes tend to be clustered close to the faults, but there are many that are farther away. Our solution uses model-based clustering based on a mixture model for the process, in which features are assumed to generate points according to highly linear multivariate normal densities, and the clutter arises according to a spatial Poisson process. Very nonlinear features are represented by several highly linear multivariate normal densities, giving a piecewise linear representation. The model is estimated in two stages. In the rst stage, hierarchical model-based clustering is used to provide a rst estimate of the features. In the second stage, this clustering is re ned using the EM algorithm. The number of features is found using an approximation to the posterior probability of each number of features. For the minefield",
+            "title": "Detecting Features in  Spatial Point Processes with . . ."
+        },
+        {
+            "group": 9,
+            "name": "10.1.1.142.9687",
+            "keyword": "",
+            "author": "Florence Forbes, Adrian E. Raftery",
+            "abstract": "and Critical Care for sharing the data in Figure 12 (a) and to Xavier Descombes, INRIA We consider the problems of image segmentation and classi cation, and image restoration when the true image is made up of a small number of (unordered) colors. Our emphasis is on both performance and speed \ufffd speed has become increasingly important for analyzing large images and multispectral images with many bands, processing large image databases, real-time or near real-time image analysis, and the online analysis of video. Bayesian image analysis (Geman and Geman 1984) provides an elegant solution to these problems, but it is very computationally expensive, and the solutions it provides may be sensitive to unrealistic global properties of the models on which it is based. The ICM algorithm (Besag 1986) is faster and based on the local properties of the models underlying Bayesian image analysis \ufffd parameter estimation is performed iteratively via pseudo-likelihood. Mathematical morphology (Matheron 1975) is faster again and is widely considered to perform well, but lacks a statistical basis \ufffd method selection (analogous to parameter estimation) is done in a rather ad hoc manner.",
+            "title": "Bayesian Morphology: Fast Unsupervised Bayesian Image Analysis"
+        },
+        {
+            "group": 10,
+            "name": "10.1.1.143.49",
+            "keyword": "Transcriptional regulation, motif discover, cis-regulatory, Gene expression, DNA sequence, ChIP-chip, Bayesian model, Markov Chain Monte Carlo",
+            "author": "Qing Zhou, Mayetri Gupta",
+            "abstract": "Gene transcription is regulated by interactions between transcription factors and their target binding sites in the genome. A motif is the sequence pattern recognized by a transcription factor to mediate such interactions. With the availability of high-throughput genomic data, computational identification of transcription factor binding motifs has become a major research problem in computational biology and bioinformatics. In this chapter, we present a series of Bayesian approaches to motif discovery. We start from a basic statistical framework for motif finding, extend it to the identification of cis-regulatory modules, and then discuss methods that combine motif finding with phylogenetic footprinting, gene expression or ChIP-chip data, and nucleosome positioning information. Simulation studies and applications to biological data sets are presented to illustrate the utility of these methods.",
+            "title": "Chapter 8 Regulatory Motif Discovery: from Decoding to Meta-Analysis"
+        },
+        {
+            "group": 11,
+            "name": "10.1.1.143.89",
+            "keyword": "top-down",
+            "author": "Iasonas Kokkinos, Petros Maragos",
+            "abstract": "Abstract \u2014 In this work we formulate the interaction between image segmentation and object recognition in the framework of the Expectation Maximization (EM) algorithm. We consider segmentation as the assignment of image observations to object hypotheses and phrase it as the E-step, while the M-step amounts to fitting the object models to the observations. These two tasks are performed iteratively, thereby simultaneously segmenting an image and reconstructing it in terms of objects. We model objects using Active Appearance Models (AAMs) as they capture both shape and appearance variation. During the E-step the fidelity of the AAM predictions to the image is used to decide about assigning observations to the object. For this we propose two top-down segmentation algorithms. The first starts with an oversegmentation of the image and then softly assigns image segments to objects as in the common setting of EM. The second uses curve evolution to minimize a criterion derived from the variational interpretation of EM and introduces AAMs as shape priors. For the M-step we derive AAM fitting equations that accommodate segmentation information, thereby allowing for the automated treatment of occlusions. Apart from top-down segmentation results we provide systematic experiments on object detection that validate the merits of our joint segmentation and recognition approach.",
+            "title": "Synergy Between Object Recognition and Image Segmentation using the Expectation Maximization Algorithm"
+        },
+        {
+            "group": 12,
+            "name": "10.1.1.143.174",
+            "keyword": "linear mixed model, empirical process",
+            "author": "Ju Sung, Charles J. Geyer",
+            "abstract": "We describe a Monte Carlo method to approximate the maximum likelihood estimate (MLE), when there are missing data and the observed data likelihood is not available in closed form. This method uses simulated missing data that are independent and identically distributed and independent of the observed data. Our Monte Carlo approximation to the MLE is a consistent and asymptotically normal estimate of the minimizer \u03b8 \u2217 of the Kullback-Leibler information, as both Monte Carlo and observed data sample sizes go to infinity simultaneously. Plug-in estimates of the asymptotic variance are provided for constructing confidence regions for \u03b8 \u2217. We give Logit-Normal generalized linear mixed model examples, calculated using an R package. AMS 2000 subject classifications. Primary 62F12; secondary 65C05. Key words and phrases. Asymptotic theory, Monte Carlo, maximum likelihood, generalized",
+            "title": "MONTE CARLO LIKELIHOOD INFERENCE FOR MISSING DATA MODELS"
+        },
+        {
+            "group": 13,
+            "name": "10.1.1.143.584",
+            "keyword": "Asymptotic normality, bootstrap, empirical process, interval censoring, nonparametric maximum likelihood estimation",
+            "author": "Jian Huang",
+            "abstract": "Abstract: We study asymptotic properties of the nonparametric maximum likelihood estimator (NPMLE) of a distribution function based on partly interval-censored data in which the exact values of some failure times are observed in addition to interval-censored observations. It is shown that the NPMLE converges weakly to a mean zero Gaussian process whose covariance function is determined by a Fredholm integral equation. Simulations are conducted to demonstrate that the NPMLE based on all the observations substantially outperforms the empirical distribution function, using only the fully observed observations, in terms of the mean square error. It is also shown that the nonparametric bootstrap estimator of the distribution function is first order consistent, which provides asymptotic justification for the use of bootstrap to construct confidence bands for the unknown distribution function.",
+            "title": "Asymptotic Properties of Nonparametric Estimation Based on Partly Interval-Censored Data"
+        },
+        {
+            "group": 14,
+            "name": "10.1.1.143.803",
+            "keyword": "semantic web, entity lifecycle management",
+            "author": "Junaid Chaudhry , Themis Palpanas , Periklis Andritsos , Antonio Mana",
+            "abstract": " In this paper, we examine the special requirements of lifecycle management for entities in the context of an entity management system for the semantic web. We study the requirements with respect to creating and modifying these entities, as well as to managing their evolution over time. Furthermore, we present the issues arising from the access control models needed for the management of a large, distributed repository of entities. Finally, we discuss the research directions that can offer solutions to the above problems, and give a brief overview of techniques and methods relevant to these solution directions.",
+            "title": "Entity Lifecycle Management for OKKAM "
+        },
+        {
+            "group": 15,
+            "name": "10.1.1.143.836",
+            "keyword": "",
+            "author": "J. G. Campbell, C. Fraley, F. Murtagh Y, A. E. Raftery",
+            "abstract": "We combine image-processing techniques with a powerful new statistical methodology to test for and nd the location of linear production faults in woven textiles. Our approach detects an alignment pattern in preprocessed images via model-based clustering and uses an approximate Bayes factor to assess the evidence for the presence of a defect. Results are shown for some representative examples, and the associated software has been made available on the Internet. Keywords. Model-based clustering, pattern recognition, Bayesian cluster analysis, machine vision, industrial inspection. Supported by O ceofNaval Research under contracts N-00014-96-1-0192 and N-00014-96-1-0330. y Corresponding author.",
+            "title": "Linear Flaw Detection in Woven Textiles Using Model-Based Clustering"
+        },
+        {
+            "group": 16,
+            "name": "10.1.1.143.1187",
+            "keyword": "",
+            "author": "R. D. Martin, A. E. Raftery, R. D. Martin, A. E. Raftery",
+            "abstract": "The class of Mixture Transition Distribution (MTD) time series models is introduced. In these models, the conditional distribution of the current observation given the past is a mixture of conditional distributions given each one of the last p observations. They can capture non-Gaussian and non-linear features such as outliers, bursts of activity and flat stretches, in a single unified model class. They can also represent time series defined on arbitrary state spaces, which need not even be Euclidean. They perform well in the usual case of Gaussian time series without obvious non-standard behaviors. The models are simple, analytically tractable, easy to simulate and readily estimated. The stationarity and autocorrelation properties of the models are derived. _A. simple EM algorithm is given and shown to work well for estimation. The models are applied to several real and simulated data sets with satisfactory results. They appear to capture the features of the data better than the best competing ARIMA models.",
+            "title": "Modeling outliers, bursts and flat stretches in time series using Mixture Transition Distribution (MTD) models"
+        },
+        {
+            "group": 17,
+            "name": "10.1.1.143.1270",
+            "keyword": "",
+            "author": "Hai Liu, Kung-sik Chan",
+            "abstract": "Summary. Zero inflation problem is very common in ecological studies as well as other areas. We propose the COnstrained Zero-Inflated Generalized Additive Model (COZIGAM) for analyzing zero-inflated data. Our approach assumes that the response follows some distribution from the zero-inflated 1-parameter exponential family, with the further assumption that the probability of zero inflation is some monotone function of the mean response function. When the latter assumption obtains, the new approach provides a unified framework for modeling zero-inflated data. This bypasses the problems of two popular methods for analyzing zero-inflated data that either focus only on the non-zero data or model the presence-absence data and the non-zero data separately. We develop an iterative algorithm for penalized likelihood estimation with a COZIGAM, and derive formulas for constructing confidence intervals. The new approach is illustrated with both simulated data and two real applications. Keywords: EM algorithm; Observed information; Penalized-iteratively re-weighted least squares; Penalized quasi-likelihood; Linear constraints",
+            "title": "Constrained Generalized Additive Model with Zero-Inflated Data"
+        },
+        {
+            "group": 18,
+            "name": "10.1.1.143.1432",
+            "keyword": "",
+            "author": "Michael A. Newton, Adrian E. Raftery",
+            "abstract": "We introduce the weighted likelihood bootstrap (WLB) as a simple way of approximately simulating from a posterior distribution. This is easy to implement, requiring only an algorithm for calculating the maximum likelihood estimator, such as the EM algorithm or iteratively reweighted least squares; it does not necessarily require actual calculation of the likelihood itself. The method is exact up to an effective prior which is generally unknown but can be identified exactly for unconstrained discretedata models and approximately for other models. Accuracy of the WLB relies on the chosen distribution of weights. In the generic scheme, the WLB is at least first-order correct under quite general conditions. We have also been able to prove higher-order correctness in some classes of models. The method, which generalizes Rubin's Bayesian bootstrap, provides approximate posterior distributions for prediction, calibration, dependent data and partial likelihood problems, as well as more standard models. The calculation of approximate Bayes factors for model comparison is also considered. We note that, given a sample simulated from the posterior distribution, the required marginal likelihood may be simulation-consistently estimated by the harmonic mean of the associated likelihood values; a modification of this estimator that avoids instability is also noted. An alternative, prediction-based, estimator of the marginal likelihood using the WLB is also described. These methods provide simple ways of calculating approximate Bayes factors and posterior model probabilities for a very wide class of models.",
+            "title": "Approximate Bayesian . . . Weighted Likelihood Bootstrap"
+        },
+        {
+            "group": 19,
+            "name": "10.1.1.143.1520",
+            "keyword": "",
+            "author": "Jie Yang, Rongling Wu",
+            "abstract": "Key Words: B-splines; maximum likelihood; mixed model Functional mapping is a useful tool for mapping quantitative trait loci (QTL) that control dynamic traits. It incorporates mathematical aspects of biological processes into the mixture model-based likelihood setting for QTL mapping, thus increasing the power of QTL detection and the precision of parameter estimation. However, in many situations there is no obvious functional form and, in such cases, this strategy will not be optimal. Here we propose to use nonparametric function estimation, typically implemented with B-splines, to estimate the underlying functional form of phenotypic trajectories, and then construct a nonparametric test to find evidence of existing quantitative trait loci. Using the representation of a nonparametric regression as a mixed model, the final test statistic is a likelihood ratio test. We consider two types of genetic maps: dense maps and general maps, and the power of nonparametric functional mapping is investigated through simulation studies and demonstrated by examples.",
+            "title": "Revised for Biometrics Author for correspondence:"
+        },
+        {
+            "group": 20,
+            "name": "10.1.1.143.1550",
+            "keyword": "wireless sensor network, target localization, decision fusion, target tracking, maximum likelihood",
+            "author": "Natallia Katenka, Elizaveta Levina, George Michailidis",
+            "abstract": "Wireless sensor networks (WSN) are becoming an important tool in a variety of tasks, including monitoring and tracking of spatially occurring phenomena. These networks offer the capability of densely covering a large area, but at the same time are constrained by the limiting sensing, processing and power capabilities of their sensors. In order to complete the task at hand, the information collected by the sensor nodes needs to be appropriately fused. In this paper, we study the problems of estimating the location of a target and estimating its signal intensity. The proposed algorithms are based on the local vote decision fusion (LVDF) mechanism, where sensors first correct their original decisions using decisions of neighboring sensors. These corrected decisions are more accurate, robust, and improve detection; however, they are correlated, which renders maximum likelihood estimation intractable. We adopt a pseudo-likelihood formulation and examine several variants of localization and signal estimation algorithms based on original and corrected decisions using direct optimization methods as well as an EM approach. Uncertainty assessments about the parameters of interest are provided using a parametric bootstrap technique. An extensive simulation study of the developed algorithms along with several benchmarks establishes the overall superior performance of the LVDF based algorithms, especially in low signal-to-noise ratio environments. Extensions to tracking moving targets and localizing multiple targets are also considered.",
+            "title": "Robust Target Localization from Binary Decisions in Wireless Sensor Networks"
+        },
+        {
+            "group": 21,
+            "name": "10.1.1.143.1691",
+            "keyword": "",
+            "author": "Veronica J. Berrocal, Adrian E. Raftery, Tilmann Gneiting",
+            "abstract": "Forecast ensembles typically show a spread\u2013skill relationship, but they are also often underdispersive, and therefore uncalibrated. Bayesian model averaging (BMA) is a statistical postprocessing method for forecast ensembles that generates calibrated probabilistic forecast products for weather quantities at individual sites. This paper introduces the spatial BMA technique, which combines BMA and the geostatistical output perturbation (GOP) method, and extends BMA to generate calibrated probabilistic forecasts of whole weather fields simultaneously, rather than just weather events at individual locations. At any site individually, spatial BMA reduces to the original BMA technique. The spatial BMA method provides statistical ensembles of weather field forecasts that take the spatial structure of observed fields into account and honor the flow-dependent information contained in the dynamical ensemble. The members of the spatial BMA ensemble are obtained by dressing the weather field forecasts from the dynamical ensemble with simulated spatially correlated error fields, in proportions that correspond to the BMA weights for the member models in the dynamical ensemble. Statistical ensembles of any size can be generated at minimal computational cost. The spatial BMA technique was applied to 48-h forecasts of surface temperature over the Pacific Northwest in 2004, using the University of Washington mesoscale ensemble. The spatial BMA ensemble generally outperformed the BMA and GOP ensembles and showed much better verification results than the raw ensemble, both at individual sites, for weather field forecasts, and for forecasts of composite quantities, such as average temperature in National Weather Service forecast zones and minimum temperature along the Interstate 90 Mountains to Sound Greenway. 1.",
+            "title": "1386 MONTHLY WEATHER REVIEW VOLUME 135 Combining Spatial Statistical and Ensemble Information in Probabilistic Weather Forecasts"
+        },
+        {
+            "group": 22,
+            "name": "10.1.1.143.1706",
+            "keyword": "Key words, Fellegi-Sunter, File matching, Latent class, Measurement error, Mixture models, Propagation of Error, Record Linkage",
+            "author": "P. Lahiri, Michael D. Larsen",
+            "abstract": "Record linkage, or exact matching, can be used to join together two files that contain information on the same individuals, but lack unique personal identification codes. The possibility of errors in linkage causes problems for estimating the relationships between variables on the two files. The effect is analogous to the impact of measurement error. A model of a linear regression relationship between variables in linked files is proposed. Assuming the probabilities that pairs of records are links are known, an unbiased estimator of the regression coefficients is derived. Methods for estimating the linkage probabilities by using mixture models are discussed. A consistent estimator of the covariance matrix of the proposed estimator is proposed. A bootstrap estimator is used to reflect the impact of the uncertainty in record linkage model parameters on the estimators of the regression parameters. A simulation study compares the performance of the proposed estimator and alternatives.",
+            "title": "Regression Analysis with Linked Data, Iowa State University, Department of Statistics,"
+        },
+        {
+            "group": 23,
+            "name": "10.1.1.143.2420",
+            "keyword": "",
+            "author": "Marc Toussaint, Laurent Charlin, Pascal Poupart",
+            "abstract": "Planning can often be simplified by decomposing the task into smaller tasks arranged hierarchically. Charlin et al. (2006) recently showed that the hierarchy discovery problem can be framed as a non-convex optimization problem. However, the inherent computational difficulty of solving such an optimization problem makes it hard to scale to real-world problems. In another line of research, Toussaint et al. (2006) developed a method to solve planning problems by maximum-likelihood estimation. In this paper, we show how the hierarchy discovery problem in partially observable domains can be tackled using a similar maximum likelihood approach. Our technique first transforms the problem into a dynamic Bayesian network through which a hierarchical structure can naturally be discovered while optimizing the policy. Experimental results demonstrate that this approach scales better than previous techniques based on non-convex optimization. 1",
+            "title": "Hierarchical POMDP Controller Optimization by Likelihood Maximization"
+        },
+        {
+            "group": 24,
+            "name": "10.1.1.143.3076",
+            "keyword": "",
+            "author": "Pavel Serdyukov, Djoerd Hiemstra",
+            "abstract": "",
+            "title": "Modeling documents as mixtures of persons for expert finding"
+        },
+        {
+            "group": 25,
+            "name": "10.1.1.143.3143",
+            "keyword": "",
+            "author": "Marc Toussaint, Laurent Charlin, Pascal Poupart",
+            "abstract": "Planning can often be simplified by decomposing the task into smaller tasks arranged hierarchically. Charlin et al. [4] recently showed that the hierarchy discovery problem can be framed as a non-convex optimization problem. However, the inherent computational difficulty of solving such an optimization problem makes it hard to scale to realworld problems. In another line of research, Toussaint et al. [18] developed a method to solve planning problems by maximumlikelihood estimation. In this paper, we show how the hierarchy discovery problem in partially observable domains can be tackled using a similar maximum likelihood approach. Our technique first transforms the problem into a dynamic Bayesian network through which a hierarchical structure can naturally be discovered while optimizing the policy. Experimental results demonstrate that this approach scales better than previous techniques based on non-convex optimization. 1",
+            "title": "Hierarchical POMDP Controller Optimization by Likelihood Maximization"
+        },
+        {
+            "group": 26,
+            "name": "10.1.1.143.3532",
+            "keyword": "Component Extraction, Maximum Likelihood, Approximate EM, Competitive Learning, Neural Networks",
+            "author": "J\u00f6rg L\u00fccke, Maneesh Sahani",
+            "abstract": "We study a generative model in which hidden causes combine competitively to produce observations. Multiple active causes combine to determine the value of an observed variable through a max function, in the place where algorithms such as sparse coding, independent component analysis, or non-negative matrix factorization would use a sum. This max rule can represent a more realistic model of non-linear interaction between basic components in many settings, including acoustic and image data. While exact maximum-likelihood learning of the parameters of this model proves to be intractable, we show that efficient approximations to expectation-maximization (EM) can be found in the case of sparsely active hidden causes. One of these approximations can be formulated as a neural network model with a generalized softmax activation function and Hebbian learning. Thus, we show that learning in recent softmax-like neural networks may be interpreted as approximate maximization of a data likelihood. We use the bars benchmark test to numerically verify our analytical results and to demonstrate the competitiveness of the resulting algorithms. Finally, we show results of learning model parameters to fit acoustic and visual data sets in which max-like component combinations arise naturally.",
+            "title": " Maximal Causes for Non-linear Component Extraction"
+        },
+        {
+            "group": 27,
+            "name": "10.1.1.143.3647",
+            "keyword": "",
+            "author": "Kevin Knight, Anish Nair, Nishit Rathod, Kenji Yamada",
+            "abstract": "We study a number of natural language decipherment problems using unsupervised learning. These include letter substitution ciphers, character code conversion, phonetic decipherment, and word-based ciphers with relevance to machine translation. Straightforward unsupervised learning techniques most often fail on the first try, so we describe techniques for understanding errors and significantly increasing performance. 1",
+            "title": "Unsupervised Analysis for Decipherment Problems"
+        },
+        {
+            "group": 28,
+            "name": "10.1.1.143.3858",
+            "keyword": "",
+            "author": "H. Jill Lin, Salvador Ruiz-correa, Raymond W. Sze, Michael L, Matthew L. Speltz, Anne V. Hing, Linda G. Shapiro",
+            "abstract": "Abstract. Craniosynostosis is a serious and common pediatric disease caused by the premature fusion of the sutures of the skull. Early fusion results in severe deformities in skull shape due to the restriction of bone growth perpendicular to the fused suture and compensatory growth in unfused skull plates. Calvarial (skull) abnormalities are frequently associated with severe impaired central nervous system functions due to brain abnormalities, increased intra-cranial pressure and abnormal build-up of cerebrospinal fluid. In this work, we develop a novel approach to efficiently classify skull deformities caused by metopic and sagittal synostoses using our newly introduced symbolic shape descriptors. We demonstrate the efficacy of our methodology in a series of large-scale classification experiments that compare the performance of our symbolic-signature-based approach to those of traditional numeric descriptors that are frequently used in clinical research. We also demonstrate an application of our symbolic descriptors in shape-based retrieval of skull morphologies. 1",
+            "title": "Efficient Symbolic Signatures for Classifying Craniosynostosis Skull Deformities"
+        },
+        {
+            "group": 29,
+            "name": "10.1.1.143.4401",
+            "keyword": "",
+            "author": "Magnus Hemmendorff",
+            "abstract": "Department of Biomedical EngineeringLink\"opings universitet SE-581 85 Link\"opingSweden ISBN 91-7373-060-2 ISSN 0345-7524 iii Abstract This dissertation presents a framework for estimation of motion fields in 2D images,3D volumes and multi-dimensional signal registration. The primary application is motion compensation for sequences of medical images and volumes with contrastagents.",
+            "title": "Motion Estimation and Compensation in Medical Imaging"
+        },
+        {
+            "group": 30,
+            "name": "10.1.1.143.4601",
+            "keyword": "",
+            "author": "Shotaro Akaho",
+            "abstract": "We present a mixture model that can be applied to the recognition of multiple objects in an image plane. The model consists of any shape of submodules. Each submodule is a probability density function of data points with scale and shift parameters, and the modules are combined with weight probabilities. We present the EM (Expectation-Maximization) algorithm to estimate those parameters. We also modify the algorithm in the case that data points are restricted in an attention window. ",
+            "title": "Mixture model for image understanding and the EM algorithm"
+        },
+        {
+            "group": 31,
+            "name": "10.1.1.143.4668",
+            "keyword": "",
+            "author": "Yongwook Bryce Kim, Polina Golland, Yongwook Bryce Kim",
+            "abstract": "Data-driven analysis methods, such as independent component analysis (ICA) and clustering, have found a fruitful application in the analysis of functional magnetic resonance imaging (fMRI) data for identifying functionally connected brain networks. Unlike the traditional regression-based hypothesis-driven analysis methods, the principal advantage of data-driven methods is their applicability to experimental paradigms in the absence of a priori model of brain activity. Although ICA and clustering rely on very different assumptions on the underlying distributions, they produce surprisingly similar results for signals with large variation. The main goal of this thesis is to understand the factors that contribute to the differences in the identification of functional connectivity based on ICA and a more general version of clustering, Gaussian mixture model (GMM), and their relations. We provide a detailed empirical comparison of ICA and clustering based on GMM. We introduce a component-wise matching and",
+            "title": "Identification of Functional Connectivity in fMRI"
+        },
+        {
+            "group": 32,
+            "name": "10.1.1.143.4781",
+            "keyword": "",
+            "author": "Taichi Noro, Takashi Inui, Hiroya Takamura, Manabu Okumura",
+            "abstract": "This study aims at identifying when an event written in text occurs. In particular, we classify a sentence for an event into four time-slots; morning, daytime, evening, and night. To realize our goal, we focus on expressions associated with time-slot (time-associated words). However, listing up all the time-associated words is impractical, because there are numerous time-associated expressions. We therefore use a semi-supervised learning method, the Na\u00efve Bayes classifier backed up with the Expectation Maximization algorithm, in order to iteratively extract time-associated words while improving the classifier. We also propose to use Support Vector Machines to filter out noisy instances that indicates no specific time period. As a result of experiments, the proposed method achieved 0.864 of accuracy and outperformed other methods. 1",
+            "title": "Japan Society for the Promotion of Science"
+        },
+        {
+            "group": 33,
+            "name": "10.1.1.143.4801",
+            "keyword": "Fusion, I.5.3 [Pattern Recognition, Clustering\u2014Algorithms General Terms Algorithms, Experimentation, Theory Keywords Audio-Visual Clustering, Mixture Models, Binaural Hearing, Stereo Vision",
+            "author": "Vasil Khalidov, Florence Forbes, Miles Hansard, Elise Arnaud, Radu Horaud",
+            "abstract": "This paper addresses the issues of detecting and localizing objects in a scene that are both seen and heard. We explain the benefits of a human-like configuration of sensors (binaural and binocular) for gathering auditory and visual observations. It is shown that the detection and localization problem can be recast as the task of clustering the audio-visual observations into coherent groups. We propose a probabilistic generative model that captures the relations between audio and visual observations. This model maps the data into a common audio-visual 3D representation via a pair of mixture models. Inference is performed by a version of the expectationmaximization algorithm, which is formally derived, and which provides cooperative estimates of both the auditory activity and the 3D position of each object. We describe several experiments with single- and multiple-speaker detection and localization, in the presence of other audio sources.",
+            "title": "Detection and Localization of 3D Audio-Visual Objects Using Unsupervised Clustering"
+        },
+        {
+            "group": 34,
+            "name": "10.1.1.143.5232",
+            "keyword": "",
+            "author": "Yuhong Guo, Dale Schuurmans",
+            "abstract": "We investigate a new, convex relaxation of an expectation-maximization (EM) variant that approximates a standard objective while eliminating local minima. First, a cautionary result is presented, showing that any convex relaxation of EM over hidden variables must give trivial results if any dependence on the missing values is retained. Although this appears to be a strong negative outcome, we then demonstrate how the problem can be bypassed by using equivalence relations instead of value assignments over hidden variables. In particular, we develop new algorithms for estimating exponential conditional models that only require equivalence relation information over the variable values. This reformulation leads to an exact expression for EM variants in a wide range of problems. We then develop a semidefinite relaxation that yields global training by eliminating local minima. 1",
+            "title": "Convex relaxations of latent variable training"
+        },
+        {
+            "group": 35,
+            "name": "10.1.1.143.5388",
+            "keyword": "",
+            "author": "Mstislav Maslennikov, Hai-kiat Goh, Tat-seng Chua",
+            "abstract": "Information Extraction (IE) is a fundamental technology for NLP. Previous methods for IE were relying on co-occurrence relations, soft patterns and properties of the target (for example, syntactic role), which result in problems of handling paraphrasing and alignment of instances. Our system ARE (Anchor and Relation) is based on the dependency relation model and tackles these problems by unifying entities according to their dependency relations, which we found to provide more invariant relations between entities in many cases. In order to exploit the complexity and characteristics of relation paths, we further classify the relation paths into the categories of \u2018easy\u2019, \u2018average \u2019 and \u2018hard\u2019, and utilize different extraction strategies based on the characteristics of those categories. Our extraction method leads to improvement in performance by 3 % and 6 % for MUC4 and MUC6 respectively as compared to the state-of-art IE systems. 1",
+            "title": "ARE: Instance Splitting Strategies for Dependency Relation-based Information Extraction"
+        },
+        {
+            "group": 36,
+            "name": "10.1.1.143.5502",
+            "keyword": "",
+            "author": "Jonathan W. Pillow, Peter Latham",
+            "abstract": "Point process encoding models provide powerful statistical methods for understanding the responses of neurons to sensory stimuli. Although these models have been successfully applied to neurons in the early sensory pathway, they have fared less well capturing the response properties of neurons in deeper brain areas, owing in part to the fact that they do not take into account multiple stages of processing. Here we introduce a new twist on the point-process modeling approach: we include unobserved as well as observed spiking neurons in a joint encoding model. The resulting model exhibits richer dynamics and more highly nonlinear response properties, making it more powerful and more flexible for fitting neural data. More importantly, it allows us to estimate connectivity patterns among neurons (both observed and unobserved), and may provide insight into how networks process sensory input. We formulate the estimation procedure using variational EM and the wake-sleep algorithm, and illustrate the model\u2019s performance using a simulated example network consisting of two coupled neurons. 1",
+            "title": "Gatsby Computational Neuroscience Unit, UCL"
+        },
+        {
+            "group": 37,
+            "name": "10.1.1.143.5546",
+            "keyword": "",
+            "author": "Vasil Khalidov, Florence Forbes, Miles Hansard, Elise Arnaud, Radu Horaud",
+            "abstract": "Abstract. We address the issue of identifying and localizing individuals in a scene that contains several people engaged in conversation. We use a human-like configuration of sensors (binaural and binocular) to gather both auditory and visual observations. We show that the identification and localization problem can be recast as the task of clustering the audio-visual observations into coherent groups. We propose a probabilistic generative model that captures the relations between audio and visual observations. This model maps the data to a representation of the common 3D scene-space, via a pair of Gaussian mixture models. Inference is performed by a version of the Expectation Maximization algorithm, which provides cooperative estimates of both the activity and the 3D position of each speaker. Key words: multiple speaker localization, audio-visual integration, unsupervised clustering 1",
+            "title": "Audio-Visual Clustering for Multiple Speaker Localization"
+        },
+        {
+            "group": 38,
+            "name": "10.1.1.143.6091",
+            "keyword": "",
+            "author": "Nina Mishra, Dana Ron, Ram Swaminathan",
+            "abstract": "We propose a new formulation of the conceptual clustering problem where the goal is to explicitly output a collection of simple and meaningful conjunctions of attributes that define the clusters. The formulation differs from previous approaches since the clusters discovered may overlap and also may not cover all the points. In addition, a point may be assigned to a cluster description even if it only satisfies most, and not necessarily all, of the attributes in the conjunction. Connections between this conceptual clustering problem and the maximum edge biclique problem are made. Simple, randomized algorithms are given that discover a collection of approximate conjunctive cluster descriptions in sublinear time.",
+            "title": " A New Conceptual Clustering Framework"
+        },
+        {
+            "group": 39,
+            "name": "10.1.1.143.6433",
+            "keyword": "",
+            "author": "Mstislav Maslennikov, Tat-seng Chua",
+            "abstract": "Extraction of relations between entities is an important part of Information Extraction on free text. Previous methods are mostly based on statistical correlation and dependency relations between entities. This paper re-examines the problem at the multiresolution layers of phrase, clause and sentence using dependency and discourse relations. Our multi-resolution framework ARE (Anchor and Relation) uses clausal relations in 2 ways: 1) to filter noisy dependency paths; and 2) to increase reliability of dependency path extraction. The resulting system outperforms the previous approaches by 3%, 7%, 4 % on MUC4, MUC6 and ACE RDC domains respectively. 1",
+            "title": "A Multi-resolution Framework for Information Extraction from Free Text"
+        },
+        {
+            "group": 40,
+            "name": "10.1.1.143.6469",
+            "keyword": "",
+            "author": "Hongjun Li",
+            "abstract": "This dissertation is devoted to the design of an intelligent, distributed fault and performance management system for communication networks. The architecture is based on a distributed agent paradigm, with belief networks as the framework for knowledge representation and evidence propagation. The dissertation consists of four major parts. First, we choose the mobile code technology to help implement a distributed, extensible framework for supporting adaptive, dynamic network monitoring and control. The focus of our work is on three aspects. First, the design of the standard infrastructure, or Virtual Machine, based on which agents could be created, deployed, managed and initiated to run. Second, the collection API for our delegated agents to collect data from network elements. Third, the callback mechanism through whichthe functionality of the delegated agents or even the native software could be extended. We propose three system designs based on such ideas. Second, we propose a distributed framework for intelligent fault management purpose. The managed network is divided into several domains and for each",
+            "title": " INTELLIGENT DISTRIBUTED FAULT AND PERFORMANCE MANAGEMENT FOR COMMUNICATION NETWORKS"
+        },
+        {
+            "group": 41,
+            "name": "10.1.1.143.6551",
+            "keyword": "",
+            "author": "Fabio Cuzzolin, Diana Mateus, David Knossow, Edmond Boyer, Radu Horaud",
+            "abstract": "In this paper, an analysis of locally linear embedding (LLE) in the context of clustering is developed. As LLE conserves the local affine coordinates of points, shape protrusions as high-curvature regions of the surface are preserved. Also, LLE\u2019s covariance constraint acts as a force stretching those protrusions and making them wider separated and lower dimensional. A novel scheme for unsupervised body-part segmentation along time sequences is thus proposed in which 3-D shapes are clustered after embedding. Clusters are propagated in time, and merged or split in an unsupervised fashion to accommodate changes of the body topology. Comparisons on synthetic, and real data with ground truth, are run with direct segmentation in 3-D by EM clustering and ISOMAP-based clustering. Robustness and the effects of topology transitions are discussed. 1.",
+            "title": "Coherent Laplacian 3-D protrusion segmentation"
+        },
+        {
+            "group": 42,
+            "name": "10.1.1.143.6557",
+            "keyword": "y",
+            "author": "Shotaro Akaho, Satoru Hayamizu , Osamu Hasegawa , Takashi Yoshimura , Hideki Asoh",
+            "abstract": "This paper presents a new framework of learning pattern recognition, called \"multiple attribute learning\". In usual setting of pattern recognition, target patterns have several attribute such as color, size, shape, and we can classify the patterns in several ways by their color, by their size, or by their shape. in normal pattern recognition problem, an attribute or a mode of classification is chosen in advance and the problem is simplified. To the contrary, the problem considered in this paper is to make the learning system solve multiple classification problems at once. That is, a mixture of learning data set for multiple classification problems are given to the learning system at once and the system learn multiple classification rules from the data. We propose a method to solve this problem using canonical correlation analysis and EM algorithm. The effectiveness of the method is demonstrated by experiments.  ",
+            "title": " Multiple Attribute Learning with Canonical Correlation Analysis and EM Algorithm"
+        },
+        {
+            "group": 43,
+            "name": "10.1.1.143.6639",
+            "keyword": "",
+            "author": "Fabio Cuzzolin Diana Mateus",
+            "abstract": "Abstract. In this paper we present a novel tool for body-part segmentation and tracking in the context of multiple camera systems. Our goal is to produce robust motion cues over time sequences, as required by human motion analysis applications. Given time sequences of 3D body shapes, body-parts are consistently identified over time without any supervision or aprioriknowledge. The approach first maps shape representations of a moving body to an embedding space using locally linear embedding. While this map is updated at each time step, the shape of the embedded body remains stable. Robust clustering of body parts can then be performed in the embedding space by k-wise clustering, and temporal consistency is achieved by propagation of cluster centroids. The contribution with respect to methods proposed in the literature is a totally unsupervised spectral approach that takes advantage of temporal correlation to consistently segment body-parts over time. Comparisons on real data are run with direct segmentation in 3D by EM clustering and ISOMAP-based clustering: the way different approaches cope with topology transitions is discussed.",
+            "title": "Robust spectral 3D-bodypart segmentation along time"
+        },
+        {
+            "group": 44,
+            "name": "10.1.1.143.6744",
+            "keyword": "maximum entropy, Parzen density",
+            "author": "Hunsop Hong, Student Member, Dan Schonfeld, Senior Member",
+            "abstract": "Abstract\u2014In this paper, we propose a maximum-entropy expectation-maximization (MEEM) algorithm. We use the proposed algorithm for density estimation. The maximum-entropy constraint is imposed for smoothness of the estimated density function. The derivation of the MEEM algorithm requires determination of the covariance matrix in the framework of the maximum-entropy likelihood function, which is difficult to solve analytically. We, therefore, derive the MEEM algorithm by optimizing a lower-bound of the maximum-entropy likelihood function. We note that the classical expectation-maximization (EM) algorithm has been employed previously for 2-D density estimation. We propose to extend the use of the classical EM algorithm for image recovery from randomly sampled data and sensor field estimation from randomly scattered sensor networks. We further propose to use our approach in density estimation, image recovery and sensor field estimation. Computer simulation experiments are used to demonstrate the superior performance of the proposed MEEM algorithm in comparison to existing methods. Index Terms\u2014Expectation-maximization (EM), Gaussian mixture model (GMM), image reconstrution, Kernel density estimation,",
+            "title": "Maximum-entropy expectationmaximization algorithm for image processing and sensor networks"
+        },
+        {
+            "group": 45,
+            "name": "10.1.1.143.6880",
+            "keyword": "",
+            "author": "Minoru Yoshida, Hiroshi Nakagawa",
+            "abstract": "We propose a new method for reformatting web documents by extracting semantic structures from web pages. Our approach is to extract trees that describe hierarchical relations in documents. We developed an algorithm for this task by employing the EM algorithm and clustering techniques. Preliminary experiments showed that our approach was more effective than baseline methods. 1",
+            "title": "Reformatting Web Documents via Header Trees"
+        },
+        {
+            "group": 46,
+            "name": "10.1.1.143.6967",
+            "keyword": "",
+            "author": "Marc Toussaint, Laurent Charlin, Pascal Poupart",
+            "abstract": "Planning can often be simplified by decomposing the task into smaller tasks arranged hierarchically. Charlin et al. [4] recently showed that the hierarchy discovery problem can be framed as a non-convex optimization problem. However, the inherent computational difficulty of solving such an optimization problem makes it hard to scale to realworld problems. In another line of research, Toussaint et al. [18] developed a method to solve planning problems by maximumlikelihood estimation. In this paper, we show how the hierarchy discovery problem in partially observable domains can be tackled using a similar maximum likelihood approach. Our technique first transforms the problem into a dynamic Bayesian network through which a hierarchical structure can naturally be discovered while optimizing the policy. Experimental results demonstrate that this approach scales better than previous techniques based on non-convex optimization. 1",
+            "title": "Hierarchical POMDP Controller Optimization by Likelihood Maximization"
+        },
+        {
+            "group": 47,
+            "name": "10.1.1.143.7151",
+            "keyword": "",
+            "author": "Misha B. Ahrens, Liam Paninski, Maneesh Sahani",
+            "abstract": "Abstract. We describe a class of models that predict how the instantaneous firing rate of a neuron depends on a dynamic stimulus. The models utilize a learnt pointwise nonlinear transform of the stimulus, followed by a linear filter that acts on the sequence of transformed inputs. In one case, the nonlinear transform is the same at all filter lag-times. Thus, this \u201cinput nonlinearity \u201d converts the initial numerical representation of stimulus value to a new representation which provides optimal input to the subsequent linear model. We describe algorithms that estimate both the input nonlinearity and the linear weights simultaneously; and present techniques to regularise and quantify uncertainty in the estimates. In a second approach, the model is generalised to allow a different nonlinear transform of the stimulus value at each lag-time. Although more general, this model is algorithmically more straightforward to fit. However, it has many more degrees of freedom than the first approach, thus requiring more data for accurate estimation. We test the feasibility of these methods on synthetic data, and on responses from a neuron in rodent barrel cortex. The models are shown to predict responses to novel data accurately, and to recover several important neuronal response properties. 1",
+            "title": "Inferring input nonlinearities in neural encoding models"
+        },
+        {
+            "group": 48,
+            "name": "10.1.1.143.7328",
+            "keyword": "Visual recognition, Perceptual learning, Attention, Segmentation, Prediction, Kalman filtering",
+            "author": "Rajesh P. N. Rao",
+            "abstract": "How does the visual system learn an internal model of the external environment? How is this internal model used during visual perception? How are occlusions and background clutter so effortlessly discounted for when recognizing a familiar object? How is a particular object of interest attended to and recognized in the presence of other objects in the field of view? In this paper, we attempt to address these questions from the perspective of Bayesian optimal estimation theory. Using the concept of generative models and the statistical theory of Kalman filtering, we show how static and dynamic events occurring in the visual environment may be learned and recognized given only the input images. We also describe an extension of the Kalman filter model that can handle multiple objects in the field of view. The resulting robust Kalman filter model demonstrates how certain forms of attention can be viewed as an emergent property of the interaction between top\u2013down expectations and bottom\u2013up signals. Experimental results are provided to help demonstrate the ability of such a model to perform robust segmentation and recognition of objects and image sequences in the presence of occlusions and clutter. ",
+            "title": "An optimal estimation approach to visual perception and learning"
+        },
+        {
+            "group": 49,
+            "name": "10.1.1.143.7571",
+            "keyword": "",
+            "author": "Chun Yu Kit",
+            "abstract": "To learn a language, the learners must first learn its words, the essential building blocks for utterances. The difficulty in learning words lies in the unavailability of explicit word boundaries in speech input. The learners have to infer lexical items with some innately endowed learning mechanism(s) for regularity detection- regularities in the speech normally indicate word patterns. With respect to Zipf's least-effort principle and Chomsky's thoughts on the minimality of grammar for human language, we hypothesise a cognitive mechanism underlying language learning that seeks for the least-effort representation for input data. Accordingly, lexical learning is to infer the minimal-cost representation for the input under the constraint of permissible representation for lexical items. The main theme of this thesis is to examine how far this learning mechanism can go in unsupervised lexical learning from real language data without any pre-defined (e.g., prosodic and phonotactic) cues, but entirely resting on statistical induction of structural patterns for the most economic representation for the data. We first review",
+            "title": "Unsupervised Lexical Learning as Inductive Inference"
+        },
+        {
+            "group": 50,
+            "name": "10.1.1.143.7738",
+            "keyword": "",
+            "author": "Changhe Yuan, Marek J. Druzdzel",
+            "abstract": "We propose an algorithm called Hybrid Loopy Belief Propagation (HLBP), which extends the Loopy Belief Propagation (LBP) (Murphy et al., 1999) and Nonparametric Belief Propagation (NBP) (Sudderth et al., 2003) algorithms to deal with general hybrid Bayesian networks. The main idea is to represent the LBP messages with mixture of Gaussians and formulate their calculation as Monte Carlo integration problems. The new algorithm is general enough to deal with hybrid models that may represent linear or nonlinear equations and arbitrary probability distributions. 1",
+            "title": "Abstract"
+        },
+        {
+            "group": 51,
+            "name": "10.1.1.143.7755",
+            "keyword": "",
+            "author": "Xu Miao, Rajesh P. N. Rao",
+            "abstract": "A fundamental problem in biological and machine vision is visual invariance: How are objects perceived to be the same despite transformations such as translations, rotations, and scaling? In this letter, we describe a new, unsupervised approach to learning invariances based on Lie group theory. Unlike traditional approaches that sacrifice information about transformations to achieve invariance, the Lie group approach explicitly models the effects of transformations in images. As a result, estimates of transformations are available for other purposes, such as pose estimation and visuomotor control. Previous approaches based on first-order Taylor series expansions of images can be regarded as special cases of the Lie group approach, which utilizes a matrix-exponential-based generative model of images and can handle arbitrarily large transformations. We present an unsupervised expectation-maximization algorithm for learning Lie transformation operators directly from image data containing examples of transformations. Our experimental results show that the Lie operators learned by the algorithm from an artificial data set containing six types of affine transformations closely match the analytically predicted affine operators. We then demonstrate that the algorithm can also recover novel transformation operators from natural image sequences. We conclude by showing that the learned operators can be used to both generate and estimate transformations in images, thereby providing a basis for achieving visual invariance. ",
+            "title": "  Learning the Lie Groups of Visual Invariance"
+        },
+        {
+            "group": 52,
+            "name": "10.1.1.143.7912",
+            "keyword": "",
+            "author": "Fiona H. Evans, Michael D. Alder, Christopher J. S. Desilva",
+            "abstract": "Abstract. We present a clustering algorithm for use when the number of clusters is unknown. We first show that the EM algorithm for mixture modeling can be considered as an alternating minimization between the data space and the model space. We then show how data cleaning can be performed by alternating between the data space and two model spaces. Finally, we develop a mixture model approach that iteratively refines the model spaces, beginning with a coarse model and selecting finer models as indicated by the consistent Akaike information criterion. 1",
+            "title": "Mixture by Iterative Model Space Refinement- with Application to Free-swimming Fish Detection"
+        },
+        {
+            "group": 53,
+            "name": "10.1.1.143.8105",
+            "keyword": "",
+            "author": "Mark-jan Nederhof, Max Planck, Giorgio Satta",
+            "abstract": "We consider several empirical estimators for probabilistic context-free grammars, and show that the estimated grammars have the so-called consistency property, under the most general conditions. Our estimators include the widely applied expectation maximization method, used to estimate probabilistic context-free grammars on the basis of unannotated corpora. This solves a problem left open in the literature, since for this method the consistency property has been shown only under restrictive assumptions on the rules of the source grammar. 1",
+            "title": "Satta: Estimation of Consistent Probabilistic Contextfree Grammars"
+        },
+        {
+            "group": 54,
+            "name": "10.1.1.143.8138",
+            "keyword": "",
+            "author": "Deepak Verma, Rajesh P. N. Rao",
+            "abstract": "Abstract. Imitation-based learning is a general mechanism for rapid acquisition of new behaviors in autonomous agents and robots. In this paper, we propose a new approach to learning by imitation based on parameter learning in probabilistic graphical models. Graphical models are used not only to model an agent\u2019s own dynamics but also the dynamics of an observed teacher. Parameter tying between the agent-teacher models ensures consistency and facilitates learning. Given only observations of the teacher\u2019s states, we use the expectation-maximization (EM) algorithm to learn both dynamics and policies within graphical models. We present results demonstrating that EM-based imitation learning outperforms pure exploration-based learning on a benchmark problem (the FlagWorld domain). We additionally show that the graphical model representation can be leveraged to incorporate domain knowledge (e.g., state space factoring) to achieve significant speed-up in learning. 1",
+            "title": "Imitation Learning Using Graphical Models"
+        },
+        {
+            "group": 55,
+            "name": "10.1.1.143.8183",
+            "keyword": "",
+            "author": "Jin-shea Kuo, Haizhou Li, Ying-kuei Yang",
+            "abstract": "ntust.edu.tw This paper presents an adaptive learning framework for Phonetic Similarity Modeling (PSM) that supports the automatic construction of transliteration lexicons. The learning algorithm starts with minimum prior knowledge about machine transliteration, and acquires knowledge iteratively from the Web. We study the active learning and the unsupervised learning strategies that minimize human supervision in terms of data labeling. The learning process refines the PSM and constructs a transliteration lexicon at the same time. We evaluate the proposed PSM and its learning algorithm through a series of systematic experiments, which show that the proposed framework is reliably effective on two independent databases. 1",
+            "title": "Learning Transliteration Lexicons from the Web"
+        },
+        {
+            "group": 56,
+            "name": "10.1.1.143.8508",
+            "keyword": "",
+            "author": "Pau Gargallo, Peter Sturm",
+            "abstract": "This paper addresses the problem of reconstructing the geometry and color of a Lambertian scene, given some fully calibrated images acquired with wide baselines. In order to completely model the input data, we propose to represent the scene as a set of colored depth maps, one per input image. We formulate the problem as a Bayesian MAP problem which leads to an energy minimization method. Hidden visibility variables are used to deal with occlusion, reflections and outliers. The main contributions of this work are: a prior for the visibility variables that treats the geometric occlusions; and a prior for the multiple depth maps model that smoothes and merges the depth maps while enabling discontinuities. Real world examples showing the efficiency and limitations of the approach are presented. 1.",
+            "title": "Bayesian 3D Modeling from Images Using Multiple Depth Maps"
+        },
+        {
+            "group": 57,
+            "name": "10.1.1.143.8620",
+            "keyword": "",
+            "author": "A. Fossati, E. Arnaud, R. Horaud, P. Fua",
+            "abstract": "A Generalized Expectation Maximization (GEM) algorithm is used to retrieve the pose of a person from a monocular video sequence shot with a moving camera. After embedding the set of possible poses in a low dimensional space using Principal Component Analysis, the configuration that gives the best match to the input image is held as estimate for the current frame. This match is computed iterating GEM to assign edge pixels to the correct body part and to find the body pose that maximizes the likelihood of the assignments.",
+            "title": "Tracking Articulated Bodies using Generalized Expectation Maximization "
+        },
+        {
+            "group": 58,
+            "name": "10.1.1.143.8961",
+            "keyword": "",
+            "author": "Jason Eisner, Damianos Karakos",
+            "abstract": "\u201cBootstrapping \u201d methods for learning require a small amount of supervision to seed the learning process. We show that it is sometimes possible to eliminate this last bit of supervision, by trying many candidate seeds and selecting the one with the most plausible outcome. We discuss such \u201cstrapping \u201d methods in general, and exhibit a particular method for strapping wordsense classifiers for ambiguous words. Our experiments on the Canadian Hansards show that our unsupervised technique is significantly more effective than picking seeds by hand (Yarowsky, 1995), which in turn is known to rival supervised methods. 1",
+            "title": "Bootstrapping without the boot"
+        },
+        {
+            "group": 59,
+            "name": "10.1.1.143.9039",
+            "keyword": "",
+            "author": "Alan Ritter, Doug Downey, Stephen Soderl, Oren Etzioni",
+            "abstract": "Contradiction Detection (CD) in text is a difficult NLP task. We investigate CD over functions (e.g., BornIn(Person)=Place), and present a domain-independent algorithm that automatically discovers phrases denoting functions with high precision. Previous work on CD has investigated hand-chosen sentence pairs. In contrast, we automatically harvested from the Web pairs of sentences that appear contradictory, but were surprised to find that most pairs are in fact consistent. For example, \u201cMozart was born in Salzburg \u201d does not contradict \u201cMozart was born in Austria \u201d despite the functional nature of the phrase \u201cwas born in\u201d. We show that background knowledge about meronyms (e.g., Salzburg is in Austria), synonyms, functions, and more is essential for success in the CD task. 1",
+            "title": "It\u2019s a Contradiction\u2014No, it\u2019s Not: A Case Study using Functional Relations"
+        },
+        {
+            "group": 60,
+            "name": "10.1.1.143.9043",
+            "keyword": "",
+            "author": "Akihiro Minagawa, Yutaka Horie, Norio Tagawa, Toshiyuki Tanaka",
+            "abstract": "A method estimating motion and planar surface parameters based on pixel intensity is proposed. Conventional approaches for estimation of these parameters are based on detected edge or feature points correspondence. Thus the problem is one of searching for any point which corresponds to feature points in other images. These approaches provide a solution from sparse points, however the shape cannot be estimated using all the pixels in an image. In this paper, by assuming that the multiple planar surfaces consist of objects, we propose a method that can estimate the depth of all pixels in input images without feature points correspondence. This approach places no restriction on the number of input images, which is different from conventional stereo vision with the exception of the factorization method. In the proposed method, parameters can be estimated as the ML (maximum likelihood) estimator, and the depth as the MAP (maximum a posteriori) estimator. 1",
+            "title": "A Method for Estimating Multiple Motion Parameters and Planar Surface Parameters without Feature Points Correspondence"
+        },
+        {
+            "group": 61,
+            "name": "10.1.1.143.9594",
+            "keyword": "",
+            "author": "Alan Ritter, Doug Downey, Stephen Soderl, Oren Etzioni",
+            "abstract": "Contradiction Detection (CD) in text is a difficult NLP task. We investigate CD over functions (e.g., BornIn(Person)=Place), and present a domain-independent algorithm that automatically discovers phrases denoting functions with high precision. Previous work on CD has investigated hand-chosen sentence pairs. In contrast, we automatically harvested from the Web pairs of sentences that appear contradictory, but were surprised to find that most pairs are in fact consistent. For example, \u201cMozart was born in Salzburg \u201d does not contradict \u201cMozart was born in Austria \u201d despite the functional nature of the phrase \u201cwas born in\u201d. We show that background knowledge about meronyms (e.g., Salzburg is in Austria), synonyms, functions, and more is essential for success in the CD task. 1",
+            "title": "It\u2019s a Contradiction\u2014No, it\u2019s Not: A Case Study using Functional Relations"
+        },
+        {
+            "group": 62,
+            "name": "10.1.1.143.9605",
+            "keyword": "",
+            "author": "Radu Florian, Hongyan Jing, A Kambhatla, Imed Zitouni",
+            "abstract": "As natural language understanding research advances towards deeper knowledge modeling, the tasks become more and more complex: we are interested in more nuanced word characteristics, more linguistic properties, deeper semantic and syntactic features. One such example, explored in this article, is the mention detection and recognition task in the Automatic Content Extraction project, with the goal of identifying named, nominal or pronominal references to real-world entities\u2014mentions\u2014 and labeling them with three types of information: entity type, entity subtype and mention type. In this article, we investigate three methods of assigning these related tags and compare them on several data sets. A system based on the methods presented in this article participated and ranked very competitively in the ACE\u201904 evaluation. 1",
+            "title": "Factorizing complex models: A case study in mention detection"
+        },
+        {
+            "group": 63,
+            "name": "10.1.1.143.9761",
+            "keyword": "",
+            "author": "Pierre Moulin",
+            "abstract": "Images are often degraded during the data acquisition process. The degradation may involve blurring, information loss due to sampling, quantization effects, and various sources of noise. The purpose of image restoration is to estimate the original image from the degraded data. Applications range from medical imaging, astronomical imaging, to forensic science, etc. Often the benefits of improving image quality to the maximum possible extent far outweigh the cost and complexity of the restoration algorithms involved.  ",
+            "title": "Image Restoration "
+        },
+        {
+            "group": 64,
+            "name": "10.1.1.144.882",
+            "keyword": "",
+            "author": "Lorenzo Torresani, Aaron Hertzmann, Christoph Bregler",
+            "abstract": "Abstract\u2014This paper describes methods for recovering time-varying shape and motion of nonrigid 3D objects from uncalibrated 2D point tracks. For example, given a video recording of a talking person, we would like to estimate the 3D shape of the face at each instant and learn a model of facial deformation. Time-varying shape is modeled as a rigid transformation combined with a nonrigid deformation. Reconstruction is ill-posed if arbitrary deformations are allowed, and thus additional assumptions about deformations are required. We first suggest restricting shapes to lie within a low-dimensional subspace and describe estimation algorithms. However, this restriction alone is insufficient to constrain reconstruction. To address these problems, we propose a reconstruction method using a Probabilistic Principal Components Analysis (PPCA) shape model and an estimation algorithm that simultaneously estimates 3D shape and motion for each instant, learns the PPCA model parameters, and robustly fills-in missing data points. We then extend the model to represent temporal dynamics in object shape, allowing the algorithm to robustly handle severe cases of missing data. Index Terms\u2014Nonrigid structure-from-motion, probabilistic principal components analysis, factor analysis, linear dynamical systems, expectation-maximization. \u00c7",
+            "title": "Nonrigid Structure-from-Motion: Estimating Shape and Motion with Hierarchical Priors"
+        },
+        {
+            "group": 65,
+            "name": "10.1.1.144.929",
+            "keyword": "",
+            "author": "Rainer Lienhart, Malcolm Slaney, Rainer Lienhart",
+            "abstract": "The web and image repositories such as Fickr \u2122 are the largest image databases in the world. There are billions of images on the web, and hundreds of million high-quality images in image repositories. Currently, these images are indexed based on manually-entered tags and individual and group usage patterns. In this work we explore a third information dimension: image features. We explore probabilistic latent semantic analysis (pLSA) in order to infer which visual patterns describe each object. We build models that connect words and image features, and use content features and tags to find similar images. We demonstrate that image features using gray-scale salient points and an aspect model based on pLSA outperforms a conventional word-frequency model as well as refined color-histrogram approach on an image-similarity task. Index Terms \u2014 large scale image retrieval, probabilistic semantic analysis, color coherence vectors. 1.",
+            "title": "\u2014 all rights reserved \u2014 PLSA ON LARGE SCALE IMAGE DATABASES"
+        },
+        {
+            "group": 66,
+            "name": "10.1.1.144.1349",
+            "keyword": "Kidnapped Way",
+            "author": "Dorian J. Spero, Ray A. Jarvis",
+            "abstract": "Since its inception in the late 1980s, the process of simultaneous localisation and map building (SLAM) has become a key subject of discourse amongst the robotics community. Many consider it to be instrumental to autonomous mobile robot navigation in an a priori unknown environment, especially when planning efficient and purposeful trajectories. But due to data association uncertainty, navigation error (e.g., odometric drift) and sensor noise, SLAM has proven to be a complex problem. This paper first describes the SLAM problem and then reviews the current state of the art in solving it with regard to real-world operation.",
+            "title": "A Review of Robotic SLAM"
+        },
+        {
+            "group": 67,
+            "name": "10.1.1.144.2298",
+            "keyword": "",
+            "author": "Christina Pavlopoulou, Avi Kak, Carla Brodley",
+            "abstract": "We describe a novel application domain for semi-supervised and active learning algorithms, namely that of intelligent interactive contour extraction. It is well-known that object delineation is an ill-posed problem unless guided by the human or by apriori constraints and models. We focus on user-steered extraction, which has been the focus of investigation in a large volume of work in computer vision. We will discuss how this problem can be naturally translated to a semi-supervised and active learning problem and we will describe our work so far towards investigating the issues involved. 1.",
+            "title": "Applications of Semi-supervised and Active Learning to Interactive Contour Delineation"
+        },
+        {
+            "group": 68,
+            "name": "10.1.1.144.2724",
+            "keyword": "",
+            "author": "Jo-anne Ting, Mrinal Kalakrishnan, Sethu Vijayakumar, Stefan Schaal",
+            "abstract": "In kernel-based regression learning, optimizing each kernel individually is useful when the data density, curvature of regression surfaces (or decision boundaries) or magnitude of output noise varies spatially. Previous work has suggested gradient descent techniques or complex statistical hypothesis methods for local kernel shaping, typically requiring some amount of manual tuning of meta parameters. We introduce a Bayesian formulation of nonparametric regression that, with the help of variational approximations, results in an EM-like algorithm for simultaneous estimation of regression and kernel parameters. The algorithm is computationally efficient, requires no sampling, automatically rejects outliers and has only one prior to be specified. It can be used for nonparametric regression with local polynomials or as a novel method to achieve nonstationary regression with Gaussian processes. Our methods are particularly useful for learning control, where reliable estimation of local tangent planes is essential for adaptive controllers and reinforcement learning. We evaluate our methods on several synthetic data sets and on an actual robot which learns a task-level control law. 1",
+            "title": "Bayesian Kernel Shaping for Learning Control"
+        },
+        {
+            "group": 69,
+            "name": "10.1.1.144.2798",
+            "keyword": "Slaughter Pig Marketing, Estimation, Kalman filter, DLM, EM",
+            "author": "Henrik Kure, B\u00fclowsvej Dk\u2013 Frederiksberg C",
+            "abstract": "Abstract: Data from most slaughter pig operations will normally be highly biased due to selection (censoring) of individual pigs prior to the termination of the individual batch. An animal growth model based on multi variate normal distributions is introduced and used as representation of the \u201cstate of the herd\u201d. Methods for reducing the bias and for updating the \u201cBelief in the state of the herd \u201d are presented. The methods are based on the EM\u2013algorithm for bias reduction and on the Kalman filter for belief updating. Models are tested based on simulated data. One of the main features of the Kalman filter \u2013 the quick adaption to changes in the system modeled \u2013 is demonstrated by examples.",
+            "title": "SLAUGHTER PIG MARKETING MANAGEMENT: UTILIZATION OF HIGHLY BIASED HERD\u2013SPECIFIC DATA"
+        },
+        {
+            "group": 70,
+            "name": "10.1.1.144.2840",
+            "keyword": "",
+            "author": "Hans-peter Kriegel, Peer Kr\u00f6ger, Alexey Pryakhin, Matthias Schubert",
+            "abstract": "In many companies data is distributed among several sites, i.e. each site generates its own data and manages its own data repository. Analyzing and mining these distributed sources requires distributed data mining techniques to find global patterns representing the complete information. The transmission of the entire local data set is often unacceptable because of performance considerations, privacy and security aspects, and bandwidth constraints. Traditional data mining algorithms, demanding access to complete data, are not appropriate for distributed applications. Thus, there is a need for distributed data mining algorithms in order to analyze and discover new knowledge in distributed environments. One of the most important data mining tasks is clustering which aims at detecting groups of similar data objects. In this paper, we propose a distributed model-based clustering algorithm that uses EM for detecting local models in terms of mixtures of Gaussian distributions. We propose an efficient and effective algorithm for deriving and merging these local Gaussian distributions to generate a meaningful global model. In a broad experimental evaluation we show that our framework is scalable in a highly distributed environment.  ",
+            "title": "Effective and Efficient Distributed Model-based Clustering"
+        },
+        {
+            "group": 71,
+            "name": "10.1.1.144.3144",
+            "keyword": "",
+            "author": "Patrick Pfaff, Cyrill Stachniss, Christian Plagemann, Wolfram Burgard",
+            "abstract": "Abstract \u2014 Whereas probabilistic approaches are a powerful tool for mobile robot localization, they heavily rely on the proper definition of the so-called observation model which defines the likelihood of an observation given the position and orientation of the robot and the map of the environment. Most of the sensor models for range sensors proposed in the past either consider the individual beam measurements independently or apply uni-modal models to represent the likelihood function. In this paper, we present an approach that learns placedependent sensor models for entire range scans using Gaussian mixture models. To deal with the high dimensionality of the measurement space, we utilize principle component analysis for dimensionality reduction. In practical experiments carried out with data obtained from a real robot, we demonstrate that our model substantially outperforms existing and popular sensor models. I.",
+            "title": "Efficiently Learning High-dimensional Observation Models for Monte-Carlo Localization using Gaussian Mixtures"
+        },
+        {
+            "group": 72,
+            "name": "10.1.1.144.3263",
+            "keyword": "",
+            "author": "Elke Achtert, Hans-peter Kriegel, Arthur Zimek",
+            "abstract": "In order to establish consolidated standards in novel data mining areas, newly proposed algorithms need to be evaluated thoroughly. Many publications compare a new proposition \u2013 if at all \u2013 with one or two competitors or even with a so called \u201cna\u00efve\u201d ad hoc solution. For the prolific field of subspace clustering, we propose a software framework implementing many prominent algorithms and, thus, allowing for a fair and thorough evaluation. Furthermore, we describe how new algorithms for new applications can be incorporated in the framework easily. ",
+            "title": "ELKI: A Software System for Evaluation of Subspace Clustering Algorithms"
+        },
+        {
+            "group": 73,
+            "name": "10.1.1.144.3265",
+            "keyword": "",
+            "author": "Patrick Pfaff, Christian Plagemann, Wolfram Burgard",
+            "abstract": "Abstract \u2014 One of the key tasks during the realization of probabilistic approaches to localization is the design of a proper sensor model, that calculates the likelihood of a measurement given the current pose of the vehicle and the map of the environment. In the past, range sensors have become popular for mobile robot localization since they directly measure distance. However, in situations in which the robot operates close to edges of obstacles or in highly cluttered environments, small changes in the pose of the robot can lead to large variations in the acquired range scans. If the sensor model used does not appropriately characterize the resulting fluctuations, the performance of probabilistic approaches may substantially degrade. A common solution is to artificially smooth the likelihood function or to only integrate a small fraction of the measurements. In this paper we present a more fundamental and robust approach which uses mixtures of Gaussians to model the likelihood function for single range measurements. In practical experiments we compare our approach to previous methods and demonstrate that it yields a substantially increase in robustness. I.",
+            "title": "Gaussian mixture models for probabilistic localization"
+        },
+        {
+            "group": 74,
+            "name": "10.1.1.144.3700",
+            "keyword": "",
+            "author": "Patrick Pfaff, Cyrill Stachniss, Christian Plagemann, Wolfram Burgard",
+            "abstract": "Abstract \u2014 Whereas probabilistic approaches are a powerful tool for mobile robot localization, they heavily rely on the proper definition of the so-called observation model which defines the likelihood of an observation given the position and orientation of the robot and the map of the environment. Most of the sensor models for range sensors proposed in the past either consider the individual beam measurements independently or apply uni-modal models to represent the likelihood function. In this paper, we present an approach that learns placedependent sensor models for entire range scans using Gaussian mixture models. To deal with the high dimensionality of the measurement space, we utilize principle component analysis for dimensionality reduction. In practical experiments carried out with data obtained from a real robot, we demonstrate that our model substantially outperforms existing and popular sensor models. I.",
+            "title": "Efficiently Learning High-dimensional Observation Models for Monte-Carlo Localization using Gaussian Mixtures"
+        },
+        {
+            "group": 75,
+            "name": "10.1.1.144.4059",
+            "keyword": "",
+            "author": "Marcus Liwicki, Andreas Schlapbach, Horst Bunke, Samy Bengio, Johnny Mari\u00e9thoz, Jonas Richiardi",
+            "abstract": "Abstract. In this paper we present a text independent on-line writer identification system based on Gaussian Mixture Models (GMMs). This system has been developed in the context of research on Smart Meeting Rooms. The GMMs in our system are trained using two sets of features extracted from a text line. The first feature set is similar to feature sets used in signature verification systems before. It consists of information gathered for each recorded point of the handwriting, while the second feature set contains features extracted from each stroke. While both feature sets perform very favorably, the stroke-based feature set outperforms the point-based feature set in our experiments. We achieve a writer identification rate of 100 % for writer sets with up to 100 writers. Increasing the number of writers to 200, the identification rate decreases to 94.75%. 1",
+            "title": "Writer identification for smart meeting room systems"
+        },
+        {
+            "group": 76,
+            "name": "10.1.1.144.4109",
+            "keyword": "",
+            "author": "Jennifer G. Dy, Carla E. Brodley, Avi Kak, Lynn S. Broderick, Alex M. Aisen",
+            "abstract": "Abstract\u2014This paper describes a new hierarchical approach to content-based image retrieval called the \u201ccustomized-queries \u201d approach (CQA). Contrary to the single feature vector approach which tries to classify the query and retrieve similar images in one step, CQA uses multiple feature sets and a two-step approach to retrieval. The first step classifies the query according to the class labels of the images using the features that best discriminate the classes. The second step then retrieves the most similar images within the predicted class using the features customized to distinguish \u201csubclasses \u201d within that class. Needing to find the customized feature subset for each class led us to investigate feature selection for unsupervised learning. As a result, we developed a new algorithm called FSSEM (feature subset selection using expectation-maximization clustering). We applied our approach to a database of high resolution computed tomography lung images and show that CQA radically improves the retrieval precision over the single feature vector approach. To determine whether our CBIR system is helpful to physicians, we conducted an evaluation trial with eight radiologists. The results show that our system using CQA retrieval doubled the doctors \u2019 diagnostic accuracy. Index Terms\u2014Image retrieval, feature selection, clustering, expectationmaximization, unsupervised learning. 1",
+            "title": "Unsupervised Feature Selection Applied to Content-Based Retrieval of Lung Images"
+        },
+        {
+            "group": 77,
+            "name": "10.1.1.144.4493",
+            "keyword": "",
+            "author": "E. H\u00f6rster, T. Greif, R. Lienhart, M. Slaney",
+            "abstract": "Probabilistic models with hidden variables such as probabilistic Latent Semantic Analysis (pLSA) and Latent Dirichlet Allocation (LDA) have recently become popular for solving several image content analysis tasks. In this work we will use a pLSA model to represent images for performing scene classification. We evaluate the influence of the type of local feature descriptor in this context and compare three different descriptors. Moreover we also examine three different local interest region detectors with respect to their suitability for this task. Our results show that two examined local descriptors, the geometric blur and the self-similarity feature, outperform the commonly used SIFT descriptor by a large margin. ",
+            "title": "  Comparing Local Feature Descriptors in pLSA-Based Image Models"
+        },
+        {
+            "group": 78,
+            "name": "10.1.1.144.4644",
+            "keyword": "Dimensionality reduction, Latent semantic analysis, Probabilistic latent semantic analysis, Latent Dirichlet allocation",
+            "author": "Tuomo Kakkonen, Niko Myller, Erkki Sutinen, Jari Timonen",
+            "abstract": "Automatic Essay Assessor (AEA) is a system that utilizes information retrieval techniques such as Latent Semantic Analysis (LSA), Probabilistic Latent Semantic Analysis (PLSA), and Latent Dirichlet Allocation (LDA) for automatic essay grading. The system uses learning materials and relatively few teacher-graded essays for calibrating the scoring mechanism before grading. We performed a series of experiments using LSA, PLSA and LDA for document comparisons in AEA. In addition to comparing the methods on a theoretical level, we compared the applicability of LSA, PLSA, and LDA to essay grading with empirical data. The results show that the use of learning materials as training data for the grading model outperforms the k-NN-based grading methods. In addition to this, we found that using LSA yielded slightly more accurate grading than PLSA and LDA. We also found that the division of the learning materials in the training data is crucial. It is better to divide learning materials into sentences than paragraphs.",
+            "title": "Comparison of Dimension Reduction Methods for Automated Essay Grading"
+        },
+        {
+            "group": 79,
+            "name": "10.1.1.144.6439",
+            "keyword": "",
+            "author": "Eugene Weinstein",
+            "abstract": "\ufffd Say I give you a coin with \ufffd But I don\u2019t tell you the value of \u03b8 \ufffd Now say I let you flip the coin n times \ufffd You get h heads and n-h tails \ufffd What is the natural estimate of \u03b8? \ufffd This is \ufffd More formally, the likelihood of \u03b8 is governed by a binomial distribution: \ufffd Can prove is the maximum-likelihood estimate of \u03b8 \ufffd Differentiate with respect to \u03b8, set equal to 0 4/31 EM Motivation \ufffd So, to solve any ML-type problem, we analytically maximize the likelihood function? \ufffd Seems to work for 1D Bernoulli (coin toss) \ufffd Also works for 1D Gaussian (find \u00b5, \u03c3 2) \ufffd Not quite \ufffd Distribution may not be well-behaved, or have too many parameters \ufffd Say your likelihood function is a mixture of 1000 1000dimensional Gaussians (1M parameters) \ufffd Direct maximization is not feasible \ufffd Solution: introduce hidden variables to \ufffd Simplify the likelihood function (more common) \ufffd Account for actual missing data 5/31 Hidden and Observed Variables \ufffd Observed variables: directly measurable from the data, e.g. \ufffd The waveform values of a speech recording \ufffd Is it raining today? \ufffd Did the smoke alarm go off? \ufffd Hidden variables: influence the data, but not trivial to measure \ufffd The phonemes that produce a given speech recording \ufffd P (rain today | rain yesterday) \ufffd Is the smoke alarm malfunctioning? 6/31 Expectation-Maximization \ufffd Model dependent random variables: \ufffd Observed variable x \ufffd Unobserved (hidden) variable y that generates x \ufffd Assume probability distributions: \ufffd \u03b8 represents set of all parameters of distribution \ufffd Repeat until convergence \ufffd E-step: Compute expectation of (\u03b8\u2032,\u03b8: old, new distribution parameters) \ufffd M-step: Find \u03b8 that maximizes Q 7/31 Conditional Expectation Review \ufffd Let X, Y be r.v.\u2019s drawn from the distributions P(x) and P(y) \ufffd Conditional distribution given by:",
+            "title": "\ufffd Conditional Probability \ufffd Mixture Modeling \ufffd Gaussian Mixture Models (GMMs) \ufffd String edit-distance \ufffd Forward-backward algorithms 2/31 Overview \ufffd Expectation-Maximization \ufffd Mixture Model Training \ufffd Learning String Edit-Distance 3/31 One-Slide MLE Review"
+        },
+        {
+            "group": 80,
+            "name": "10.1.1.144.6479",
+            "keyword": "",
+            "author": "Isobel Claire Gormley, Thomas Brendan Murphy",
+            "abstract": "We would like to thank Prof. Michael Marsh, Pat Carroll, and Joan Burton for supplying the various data sets used in this study. We would also like to thank Prof. Adrian Raftery, the members of the Center for Statistics and the Social Sciences and the members of the Working Group on Model-based Clustering at the University of Washington for suggestions that contributed enormously to this work. Irish elections use a voting system called proportional representation by means of a single transferable vote (PR-STV). Under this system, the voters express their votes by ranking some (or all) of the candidates in order of preference. Which candidates are elected is determined through a series of counts where candidates are eliminated and surpluses are distributed. The electorate in any election forms a heterogeneous population. Voters with different political and ideological persuasions would be expected to have different preferences for the candidates. Mixture models are proposed to explore the heterogeneity amongst the voters of the Irish electorate. The proposed mixture model describes the electorate as a finite collection of homogeneous populations and a",
+            "title": "Exploring heterogeneity in irish voting data: A mixture modelling approach"
+        },
+        {
+            "group": 81,
+            "name": "10.1.1.144.7044",
+            "keyword": "",
+            "author": "Kenichi Kanatani, Yasuyuki Sugaya",
+            "abstract": "Many techniques have been proposed for separating feature point trajectories tracked through a video sequence into independent motions, but objects are usually assumed to undergo general 3-D motions. As a result, the separation accuracy considerably deteriorates in realistic video sequences in which object motions are nearly degenerate. In this paper, we introduce unsupervised learning assuming degenerate motions followed by unsupervised learning assuming general 3-D motions. This multi-stage optimization allows us to not only separate simple motions that we frequently encounter with high precision but also preserve the high performance for considerably general 3-D motions. Doing simulations and real video experiments, we demonstrate that our method is superior to all existing methods. 1.",
+            "title": "Multi-stage optimization for multi-body motion segmentation"
+        },
+        {
+            "group": 82,
+            "name": "10.1.1.144.7344",
+            "keyword": "Hidden markov models, Model selection, Bayesian inference criterion, Minimum description length, State pruning",
+            "author": "Manuele Bicego , Vittorio Murino, Mario A.T. Figueiredo ",
+            "abstract": "",
+            "title": "A sequential pruning strategy for the selection of the number of states in hidden Markov models"
+        },
+        {
+            "group": 83,
+            "name": "10.1.1.144.7981",
+            "keyword": "",
+            "author": "D. Ackley, G. Hinton, T. Sejnowski, E. Farguell, F. Mazzanti, E. G\u00f3mez-ram\u00edrez, Boltzmann Machines, S. B. Thrun, J. Bala, E. Bloedorn, I. Bratko, B. Cestnik, J. Cheng, K. De Jong, S. Dzeroski, S. E. Fahlman, D. Fisher, R. Hamann, S. Keller, I. Kononenko, J. Kreuziger, T. Mitchell, P. Pachowicz, Y. Reich, H. Vafaie, W. Van, De Welde, W. Wenzel, J. Wnek, J. Zhang",
+            "abstract": "HOD process. Therefore, there is a tradeoff between memory and computing time. HOD provides a direct solution for the learning algorithm. In comparison, tuning the MC algorithm to provide lower error rates by increasing the number of samples will result in less iterations to reach convergence, but that will come at the expense of a higher computation time. In the end, the time needed to attain smaller error values makes the decimation method a better choice.",
+            "title": "REFERENCES"
+        },
+        {
+            "group": 84,
+            "name": "10.1.1.144.8375",
+            "keyword": "",
+            "author": "Manuele Bicego, et al.",
+            "abstract": " ",
+            "title": "Soft clustering using weighted . . . "
+        },
+        {
+            "group": 85,
+            "name": "10.1.1.144.8569",
+            "keyword": "Key Words, potential outcomes, Rubin Causal Model (RCM, Fisherian inference, Neymanian inference, Bayesian inference, experiments, observational studies, instrumental variables, noncompliance, statistical education",
+            "author": "Donald B. Rubin",
+            "abstract": "Inference for causal effects is a critical activity in many branches of science and public policy. The field of statistics is the one field most suited to address such problems, whether from designed experiments or observational studies. Consequently, it is arguably essential that departments of statistics teach courses in causal inference to both graduate and undergraduate students. This presentation will discuss some aspects of such courses based on: a graduate level course taught at Harvard for a half dozen years, sometimes jointly with the Department of Economics (with Professor Guido Imbens, now at UCLA), and current plans for an undergraduate core course at Harvard University. An expanded version of this brief document will outline the courses ' contents more completely. Moreover, a textbook by Imbens and Rubin, due to appear in 2000, will cover the basic material needed in both courses. The current course at Harvard begins with the definition of causal effects through potential outcomes. Causal estimands are comparisons of the outcomes that would have been observed under different exposures of units to treatments. This approach is commonly referred to as 'Rubin's Causal Model- RCM \" (Holland, 1986), but the formal notation in the context of randomization-based inference in randomized experiments goes back to Neyman (1923), and the intuitive idea goes back centuries in various literatures; see also Fisher (1918), Tinbergen (1930) and Haavelmo (1944). The label \"RCM \" arises because of extensions (e.g., Rubin, 1974, 1977, 1978) that",
+            "title": " Teaching Causal Inference   In Experiments and Observational Studies "
+        },
+        {
+            "group": 86,
+            "name": "10.1.1.144.8671",
+            "keyword": "",
+            "author": "Peter J. Green",
+            "abstract": "Abstract-A new method of reconstruction from SPECT data is proposed, which builds on the EM approach to maximum likelihood reconstruction from emission tomography data, but aims instead at maximum posterior probability estimation, that takes account of prior belief about \u201csmoothness \u201d in the isotope concentration. A novel modification to the EM algorithm yields a practical method. The method is illustrated by an application to data from brain scans. I.",
+            "title": "Bayesian reconstructions from emission tomography data using a modified EM algorithm"
+        },
+        {
+            "group": 87,
+            "name": "10.1.1.145.344",
+            "keyword": "",
+            "author": "Ong Xu, Yanchun Zhang, Xiaofang Zhou",
+            "abstract": "Abstract. Web transaction data between Web visitors and Web functionalities usually convey user task-oriented behavior pattern. Mining such type of clickstream data will lead to capture usage pattern information. Nowadays Web usage mining technique has become one of most widely used methods for Web recommendation, which customizes Web content to user-preferred style. Traditional techniques of Web usage mining, such as Web user session or Web page clustering, association rule and frequent navigational path mining can only discover usage pattern explicitly. They, however, cannot reveal the underlying navigational activities and identify the latent relationships that are associated with the patterns among Web users as well as Web pages. In this work, we propose a Web recommendation framework incorporating Web usage mining technique based on Probabilistic Latent Semantic Analysis (PLSA) model. The main advantages of this method are, not only to discover usage-based access pattern, but also to reveal the underlying latent factor as well. With the discovered user access pattern, we then present user more interested content via collaborative recommendation. To validate the effectiveness of proposed approach, we conduct experiments on real world datasets and make comparisons with some existing traditional techniques. The preliminary experimental results demonstrate the usability of the proposed approach. 1",
+            "title": "A Web Recommendation Technique Based Probabilistic Latent Semantic Analysis"
+        },
+        {
+            "group": 88,
+            "name": "10.1.1.145.690",
+            "keyword": "",
+            "author": "Dar-shyang Ee",
+            "abstract": "Gaussian mixtures are often used for data modeling in many real-time applications such as video background modeling and speaker direction tracking. The real-time and dynamic nature of these systems prevents the use of a batch EM algorithm. Currently, online learning of mixture models on dynamic data is achieved using an adaptive filter coupled with reassignment rules. However, convergence is very slow with a fixed learning rate typically employed in existing systems. In this report, we utilize an adaptive learning rate schedule to achieve fast convergence while maintaining adaptability of the model after convergence. Experimental results show a dramatic improvement in modeling accuracy using an adaptive learning schedule. Application of the proposed learning algorithm for video background modeling directly leads to improved approximation and robustness. 1",
+            "title": "Improved Adaptive Mixture Learning for Robust Video Background Modeling"
+        },
+        {
+            "group": 89,
+            "name": "10.1.1.145.696",
+            "keyword": "",
+            "author": "Lucas Paletta, Gerhard Paar",
+            "abstract": "Visual object detection using single cue information has been successfully applied in various tasks, in particular for near range recognition. While robust classification and probabilistic representation enhance 2D pattern recognition performance, they are 'per se ' restricted due to the limited information content of single cues. The contribution of this work is to demonstrate performance improvement using multi-cue information integrated within a probabilistic framework. 2D and 3D visual information naturally complement one another, each information source providing evidence for the occurrence of the object of interest. We demonstrate preliminary work describing Bayesian decision fusion for object detection and illustrate the method by robust detection of traffic infrastructure.",
+            "title": "Dynamic Multi-Cue Information Fusion for Robust Detection of Traffic Infrastructure"
+        },
+        {
+            "group": 90,
+            "name": "10.1.1.145.743",
+            "keyword": "Index Terms\u2014Graphical models, Bayesian networks, probability models, probabilistic inference, reasoning, learning, Bayesian methods, variational techniques, sum-product algorithm, loopy belief propagation, EM algorithm, mean field, Gibbs sampling, free energy, Gibbs free energy, Bethe free energy. \u00e6",
+            "author": "Brendan J. Frey, Senior Member, Nebojsa Jojic",
+            "abstract": "Abstract\u2014Research into methods for reasoning under uncertainty is currently one of the most exciting areas of artificial intelligence, largely because it has recently become possible to record, store, and process large amounts of data. While impressive achievements have been made in pattern classification problems such as handwritten character recognition, face detection, speaker identification, and prediction of gene function, it is even more exciting that researchers are on the verge of introducing systems that can perform large-scale combinatorial analyses of data, decomposing the data into interacting components. For example, computational methods for automatic scene analysis are now emerging in the computer vision community. These methods decompose an input image into its constituent objects, lighting conditions, motion patterns, etc. Two of the main challenges are finding effective representations and models in specific applications and finding efficient algorithms for inference and learning in these models. In this paper, we advocate the use of graph-based probability models and their associated inference and learning algorithms. We review exact techniques and various approximate, computationally efficient techniques, including iterated conditional modes, the expectation maximization (EM) algorithm, Gibbs sampling, the mean field method, variational techniques, structured variational techniques and the sum-product algorithm, \u201cloopy \u201d belief propagation. We describe how each technique can be applied in a vision model of multiple, occluding objects and contrast the behaviors and performances of the techniques using a unifying cost function, free energy.",
+            "title": "A comparison of algorithms for inference and learning in probabilistic graphical models"
+        },
+        {
+            "group": 91,
+            "name": "10.1.1.145.895",
+            "keyword": "Categories and Subject Descriptors, I.2.6. [Artificial Intelligence, Learning \u2013 Concept learning, I.4.6 [Image Processing, Segmentation, I.5.1 [Pattern Recognition, Models, I.5.3 [Pattern Recognition, Clustering. General Terms, Algorithms, Design Additional Key Words and Phrases, Clustering, partitioning, data mining, unsupervised learning, descriptive learning, exploratory data analysis, hierarchical clustering, probabilistic clustering, k-means",
+            "author": "Pavel Berkhin",
+            "abstract": "Accrue Software, Inc. Clustering is a division of data into groups of similar objects. Representing the data by fewer clusters necessarily loses certain fine details, but achieves simplification. It models data by its clusters. Data modeling puts clustering in a historical perspective rooted in mathematics, statistics, and numerical analysis. From a machine learning perspective clusters correspond to hidden patterns, the search for clusters is unsupervised learning, and the resulting system represents a data concept. From a practical perspective clustering plays an outstanding role in data mining applications such as scientific data exploration, information retrieval and text mining, spatial database applications, Web analysis, CRM, marketing, medical diagnostics, computational biology, and many others. Clustering is the subject of active research in several fields such as statistics, pattern recognition, and machine learning. This survey focuses on clustering in data mining. Data mining adds to clustering the complications of very large datasets with very many attributes of different types. This imposes unique",
+            "title": "Survey of clustering data mining techniques"
+        },
+        {
+            "group": 92,
+            "name": "10.1.1.145.1758",
+            "keyword": "",
+            "author": "Ravi Bansal",
+            "abstract": "This thesis develops an information theoretic registration framework where the segmentation and registration of dual anterior\u2013posterior and left lateral portal images to a treatment planning three\u2013dimensional computed tomography (CT) image is carried out simultaneously and iteratively. The proposed registration framework is termed the minimax entropy registration framework as it has two steps, the max step and the min step. Appropriate entropies are evaluated in each step in order to segment the portal images (the max step) and to estimate the registration parameters (the min step). The registration framework is based on the intuition that if some structure can be segmented in the portal image, the segmented structure, in addition to the gray\u2013scale pixel intensity information, can be used to better estimate the registration parameters. On the other hand, given an estimate of the registration parameters, information from the high resolution 3D CT image dataset can be used to guide segmentation of the portal images. Performance analysis and comparisons to other registration methods demonstrates the robustness and accuracy of the proposed registration framework. To further improve the estimated segmentation of the portal images and the accuracy of the estimated registration parameters, correlation among the image pixel intensities is modeled using a one\u2013dimensional Markov random process. Line processes are incorporated in the Markov random process model which estimate the edges between the segmented regions. As a future research direction, we propose to incorporate the estimated edges in the min step to further improve the registration. The proposed framework is independent of the image dataset and hence, in general, can be straightforwardly extended to register any low resolution, low contrast image to a high resolution, high",
+            "title": "  Information Theoretic Integrated Segmentation and Registration of Dual 2D Portal Images and 3D CT Images"
+        },
+        {
+            "group": 93,
+            "name": "10.1.1.145.1831",
+            "keyword": "appearance-based localization, digital zoom, visual compass, Markov localization",
+            "author": "N. Bellotto A, K. Burn B, E. Fletcher B, S. Wermter B",
+            "abstract": "This paper describes a localization system for mobile robots moving in dynamic indoor environments, which uses probabilistic integration of visual appearance and odometry information. The approach is based on a novel image matching algorithm for appearancebased place recognition that integrates digital zooming, to extend the area of application, and a visual compass. Ambiguous information used for recognizing places is resolved with multiple hypothesis tracking and a selection procedure inspired by Markov localization. This enables the system to deal with perceptual aliasing or absence of reliable sensor data. It has been implemented on a robot operating in an office scenario and the robustness of the approach demonstrated experimentally.",
+            "title": "Appearance-based localization for mobile robots using digital zoom and visual compass"
+        },
+        {
+            "group": 94,
+            "name": "10.1.1.145.2441",
+            "keyword": "",
+            "author": "Bin Li, Mingmin Chi, Jianping Fan, Xiangyang Xue",
+            "abstract": "For large-scale classification problems, the training samples can be clustered beforehand as a downsampling pre-process, and then only the obtained clusters are used for training. Motivated by such assumption, we proposed a classification algorithm, Support Cluster Machine (SCM), within the learning framework introduced by Vapnik. For the SCM, a compatible kernel is adopted such that a similarity measure can be handled not only between clusters in the training phase but also between a cluster and a vector in the testing phase. We also proved that the SCM is a general extension of the SVM with the RBF kernel. The experimental results confirm that the SCM is very effective for largescale classification problems due to significantly reduced computational costs for both training and testing and comparable classification accuracies. As a by-product, it provides a promising approach to dealing with privacy-preserving data mining problems. 1.",
+            "title": "Support Cluster Machine"
+        },
+        {
+            "group": 95,
+            "name": "10.1.1.145.2695",
+            "keyword": "",
+            "author": "Harrison H. Barrett, Timothy White, Lucas C. Parra",
+            "abstract": "As photon-counting imaging systems become more complex, there is a trend toward measuring more attributes of each individual event. In various imaging systems the attributes can include several position variables, time variables, and energies. If more than about four attributes are measured for each event, it is not practical to record the data in an image matrix. Instead it is more efficient to use a simple list where every attribute is stored for every event. It is the purpose of this paper to discuss the concept of likelihood for such list-mode data. We present expressions for list-mode likelihood with an arbitrary number of attributes per photon and for both preset counts and preset time. Maximization of this likelihood can lead to a practical reconstruction algorithm with list-mode data, but that aspect is covered in a separate paper [IEEE Trans. Med. Imaging (to be published)]. An expression for lesion detectability for list-mode data is also derived and compared with the corresponding expression for conventional binned data. \u00a9 1997 Optical Society of America [S0740-3232(97)00711-4] 1.",
+            "title": "2914 J. Opt. Soc. Am. A/Vol. 14, No. 11/November 1997 Barrett et al. List-mode likelihood"
+        },
+        {
+            "group": 96,
+            "name": "10.1.1.145.2894",
+            "keyword": "",
+            "author": "Chang-hwan Lee, Dae-woong Kim, Ki-sang Hong",
+            "abstract": "In this paper, we propose a method to solve the occlusion problem for insertion ofa synthetic image into the planar region.This paper consists ofthe two main procedures;a trackingalgorithm in the presence ofocclusion and a segmentation algorithm to separate the occluding object from the planar region.To trackthe planar region in a robust way, a new energyfunction is proposed, and the planar region is tracked byextractingthe homography that minimizes the energyfunction between images using the LM (Levenbert-Marquardt) algorithm.The energy function includes the intensitydi ference consideringillumination change and slow motion prior. Also, it is modeled with the skipped mean estimator to exclude the e fect ofthe occlusion.In each tracked planar region, the occludingobject is segmented and replaced with synthetic objects bymodelingeach pixel with the mixture ofGaussian.Even ifthe occludingobject exists, the planar region is tracked successfully byusing the tracking algorithm. And experimental results show that the synthetic images are naturallyinserted into the desired planar region. 1",
+            "title": "Regional Video Insertion Through Robust Region Tracking In The Presence OfOccluding Objects"
+        },
+        {
+            "group": 97,
+            "name": "10.1.1.145.2928",
+            "keyword": "",
+            "author": "Leo Jingyu Lee",
+            "abstract": "c\u25cbLeo Jingyu Lee 2004I hereby declare that I am the sole author of this thesis. I authorize the University of Waterloo to lend this thesis to other institutions or individuals for the purpose of scholarly research.",
+            "title": "Hidden Dynamic Models for Speech Processing Applications"
+        },
+        {
+            "group": 98,
+            "name": "10.1.1.145.3128",
+            "keyword": "",
+            "author": "Amit Chakraborty",
+            "abstract": "A systematic approach towards the problem of designing integrated methods for image segmentation has been developed in this thesis. This is aimed towards the analysis of underlying structures in an image which is crucial for a variety of image analysis and computer vision applications. However, a robust identification and measurement of such structure is not always achievable by using a single technique that depends on a single image feature. Thus, it is necessary to make use of various image features, such as gradients, curvatures, homogeneity of intensity values, textures, etc. as well as modelbased information (such as shape). Integration provides a way to make use of the rich information provided by the various information sources, whereby consistent information from the different sources are reinforced while noise and errors are attenuated. As a first step, integration is achieved in this work by using region information in addition to gradient information within the deformable boundary finding framework. This considerably increases the robustness of the final boundary output to noise and initial estimate.",
+            "title": "  Feature and Module Integration for Image Segmentation"
+        },
+        {
+            "group": 99,
+            "name": "10.1.1.145.3233",
+            "keyword": "",
+            "author": "M. Julia Flores, Jos\u00e9 A. G\u00e1mez",
+            "abstract": "Taking as an inspiration the so-called Explanation Tree for abductive inference in Bayesian networks, we have developed a new clustering approach. It is based on exploiting the variable independencies with the aim of building a tree structure such that in each leaf all the variables are independent. In this work we produce a structure called Independency tree. This structure can be seen as an extended probability tree, introducing a new and very important element: a list of probabilistic single potentials associated to every node. In the paper we will show that the model can be used to approximate a joint probability distribution and, at the same time, as a hierarchical clustering procedure. The Independency tree can be learned from data and it allows a fast computation of conditional probabilities. 1",
+            "title": "Seraf\u00edn Moral"
+        },
+        {
+            "group": 100,
+            "name": "10.1.1.145.4155",
+            "keyword": "",
+            "author": "Ofer Shai, Quaid D. Morris, Benjamin J. Blencowe, Brendan J. Frey",
+            "abstract": "Inferring global levels of alternative splicing isoforms using a generative model of microarray data",
+            "title": ""
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 0.0609756
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 0.038835
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 0.030303
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 0.0837989
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 0.0534351
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 0.0165975
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 0.0550847
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 0.118343
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "value": 0.018797
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "value": 0.134503
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "value": 0.0607735
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "value": 0.038961
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "value": 0.0392157
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "value": 0.0724638
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "value": 0.148148
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "value": 0.155642
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "value": 0.0788177
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "value": 0.040293
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "value": 0.0423453
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "value": 0.0703518
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "value": 0.03125
+        },
+        {
+            "source": 0,
+            "target": 24,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 25,
+            "value": 0.03125
+        },
+        {
+            "source": 0,
+            "target": 26,
+            "value": 0.0495868
+        },
+        {
+            "source": 0,
+            "target": 27,
+            "value": 0.0173913
+        },
+        {
+            "source": 0,
+            "target": 28,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 29,
+            "value": 0.0277778
+        },
+        {
+            "source": 0,
+            "target": 30,
+            "value": 0.0763359
+        },
+        {
+            "source": 0,
+            "target": 31,
+            "value": 0.0456853
+        },
+        {
+            "source": 0,
+            "target": 32,
+            "value": 0.0333333
+        },
+        {
+            "source": 0,
+            "target": 33,
+            "value": 0.040404
+        },
+        {
+            "source": 0,
+            "target": 34,
+            "value": 0.0486486
+        },
+        {
+            "source": 0,
+            "target": 35,
+            "value": 0.0197044
+        },
+        {
+            "source": 0,
+            "target": 36,
+            "value": 0.0133333
+        },
+        {
+            "source": 0,
+            "target": 37,
+            "value": 0.0319149
+        },
+        {
+            "source": 0,
+            "target": 38,
+            "value": 0.0238095
+        },
+        {
+            "source": 0,
+            "target": 39,
+            "value": 0.0126582
+        },
+        {
+            "source": 0,
+            "target": 40,
+            "value": 0.0651163
+        },
+        {
+            "source": 0,
+            "target": 41,
+            "value": 0.0434783
+        },
+        {
+            "source": 0,
+            "target": 42,
+            "value": 0.0717949
+        },
+        {
+            "source": 0,
+            "target": 43,
+            "value": 0.0349345
+        },
+        {
+            "source": 0,
+            "target": 44,
+            "value": 0.158974
+        },
+        {
+            "source": 0,
+            "target": 45,
+            "value": 0.0909091
+        },
+        {
+            "source": 0,
+            "target": 46,
+            "value": 0.03125
+        },
+        {
+            "source": 0,
+            "target": 47,
+            "value": 0.06
+        },
+        {
+            "source": 0,
+            "target": 48,
+            "value": 0.016
+        },
+        {
+            "source": 0,
+            "target": 49,
+            "value": 0.0654206
+        },
+        {
+            "source": 0,
+            "target": 50,
+            "value": 0.0652174
+        },
+        {
+            "source": 0,
+            "target": 51,
+            "value": 0.0996016
+        },
+        {
+            "source": 0,
+            "target": 52,
+            "value": 0.124088
+        },
+        {
+            "source": 0,
+            "target": 53,
+            "value": 0.0217391
+        },
+        {
+            "source": 0,
+            "target": 54,
+            "value": 0.0309278
+        },
+        {
+            "source": 0,
+            "target": 55,
+            "value": 0.0993377
+        },
+        {
+            "source": 0,
+            "target": 56,
+            "value": 0.0491803
+        },
+        {
+            "source": 0,
+            "target": 57,
+            "value": 0.101449
+        },
+        {
+            "source": 0,
+            "target": 58,
+            "value": 0.025641
+        },
+        {
+            "source": 0,
+            "target": 59,
+            "value": 0.045977
+        },
+        {
+            "source": 0,
+            "target": 60,
+            "value": 0.0487805
+        },
+        {
+            "source": 0,
+            "target": 61,
+            "value": 0.045977
+        },
+        {
+            "source": 0,
+            "target": 62,
+            "value": 0.0454545
+        },
+        {
+            "source": 0,
+            "target": 63,
+            "value": 0.0692308
+        },
+        {
+            "source": 0,
+            "target": 64,
+            "value": 0.0929204
+        },
+        {
+            "source": 0,
+            "target": 65,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 66,
+            "value": 0.0254777
+        },
+        {
+            "source": 0,
+            "target": 67,
+            "value": 0.0263158
+        },
+        {
+            "source": 0,
+            "target": 68,
+            "value": 0.084507
+        },
+        {
+            "source": 0,
+            "target": 69,
+            "value": 0.0402299
+        },
+        {
+            "source": 0,
+            "target": 70,
+            "value": 0.109091
+        },
+        {
+            "source": 0,
+            "target": 71,
+            "value": 0.110497
+        },
+        {
+            "source": 0,
+            "target": 72,
+            "value": 0.102941
+        },
+        {
+            "source": 0,
+            "target": 73,
+            "value": 0.0603448
+        },
+        {
+            "source": 0,
+            "target": 74,
+            "value": 0.110497
+        },
+        {
+            "source": 0,
+            "target": 75,
+            "value": 0.0306122
+        },
+        {
+            "source": 0,
+            "target": 76,
+            "value": 0.0271318
+        },
+        {
+            "source": 0,
+            "target": 77,
+            "value": 0.0240964
+        },
+        {
+            "source": 0,
+            "target": 78,
+            "value": 0.0377358
+        },
+        {
+            "source": 0,
+            "target": 79,
+            "value": 0.084058
+        },
+        {
+            "source": 0,
+            "target": 80,
+            "value": 0.0657895
+        },
+        {
+            "source": 0,
+            "target": 81,
+            "value": 0.0292398
+        },
+        {
+            "source": 0,
+            "target": 82,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 83,
+            "value": 0.0769231
+        },
+        {
+            "source": 0,
+            "target": 84,
+            "value": 0.0
+        },
+        {
+            "source": 0,
+            "target": 85,
+            "value": 0.0519031
+        },
+        {
+            "source": 0,
+            "target": 86,
+            "value": 0.266667
+        },
+        {
+            "source": 0,
+            "target": 87,
+            "value": 0.0348837
+        },
+        {
+            "source": 0,
+            "target": 88,
+            "value": 0.0988372
+        },
+        {
+            "source": 0,
+            "target": 89,
+            "value": 0.0363636
+        },
+        {
+            "source": 0,
+            "target": 90,
+            "value": 0.05
+        },
+        {
+            "source": 0,
+            "target": 91,
+            "value": 0.0673077
+        },
+        {
+            "source": 0,
+            "target": 92,
+            "value": 0.00597015
+        },
+        {
+            "source": 0,
+            "target": 93,
+            "value": 0.0621118
+        },
+        {
+            "source": 0,
+            "target": 94,
+            "value": 0.0298507
+        },
+        {
+            "source": 0,
+            "target": 95,
+            "value": 0.123223
+        },
+        {
+            "source": 0,
+            "target": 96,
+            "value": 0.0485437
+        },
+        {
+            "source": 0,
+            "target": 97,
+            "value": 0.0416667
+        },
+        {
+            "source": 0,
+            "target": 98,
+            "value": 0.0446429
+        },
+        {
+            "source": 0,
+            "target": 99,
+            "value": 0.0430108
+        },
+        {
+            "source": 0,
+            "target": 100,
+            "value": 0.0540541
+        },
+        {
+            "source": 7,
+            "target": 21,
+            "value": 0.586441
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "value": 0.169329
+        },
+        {
+            "source": 8,
+            "target": 15,
+            "value": 0.221239
+        },
+        {
+            "source": 35,
+            "target": 39,
+            "value": 0.357955
+        },
+        {
+            "source": 73,
+            "target": 74,
+            "value": 0.670157
+        }
+    ]
+}
